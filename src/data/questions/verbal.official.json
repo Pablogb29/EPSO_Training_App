@@ -1,0 +1,486 @@
+[
+  {
+    "id": "official-verbal-uab-099",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Biografia",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Agnes Bojaxhiu, nacida en 1910 y despues conocida como Madre Teresa, estudio primero en una escuela primaria dirigida por un convento y luego en una secundaria estatal. Su congregacion peregrinaba cada ano a la capilla de la Madonna de Letnice, cerca de Skopje, y en uno de esos viajes, a los doce anos, sintio por primera vez una llamada religiosa. En 1928, con 18 anos, decidio hacerse monja y viajo a Irlanda para unirse a las Hermanas de Loreto de Dublin. Alli tomo el nombre de hermana Mary Teresa, en honor de Santa Teresa de Lisieux. Un ano despues viajo a Darjeeling, India, para el noviciado; mas tarde fue enviada a Calcuta, donde enseno en la escuela femenina Saint Mary a ninas de familias bengalies pobres. Aprendio bengali e hindi y enseno geografia e historia mientras intentaba aliviar la pobreza de las alumnas mediante la educacion.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Si Agnes Bojaxhiu no hubiera ido a la peregrinacion a Skopje, seguro que nunca habria sentido una llamada religiosa.",
+      "Agnes Bojaxhiu tomo por primera vez el nombre de hermana Mary Teresa durante un viaje a Darjeeling con las Hermanas de Loreto.",
+      "Madre Teresa enseno historia y geografia en Saint Mary, en Calcuta, y aprendio bengali e hindi para ello.",
+      "Tras sentir la llamada religiosa, se hizo monja, viajo a Darjeeling y Calcuta y nunca volvio a salir de India."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El texto dice que enseno geografia e historia y que tuvo que aprender bengali e hindi. Las demas opciones anaden o contradicen datos."
+  },
+  {
+    "id": "official-verbal-uab-100",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Historia",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Antes del siglo XVII, la sucesion otomana se regia por la ley de fratricidio redactada por Mehmed II a mediados del siglo XV. Segun esta norma, el miembro de la dinastia que consiguiera el trono tras la muerte del sultan no solo podia, sino que debia matar a todos sus hermanos, junto con tios y primos inconvenientes, para reducir el riesgo de rebelion y guerra civil. Aunque no siempre se aplico, la ley provoco la muerte de al menos 80 miembros de la Casa de Osman durante 150 anos. Entre las victimas estuvieron los 19 hermanos del sultan Mehmed III, algunos aun lactantes, estrangulados con panuelos de seda justo despues de la subida al trono de su hermano en 1595.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Sin la ley de fratricidio, el caos y los golpes de Estado habrian dominado con certeza el imperio otomano entre los siglos XV y XVII.",
+      "En el siglo XV, Mehmed II establecio una ley que ordenaba al nuevo gobernante cometer fratricidio.",
+      "El asesinato de los 19 hermanos de Mehmed III fue el incidente mas terrible de fratricidio en toda la sucesion otomana.",
+      "Entre los siglos XV y XVII se asesinaba a todos los familiares del nuevo gobernante para evitar rebeliones y guerra civil."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El texto atribuye a Mehmed II una ley que ordenaba matar a los hermanos. Las otras opciones absolutizan o especulan."
+  },
+  {
+    "id": "official-verbal-uab-101",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Ciencia",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Los gemelos permiten estudiar la influencia de los genes y del entorno. Los gemelos identicos proceden de un unico ovulo fecundado que se divide en dos, por lo que comparten casi el mismo codigo genetico; las diferencias entre ellos deben deberse a factores ambientales. Comparando gemelos identicos con gemelos fraternos, que proceden de ovulos distintos y comparten de media la mitad de su ADN, los investigadores pueden medir en que grado afectan los genes. Si los gemelos identicos se parecen mas entre si respecto a una enfermedad que los fraternos, la vulnerabilidad debe tener al menos una base hereditaria. Estudios recientes, sin embargo, sugieren que naturaleza y crianza no son las unicas fuerzas en juego.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Los gemelos fraternos son mas adecuados que los identicos para estudiar como influye el entorno.",
+      "Los estudios de gemelos identicos y fraternos indican que genes y entorno nos influyen por igual.",
+      "Si un gemelo fraterno sufre una enfermedad y el otro no, la causa de la enfermedad es hereditaria.",
+      "Los gemelos identicos comparten casi el 100% de su ADN, mientras que los fraternos comparten de media el 50%."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La ultima opcion reproduce la diferencia genetica indicada en el texto."
+  },
+  {
+    "id": "official-verbal-uab-102",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Union Europea",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Una decision del Parlamento serbio de limitar la independencia del banco nacional fue descrita por la Union Europea como un paso atras en la candidatura del pais a entrar en la UE. Un portavoz de Stefan Fuele, comisario europeo de ampliacion y politica de vecindad, dijo que la Comision estaba profundamente preocupada por las enmiendas adoptadas. La ley crea un organismo supervisor con influencia sobre la gestion del banco y posiblemente sobre las decisiones monetarias. Sus miembros seran nombrados por el Parlamento, donde la coalicion de progresistas y socialistas tiene mayoria. El economista Vladimir Gligorov afirmo que no se debe exagerar la importancia de la ley.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "La ley sobre el banco nacional aprobada por Serbia mejora claramente sus posibilidades de entrar en la UE.",
+      "El Parlamento serbio cito politica de la UE al crear un organismo supervisor con miembros nombrados por el Parlamento.",
+      "Los comentarios de Vladimir Gligorov sugieren que Serbia todavia tiene buenas posibilidades de entrar en la UE.",
+      "El Parlamento serbio aprobo una ley que refuerza el control sobre el banco nacional, en parte creando un organismo supervisor."
+    ],
+    "correctAnswer": 3,
+    "explanation": "El texto afirma que la ley limita la independencia del banco y crea un organo supervisor con influencia en su gestion."
+  },
+  {
+    "id": "official-verbal-uab-103",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Tecnologia",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Un nuevo enchufe electrico conectado a Internet permitira controlar electrodomesticos desde un telefono inteligente y reducir costes energeticos. Ya no haran falta temporizadores especiales para encender y apagar luces o aparatos cuando el propietario no este en casa. En el futuro estas acciones podran hacerse mediante un telefono o un PC gracias a enchufes inalambricos compatibles con IPv6. Estos enchufes forman parte del sistema domotico HexaBus, que permite controlar de forma inteligente los aparatos para optimizar o reducir el consumo, por ejemplo iniciando la lavadora en horas baratas o el lavavajillas cuando los paneles solares producen suficiente energia.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Las viviendas con estos enchufes optimizaran automaticamente el uso electrico sin ningun control humano.",
+      "El sistema HexaBus se instalara pronto en la mayoria de casas inteligentes compatibles con IPv6.",
+      "Los propietarios podran iniciar una colada a distancia con un telefono o PC y enchufes inalambricos conectados a Internet.",
+      "Cuando los propietarios controlen aparatos desde el telefono o PC, el consumo energetico bajara siempre."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El ejemplo de la lavadora controlada a distancia aparece expresamente en el texto."
+  },
+  {
+    "id": "official-verbal-uab-104",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Medicina",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Ademas de que los organos sanos escasean, donante y paciente deben estar muy bien emparejados o el sistema inmunitario puede rechazar el trasplante. Una solucion nueva en laboratorios medicos consiste en organos bioartificiales cultivados con celulas del propio paciente. Ya se han implantado vejigas cultivadas en laboratorio. Para hacerlas, los investigadores toman celulas sanas de la vejiga enferma, las multiplican en placas de Petri y las colocan sobre un andamiaje con forma de globo hecho en parte de colageno. Las celulas musculares van fuera y las uroteliales dentro. La futura vejiga se incuba a temperatura corporal hasta formar tejido funcional; el proceso dura de seis a ocho semanas.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Una vejiga bioartificial se hace colocando celulas uroteliales alrededor de celulas musculares.",
+      "Para cultivar una vejiga en laboratorio hay que tomar celulas sanas de colageno del paciente.",
+      "Una vejiga bioartificial de laboratorio implica placas de Petri, un andamiaje, capas celulares e incubacion.",
+      "Tras transferirse al andamiaje, las celulas de vejiga permanecen alli tres semanas."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opcion C enumera los elementos descritos: placas, andamiaje, capas de celulas e incubacion."
+  },
+  {
+    "id": "official-verbal-uab-105",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Neurociencia",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Estudios recientes indican que la corteza insular del cerebro puede ayudar a un velocista a impulsar su cuerpo con mas eficiencia, a un boxeador a defenderse de un golpe que empieza a lanzar su rival y a una saltadora a calcular la posicion de su cuerpo en giro antes de entrar en el agua. Segun una teoria, la insula lo consigue anticipando como sentira el deportista su cuerpo en el instante siguiente. Esa prediccion de la condicion futura del cuerpo instruye a otras areas cerebrales para iniciar acciones mejor adaptadas a las exigencias inmediatas. Tambien hay indicios de que esta zona puede entrenarse mediante mindfulness.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "La corteza insular solo puede afinarse practicando fisicamente un deporte o habilidad.",
+      "La corteza insular puede contribuir a la excelencia atletica anticipando como se sentira pronto el cuerpo.",
+      "Velocistas, boxeadores y saltadores son los unicos atletas que se benefician de una insula muy afinada.",
+      "Las investigaciones indican que los deportistas tienen una corteza insular mas grande que los boxeadores."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El texto atribuye a la insula la anticipacion de sensaciones corporales futuras."
+  },
+  {
+    "id": "official-verbal-uab-106",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Inteligencia artificial",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Alan Turing planteo una gran pregunta teorica de la computacion: si las maquinas podian tener mente, como lo sabriamos. En 1950 propuso una prueba: si jueces que mantienen conversaciones escritas con una persona y un programa no pueden distinguirlos, considerariamos que la maquina piensa. Turing predijo que hacia el ano 2000 los programas enganarian a jueces el 30% de las veces. El resultado mas cercano llego en el premio Loebner de 2008, cuando el mejor chatbot engano a 3 de 12 jueces, un 25%. Los chatbots se delatan porque no interrumpen ni son interrumpidos con naturalidad y sus respuestas, tomadas de fragmentos de conversaciones, tienen sentido local pero carecen de coherencia a largo plazo.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Un chatbot engano a una cuarta parte de los jueces en el premio Loebner de 2008.",
+      "La ausencia de coherencia logica sostenida es lo que mas a menudo alerta a los jueces de que hablan con un chatbot.",
+      "La prediccion de Turing de que los ordenadores enganarian al 30% de personas para el ano 2000 se cumplio.",
+      "En pocos anos los chatbots imitaran adecuadamente como los humanos interrumpen y son interrumpidos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tres de doce jueces equivalen a una cuarta parte."
+  },
+  {
+    "id": "official-verbal-uab-107",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Ciencia",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "La teoria predominante del sueno sostiene que el cerebro lo necesita, pero hace falta confirmarlo con datos. Investigadores de Harvard hicieron pruebas a universitarios, les dejaron dormir la siesta y los evaluaron de nuevo. Quienes tuvieron sueno REM rindieron mejor en tareas de reconocimiento de patrones, como gramatica, mientras que quienes durmieron profundamente mejoraron en memorizacion. Otros estudios hallaron que el cerebro dormido repite patrones de disparo neuronal ocurridos cuando el sujeto estaba despierto, como si consolidara recuerdos. Otro estudio sugiere que durante el sueno se eliminan conexiones redundantes o innecesarias. El sueno podria ayudarnos a recordar lo importante y olvidar lo que no lo es.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Segun el estudio citado, el sueno REM es el mas valioso para memorizar.",
+      "Los patrones neuronales durante el REM facilitan la memoria a largo plazo.",
+      "Eliminar conexiones innecesarias durante el sueno permite reconocer patrones al despertar.",
+      "Algunas investigaciones muestran que el sueno puede facilitar el reconocimiento de patrones y la memoria."
+    ],
+    "correctAnswer": 3,
+    "explanation": "El texto menciona mejoras en reconocimiento de patrones y en memoria segun el tipo de sueno."
+  },
+  {
+    "id": "official-verbal-uab-108",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Economia digital",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Bingo Friendzy, creado por la empresa britanica de juego en linea Gamesys, aparecio en Facebook. Permite apostar dinero en 90 juegos de bingo y tragaperras y se promociona con graficos de dibujos animados comparados con los de una red social infantil. Grupos cristianos pidieron actuar a la autoridad publicitaria. Facebook permitio esta primera aplicacion de juego real mientras sufre una presion inedita para aumentar ingresos. Desde su salida a bolsa en mayo, la empresa habia informado de una perdida de 157 millones de dolares y sus acciones casi se habian reducido a la mitad por dudas sobre la eficacia publicitaria de Facebook. Facebook recibira el 30% de los ingresos de Bingo Friendzy y de otras apps de juego previstas.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Los grupos cristianos creen que los ninos no deberian exponerse al pecado del juego.",
+      "Facebook no obtendra beneficio financiero de Bingo Friendzy ni de otras apps de juego.",
+      "Las acciones de Facebook perdieron la mitad de su valor principalmente porque los inversores no confian en la publicidad de la empresa.",
+      "Bingo Friendzy aparecio en Facebook cuando la compania sufria perdidas economicas."
+    ],
+    "correctAnswer": 3,
+    "explanation": "El texto conecta el lanzamiento con una etapa de perdidas y presion por aumentar ingresos."
+  },
+  {
+    "id": "official-verbal-uab-109",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Politica fiscal",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Francois Hollande, primer presidente socialista frances desde Mitterrand, prometio imponer un impuesto del 75% sobre la parte de los ingresos que supere un millon de euros al ano. La propuesta, que el Parlamento estudiaria en septiembre, pretende reforzar las finanzas francesas durante la crisis de deuda europea. Como pocas personas en Francia pagarian ese impuesto, quizas no mas de 30,000 en un pais de 65 millones, la recaudacion seria solo una pequena fraccion de los 33,000 millones de euros que el Gobierno queria obtener el ano siguiente para equilibrar el presupuesto. Algunos analistas senalan que el impuesto a los ricos daria cobertura politica a dolorosos recortes sociales que Hollande podria necesitar.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Los analistas dicen que Francia puede equilibrar su presupuesto con grandes recortes y el impuesto del 75%.",
+      "El impuesto del 75% propuesto por Hollande generara sin duda suficiente dinero para equilibrar el presupuesto frances.",
+      "Hasta 30,000 personas en Francia podrian quedar sujetas a un impuesto del 75% sobre parte de sus ingresos anuales.",
+      "La razon principal de imponer el impuesto es proporcionar cobertura politica para recortes sociales."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El texto dice que podrian ser no mas de 30,000 las personas afectadas."
+  },
+  {
+    "id": "official-verbal-uab-110",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Religion",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Tomas, conocido como Tomas el incredulo, fue uno de los doce apostoles enviados tras la crucifixion de Cristo a difundir la nueva fe. Junto a el estaban Pedro, Andres, Santiago el Mayor, Santiago el Menor, Juan, Felipe, Bartolome, Mateo, Tadeo, Simon y Matias, que sustituyo a Judas Iscariote. Con el tiempo, los terminos apostol y apostolico, derivados del griego apostolos o mensajero, se aplicaron tambien a otros difusores de la palabra. Pablo reclamo para si el titulo de apostol por creer que habia visto al Senor y recibido una mision espiritual. Maria Magdalena es conocida como apostola de los apostoles por anunciarles la resurreccion. Aunque solo Mateo y Juan fueron apostoles originales entre los cuatro evangelistas, Marcos y Lucas son considerados apostolicos por su importancia en los evangelios.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Durante al menos un siglo tras la crucifixion, la palabra apostol solo se uso para los doce discipulos de Cristo.",
+      "Simon, Felipe y Maria Magdalena son considerados apostoles, termino que procede del griego mensajero.",
+      "Pese a sus contribuciones al Nuevo Testamento, algunos cristianos conservadores no consideran apostoles a Marcos y Lucas.",
+      "Los doce apostoles fueron Tomas, Pedro, Andres, los dos Santiagos, Juan, Felipe, Bartolome, Mateo, Tadeo, Simon y Judas Iscariote."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Simon y Felipe pertenecen a los doce y Maria Magdalena recibe el titulo de apostola de los apostoles; apostolos significa mensajero."
+  },
+  {
+    "id": "official-verbal-uab-111",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Arte",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "El pintor neerlandes del siglo XVII Frans Hals hizo dos grandes aportaciones. Una fue combinar un intenso realismo con una pincelada llamativa, lo que da a su obra una cualidad muy personal. La otra fue llenar sus pinturas de intensidad psicologica, conocida como perspectiva o penetracion psicologica. Sus figuras parecen personas con las que podriamos hablar. Su vida coincidio con la de Shakespeare y su manera de evocar caracter tiene paralelos con personajes teatrales que contienen varias fuerzas en conflicto. En ese sentido, sus retratos documentan la aparicion del yo moderno: muestran que el yo no es unico y uniforme, sino producto de impulsos y fuerzas contradictorias.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "La pincelada sutil de Frans Hals transmitia su impresion de las personas pintadas.",
+      "Las pinturas de Frans Hals se describen como realistas y dotadas de penetracion psicologica.",
+      "En sus retratos, Hals intento deliberadamente mostrar el yo moderno lleno de duda y complejidad.",
+      "Hals asistia con frecuencia a obras de Shakespeare y su influencia es evidente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El texto atribuye a Hals realismo y penetracion psicologica."
+  },
+  {
+    "id": "official-verbal-uab-112",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Genetica",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Un nuevo analisis genetico ha reconstruido la historia de los judios del norte de Africa y muestra que esas poblaciones se remontan al Israel biblico, no principalmente a nativos convertidos al judaismo. El estudio tambien indica que forman dos grupos distintos, uno mas cercano geneticamente a sus equivalentes europeos que el otro, reflejo de migraciones historicas. Estos resultados se suman a estudios geneticos iniciados en los anos noventa que apuntan a que los judios del mundo comparten raices biologicas, no solo culturales y religiosas. Los cientificos hallaron que las poblaciones judias del norte de Africa se hicieron geneticamente distintas con el tiempo y que las de cada pais tienen sus propias firmas de ADN, lo que sugiere que se casaron sobre todo dentro de su grupo religioso y cultural.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "El analisis muestra que los ancestros de los judios norteafricanos comparten raices biologicas con al menos otros dos grupos.",
+      "La segregacion forzada impidio que los judios del norte de Africa se casaran fuera de su cultura y religion.",
+      "Las poblaciones judias de cada pais norteafricano tienen marcadores geneticos propios.",
+      "Los estudios muestran de forma constante que, aunque los judios son similares cultural y religiosamente, son biologicamente distintos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El texto dice que cada pais lleva sus propias firmas de ADN."
+  },
+  {
+    "id": "official-verbal-uab-113",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Geografia urbana",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Paris tiene una conexion mas profunda y extrana con su subsuelo que casi cualquier ciudad, y ese subsuelo es riquisimo. Las arterias e intestinos de Paris, cientos de kilometros de tuneles que forman algunas de las redes de metro y alcantarillado mas antiguas y densas del mundo, son solo el comienzo. Bajo Paris hay canales, depositos, criptas, camaras bancarias, bodegas convertidas en clubes y galerias. Lo mas sorprendente son las carrieres, antiguas canteras de caliza que forman una red profunda e intrincada, sobre todo en el sur de la metropolis. Hasta el siglo XIX se extrajo de ellas piedra de construccion; despues se cultivaron setas y, durante la Segunda Guerra Mundial, miembros de la Resistencia se escondieron en algunas mientras los alemanes construian bunkeres en otras.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "La extraccion subterranea de caliza se realizo principalmente bajo el norte de Paris hasta el siglo XIX.",
+      "Hoy cualquiera puede visitar muchas galerias, clubes y otros establecimientos bajo Paris.",
+      "Bajo Paris se encuentran carrieres, camaras bancarias, galerias, alcantarillas, clubes, tuneles, criptas y cavernas.",
+      "En una epoca de Paris, las toneladas de setas producidas bajo tierra probablemente superaban a las producidas en superficie."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opcion C recoge varios tipos de espacios mencionados explicitamente."
+  },
+  {
+    "id": "official-verbal-uab-114",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Biologia",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Mas de 200,000 especies animales ayudan a las flores a reproducirse mediante estrategias variadas. Moscas y escarabajos son polinizadores originales desde que aparecieron las plantas con flor hace 130 millones de anos. Los cientificos han identificado unas 20,000 especies de abejas, y una quinta parte poliniza flores en Estados Unidos. Colibries, mariposas, polillas, avispas y hormigas tambien participan; caracoles y babosas arrastran polen al moverse sobre flores; mosquitos polinizan orquideas; y murcielagos, con hocicos y lenguas adaptados, polinizan 360 plantas solo en las Americas. Las mas de 240,000 plantas con flor han evolucionado junto a sus polinizadores usando aromas, colores y formas especializadas.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Cuando las plantas empezaron a florecer hace 130 millones de anos, moscas, escarabajos, abejas y murcielagos ya difundian su polen.",
+      "Mas de 240,000 especies de plantas con flor son polinizadas por mas de 200,000 especies animales, incluidas hormigas y murcielagos.",
+      "Cientos de plantas han evolucionado para ajustarse a la forma de la lengua de algunas especies de murcielagos.",
+      "Aunque escarabajos, caracoles y abejas polinizan plantas, solo los mosquitos pueden polinizar orquideas."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El texto combina esas dos cifras y menciona hormigas y murcielagos entre los polinizadores."
+  },
+  {
+    "id": "official-verbal-uab-115",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Economia",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "El estancamiento de ingresos de la ultima decada se debe, en terminos simples, a dos factores: una ralentizacion del crecimiento economico y un aumento de la desigualdad, que concentro las modestas ganancias en una pequena parte de la poblacion. Las dificultades recientes comenzaron tras la recesion suave que termino a finales de 2001, cuando empezo una expansion debil. Ademas del crecimiento lento, los beneficios fluyeron sobre todo hacia los acomodados. Desde 2000 ningun grupo de ingresos ha prosperado especialmente. Los hogares dependientes de salarios no han seguido el ritmo de la inflacion y los hogares con grandes inversiones han visto caer el valor de muchas de ellas, tanto inmobiliarias como bursatiles.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Aunque los ricos se han beneficiado de ganancias economicas recientes, ningun grupo de ingresos ha prosperado desde 2000.",
+      "Durante la ultima decada, quienes tenian inversiones en bolsa e inmuebles solo experimentaron ganancias.",
+      "El lento crecimiento de la recuperacion de 2001 no contribuyo a los problemas actuales.",
+      "Un crecimiento economico mas rapido permitiria que incluso ganancias modestas se distribuyeran de forma mas uniforme."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El texto dice que las ganancias se concentraron en los acomodados, pero tambien que ningun grupo ha prosperado especialmente."
+  },
+  {
+    "id": "official-verbal-uab-116",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Literatura",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Los persas, la tragedia griega conservada mas antigua y la unica sobre un tema contemporaneo y no mitologico, fue escrita por Esquilo en 472 a. C. La obra narra la batalla de Salamina de 480 a. C., una de las mas importantes de la historia porque marco el declive persa y permitio sobrevivir al primer experimento democratico occidental. Esquilo, veterano de las guerras persas, eligio de forma inusual contar la batalla desde la perspectiva persa, creando una narracion empatica y no triunfalista de su derrota. Hoy la obra se ha vuelto inesperadamente actual, con unas 30 producciones en cinco anos, quiza por su trama: el lider inexperto y arrogante de una superpotencia invade de forma desastrosa a un enemigo menor que su padre no logro vencer.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Los persas ha renacido recientemente por su valor para conocer la historia del imperio persa.",
+      "En Los persas, Esquilo cuenta la batalla de Salamina desde el punto de vista griego.",
+      "Los persas es popular hoy porque demuestra que la historia se repite.",
+      "Esquilo, que lucho en las guerras persas, ofrece un relato empatico de la derrota persa en Salamina."
+    ],
+    "correctAnswer": 3,
+    "explanation": "El texto subraya que Esquilo fue veterano y conto la derrota desde una perspectiva persa empatica."
+  },
+  {
+    "id": "official-verbal-uab-117",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Arqueologia",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Hoy sabemos que Stonehenge se construyo durante al menos 400 anos. La primera fase, hacia 3000 a. C., fue un recinto circular de tierra similar a otros henges de las islas britanicas. Hacia 2800 a. C. se levantaron postes de madera dentro del recinto. Los arqueologos creen que dos siglos despues Stonehenge empezo a adoptar su forma moderna, cuando se llevaron grandes piedras al lugar en la tercera y ultima fase. Las primeras fueron unas 80 piedras azules, dispuestas en doble circulo con una entrada hacia el noreste. Su importancia se aprecia por el esfuerzo de trasladarlas desde lejos: algunas medien tres metros y pesaban cuatro toneladas. Estudios geologicos de los anos veinte determinaron que procedian de las montanas Preseli, en el suroeste de Gales, a 140 millas.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Stonehenge se construyo en dos fases principales: primero un recinto circular y luego las grandes piedras.",
+      "La investigacion sugiere que las piedras azules se movieron 140 millas usando solo fuerza humana.",
+      "Segun los arqueologos, las piedras azules se agregaron a Stonehenge hacia 2800 a. C.",
+      "Hacia 2600 a. C., piedras azules del suroeste de Gales se anadieron a Stonehenge en doble circulo."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Dos siglos despues de 2800 a. C. es aproximadamente 2600 a. C.; las piedras azules procedian del suroeste de Gales y se dispusieron en doble circulo."
+  },
+  {
+    "id": "official-verbal-uab-118",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Psicologia",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Los ninos que creen que sus padres supervisan poco o reganan mucho tienden a jugar mas a videojuegos que otros ninos, segun un estudio financiado por la National Science Foundation. Los investigadores encuestaron a mas de 500 alumnos de 20 escuelas intermedias y encontraron que cuanto mas negativa percibian los ninos la conducta de sus padres y cuanto menos control parental habia, mas jugaban. El siguiente paso sera averiguar que impulsa esa conducta. Tambien interesa la relacion entre juego y comportamiento real de los padres, no solo percibido, porque las percepciones no siempre reflejan la realidad.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Segun el estudio, los ninos juegan mas a videojuegos si creen que sus padres los supervisan estrechamente.",
+      "Jugar a videojuegos hace que los ninos interpreten negativamente la conducta de sus padres.",
+      "Segun el estudio, los ninos que creen que sus padres los reganan mucho juegan mas a videojuegos.",
+      "La investigacion muestra que los ninos que juegan mucho tienen menos probabilidades de tener padres que se comporten positivamente."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El texto relaciona la percepcion de padres que reganan mucho con mayor juego."
+  },
+  {
+    "id": "official-verbal-uab-119",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Evolucion",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "Caminar erguido sobre dos piernas define el linaje hominido: el bipedismo separo a los primeros hominidos de los demas simios cuadrupedos. A comienzos del siglo XX se pensaba que el gran cerebro era lo distintivo, porque los fosiles conocidos eran de especies con cerebros grandes como neandertales y Homo erectus. Estudios posteriores mostraron que el bipedismo tiene raices muy antiguas. El hominido mas antiguo con pruebas amplias de bipedismo es Ardipithecus ramidus, de 4.4 millones de anos. Aunque esos primeros hominidos caminaban erguidos, conservaban rasgos primitivos, como dedos largos y curvos, brazos largos y piernas cortas, lo que indica que pasaban tiempo en los arboles. Solo con H. erectus, hace 1.89 millones de anos, los hominidos se hicieron altos, con piernas largas y completamente terrestres.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Los fosiles indican que Ardipithecus ramidus fue la primera especie totalmente bipedal y terrestre hace 4.4 millones de anos.",
+      "Los fosiles de neandertales sugieren que caminaban erguidos pero trepaban mejor a los arboles.",
+      "Los hominidos con piernas cortas, brazos largos y dedos curvos probablemente pasaban parte del tiempo en los arboles.",
+      "Los hominidos desarrollaron cerebros mayores justo despues de empezar a caminar erguidos, hace unos 4.4 millones de anos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El texto vincula esos rasgos anatomicos con pasar tiempo en los arboles."
+  },
+  {
+    "id": "official-verbal-uab-120",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Conflictos",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "verbal"
+    ],
+    "passage": "En la guerra de Camboya de 1970 a 1998 todos los bandos usaron minas terrestres. Hay mas de 30 tipos y los aldeanos les dan nombres por su aspecto, como rana, tambor o mazorca. La mayoria se fabricaron en China, Rusia o Vietnam, y algunas en Estados Unidos. Pol Pot, comandante de los jemeres rojos, supuestamente llamo a las minas sus soldados perfectos porque nunca duermen. Aunque son armas de guerra, difieren de balas y bombas en dos sentidos: estan disenadas para mutilar mas que para matar, porque un herido requiere ayuda de varios soldados, y cuando termina la guerra permanecen enterradas listas para explotar. Solo el 25% de las victimas mundiales de minas son soldados; el resto son civiles.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Las minas terrestres se diferencian de algunas armas de guerra en que su intencion no es matar, sino incapacitar.",
+      "En Camboya entre 1975 y 1979, el 75% de las victimas de minas terrestres fueron civiles.",
+      "Soldados perfectos es uno de muchos nombres que solo los aldeanos camboyanos usan para describir minas.",
+      "Como armas de guerra, las minas reducen fuerzas militares mejor que las balas o bombas."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El texto dice que estan disenadas para mutilar o incapacitar, no principalmente para matar."
+  }
+]

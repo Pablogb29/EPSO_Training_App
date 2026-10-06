@@ -1,0 +1,6285 @@
+[
+  {
+    "id": "numerical-exp-001",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Presupuesto",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Partida",
+        "Importe (millones EUR)"
+      ],
+      "rows": [
+        [
+          "Personal",
+          "30"
+        ],
+        [
+          "Infraestructuras",
+          "45"
+        ],
+        [
+          "Programas",
+          "40"
+        ],
+        [
+          "Administración",
+          "55"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"Programas\"? (Redondea a un decimal.)",
+    "options": [
+      "28,0 %",
+      "32,7 %",
+      "19,7 %",
+      "32,4 %",
+      "23,5 %"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El total es 170; 40 / 170 = 23,5 %."
+  },
+  {
+    "id": "numerical-exp-002",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Consumo",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valencia"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "169.000"
+        ],
+        [
+          "Agua consumida (miles de m3)",
+          "45.461"
+        ]
+      ]
+    },
+    "question": "¿Cuántos litros de agua por habitante corresponden de media en Valencia?",
+    "options": [
+      "314",
+      "269",
+      "135",
+      "538",
+      "244"
+    ],
+    "correctAnswer": 1,
+    "explanation": "45.461 equivale a 45.461.000 en la unidad pedida; dividido entre 169.000 habitantes da 269."
+  },
+  {
+    "id": "numerical-exp-003",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Empleo",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Estonia: Nuevos contratos"
+      ],
+      "rows": [
+        [
+          "2018",
+          "1260"
+        ],
+        [
+          "2019",
+          "1280"
+        ],
+        [
+          "2020",
+          "1480"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Nuevos contratos\" en Estonia durante el periodo 2018-2020?",
+    "options": [
+      "1410",
+      "1350",
+      "1330",
+      "1365",
+      "1340"
+    ],
+    "correctAnswer": 4,
+    "explanation": "La suma es 4020; dividida entre 3 años da 1340."
+  },
+  {
+    "id": "numerical-exp-004",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Comercio",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "pedidos en línea (miles) en 2024 (Bélgica)",
+          "140"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "20 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2026?",
+    "options": [
+      "202",
+      "178",
+      "240",
+      "196",
+      "168"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Aplicando 20 % dos veces: 140 × 1.20² = 202."
+  },
+  {
+    "id": "numerical-exp-005",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Logística",
+    "tags": [
+      "CAST",
+      "generado",
+      "diferencia",
+      "lectura de tabla"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Luxemburgo: Paquetes entregados (miles)"
+      ],
+      "rows": [
+        [
+          "2019",
+          "9100"
+        ],
+        [
+          "2020",
+          "5900"
+        ],
+        [
+          "2021",
+          "3110"
+        ],
+        [
+          "2022",
+          "5760"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la diferencia entre el año con mayor valor y el año con menor valor de \"Paquetes entregados (miles)\" en Luxemburgo?",
+    "options": [
+      "6040",
+      "3340",
+      "5970",
+      "6010",
+      "5990"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El máximo es 9100 y el mínimo 3110; la diferencia es 5990."
+  },
+  {
+    "id": "numerical-exp-006",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Compras",
+    "tags": [
+      "CAST",
+      "generado",
+      "descuento",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Precio unitario (monitores)",
+          "117 EUR"
+        ],
+        [
+          "Unidades pedidas",
+          "50"
+        ],
+        [
+          "Descuento por volumen",
+          "15 %"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste total del pedido una vez aplicado el descuento?",
+    "options": [
+      "5850 EUR",
+      "5411 EUR",
+      "4973 EUR",
+      "6727 EUR",
+      "5090 EUR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El bruto es 5850 EUR; con 15 % de descuento queda 4973 EUR."
+  },
+  {
+    "id": "numerical-exp-007",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Alquiler",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "726 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "10 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, el alquiler mensual de una oficina es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "670 EUR",
+      "726 EUR",
+      "660 EUR",
+      "650 EUR",
+      "653 EUR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Si x × 1.10 = 726, entonces x = 660 EUR. Restar el 10 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-008",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "generado",
+      "ratio",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Perfil",
+        "Plantilla en Croacia"
+      ],
+      "rows": [
+        [
+          "Personal técnico",
+          "255"
+        ],
+        [
+          "Personal administrativo",
+          "85"
+        ]
+      ]
+    },
+    "question": "¿Cuántos empleados técnicos hay por cada empleado administrativo?",
+    "options": [
+      "6",
+      "4",
+      "5",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 4,
+    "explanation": "255 / 85 = 3."
+  },
+  {
+    "id": "numerical-exp-009",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Presupuesto",
+    "tags": [
+      "CAST",
+      "generado",
+      "reparto proporcional"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Unidad A",
+          "20"
+        ],
+        [
+          "Unidad B",
+          "40"
+        ],
+        [
+          "Unidad C",
+          "40"
+        ]
+      ]
+    },
+    "question": "Un presupuesto de 3100 EUR se reparte entre las tres unidades de forma proporcional a su personal. ¿Cuánto recibe la Unidad C?",
+    "options": [
+      "1395 EUR",
+      "1085 EUR",
+      "620 EUR",
+      "1240 EUR",
+      "1033 EUR"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El total de personal es 100; la Unidad C representa 40/100 del total, es decir, 1240 EUR."
+  },
+  {
+    "id": "numerical-exp-010",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Amberes"
+      ],
+      "rows": [
+        [
+          "Población",
+          "79.000"
+        ],
+        [
+          "Casos registrados",
+          "1975"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Amberes?",
+    "options": [
+      "29",
+      "13",
+      "23",
+      "250",
+      "25"
+    ],
+    "correctAnswer": 4,
+    "explanation": "1975 / 79.000 × 1.000 = 25 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-011",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "3200 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,20 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "100 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de un mes?",
+    "options": [
+      "840 EUR",
+      "740 EUR",
+      "640 EUR",
+      "851 EUR",
+      "690 EUR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cada mes cuesta 3200 × 0,20 + 100 = 740 EUR; por 1 mes(es), 740 EUR."
+  },
+  {
+    "id": "numerical-exp-012",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Educación",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Nivel de estudios",
+        "Estudiantes (miles)"
+      ],
+      "rows": [
+        [
+          "Primaria",
+          "20"
+        ],
+        [
+          "Secundaria",
+          "55"
+        ],
+        [
+          "Formación profesional",
+          "20"
+        ],
+        [
+          "Universidad",
+          "60"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"Formación profesional\"? (Redondea a un decimal.)",
+    "options": [
+      "9,1 %",
+      "17,4 %",
+      "38,7 %",
+      "22,1 %",
+      "12,9 %"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El total es 155; 20 / 155 = 12,9 %."
+  },
+  {
+    "id": "numerical-exp-013",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Medio ambiente",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Brno"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "151.000"
+        ],
+        [
+          "Residuos generados (toneladas)",
+          "23.556"
+        ]
+      ]
+    },
+    "question": "¿Cuántos kg de residuos por habitante corresponden de media en Brno?",
+    "options": [
+      "156",
+      "312",
+      "181",
+      "78",
+      "130"
+    ],
+    "correctAnswer": 0,
+    "explanation": "23.556 equivale a 23.556.000 en la unidad pedida; dividido entre 151.000 habitantes da 156."
+  },
+  {
+    "id": "numerical-exp-014",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Agricultura",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Grecia: Cosecha (miles de toneladas)"
+      ],
+      "rows": [
+        [
+          "2021",
+          "880"
+        ],
+        [
+          "2022",
+          "760"
+        ],
+        [
+          "2023",
+          "850"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Cosecha (miles de toneladas)\" en Grecia durante el periodo 2021-2023?",
+    "options": [
+      "910",
+      "855",
+      "830",
+      "840",
+      "820"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La suma es 2490; dividida entre 3 años da 830."
+  },
+  {
+    "id": "numerical-exp-015",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Tecnología",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "usuarios registrados (miles) en 2024 (Bélgica)",
+          "330"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "20 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2026?",
+    "options": [
+      "444",
+      "475",
+      "495",
+      "462",
+      "396"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aplicando 20 % dos veces: 330 × 1.20² = 475."
+  },
+  {
+    "id": "numerical-exp-016",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Cultura",
+    "tags": [
+      "CAST",
+      "generado",
+      "diferencia",
+      "lectura de tabla"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Núremberg: Visitantes del museo"
+      ],
+      "rows": [
+        [
+          "2020",
+          "4210"
+        ],
+        [
+          "2021",
+          "720"
+        ],
+        [
+          "2022",
+          "2830"
+        ],
+        [
+          "2023",
+          "3820"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la diferencia entre el año con mayor valor y el año con menor valor de \"Visitantes del museo\" en Núremberg?",
+    "options": [
+      "3510",
+      "3540",
+      "390",
+      "3470",
+      "3490"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El máximo es 4210 y el mínimo 720; la diferencia es 3490."
+  },
+  {
+    "id": "numerical-exp-017",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Compras",
+    "tags": [
+      "CAST",
+      "generado",
+      "descuento",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Precio unitario (monitores)",
+          "253 EUR"
+        ],
+        [
+          "Unidades pedidas",
+          "25"
+        ],
+        [
+          "Descuento por volumen",
+          "20 %"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste total del pedido una vez aplicado el descuento?",
+    "options": [
+      "6325 EUR",
+      "7590 EUR",
+      "5060 EUR",
+      "5693 EUR",
+      "5313 EUR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El bruto es 6325 EUR; con 20 % de descuento queda 5060 EUR."
+  },
+  {
+    "id": "numerical-exp-018",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Precios",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "564 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "20 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, el precio de un abono anual de transporte es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "480 EUR",
+      "460 EUR",
+      "470 EUR",
+      "451 EUR",
+      "564 EUR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Si x × 1.20 = 564, entonces x = 470 EUR. Restar el 20 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-019",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Presupuesto",
+    "tags": [
+      "CAST",
+      "generado",
+      "reparto proporcional"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Unidad A",
+          "20"
+        ],
+        [
+          "Unidad B",
+          "10"
+        ],
+        [
+          "Unidad C",
+          "40"
+        ]
+      ]
+    },
+    "question": "Un presupuesto de 6230 EUR se reparte entre las tres unidades de forma proporcional a su personal. ¿Cuánto recibe la Unidad A?",
+    "options": [
+      "890 EUR",
+      "1335 EUR",
+      "2077 EUR",
+      "2225 EUR",
+      "1780 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El total de personal es 70; la Unidad A representa 20/70 del total, es decir, 1780 EUR."
+  },
+  {
+    "id": "numerical-exp-020",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Oporto"
+      ],
+      "rows": [
+        [
+          "Población",
+          "260.000"
+        ],
+        [
+          "Casos registrados",
+          "4680"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Oporto?",
+    "options": [
+      "180",
+      "9",
+      "23",
+      "18",
+      "12"
+    ],
+    "correctAnswer": 3,
+    "explanation": "4680 / 260.000 × 1.000 = 18 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-021",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "2900 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,15 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "80 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de 6 meses?",
+    "options": [
+      "3090 EUR",
+      "2610 EUR",
+      "3050 EUR",
+      "3170 EUR",
+      "3553 EUR"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cada mes cuesta 2900 × 0,15 + 80 = 515 EUR; por 6 mes(es), 3090 EUR."
+  },
+  {
+    "id": "numerical-exp-022",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Comercio exterior",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "variación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Malta: exportaciones (millones EUR)"
+      ],
+      "rows": [
+        [
+          "2019",
+          "8710"
+        ],
+        [
+          "2020",
+          "10.888"
+        ]
+      ]
+    },
+    "question": "¿En qué porcentaje aumentaron las exportaciones en Malta entre 2019 y 2020?",
+    "options": [
+      "30 %",
+      "27 %",
+      "22 %",
+      "25 %",
+      "20 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La variación es 2178 sobre 8710, es decir, 25 %."
+  },
+  {
+    "id": "numerical-exp-023",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Consumo",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Amberes"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "369.000"
+        ],
+        [
+          "Agua consumida (miles de m3)",
+          "176.751"
+        ]
+      ]
+    },
+    "question": "¿Cuántos litros de agua por habitante corresponden de media en Amberes?",
+    "options": [
+      "479",
+      "240",
+      "958",
+      "449",
+      "506"
+    ],
+    "correctAnswer": 0,
+    "explanation": "176.751 equivale a 176.751.000 en la unidad pedida; dividido entre 369.000 habitantes da 479."
+  },
+  {
+    "id": "numerical-exp-024",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Vivienda",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Tesalónica: Viviendas iniciadas"
+      ],
+      "rows": [
+        [
+          "2018",
+          "740"
+        ],
+        [
+          "2019",
+          "680"
+        ],
+        [
+          "2020",
+          "800"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Viviendas iniciadas\" en Tesalónica durante el periodo 2018-2020?",
+    "options": [
+      "765",
+      "730",
+      "750",
+      "740",
+      "830"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La suma es 2220; dividida entre 3 años da 740."
+  },
+  {
+    "id": "numerical-exp-025",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Tecnología",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "usuarios registrados (miles) en 2024 (Croacia)",
+          "180"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "50 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2026?",
+    "options": [
+      "360",
+      "433",
+      "270",
+      "405",
+      "384"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Aplicando 50 % dos veces: 180 × 1.50² = 405."
+  },
+  {
+    "id": "numerical-exp-026",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Logística",
+    "tags": [
+      "CAST",
+      "generado",
+      "diferencia",
+      "lectura de tabla"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Letonia: Paquetes entregados (miles)"
+      ],
+      "rows": [
+        [
+          "2022",
+          "1610"
+        ],
+        [
+          "2023",
+          "5590"
+        ],
+        [
+          "2024",
+          "1790"
+        ],
+        [
+          "2025",
+          "1100"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la diferencia entre el año con mayor valor y el año con menor valor de \"Paquetes entregados (miles)\" en Letonia?",
+    "options": [
+      "4540",
+      "4490",
+      "510",
+      "4470",
+      "4510"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El máximo es 5590 y el mínimo 1100; la diferencia es 4490."
+  },
+  {
+    "id": "numerical-exp-027",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Precios",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "876 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "20 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, el precio de un abono anual de transporte es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "740 EUR",
+      "701 EUR",
+      "720 EUR",
+      "876 EUR",
+      "730 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Si x × 1.20 = 876, entonces x = 730 EUR. Restar el 20 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-028",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Presupuesto",
+    "tags": [
+      "CAST",
+      "generado",
+      "reparto proporcional"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Unidad A",
+          "30"
+        ],
+        [
+          "Unidad B",
+          "40"
+        ],
+        [
+          "Unidad C",
+          "10"
+        ]
+      ]
+    },
+    "question": "Un presupuesto de 5840 EUR se reparte entre las tres unidades de forma proporcional a su personal. ¿Cuánto recibe la Unidad C?",
+    "options": [
+      "2190 EUR",
+      "365 EUR",
+      "730 EUR",
+      "1095 EUR",
+      "1947 EUR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El total de personal es 80; la Unidad C representa 10/80 del total, es decir, 730 EUR."
+  },
+  {
+    "id": "numerical-exp-029",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Núremberg"
+      ],
+      "rows": [
+        [
+          "Población",
+          "722.000"
+        ],
+        [
+          "Casos registrados",
+          "20.216"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Núremberg?",
+    "options": [
+      "23",
+      "28",
+      "35",
+      "14",
+      "280"
+    ],
+    "correctAnswer": 1,
+    "explanation": "20.216 / 722.000 × 1.000 = 28 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-030",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "8500 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,15 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "40 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de un mes?",
+    "options": [
+      "1275 EUR",
+      "1512 EUR",
+      "1295 EUR",
+      "1355 EUR",
+      "1315 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Cada mes cuesta 8500 × 0,15 + 40 = 1315 EUR; por 1 mes(es), 1315 EUR."
+  },
+  {
+    "id": "numerical-exp-031",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Turismo",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "variación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Chipre: pernoctaciones (miles)"
+      ],
+      "rows": [
+        [
+          "2020",
+          "3420"
+        ],
+        [
+          "2021",
+          "3010"
+        ]
+      ]
+    },
+    "question": "¿En qué porcentaje disminuyeron las pernoctaciones en Chipre entre 2020 y 2021?",
+    "options": [
+      "24 %",
+      "12 %",
+      "17 %",
+      "9 %",
+      "7 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La variación es 410 sobre 3420, es decir, 12 %."
+  },
+  {
+    "id": "numerical-exp-032",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Encuestas",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Medio de transporte",
+        "Encuestados"
+      ],
+      "rows": [
+        [
+          "Coche",
+          "10"
+        ],
+        [
+          "Transporte público",
+          "20"
+        ],
+        [
+          "Bicicleta",
+          "50"
+        ],
+        [
+          "A pie",
+          "40"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"Transporte público\"? (Redondea a un decimal.)",
+    "options": [
+      "41,7 %",
+      "25,9 %",
+      "16,7 %",
+      "12,9 %",
+      "21,2 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El total es 120; 20 / 120 = 16,7 %."
+  },
+  {
+    "id": "numerical-exp-033",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Medio ambiente",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Brno"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "115.000"
+        ],
+        [
+          "Residuos generados (toneladas)",
+          "21.505"
+        ]
+      ]
+    },
+    "question": "¿Cuántos kg de residuos por habitante corresponden de media en Brno?",
+    "options": [
+      "244",
+      "374",
+      "94",
+      "187",
+      "130"
+    ],
+    "correctAnswer": 3,
+    "explanation": "21.505 equivale a 21.505.000 en la unidad pedida; dividido entre 115.000 habitantes da 187."
+  },
+  {
+    "id": "numerical-exp-034",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Vivienda",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Oporto: Viviendas iniciadas"
+      ],
+      "rows": [
+        [
+          "2020",
+          "1380"
+        ],
+        [
+          "2021",
+          "1340"
+        ],
+        [
+          "2022",
+          "1240"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Viviendas iniciadas\" en Oporto durante el periodo 2020-2022?",
+    "options": [
+      "1390",
+      "1310",
+      "1330",
+      "1345",
+      "1320"
+    ],
+    "correctAnswer": 4,
+    "explanation": "La suma es 3960; dividida entre 3 años da 1320."
+  },
+  {
+    "id": "numerical-exp-035",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Energía",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "potencia solar instalada (MW) en 2025 (Croacia)",
+          "400"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "50 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2027?",
+    "options": [
+      "900",
+      "600",
+      "940",
+      "860",
+      "800"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Aplicando 50 % dos veces: 400 × 1.50² = 900."
+  },
+  {
+    "id": "numerical-exp-036",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Logística",
+    "tags": [
+      "CAST",
+      "generado",
+      "diferencia",
+      "lectura de tabla"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Luxemburgo: Paquetes entregados (miles)"
+      ],
+      "rows": [
+        [
+          "2020",
+          "6090"
+        ],
+        [
+          "2021",
+          "2240"
+        ],
+        [
+          "2022",
+          "6000"
+        ],
+        [
+          "2023",
+          "3450"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la diferencia entre el año con mayor valor y el año con menor valor de \"Paquetes entregados (miles)\" en Luxemburgo?",
+    "options": [
+      "3830",
+      "3850",
+      "3900",
+      "2640",
+      "3870"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El máximo es 6090 y el mínimo 2240; la diferencia es 3850."
+  },
+  {
+    "id": "numerical-exp-037",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Compras",
+    "tags": [
+      "CAST",
+      "generado",
+      "descuento",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Precio unitario (sillas ergonómicas)",
+          "144 EUR"
+        ],
+        [
+          "Unidades pedidas",
+          "25"
+        ],
+        [
+          "Descuento por volumen",
+          "20 %"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste total del pedido una vez aplicado el descuento?",
+    "options": [
+      "3024 EUR",
+      "4320 EUR",
+      "3600 EUR",
+      "2880 EUR",
+      "3240 EUR"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El bruto es 3600 EUR; con 20 % de descuento queda 2880 EUR."
+  },
+  {
+    "id": "numerical-exp-038",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Alquiler",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "863 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "25 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, el alquiler mensual de una oficina es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "863 EUR",
+      "690 EUR",
+      "647 EUR",
+      "680 EUR",
+      "700 EUR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Si x × 1.25 = 863, entonces x = 690 EUR. Restar el 25 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-039",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "generado",
+      "ratio",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Perfil",
+        "Plantilla en Malta"
+      ],
+      "rows": [
+        [
+          "Personal técnico",
+          "200"
+        ],
+        [
+          "Personal administrativo",
+          "40"
+        ]
+      ]
+    },
+    "question": "¿Cuántos empleados técnicos hay por cada empleado administrativo?",
+    "options": [
+      "5",
+      "10",
+      "7",
+      "4",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "200 / 40 = 5."
+  },
+  {
+    "id": "numerical-exp-040",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Tesalónica"
+      ],
+      "rows": [
+        [
+          "Población",
+          "703.000"
+        ],
+        [
+          "Casos registrados",
+          "23.199"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Tesalónica?",
+    "options": [
+      "33",
+      "330",
+      "17",
+      "39",
+      "31"
+    ],
+    "correctAnswer": 0,
+    "explanation": "23.199 / 703.000 × 1.000 = 33 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-041",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "8900 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,25 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "80 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de 6 meses?",
+    "options": [
+      "13.910 EUR",
+      "13.350 EUR",
+      "15.904 EUR",
+      "13.790 EUR",
+      "13.830 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Cada mes cuesta 8900 × 0,25 + 80 = 2305 EUR; por 6 mes(es), 13.830 EUR."
+  },
+  {
+    "id": "numerical-exp-042",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Transporte",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "variación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Chipre: pasajeros (miles)"
+      ],
+      "rows": [
+        [
+          "2022",
+          "3370"
+        ],
+        [
+          "2023",
+          "4213"
+        ]
+      ]
+    },
+    "question": "¿En qué porcentaje aumentaron el número de pasajeros en Chipre entre 2022 y 2023?",
+    "options": [
+      "20 %",
+      "22 %",
+      "25 %",
+      "50 %",
+      "27 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La variación es 843 sobre 3370, es decir, 25 %."
+  },
+  {
+    "id": "numerical-exp-043",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Presupuesto",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Partida",
+        "Importe (millones EUR)"
+      ],
+      "rows": [
+        [
+          "Personal",
+          "40"
+        ],
+        [
+          "Infraestructuras",
+          "60"
+        ],
+        [
+          "Programas",
+          "45"
+        ],
+        [
+          "Administración",
+          "55"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"Personal\"? (Redondea a un decimal.)",
+    "options": [
+      "29,2 %",
+      "16,2 %",
+      "30,0 %",
+      "24,5 %",
+      "20,0 %"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El total es 200; 40 / 200 = 20,0 %."
+  },
+  {
+    "id": "numerical-exp-044",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Medio ambiente",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Tesalónica"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "230.000"
+        ],
+        [
+          "Residuos generados (toneladas)",
+          "59.570"
+        ]
+      ]
+    },
+    "question": "¿Cuántos kg de residuos por habitante corresponden de media en Tesalónica?",
+    "options": [
+      "215",
+      "518",
+      "291",
+      "130",
+      "259"
+    ],
+    "correctAnswer": 4,
+    "explanation": "59.570 equivale a 59.570.000 en la unidad pedida; dividido entre 230.000 habitantes da 259."
+  },
+  {
+    "id": "numerical-exp-045",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Agricultura",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Irlanda: Cosecha (miles de toneladas)"
+      ],
+      "rows": [
+        [
+          "2020",
+          "2700"
+        ],
+        [
+          "2021",
+          "2670"
+        ],
+        [
+          "2022",
+          "2750"
+        ],
+        [
+          "2023",
+          "2840"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Cosecha (miles de toneladas)\" en Irlanda durante el periodo 2020-2023?",
+    "options": [
+      "2750",
+      "2740",
+      "2730",
+      "2765",
+      "2810"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La suma es 10.960; dividida entre 4 años da 2740."
+  },
+  {
+    "id": "numerical-exp-046",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Tecnología",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "usuarios registrados (miles) en 2025 (Finlandia)",
+          "570"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "20 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2027?",
+    "options": [
+      "787",
+      "684",
+      "858",
+      "798",
+      "821"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Aplicando 20 % dos veces: 570 × 1.20² = 821."
+  },
+  {
+    "id": "numerical-exp-047",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Tasas",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "638 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "10 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, la tasa de inscripción de un congreso es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "570 EUR",
+      "574 EUR",
+      "590 EUR",
+      "638 EUR",
+      "580 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Si x × 1.10 = 638, entonces x = 580 EUR. Restar el 10 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-048",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "generado",
+      "ratio",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Perfil",
+        "Plantilla en Luxemburgo"
+      ],
+      "rows": [
+        [
+          "Personal técnico",
+          "255"
+        ],
+        [
+          "Personal administrativo",
+          "85"
+        ]
+      ]
+    },
+    "question": "¿Cuántos empleados técnicos hay por cada empleado administrativo?",
+    "options": [
+      "5",
+      "3",
+      "6",
+      "2",
+      "4"
+    ],
+    "correctAnswer": 1,
+    "explanation": "255 / 85 = 3."
+  },
+  {
+    "id": "numerical-exp-049",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Presupuesto",
+    "tags": [
+      "CAST",
+      "generado",
+      "reparto proporcional"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Unidad A",
+          "20"
+        ],
+        [
+          "Unidad B",
+          "30"
+        ],
+        [
+          "Unidad C",
+          "30"
+        ]
+      ]
+    },
+    "question": "Un presupuesto de 4080 EUR se reparte entre las tres unidades de forma proporcional a su personal. ¿Cuánto recibe la Unidad A?",
+    "options": [
+      "765 EUR",
+      "1530 EUR",
+      "1275 EUR",
+      "1360 EUR",
+      "1020 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El total de personal es 80; la Unidad A representa 20/80 del total, es decir, 1020 EUR."
+  },
+  {
+    "id": "numerical-exp-050",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Tesalónica"
+      ],
+      "rows": [
+        [
+          "Población",
+          "776.000"
+        ],
+        [
+          "Casos registrados",
+          "28.712"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Tesalónica?",
+    "options": [
+      "45",
+      "370",
+      "37",
+      "19",
+      "29"
+    ],
+    "correctAnswer": 2,
+    "explanation": "28.712 / 776.000 × 1.000 = 37 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-051",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "3000 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,12 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "40 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de 3 meses?",
+    "options": [
+      "1240 EUR",
+      "1380 EUR",
+      "1200 EUR",
+      "1080 EUR",
+      "1180 EUR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cada mes cuesta 3000 × 0,12 + 40 = 400 EUR; por 3 mes(es), 1200 EUR."
+  },
+  {
+    "id": "numerical-exp-052",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Turismo",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "variación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Austria: pernoctaciones (miles)"
+      ],
+      "rows": [
+        [
+          "2021",
+          "8210"
+        ],
+        [
+          "2022",
+          "8621"
+        ]
+      ]
+    },
+    "question": "¿En qué porcentaje aumentaron las pernoctaciones en Austria entre 2021 y 2022?",
+    "options": [
+      "13 %",
+      "10 %",
+      "7 %",
+      "5 %",
+      "2 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La variación es 411 sobre 8210, es decir, 5 %."
+  },
+  {
+    "id": "numerical-exp-053",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Encuestas",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Medio de transporte",
+        "Encuestados"
+      ],
+      "rows": [
+        [
+          "Coche",
+          "50"
+        ],
+        [
+          "Transporte público",
+          "60"
+        ],
+        [
+          "Bicicleta",
+          "60"
+        ],
+        [
+          "A pie",
+          "30"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"A pie\"? (Redondea a un decimal.)",
+    "options": [
+      "24,2 %",
+      "19,5 %",
+      "15,0 %",
+      "11,2 %",
+      "25,0 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El total es 200; 30 / 200 = 15,0 %."
+  },
+  {
+    "id": "numerical-exp-054",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Medio ambiente",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Oporto"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "96.000"
+        ],
+        [
+          "Residuos generados (toneladas)",
+          "24.288"
+        ]
+      ]
+    },
+    "question": "¿Cuántos kg de residuos por habitante corresponden de media en Oporto?",
+    "options": [
+      "206",
+      "506",
+      "253",
+      "127",
+      "300"
+    ],
+    "correctAnswer": 2,
+    "explanation": "24.288 equivale a 24.288.000 en la unidad pedida; dividido entre 96.000 habitantes da 253."
+  },
+  {
+    "id": "numerical-exp-055",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Vivienda",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Oporto: Viviendas iniciadas"
+      ],
+      "rows": [
+        [
+          "2021",
+          "600"
+        ],
+        [
+          "2022",
+          "650"
+        ],
+        [
+          "2023",
+          "570"
+        ],
+        [
+          "2024",
+          "660"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Viviendas iniciadas\" en Oporto durante el periodo 2021-2024?",
+    "options": [
+      "645",
+      "620",
+      "610",
+      "690",
+      "630"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La suma es 2480; dividida entre 4 años da 620."
+  },
+  {
+    "id": "numerical-exp-056",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Energía",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "potencia solar instalada (MW) en 2025 (Letonia)",
+          "270"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "20 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2027?",
+    "options": [
+      "324",
+      "378",
+      "364",
+      "389",
+      "406"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Aplicando 20 % dos veces: 270 × 1.20² = 389."
+  },
+  {
+    "id": "numerical-exp-057",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Logística",
+    "tags": [
+      "CAST",
+      "generado",
+      "diferencia",
+      "lectura de tabla"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Luxemburgo: Paquetes entregados (miles)"
+      ],
+      "rows": [
+        [
+          "2020",
+          "4420"
+        ],
+        [
+          "2021",
+          "7190"
+        ],
+        [
+          "2022",
+          "4410"
+        ],
+        [
+          "2023",
+          "4970"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la diferencia entre el año con mayor valor y el año con menor valor de \"Paquetes entregados (miles)\" en Luxemburgo?",
+    "options": [
+      "550",
+      "2800",
+      "2830",
+      "2760",
+      "2780"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El máximo es 7190 y el mínimo 4410; la diferencia es 2780."
+  },
+  {
+    "id": "numerical-exp-058",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Compras",
+    "tags": [
+      "CAST",
+      "generado",
+      "descuento",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Precio unitario (sillas ergonómicas)",
+          "150 EUR"
+        ],
+        [
+          "Unidades pedidas",
+          "40"
+        ],
+        [
+          "Descuento por volumen",
+          "20 %"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste total del pedido una vez aplicado el descuento?",
+    "options": [
+      "6000 EUR",
+      "4800 EUR",
+      "7200 EUR",
+      "5400 EUR",
+      "4950 EUR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El bruto es 6000 EUR; con 20 % de descuento queda 4800 EUR."
+  },
+  {
+    "id": "numerical-exp-059",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Alquiler",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "838 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "25 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, el alquiler mensual de una oficina es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "838 EUR",
+      "660 EUR",
+      "670 EUR",
+      "680 EUR",
+      "629 EUR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Si x × 1.25 = 838, entonces x = 670 EUR. Restar el 25 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-060",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Núremberg"
+      ],
+      "rows": [
+        [
+          "Población",
+          "696.000"
+        ],
+        [
+          "Casos registrados",
+          "40.368"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Núremberg?",
+    "options": [
+      "50",
+      "29",
+      "65",
+      "580",
+      "58"
+    ],
+    "correctAnswer": 4,
+    "explanation": "40.368 / 696.000 × 1.000 = 58 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-061",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "7500 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,12 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "40 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de 6 meses?",
+    "options": [
+      "5640 EUR",
+      "5400 EUR",
+      "6486 EUR",
+      "5680 EUR",
+      "5620 EUR"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cada mes cuesta 7500 × 0,12 + 40 = 940 EUR; por 6 mes(es), 5640 EUR."
+  },
+  {
+    "id": "numerical-exp-062",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Energía",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "variación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Finlandia: consumo eléctrico (GWh)"
+      ],
+      "rows": [
+        [
+          "2023",
+          "8670"
+        ],
+        [
+          "2024",
+          "6503"
+        ]
+      ]
+    },
+    "question": "¿En qué porcentaje disminuyeron el consumo eléctrico en Finlandia entre 2023 y 2024?",
+    "options": [
+      "50 %",
+      "33 %",
+      "25 %",
+      "22 %",
+      "27 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La variación es 2167 sobre 8670, es decir, 25 %."
+  },
+  {
+    "id": "numerical-exp-063",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Educación",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Nivel de estudios",
+        "Estudiantes (miles)"
+      ],
+      "rows": [
+        [
+          "Primaria",
+          "20"
+        ],
+        [
+          "Secundaria",
+          "30"
+        ],
+        [
+          "Formación profesional",
+          "15"
+        ],
+        [
+          "Universidad",
+          "25"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"Secundaria\"? (Redondea a un decimal.)",
+    "options": [
+      "16,7 %",
+      "33,3 %",
+      "37,8 %",
+      "29,5 %",
+      "42,5 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El total es 90; 30 / 90 = 33,3 %."
+  },
+  {
+    "id": "numerical-exp-064",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Medio ambiente",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Burdeos"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "387.000"
+        ],
+        [
+          "Residuos generados (toneladas)",
+          "107.586"
+        ]
+      ]
+    },
+    "question": "¿Cuántos kg de residuos por habitante corresponden de media en Burdeos?",
+    "options": [
+      "325",
+      "139",
+      "278",
+      "235",
+      "556"
+    ],
+    "correctAnswer": 2,
+    "explanation": "107.586 equivale a 107.586.000 en la unidad pedida; dividido entre 387.000 habitantes da 278."
+  },
+  {
+    "id": "numerical-exp-065",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Empleo",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Malta: Nuevos contratos"
+      ],
+      "rows": [
+        [
+          "2021",
+          "2410"
+        ],
+        [
+          "2022",
+          "2410"
+        ],
+        [
+          "2023",
+          "2340"
+        ],
+        [
+          "2024",
+          "2360"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Nuevos contratos\" en Malta durante el periodo 2021-2024?",
+    "options": [
+      "2405",
+      "2390",
+      "2460",
+      "2370",
+      "2380"
+    ],
+    "correctAnswer": 4,
+    "explanation": "La suma es 9520; dividida entre 4 años da 2380."
+  },
+  {
+    "id": "numerical-exp-066",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Comercio",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "pedidos en línea (miles) en 2025 (Irlanda)",
+          "720"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "50 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2027?",
+    "options": [
+      "1620",
+      "1080",
+      "1440",
+      "1642",
+      "1589"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Aplicando 50 % dos veces: 720 × 1.50² = 1620."
+  },
+  {
+    "id": "numerical-exp-067",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Cultura",
+    "tags": [
+      "CAST",
+      "generado",
+      "diferencia",
+      "lectura de tabla"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Núremberg: Visitantes del museo"
+      ],
+      "rows": [
+        [
+          "2022",
+          "6320"
+        ],
+        [
+          "2023",
+          "6210"
+        ],
+        [
+          "2024",
+          "3930"
+        ],
+        [
+          "2025",
+          "7420"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la diferencia entre el año con mayor valor y el año con menor valor de \"Visitantes del museo\" en Núremberg?",
+    "options": [
+      "3470",
+      "3510",
+      "1100",
+      "3540",
+      "3490"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El máximo es 7420 y el mínimo 3930; la diferencia es 3490."
+  },
+  {
+    "id": "numerical-exp-068",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Compras",
+    "tags": [
+      "CAST",
+      "generado",
+      "descuento",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Precio unitario (licencias de software)",
+          "172 EUR"
+        ],
+        [
+          "Unidades pedidas",
+          "40"
+        ],
+        [
+          "Descuento por volumen",
+          "10 %"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste total del pedido una vez aplicado el descuento?",
+    "options": [
+      "6364 EUR",
+      "6192 EUR",
+      "6880 EUR",
+      "6536 EUR",
+      "7568 EUR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El bruto es 6880 EUR; con 10 % de descuento queda 6192 EUR."
+  },
+  {
+    "id": "numerical-exp-069",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Precios",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "132 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "10 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, el precio de un abono anual de transporte es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "132 EUR",
+      "110 EUR",
+      "119 EUR",
+      "120 EUR",
+      "130 EUR"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Si x × 1.10 = 132, entonces x = 120 EUR. Restar el 10 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-070",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "generado",
+      "ratio",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Perfil",
+        "Plantilla en Malta"
+      ],
+      "rows": [
+        [
+          "Personal técnico",
+          "400"
+        ],
+        [
+          "Personal administrativo",
+          "100"
+        ]
+      ]
+    },
+    "question": "¿Cuántos empleados técnicos hay por cada empleado administrativo?",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 2,
+    "explanation": "400 / 100 = 4."
+  },
+  {
+    "id": "numerical-exp-071",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Oporto"
+      ],
+      "rows": [
+        [
+          "Población",
+          "611.000"
+        ],
+        [
+          "Casos registrados",
+          "20.163"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Oporto?",
+    "options": [
+      "17",
+      "38",
+      "33",
+      "31",
+      "330"
+    ],
+    "correctAnswer": 2,
+    "explanation": "20.163 / 611.000 × 1.000 = 33 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-072",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "8500 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,20 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "80 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de 3 meses?",
+    "options": [
+      "5420 EUR",
+      "5340 EUR",
+      "6141 EUR",
+      "5100 EUR",
+      "5300 EUR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cada mes cuesta 8500 × 0,20 + 80 = 1780 EUR; por 3 mes(es), 5340 EUR."
+  },
+  {
+    "id": "numerical-exp-073",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Producción industrial",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "variación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Portugal: unidades producidas (miles)"
+      ],
+      "rows": [
+        [
+          "2022",
+          "1950"
+        ],
+        [
+          "2023",
+          "1463"
+        ]
+      ]
+    },
+    "question": "¿En qué porcentaje disminuyeron la producción en Portugal entre 2022 y 2023?",
+    "options": [
+      "25 %",
+      "33 %",
+      "50 %",
+      "30 %",
+      "20 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La variación es 487 sobre 1950, es decir, 25 %."
+  },
+  {
+    "id": "numerical-exp-074",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Presupuesto",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Partida",
+        "Importe (millones EUR)"
+      ],
+      "rows": [
+        [
+          "Personal",
+          "55"
+        ],
+        [
+          "Infraestructuras",
+          "55"
+        ],
+        [
+          "Programas",
+          "30"
+        ],
+        [
+          "Administración",
+          "35"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"Infraestructuras\"? (Redondea a un decimal.)",
+    "options": [
+      "27,6 %",
+      "40,6 %",
+      "35,9 %",
+      "17,1 %",
+      "31,4 %"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El total es 175; 55 / 175 = 31,4 %."
+  },
+  {
+    "id": "numerical-exp-075",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Medio ambiente",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Burdeos"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "326.000"
+        ],
+        [
+          "Residuos generados (toneladas)",
+          "44.336"
+        ]
+      ]
+    },
+    "question": "¿Cuántos kg de residuos por habitante corresponden de media en Burdeos?",
+    "options": [
+      "136",
+      "171",
+      "98",
+      "68",
+      "272"
+    ],
+    "correctAnswer": 0,
+    "explanation": "44.336 equivale a 44.336.000 en la unidad pedida; dividido entre 326.000 habitantes da 136."
+  },
+  {
+    "id": "numerical-exp-076",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Agricultura",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Estonia: Cosecha (miles de toneladas)"
+      ],
+      "rows": [
+        [
+          "2018",
+          "1260"
+        ],
+        [
+          "2019",
+          "1300"
+        ],
+        [
+          "2020",
+          "1140"
+        ],
+        [
+          "2021",
+          "1180"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Cosecha (miles de toneladas)\" en Estonia durante el periodo 2018-2021?",
+    "options": [
+      "1230",
+      "1210",
+      "1220",
+      "1245",
+      "1300"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La suma es 4880; dividida entre 4 años da 1220."
+  },
+  {
+    "id": "numerical-exp-077",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Tecnología",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "usuarios registrados (miles) en 2025 (Luxemburgo)",
+          "720"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "25 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2027?",
+    "options": [
+      "1157",
+      "900",
+      "1125",
+      "1088",
+      "1080"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Aplicando 25 % dos veces: 720 × 1.25² = 1125."
+  },
+  {
+    "id": "numerical-exp-078",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Tasas",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "600 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "25 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, la tasa de inscripción de un congreso es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "490 EUR",
+      "600 EUR",
+      "450 EUR",
+      "480 EUR",
+      "470 EUR"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Si x × 1.25 = 600, entonces x = 480 EUR. Restar el 25 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-079",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Presupuesto",
+    "tags": [
+      "CAST",
+      "generado",
+      "reparto proporcional"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Unidad A",
+          "10"
+        ],
+        [
+          "Unidad B",
+          "40"
+        ],
+        [
+          "Unidad C",
+          "20"
+        ]
+      ]
+    },
+    "question": "Un presupuesto de 3010 EUR se reparte entre las tres unidades de forma proporcional a su personal. ¿Cuánto recibe la Unidad A?",
+    "options": [
+      "1003 EUR",
+      "645 EUR",
+      "1720 EUR",
+      "215 EUR",
+      "430 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El total de personal es 70; la Unidad A representa 10/70 del total, es decir, 430 EUR."
+  },
+  {
+    "id": "numerical-exp-080",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Amberes"
+      ],
+      "rows": [
+        [
+          "Población",
+          "265.000"
+        ],
+        [
+          "Casos registrados",
+          "10.335"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Amberes?",
+    "options": [
+      "35",
+      "39",
+      "47",
+      "20",
+      "390"
+    ],
+    "correctAnswer": 1,
+    "explanation": "10.335 / 265.000 × 1.000 = 39 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-081",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "5400 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,20 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "60 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de 6 meses?",
+    "options": [
+      "6900 EUR",
+      "6810 EUR",
+      "7866 EUR",
+      "6840 EUR",
+      "6480 EUR"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Cada mes cuesta 5400 × 0,20 + 60 = 1140 EUR; por 6 mes(es), 6840 EUR."
+  },
+  {
+    "id": "numerical-exp-082",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Turismo",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "variación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Croacia: pernoctaciones (miles)"
+      ],
+      "rows": [
+        [
+          "2019",
+          "7110"
+        ],
+        [
+          "2020",
+          "5688"
+        ]
+      ]
+    },
+    "question": "¿En qué porcentaje disminuyeron las pernoctaciones en Croacia entre 2019 y 2020?",
+    "options": [
+      "20 %",
+      "15 %",
+      "40 %",
+      "25 %",
+      "17 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La variación es 1422 sobre 7110, es decir, 20 %."
+  },
+  {
+    "id": "numerical-exp-083",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Presupuesto",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Partida",
+        "Importe (millones EUR)"
+      ],
+      "rows": [
+        [
+          "Personal",
+          "20"
+        ],
+        [
+          "Infraestructuras",
+          "55"
+        ],
+        [
+          "Programas",
+          "25"
+        ],
+        [
+          "Administración",
+          "10"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"Administración\"? (Redondea a un decimal.)",
+    "options": [
+      "9,1 %",
+      "18,2 %",
+      "5,3 %",
+      "18,3 %",
+      "13,6 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El total es 110; 10 / 110 = 9,1 %."
+  },
+  {
+    "id": "numerical-exp-084",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Medio ambiente",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Cracovia"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "265.000"
+        ],
+        [
+          "Residuos generados (toneladas)",
+          "40.545"
+        ]
+      ]
+    },
+    "question": "¿Cuántos kg de residuos por habitante corresponden de media en Cracovia?",
+    "options": [
+      "153",
+      "306",
+      "114",
+      "77",
+      "205"
+    ],
+    "correctAnswer": 0,
+    "explanation": "40.545 equivale a 40.545.000 en la unidad pedida; dividido entre 265.000 habitantes da 153."
+  },
+  {
+    "id": "numerical-exp-085",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Agricultura",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Eslovenia: Cosecha (miles de toneladas)"
+      ],
+      "rows": [
+        [
+          "2020",
+          "1350"
+        ],
+        [
+          "2021",
+          "1450"
+        ],
+        [
+          "2022",
+          "1460"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Cosecha (miles de toneladas)\" en Eslovenia durante el periodo 2020-2022?",
+    "options": [
+      "1430",
+      "1420",
+      "1445",
+      "1480",
+      "1410"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La suma es 4260; dividida entre 3 años da 1420."
+  },
+  {
+    "id": "numerical-exp-086",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Energía",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "potencia solar instalada (MW) en 2024 (Dinamarca)",
+          "480"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "25 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2026?",
+    "options": [
+      "600",
+      "720",
+      "735",
+      "769",
+      "750"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Aplicando 25 % dos veces: 480 × 1.25² = 750."
+  },
+  {
+    "id": "numerical-exp-087",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Logística",
+    "tags": [
+      "CAST",
+      "generado",
+      "diferencia",
+      "lectura de tabla"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Dinamarca: Paquetes entregados (miles)"
+      ],
+      "rows": [
+        [
+          "2021",
+          "5280"
+        ],
+        [
+          "2022",
+          "8710"
+        ],
+        [
+          "2023",
+          "4720"
+        ],
+        [
+          "2024",
+          "3950"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la diferencia entre el año con mayor valor y el año con menor valor de \"Paquetes entregados (miles)\" en Dinamarca?",
+    "options": [
+      "4760",
+      "4740",
+      "1330",
+      "4780",
+      "4810"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El máximo es 8710 y el mínimo 3950; la diferencia es 4760."
+  },
+  {
+    "id": "numerical-exp-088",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Compras",
+    "tags": [
+      "CAST",
+      "generado",
+      "descuento",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Precio unitario (monitores)",
+          "159 EUR"
+        ],
+        [
+          "Unidades pedidas",
+          "25"
+        ],
+        [
+          "Descuento por volumen",
+          "10 %"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste total del pedido una vez aplicado el descuento?",
+    "options": [
+      "4373 EUR",
+      "3776 EUR",
+      "3975 EUR",
+      "3737 EUR",
+      "3578 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El bruto es 3975 EUR; con 10 % de descuento queda 3578 EUR."
+  },
+  {
+    "id": "numerical-exp-089",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Precios",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "880 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "10 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, el precio de un abono anual de transporte es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "792 EUR",
+      "790 EUR",
+      "810 EUR",
+      "880 EUR",
+      "800 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Si x × 1.10 = 880, entonces x = 800 EUR. Restar el 10 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-090",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "generado",
+      "ratio",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Perfil",
+        "Plantilla en Estonia"
+      ],
+      "rows": [
+        [
+          "Personal técnico",
+          "525"
+        ],
+        [
+          "Personal administrativo",
+          "175"
+        ]
+      ]
+    },
+    "question": "¿Cuántos empleados técnicos hay por cada empleado administrativo?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6",
+      "2"
+    ],
+    "correctAnswer": 2,
+    "explanation": "525 / 175 = 3."
+  },
+  {
+    "id": "numerical-exp-091",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Presupuesto",
+    "tags": [
+      "CAST",
+      "generado",
+      "reparto proporcional"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Unidad A",
+          "10"
+        ],
+        [
+          "Unidad B",
+          "10"
+        ],
+        [
+          "Unidad C",
+          "30"
+        ]
+      ]
+    },
+    "question": "Un presupuesto de 3950 EUR se reparte entre las tres unidades de forma proporcional a su personal. ¿Cuánto recibe la Unidad B?",
+    "options": [
+      "1317 EUR",
+      "790 EUR",
+      "395 EUR",
+      "2370 EUR",
+      "1185 EUR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El total de personal es 50; la Unidad B representa 10/50 del total, es decir, 790 EUR."
+  },
+  {
+    "id": "numerical-exp-092",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Gotemburgo"
+      ],
+      "rows": [
+        [
+          "Población",
+          "584.000"
+        ],
+        [
+          "Casos registrados",
+          "5256"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Gotemburgo?",
+    "options": [
+      "16",
+      "5",
+      "7",
+      "9",
+      "90"
+    ],
+    "correctAnswer": 3,
+    "explanation": "5256 / 584.000 × 1.000 = 9 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-093",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "2600 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,25 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "80 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de 3 meses?",
+    "options": [
+      "2519 EUR",
+      "2190 EUR",
+      "2150 EUR",
+      "2270 EUR",
+      "1950 EUR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cada mes cuesta 2600 × 0,25 + 80 = 730 EUR; por 3 mes(es), 2190 EUR."
+  },
+  {
+    "id": "numerical-exp-094",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Comercio exterior",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "variación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Eslovenia: exportaciones (millones EUR)"
+      ],
+      "rows": [
+        [
+          "2020",
+          "6870"
+        ],
+        [
+          "2021",
+          "7694"
+        ]
+      ]
+    },
+    "question": "¿En qué porcentaje aumentaron las exportaciones en Eslovenia entre 2020 y 2021?",
+    "options": [
+      "24 %",
+      "12 %",
+      "9 %",
+      "14 %",
+      "17 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La variación es 824 sobre 6870, es decir, 12 %."
+  },
+  {
+    "id": "numerical-exp-095",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Medio ambiente",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valencia"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "210.000"
+        ],
+        [
+          "Residuos generados (toneladas)",
+          "38.010"
+        ]
+      ]
+    },
+    "question": "¿Cuántos kg de residuos por habitante corresponden de media en Valencia?",
+    "options": [
+      "362",
+      "91",
+      "138",
+      "205",
+      "181"
+    ],
+    "correctAnswer": 4,
+    "explanation": "38.010 equivale a 38.010.000 en la unidad pedida; dividido entre 210.000 habitantes da 181."
+  },
+  {
+    "id": "numerical-exp-096",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Empleo",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Grecia: Nuevos contratos"
+      ],
+      "rows": [
+        [
+          "2020",
+          "280"
+        ],
+        [
+          "2021",
+          "310"
+        ],
+        [
+          "2022",
+          "400"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Nuevos contratos\" en Grecia durante el periodo 2020-2022?",
+    "options": [
+      "320",
+      "370",
+      "340",
+      "355",
+      "330"
+    ],
+    "correctAnswer": 4,
+    "explanation": "La suma es 990; dividida entre 3 años da 330."
+  },
+  {
+    "id": "numerical-exp-097",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Tecnología",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "usuarios registrados (miles) en 2025 (Eslovenia)",
+          "300"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "50 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2027?",
+    "options": [
+      "696",
+      "675",
+      "654",
+      "600",
+      "450"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aplicando 50 % dos veces: 300 × 1.50² = 675."
+  },
+  {
+    "id": "numerical-exp-098",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Cultura",
+    "tags": [
+      "CAST",
+      "generado",
+      "diferencia",
+      "lectura de tabla"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Cracovia: Visitantes del museo"
+      ],
+      "rows": [
+        [
+          "2020",
+          "4770"
+        ],
+        [
+          "2021",
+          "8180"
+        ],
+        [
+          "2022",
+          "3790"
+        ],
+        [
+          "2023",
+          "7930"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la diferencia entre el año con mayor valor y el año con menor valor de \"Visitantes del museo\" en Cracovia?",
+    "options": [
+      "3160",
+      "4370",
+      "4390",
+      "4410",
+      "4440"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El máximo es 8180 y el mínimo 3790; la diferencia es 4390."
+  },
+  {
+    "id": "numerical-exp-099",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Compras",
+    "tags": [
+      "CAST",
+      "generado",
+      "descuento",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Precio unitario (licencias de software)",
+          "101 EUR"
+        ],
+        [
+          "Unidades pedidas",
+          "50"
+        ],
+        [
+          "Descuento por volumen",
+          "10 %"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste total del pedido una vez aplicado el descuento?",
+    "options": [
+      "5050 EUR",
+      "4646 EUR",
+      "4798 EUR",
+      "5555 EUR",
+      "4545 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El bruto es 5050 EUR; con 10 % de descuento queda 4545 EUR."
+  },
+  {
+    "id": "numerical-exp-100",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Precios",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "528 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "10 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, el precio de un abono anual de transporte es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "470 EUR",
+      "490 EUR",
+      "475 EUR",
+      "480 EUR",
+      "528 EUR"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Si x × 1.10 = 528, entonces x = 480 EUR. Restar el 10 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-101",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "generado",
+      "ratio",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Perfil",
+        "Plantilla en Eslovenia"
+      ],
+      "rows": [
+        [
+          "Personal técnico",
+          "390"
+        ],
+        [
+          "Personal administrativo",
+          "130"
+        ]
+      ]
+    },
+    "question": "¿Cuántos empleados técnicos hay por cada empleado administrativo?",
+    "options": [
+      "2",
+      "6",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 2,
+    "explanation": "390 / 130 = 3."
+  },
+  {
+    "id": "numerical-exp-102",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Brno"
+      ],
+      "rows": [
+        [
+          "Población",
+          "99.000"
+        ],
+        [
+          "Casos registrados",
+          "495"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Brno?",
+    "options": [
+      "7",
+      "3",
+      "50",
+      "5",
+      "1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "495 / 99.000 × 1.000 = 5 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-103",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "6900 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,12 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "100 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de 3 meses?",
+    "options": [
+      "2784 EUR",
+      "2734 EUR",
+      "2884 EUR",
+      "2484 EUR",
+      "3202 EUR"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cada mes cuesta 6900 × 0,12 + 100 = 928 EUR; por 3 mes(es), 2784 EUR."
+  },
+  {
+    "id": "numerical-exp-104",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Transporte",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "variación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Letonia: pasajeros (miles)"
+      ],
+      "rows": [
+        [
+          "2023",
+          "2810"
+        ],
+        [
+          "2024",
+          "3147"
+        ]
+      ]
+    },
+    "question": "¿En qué porcentaje aumentaron el número de pasajeros en Letonia entre 2023 y 2024?",
+    "options": [
+      "14 %",
+      "24 %",
+      "17 %",
+      "9 %",
+      "12 %"
+    ],
+    "correctAnswer": 4,
+    "explanation": "La variación es 337 sobre 2810, es decir, 12 %."
+  },
+  {
+    "id": "numerical-exp-105",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Educación",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Nivel de estudios",
+        "Estudiantes (miles)"
+      ],
+      "rows": [
+        [
+          "Primaria",
+          "40"
+        ],
+        [
+          "Secundaria",
+          "10"
+        ],
+        [
+          "Formación profesional",
+          "35"
+        ],
+        [
+          "Universidad",
+          "10"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"Primaria\"? (Redondea a un decimal.)",
+    "options": [
+      "42,1 %",
+      "10,5 %",
+      "46,6 %",
+      "51,3 %",
+      "38,3 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El total es 95; 40 / 95 = 42,1 %."
+  },
+  {
+    "id": "numerical-exp-106",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Medio ambiente",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Tesalónica"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "161.000"
+        ],
+        [
+          "Residuos generados (toneladas)",
+          "56.350"
+        ]
+      ]
+    },
+    "question": "¿Cuántos kg de residuos por habitante corresponden de media en Tesalónica?",
+    "options": [
+      "376",
+      "350",
+      "175",
+      "700",
+      "296"
+    ],
+    "correctAnswer": 1,
+    "explanation": "56.350 equivale a 56.350.000 en la unidad pedida; dividido entre 161.000 habitantes da 350."
+  },
+  {
+    "id": "numerical-exp-107",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Agricultura",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Bélgica: Cosecha (miles de toneladas)"
+      ],
+      "rows": [
+        [
+          "2020",
+          "700"
+        ],
+        [
+          "2021",
+          "790"
+        ],
+        [
+          "2022",
+          "680"
+        ],
+        [
+          "2023",
+          "830"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Cosecha (miles de toneladas)\" en Bélgica durante el periodo 2020-2023?",
+    "options": [
+      "775",
+      "810",
+      "750",
+      "760",
+      "740"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La suma es 3000; dividida entre 4 años da 750."
+  },
+  {
+    "id": "numerical-exp-108",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Comercio",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "pedidos en línea (miles) en 2024 (Letonia)",
+          "530"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "25 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2026?",
+    "options": [
+      "795",
+      "847",
+      "663",
+      "828",
+      "813"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Aplicando 25 % dos veces: 530 × 1.25² = 828."
+  },
+  {
+    "id": "numerical-exp-109",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Logística",
+    "tags": [
+      "CAST",
+      "generado",
+      "diferencia",
+      "lectura de tabla"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Malta: Paquetes entregados (miles)"
+      ],
+      "rows": [
+        [
+          "2019",
+          "3490"
+        ],
+        [
+          "2020",
+          "3270"
+        ],
+        [
+          "2021",
+          "3950"
+        ],
+        [
+          "2022",
+          "8410"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la diferencia entre el año con mayor valor y el año con menor valor de \"Paquetes entregados (miles)\" en Malta?",
+    "options": [
+      "5120",
+      "5160",
+      "5190",
+      "5140",
+      "4920"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El máximo es 8410 y el mínimo 3270; la diferencia es 5140."
+  },
+  {
+    "id": "numerical-exp-110",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Compras",
+    "tags": [
+      "CAST",
+      "generado",
+      "descuento",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Precio unitario (licencias de software)",
+          "153 EUR"
+        ],
+        [
+          "Unidades pedidas",
+          "40"
+        ],
+        [
+          "Descuento por volumen",
+          "20 %"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste total del pedido una vez aplicado el descuento?",
+    "options": [
+      "5508 EUR",
+      "5049 EUR",
+      "7344 EUR",
+      "4896 EUR",
+      "6120 EUR"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El bruto es 6120 EUR; con 20 % de descuento queda 4896 EUR."
+  },
+  {
+    "id": "numerical-exp-111",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Alquiler",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "465 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "50 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, el alquiler mensual de una oficina es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "310 EUR",
+      "465 EUR",
+      "320 EUR",
+      "233 EUR",
+      "300 EUR"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Si x × 1.50 = 465, entonces x = 310 EUR. Restar el 50 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-112",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "generado",
+      "ratio",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Perfil",
+        "Plantilla en Luxemburgo"
+      ],
+      "rows": [
+        [
+          "Personal técnico",
+          "375"
+        ],
+        [
+          "Personal administrativo",
+          "125"
+        ]
+      ]
+    },
+    "question": "¿Cuántos empleados técnicos hay por cada empleado administrativo?",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "6",
+      "3"
+    ],
+    "correctAnswer": 4,
+    "explanation": "375 / 125 = 3."
+  },
+  {
+    "id": "numerical-exp-113",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Burdeos"
+      ],
+      "rows": [
+        [
+          "Población",
+          "640.000"
+        ],
+        [
+          "Casos registrados",
+          "12.800"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Burdeos?",
+    "options": [
+      "23",
+      "13",
+      "20",
+      "200",
+      "10"
+    ],
+    "correctAnswer": 2,
+    "explanation": "12.800 / 640.000 × 1.000 = 20 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-114",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "5500 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,15 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "80 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de 6 meses?",
+    "options": [
+      "5390 EUR",
+      "5510 EUR",
+      "5430 EUR",
+      "4950 EUR",
+      "6244 EUR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cada mes cuesta 5500 × 0,15 + 80 = 905 EUR; por 6 mes(es), 5430 EUR."
+  },
+  {
+    "id": "numerical-exp-115",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Producción industrial",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "variación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Estonia: unidades producidas (miles)"
+      ],
+      "rows": [
+        [
+          "2022",
+          "4570"
+        ],
+        [
+          "2023",
+          "4113"
+        ]
+      ]
+    },
+    "question": "¿En qué porcentaje disminuyeron la producción en Estonia entre 2022 y 2023?",
+    "options": [
+      "18 %",
+      "10 %",
+      "7 %",
+      "20 %",
+      "12 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La variación es 457 sobre 4570, es decir, 10 %."
+  },
+  {
+    "id": "numerical-exp-116",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Encuestas",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Medio de transporte",
+        "Encuestados"
+      ],
+      "rows": [
+        [
+          "Coche",
+          "50"
+        ],
+        [
+          "Transporte público",
+          "60"
+        ],
+        [
+          "Bicicleta",
+          "45"
+        ],
+        [
+          "A pie",
+          "30"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"Bicicleta\"? (Redondea a un decimal.)",
+    "options": [
+      "33,5 %",
+      "24,3 %",
+      "28,8 %",
+      "20,5 %",
+      "16,2 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El total es 185; 45 / 185 = 24,3 %."
+  },
+  {
+    "id": "numerical-exp-117",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Medio ambiente",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Amberes"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "84.000"
+        ],
+        [
+          "Residuos generados (toneladas)",
+          "25.872"
+        ]
+      ]
+    },
+    "question": "¿Cuántos kg de residuos por habitante corresponden de media en Amberes?",
+    "options": [
+      "154",
+      "277",
+      "616",
+      "308",
+      "363"
+    ],
+    "correctAnswer": 3,
+    "explanation": "25.872 equivale a 25.872.000 en la unidad pedida; dividido entre 84.000 habitantes da 308."
+  },
+  {
+    "id": "numerical-exp-118",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Vivienda",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Oporto: Viviendas iniciadas"
+      ],
+      "rows": [
+        [
+          "2020",
+          "2060"
+        ],
+        [
+          "2021",
+          "1960"
+        ],
+        [
+          "2022",
+          "2090"
+        ],
+        [
+          "2023",
+          "2010"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Viviendas iniciadas\" en Oporto durante el periodo 2020-2023?",
+    "options": [
+      "2040",
+      "2110",
+      "2020",
+      "2055",
+      "2030"
+    ],
+    "correctAnswer": 4,
+    "explanation": "La suma es 8120; dividida entre 4 años da 2030."
+  },
+  {
+    "id": "numerical-exp-119",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Tecnología",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "usuarios registrados (miles) en 2025 (Grecia)",
+          "670"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "50 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2027?",
+    "options": [
+      "1537",
+      "1340",
+      "1508",
+      "1005",
+      "1493"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Aplicando 50 % dos veces: 670 × 1.50² = 1508."
+  },
+  {
+    "id": "numerical-exp-120",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Logística",
+    "tags": [
+      "CAST",
+      "generado",
+      "diferencia",
+      "lectura de tabla"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Irlanda: Paquetes entregados (miles)"
+      ],
+      "rows": [
+        [
+          "2019",
+          "1930"
+        ],
+        [
+          "2020",
+          "5960"
+        ],
+        [
+          "2021",
+          "4500"
+        ],
+        [
+          "2022",
+          "3270"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la diferencia entre el año con mayor valor y el año con menor valor de \"Paquetes entregados (miles)\" en Irlanda?",
+    "options": [
+      "4050",
+      "4030",
+      "1340",
+      "4080",
+      "4010"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El máximo es 5960 y el mínimo 1930; la diferencia es 4030."
+  },
+  {
+    "id": "numerical-exp-121",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Tasas",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "650 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "25 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, la tasa de inscripción de un congreso es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "488 EUR",
+      "510 EUR",
+      "650 EUR",
+      "530 EUR",
+      "520 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Si x × 1.25 = 650, entonces x = 520 EUR. Restar el 25 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-122",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "generado",
+      "ratio",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Perfil",
+        "Plantilla en Dinamarca"
+      ],
+      "rows": [
+        [
+          "Personal técnico",
+          "200"
+        ],
+        [
+          "Personal administrativo",
+          "40"
+        ]
+      ]
+    },
+    "question": "¿Cuántos empleados técnicos hay por cada empleado administrativo?",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "4",
+      "10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "200 / 40 = 5."
+  },
+  {
+    "id": "numerical-exp-123",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Núremberg"
+      ],
+      "rows": [
+        [
+          "Población",
+          "475.000"
+        ],
+        [
+          "Casos registrados",
+          "24.700"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Núremberg?",
+    "options": [
+      "52",
+      "520",
+      "55",
+      "26",
+      "45"
+    ],
+    "correctAnswer": 0,
+    "explanation": "24.700 / 475.000 × 1.000 = 52 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-124",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "5600 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,12 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "60 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de un mes?",
+    "options": [
+      "842 EUR",
+      "702 EUR",
+      "792 EUR",
+      "732 EUR",
+      "672 EUR"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Cada mes cuesta 5600 × 0,12 + 60 = 732 EUR; por 1 mes(es), 732 EUR."
+  },
+  {
+    "id": "numerical-exp-125",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Educación",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Nivel de estudios",
+        "Estudiantes (miles)"
+      ],
+      "rows": [
+        [
+          "Primaria",
+          "10"
+        ],
+        [
+          "Secundaria",
+          "35"
+        ],
+        [
+          "Formación profesional",
+          "35"
+        ],
+        [
+          "Universidad",
+          "20"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"Formación profesional\"? (Redondea a un decimal.)",
+    "options": [
+      "20,0 %",
+      "35,0 %",
+      "31,2 %",
+      "39,5 %",
+      "44,2 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El total es 100; 35 / 100 = 35,0 %."
+  },
+  {
+    "id": "numerical-exp-126",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Consumo",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Burdeos"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "173.000"
+        ],
+        [
+          "Agua consumida (miles de m3)",
+          "47.402"
+        ]
+      ]
+    },
+    "question": "¿Cuántos litros de agua por habitante corresponden de media en Burdeos?",
+    "options": [
+      "548",
+      "298",
+      "274",
+      "246",
+      "137"
+    ],
+    "correctAnswer": 2,
+    "explanation": "47.402 equivale a 47.402.000 en la unidad pedida; dividido entre 173.000 habitantes da 274."
+  },
+  {
+    "id": "numerical-exp-127",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Empleo",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Eslovenia: Nuevos contratos"
+      ],
+      "rows": [
+        [
+          "2020",
+          "560"
+        ],
+        [
+          "2021",
+          "510"
+        ],
+        [
+          "2022",
+          "570"
+        ],
+        [
+          "2023",
+          "480"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Nuevos contratos\" en Eslovenia durante el periodo 2020-2023?",
+    "options": [
+      "530",
+      "580",
+      "540",
+      "520",
+      "555"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La suma es 2120; dividida entre 4 años da 530."
+  },
+  {
+    "id": "numerical-exp-128",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Tecnología",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "usuarios registrados (miles) en 2024 (Lituania)",
+          "150"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "20 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2026?",
+    "options": [
+      "252",
+      "180",
+      "210",
+      "194",
+      "216"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Aplicando 20 % dos veces: 150 × 1.20² = 216."
+  },
+  {
+    "id": "numerical-exp-129",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Cultura",
+    "tags": [
+      "CAST",
+      "generado",
+      "diferencia",
+      "lectura de tabla"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Valencia: Visitantes del museo"
+      ],
+      "rows": [
+        [
+          "2021",
+          "5470"
+        ],
+        [
+          "2022",
+          "2850"
+        ],
+        [
+          "2023",
+          "900"
+        ],
+        [
+          "2024",
+          "2050"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la diferencia entre el año con mayor valor y el año con menor valor de \"Visitantes del museo\" en Valencia?",
+    "options": [
+      "3420",
+      "4620",
+      "4590",
+      "4550",
+      "4570"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El máximo es 5470 y el mínimo 900; la diferencia es 4570."
+  },
+  {
+    "id": "numerical-exp-130",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Compras",
+    "tags": [
+      "CAST",
+      "generado",
+      "descuento",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Precio unitario (licencias de software)",
+          "176 EUR"
+        ],
+        [
+          "Unidades pedidas",
+          "25"
+        ],
+        [
+          "Descuento por volumen",
+          "15 %"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste total del pedido una vez aplicado el descuento?",
+    "options": [
+      "3740 EUR",
+      "5060 EUR",
+      "4070 EUR",
+      "4400 EUR",
+      "3916 EUR"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El bruto es 4400 EUR; con 15 % de descuento queda 3740 EUR."
+  },
+  {
+    "id": "numerical-exp-131",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Precios",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "828 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "20 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, el precio de un abono anual de transporte es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "690 EUR",
+      "828 EUR",
+      "680 EUR",
+      "662 EUR",
+      "700 EUR"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Si x × 1.20 = 828, entonces x = 690 EUR. Restar el 20 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-132",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "generado",
+      "ratio",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Perfil",
+        "Plantilla en Eslovenia"
+      ],
+      "rows": [
+        [
+          "Personal técnico",
+          "350"
+        ],
+        [
+          "Personal administrativo",
+          "70"
+        ]
+      ]
+    },
+    "question": "¿Cuántos empleados técnicos hay por cada empleado administrativo?",
+    "options": [
+      "4",
+      "7",
+      "6",
+      "10",
+      "5"
+    ],
+    "correctAnswer": 4,
+    "explanation": "350 / 70 = 5."
+  },
+  {
+    "id": "numerical-exp-133",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Burdeos"
+      ],
+      "rows": [
+        [
+          "Población",
+          "660.000"
+        ],
+        [
+          "Casos registrados",
+          "26.400"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Burdeos?",
+    "options": [
+      "20",
+      "43",
+      "36",
+      "40",
+      "400"
+    ],
+    "correctAnswer": 3,
+    "explanation": "26.400 / 660.000 × 1.000 = 40 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-134",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "6200 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,12 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "40 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de 6 meses?",
+    "options": [
+      "4684 EUR",
+      "4744 EUR",
+      "4704 EUR",
+      "4464 EUR",
+      "5410 EUR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cada mes cuesta 6200 × 0,12 + 40 = 784 EUR; por 6 mes(es), 4704 EUR."
+  },
+  {
+    "id": "numerical-exp-135",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Producción industrial",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "variación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Lituania: unidades producidas (miles)"
+      ],
+      "rows": [
+        [
+          "2020",
+          "800"
+        ],
+        [
+          "2021",
+          "600"
+        ]
+      ]
+    },
+    "question": "¿En qué porcentaje disminuyeron la producción en Lituania entre 2020 y 2021?",
+    "options": [
+      "25 %",
+      "22 %",
+      "33 %",
+      "20 %",
+      "50 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La variación es 200 sobre 800, es decir, 25 %."
+  },
+  {
+    "id": "numerical-exp-136",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Educación",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Nivel de estudios",
+        "Estudiantes (miles)"
+      ],
+      "rows": [
+        [
+          "Primaria",
+          "40"
+        ],
+        [
+          "Secundaria",
+          "45"
+        ],
+        [
+          "Formación profesional",
+          "45"
+        ],
+        [
+          "Universidad",
+          "60"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"Universidad\"? (Redondea a un decimal.)",
+    "options": [
+      "40,8 %",
+      "21,1 %",
+      "36,1 %",
+      "31,6 %",
+      "27,8 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El total es 190; 60 / 190 = 31,6 %."
+  },
+  {
+    "id": "numerical-exp-137",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Medio ambiente",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valencia"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "275.000"
+        ],
+        [
+          "Residuos generados (toneladas)",
+          "136.125"
+        ]
+      ]
+    },
+    "question": "¿Cuántos kg de residuos por habitante corresponden de media en Valencia?",
+    "options": [
+      "435",
+      "531",
+      "248",
+      "495",
+      "990"
+    ],
+    "correctAnswer": 3,
+    "explanation": "136.125 equivale a 136.125.000 en la unidad pedida; dividido entre 275.000 habitantes da 495."
+  },
+  {
+    "id": "numerical-exp-138",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Empleo",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Lituania: Nuevos contratos"
+      ],
+      "rows": [
+        [
+          "2020",
+          "1320"
+        ],
+        [
+          "2021",
+          "1440"
+        ],
+        [
+          "2022",
+          "1340"
+        ],
+        [
+          "2023",
+          "1460"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Nuevos contratos\" en Lituania durante el periodo 2020-2023?",
+    "options": [
+      "1415",
+      "1380",
+      "1400",
+      "1390",
+      "1480"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La suma es 5560; dividida entre 4 años da 1390."
+  },
+  {
+    "id": "numerical-exp-139",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Energía",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "potencia solar instalada (MW) en 2025 (Malta)",
+          "250"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "10 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2027?",
+    "options": [
+      "285",
+      "300",
+      "275",
+      "324",
+      "303"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Aplicando 10 % dos veces: 250 × 1.10² = 303."
+  },
+  {
+    "id": "numerical-exp-140",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Compras",
+    "tags": [
+      "CAST",
+      "generado",
+      "descuento",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Precio unitario (sillas ergonómicas)",
+          "125 EUR"
+        ],
+        [
+          "Unidades pedidas",
+          "40"
+        ],
+        [
+          "Descuento por volumen",
+          "15 %"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste total del pedido una vez aplicado el descuento?",
+    "options": [
+      "5750 EUR",
+      "4625 EUR",
+      "4250 EUR",
+      "4375 EUR",
+      "5000 EUR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El bruto es 5000 EUR; con 15 % de descuento queda 4250 EUR."
+  },
+  {
+    "id": "numerical-exp-141",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Alquiler",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "1170 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "50 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, el alquiler mensual de una oficina es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "1170 EUR",
+      "770 EUR",
+      "790 EUR",
+      "585 EUR",
+      "780 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Si x × 1.50 = 1170, entonces x = 780 EUR. Restar el 50 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-142",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "generado",
+      "ratio",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Perfil",
+        "Plantilla en Lituania"
+      ],
+      "rows": [
+        [
+          "Personal técnico",
+          "640"
+        ],
+        [
+          "Personal administrativo",
+          "160"
+        ]
+      ]
+    },
+    "question": "¿Cuántos empleados técnicos hay por cada empleado administrativo?",
+    "options": [
+      "4",
+      "6",
+      "5",
+      "3",
+      "8"
+    ],
+    "correctAnswer": 0,
+    "explanation": "640 / 160 = 4."
+  },
+  {
+    "id": "numerical-exp-143",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Presupuesto",
+    "tags": [
+      "CAST",
+      "generado",
+      "reparto proporcional"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Unidad A",
+          "40"
+        ],
+        [
+          "Unidad B",
+          "30"
+        ],
+        [
+          "Unidad C",
+          "40"
+        ]
+      ]
+    },
+    "question": "Un presupuesto de 8250 EUR se reparte entre las tres unidades de forma proporcional a su personal. ¿Cuánto recibe la Unidad A?",
+    "options": [
+      "2750 EUR",
+      "3000 EUR",
+      "2625 EUR",
+      "3375 EUR",
+      "2250 EUR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El total de personal es 110; la Unidad A representa 40/110 del total, es decir, 3000 EUR."
+  },
+  {
+    "id": "numerical-exp-144",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Gotemburgo"
+      ],
+      "rows": [
+        [
+          "Población",
+          "566.000"
+        ],
+        [
+          "Casos registrados",
+          "20.376"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Gotemburgo?",
+    "options": [
+      "18",
+      "34",
+      "42",
+      "360",
+      "36"
+    ],
+    "correctAnswer": 4,
+    "explanation": "20.376 / 566.000 × 1.000 = 36 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-145",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "3500 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,25 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "80 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de un mes?",
+    "options": [
+      "1035 EUR",
+      "1098 EUR",
+      "875 EUR",
+      "915 EUR",
+      "955 EUR"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Cada mes cuesta 3500 × 0,25 + 80 = 955 EUR; por 1 mes(es), 955 EUR."
+  },
+  {
+    "id": "numerical-exp-146",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Turismo",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "variación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Portugal: pernoctaciones (miles)"
+      ],
+      "rows": [
+        [
+          "2020",
+          "1690"
+        ],
+        [
+          "2021",
+          "1521"
+        ]
+      ]
+    },
+    "question": "¿En qué porcentaje disminuyeron las pernoctaciones en Portugal entre 2020 y 2021?",
+    "options": [
+      "5 %",
+      "7 %",
+      "20 %",
+      "18 %",
+      "10 %"
+    ],
+    "correctAnswer": 4,
+    "explanation": "La variación es 169 sobre 1690, es decir, 10 %."
+  },
+  {
+    "id": "numerical-exp-147",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Encuestas",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Medio de transporte",
+        "Encuestados"
+      ],
+      "rows": [
+        [
+          "Coche",
+          "35"
+        ],
+        [
+          "Transporte público",
+          "50"
+        ],
+        [
+          "Bicicleta",
+          "20"
+        ],
+        [
+          "A pie",
+          "10"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total representa la categoría \"Coche\"? (Redondea a un decimal.)",
+    "options": [
+      "34,9 %",
+      "43,5 %",
+      "30,4 %",
+      "39,6 %",
+      "26,6 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El total es 115; 35 / 115 = 30,4 %."
+  },
+  {
+    "id": "numerical-exp-148",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Medio ambiente",
+    "tags": [
+      "CAST",
+      "generado",
+      "per cápita",
+      "división"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Oporto"
+      ],
+      "rows": [
+        [
+          "Habitantes",
+          "318.000"
+        ],
+        [
+          "Residuos generados (toneladas)",
+          "68.370"
+        ]
+      ]
+    },
+    "question": "¿Cuántos kg de residuos por habitante corresponden de media en Oporto?",
+    "options": [
+      "177",
+      "430",
+      "108",
+      "270",
+      "215"
+    ],
+    "correctAnswer": 4,
+    "explanation": "68.370 equivale a 68.370.000 en la unidad pedida; dividido entre 318.000 habitantes da 215."
+  },
+  {
+    "id": "numerical-exp-149",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Vivienda",
+    "tags": [
+      "CAST",
+      "generado",
+      "media",
+      "promedio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Amberes: Viviendas iniciadas"
+      ],
+      "rows": [
+        [
+          "2020",
+          "2750"
+        ],
+        [
+          "2021",
+          "2870"
+        ],
+        [
+          "2022",
+          "2810"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue la media anual de \"Viviendas iniciadas\" en Amberes durante el periodo 2020-2022?",
+    "options": [
+      "2800",
+      "2880",
+      "2835",
+      "2810",
+      "2820"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La suma es 8430; dividida entre 3 años da 2810."
+  },
+  {
+    "id": "numerical-exp-150",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Tecnología",
+    "tags": [
+      "CAST",
+      "generado",
+      "proyección",
+      "interés compuesto"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "usuarios registrados (miles) en 2025 (Lituania)",
+          "570"
+        ],
+        [
+          "Crecimiento anual previsto",
+          "25 %"
+        ]
+      ]
+    },
+    "question": "Si el crecimiento anual previsto se mantiene constante, ¿qué valor alcanzará el indicador en 2027?",
+    "options": [
+      "891",
+      "922",
+      "872",
+      "713",
+      "855"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Aplicando 25 % dos veces: 570 × 1.25² = 891."
+  },
+  {
+    "id": "numerical-exp-151",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Precios",
+    "tags": [
+      "CAST",
+      "generado",
+      "porcentaje inverso"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Valor actual",
+          "600 EUR"
+        ],
+        [
+          "Incremento aplicado respecto al año anterior",
+          "25 %"
+        ]
+      ]
+    },
+    "question": "Tras aplicar el incremento indicado, el precio de un abono anual de transporte es el valor actual. ¿Cuál era su valor antes del incremento?",
+    "options": [
+      "450 EUR",
+      "480 EUR",
+      "600 EUR",
+      "470 EUR",
+      "490 EUR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Si x × 1.25 = 600, entonces x = 480 EUR. Restar el 25 % al valor actual es incorrecto."
+  },
+  {
+    "id": "numerical-exp-152",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "generado",
+      "ratio",
+      "proporción"
+    ],
+    "dataTable": {
+      "headers": [
+        "Perfil",
+        "Plantilla en Austria"
+      ],
+      "rows": [
+        [
+          "Personal técnico",
+          "165"
+        ],
+        [
+          "Personal administrativo",
+          "55"
+        ]
+      ]
+    },
+    "question": "¿Cuántos empleados técnicos hay por cada empleado administrativo?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "165 / 55 = 3."
+  },
+  {
+    "id": "numerical-exp-153",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Presupuesto",
+    "tags": [
+      "CAST",
+      "generado",
+      "reparto proporcional"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Unidad A",
+          "10"
+        ],
+        [
+          "Unidad B",
+          "40"
+        ],
+        [
+          "Unidad C",
+          "10"
+        ]
+      ]
+    },
+    "question": "Un presupuesto de 4020 EUR se reparte entre las tres unidades de forma proporcional a su personal. ¿Cuánto recibe la Unidad B?",
+    "options": [
+      "2345 EUR",
+      "670 EUR",
+      "2680 EUR",
+      "1340 EUR",
+      "3015 EUR"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El total de personal es 60; la Unidad B representa 40/60 del total, es decir, 2680 EUR."
+  },
+  {
+    "id": "numerical-exp-154",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Estadística social",
+    "tags": [
+      "CAST",
+      "generado",
+      "tasa",
+      "incidencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Gotemburgo"
+      ],
+      "rows": [
+        [
+          "Población",
+          "623.000"
+        ],
+        [
+          "Casos registrados",
+          "34.265"
+        ]
+      ]
+    },
+    "question": "¿Cuántos casos registrados hay por cada 1.000 habitantes en Gotemburgo?",
+    "options": [
+      "28",
+      "550",
+      "48",
+      "55",
+      "60"
+    ],
+    "correctAnswer": 3,
+    "explanation": "34.265 / 623.000 × 1.000 = 55 casos por mil habitantes."
+  },
+  {
+    "id": "numerical-exp-155",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Costes operativos",
+    "tags": [
+      "CAST",
+      "generado",
+      "coste",
+      "multiplicación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Consumo eléctrico mensual",
+          "5100 kWh"
+        ],
+        [
+          "Precio por kWh",
+          "0,15 EUR"
+        ],
+        [
+          "Cuota fija mensual",
+          "100 EUR"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el coste eléctrico total de un mes?",
+    "options": [
+      "765 EUR",
+      "865 EUR",
+      "815 EUR",
+      "995 EUR",
+      "965 EUR"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cada mes cuesta 5100 × 0,15 + 100 = 865 EUR; por 1 mes(es), 865 EUR."
+  }
+]

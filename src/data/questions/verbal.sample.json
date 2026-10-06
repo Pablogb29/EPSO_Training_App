@@ -1,0 +1,206 @@
+[
+  {
+    "id": "verbal-001",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Medio ambiente",
+    "tags": ["biodiversidad", "oficial-epso"],
+    "passage": "Les especies invasoras, como el mejillón cebra en los Estados Unidos o el conejo en Australia, son organismos vivos que han sido transportados desde su hábitat de origen y se han desarrollado en nuevos entornos. Debido al considerable aumento de la movilidad internacional de seres humanos y mercancías que se ha registrado en los últimos cincuenta años, las especies invasoras están causando daños sin precedentes en el medio ambiente, pues, por lo general, sus predadores naturales, que han evolucionado con ellas y que controlan su población en su hábitat de origen, no están presentes en su nuevo entorno. Las especies autóctonas, por su parte, pueden ser incapaces de rivalizar para acceder a recursos vitales para ellas y pueden verse abocadas, por tanto, a la extinción. De hecho, las especies invasoras constituyen ya, después de la destrucción del hábitat, la segunda causa de pérdida de biodiversidad.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "La pérdida de biodiversidad causada por las especies invasoras es hoy más importante que nunca.",
+      "El mejillón cebra no tiene predador en los EE.UU.",
+      "Las especies invasoras solo constituyen un problema desde hace cincuenta años.",
+      "Las especies autóctonas están abocadas a la extinción porque no dependen de los mismos recursos que las invasoras."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El texto vincula el aumento de la movilidad en los últimos cincuenta años con daños «sin precedentes». No afirma que el mejillón carezca totalmente de predadores en EE.UU., ni que el problema exista solo desde hace cincuenta años, ni que las autóctonas no compitan por los mismos recursos."
+  },
+  {
+    "id": "verbal-002",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Cocina",
+    "tags": ["procedimiento", "oficial-epso"],
+    "passage": "Calentar el horno previamente y medir y combinar los ingredientes con precisión son los factores clave para hacer un pastel perfecto. Primero, calentar el horno y luego batir el azúcar con la mantequilla hasta que se mezclen totalmente. A continuación, añadir una masa, compuesta de leche entera, huevos y extracto de vainilla. Si se prefiere, en lugar de leche entera puede utilizarse leche descremada pero entonces habrá que utilizar más mantequilla al principio. Por último, una vez integrada la masa en la mezcla, añadir la harina y una cucharadita de levadura en polvo. La levadura en polvo es necesaria para que suba el pastel, pero cuánto subirá viene determinado por la calidad del proceso de mezclado, las proporciones de los ingredientes y la temperatura del horno.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Hay tres factores que determinan cuánto subirá un pastel.",
+      "Cuanta más levadura en polvo se ponga en la mezcla, más subirá el pastel.",
+      "La mantequilla normalmente se pone dos veces en la receta: una vez al principio, cuando se bate con el azúcar, y después al hacer la masa.",
+      "La masa utilizada para el pastel debe hacerse con leche entera, huevos y extracto de vainilla."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El pasaje enumera tres factores: calidad del mezclado, proporciones de ingredientes y temperatura del horno. No dice que más levadura implique más subida, ni que la mantequilla se añada dos veces, ni que la leche entera sea obligatoria."
+  },
+  {
+    "id": "verbal-003",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Tradiciones",
+    "tags": ["cultura", "oficial-epso"],
+    "passage": "La Pascua es una fiesta cristiana que conmemora la resurrección de Jesús. Sin embargo, muchas de sus tradiciones tienen raíces paganas. El nombre «Pascua» proviene de Eostre, diosa anglosajona de la primavera. Los huevos de Pascua y los conejos, símbolos de fertilidad, se incorporaron posteriormente a las celebraciones cristianas. La fecha de Pascua varía cada año porque se calcula en función del calendario lunar, cayendo normalmente entre finales de marzo y abril.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "La Pascua es principalmente una fiesta pagana.",
+      "La Pascua cae cada año alrededor del 21 de marzo.",
+      "Algunas tradiciones de Pascua tienen orígenes anteriores al cristianismo.",
+      "El conejo de Pascua fue inventado en el siglo XX."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El texto indica que muchas tradiciones tienen raíces paganas, pero no que la Pascua sea «principalmente» pagana. La fecha varía y no se fija el 21 de marzo; el conejo se describe como símbolo de fertilidad incorporado después, no como invención reciente."
+  },
+  {
+    "id": "verbal-004",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Transporte",
+    "tags": ["infraestructura"],
+    "passage": "El tren de alta velocidad reduce el tiempo de viaje entre grandes ciudades, pero requiere vías dedicadas y una inversión inicial muy elevada. En muchos países europeos, los servicios regionales de cercanías comparten vías con trenes de mercancías, lo que puede provocar retrasos. Algunos gobiernos han optado por privatizar operadores ferroviarios con el objetivo de aumentar la eficiencia, aunque los críticos señalan que ello puede fragmentar la coordinación entre líneas.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "El tren de alta velocidad puede utilizar las mismas vías que los trenes de cercanías sin adaptación.",
+      "La privatización de operadores ferroviarios siempre mejora la puntualidad de todos los servicios.",
+      "Compartir vías entre cercanías y mercancías puede contribuir a retrasos.",
+      "La inversión inicial en alta velocidad es generalmente baja."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El pasaje indica que compartir vías puede provocar retrasos. La alta velocidad requiere vías dedicadas e inversión elevada; la privatización es debatida, no presentada como solución universal."
+  },
+  {
+    "id": "verbal-005",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Salud pública",
+    "tags": ["epidemiología"],
+    "passage": "Las campañas de vacunación masiva han reducido drásticamente enfermedades como la poliomielitis y el sarampión en muchas regiones. No obstante, la vacunación no garantiza inmunidad al cien por cien en todos los individuos vacunados. Cuando la cobertura vacunal desciende por debajo de ciertos umbrales, reaparece el riesgo de brotes que afectan también a personas vacunadas, debido al menor efecto de protección colectiva.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Una persona vacunada nunca puede contraer la enfermedad objetivo.",
+      "La caída de la cobertura vacunal puede aumentar el riesgo de brotes.",
+      "La poliomielitis no ha disminuido gracias a las vacunas.",
+      "La inmunidad colectiva solo protege a quienes no han sido vacunados."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El texto señala que por debajo de ciertos umbrales de cobertura reaparece el riesgo de brotes. Admite que la vacunación no es 100 % eficaz en todos los individuos y que la protección colectiva también beneficia a vacunados cuando la cobertura es alta."
+  },
+  {
+    "id": "verbal-006",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Arqueología",
+    "tags": ["historia"],
+    "passage": "En 1922, Howard Carter descubrió la tumba de Tutankamón casi intacta en el Valle de los Reyes. A diferencia de muchas tumbas saqueadas, conservaba objetos funerarios de oro y joyas que aportaron información sobre la vida en el Egipto faraónico. Las excavaciones arqueológicas modernas documentan los hallazgos con fotografía y registro digital antes de mover los objetos.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "La tumba de Tutankamón fue encontrada ya vacía por los arqueólogos.",
+      "El descubrimiento aportó información sobre el Egipto faraónico gracias a objetos conservados.",
+      "Howard Carter excavó exclusivamente fuera del Valle de los Reyes.",
+      "Las excavaciones actuales no utilizan registro fotográfico."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El pasaje destaca que la tumba estaba casi intacta y que los objetos aportaron información. Fue hallada en el Valle de los Reyes y las excavaciones modernas sí documentan con fotografía."
+  },
+  {
+    "id": "verbal-007",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Economía",
+    "tags": ["comercio"],
+    "passage": "La inflación mide la subida generalizada de precios en una economía durante un periodo. Los bancos centrales suelen elevar los tipos de interés para contener la inflación elevada, lo que encarece el crédito y puede ralentizar el consumo. Sin embargo, subir demasiado rápido los tipos también puede aumentar el desempleo si las empresas reducen la inversión.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Subir tipos de interés siempre reduce el desempleo de inmediato.",
+      "La inflación describe una bajada generalizada de precios.",
+      "Encarecer el crédito puede ralentizar el consumo.",
+      "Los bancos centrales nunca modifican los tipos de interés."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El texto indica que tipos más altos encarecen el crédito y pueden ralentizar el consumo. Subir tipos demasiado rápido puede aumentar el desempleo; la inflación es subida, no bajada de precios."
+  },
+  {
+    "id": "verbal-008",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Meteorología",
+    "tags": ["clima"],
+    "passage": "Los ciclones tropicales se forman sobre aguas oceánicas cálidas cuando la humedad ascende y se condensa, liberando energía. Se debilitan al avanzar sobre tierra firme porque pierden el suministro de calor y humedad del mar. La intensidad máxima no depende solo de la temperatura superficial: la cizalladura del viento en altura puede impedir que el sistema se organice.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Un ciclón tropical se intensifica indefinidamente sobre tierra firme.",
+      "La cizalladura del viento puede impedir la organización de un ciclón.",
+      "La humedad no interviene en la formación de ciclones tropicales.",
+      "Todos los ciclones alcanzan la misma intensidad máxima."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El pasaje menciona explícitamente que la cizalladura del viento puede impedir la organización. Los ciclones se debilitan sobre tierra y la humedad sí interviene en su formación."
+  },
+  {
+    "id": "verbal-009",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Educación",
+    "tags": ["pedagogía"],
+    "passage": "El aprendizaje cooperativo agrupa a estudiantes en equipos con objetivos comunes. Investigaciones indican que puede mejorar la comprensión cuando los miembros explican conceptos entre sí, pero su eficacia depende de la estructura del grupo y de la claridad de las tareas. No sustituye automáticamente la necesidad de instrucción directa en contenidos completamente nuevos.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "El aprendizaje cooperativo elimina por completo la instrucción directa.",
+      "Su eficacia puede depender de cómo se organicen las tareas y los grupos.",
+      "Los estudiantes nunca mejoran la comprensión explicándose mutuamente.",
+      "Solo funciona en asignaturas de ciencias experimentales."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El texto indica que la eficacia depende de la estructura del grupo y de las tareas, y que no sustituye automáticamente la instrucción directa en contenidos nuevos."
+  },
+  {
+    "id": "verbal-010",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Astronomía",
+    "tags": ["ciencia"],
+    "passage": "La Luna no emite luz propia: refleja la luz del Sol. Sus fases se deben a la posición relativa entre la Luna, la Tierra y el Sol a lo largo del mes. Un eclipse lunar ocurre cuando la Tierra se interpone entre el Sol y la Luna, proyectando su sombra sobre la superficie lunar.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Las fases lunares se deben a nubes que cubren la Luna.",
+      "La Luna genera su propia luz como el Sol.",
+      "Un eclipse lunar sucede cuando la Tierra bloquea la luz solar hacia la Luna.",
+      "Los eclipses lunares ocurren cada noche."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El pasaje define el eclipse lunar como la interposición de la Tierra entre Sol y Luna. Las fases dependen de posiciones relativas; la Luna refleja luz solar, no la emite."
+  },
+  {
+    "id": "verbal-011",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Urbanismo",
+    "tags": ["sociedad"],
+    "passage": "Las ciudades peatonales restringen el tráfico motorizado en calles centrales para mejorar la calidad del aire y favorecer el comercio local. Los detractores advierten de posibles desvíos de tráfico a barrios periféricos si no se planifican rutas alternativas. Varios municipios combinan zonas peatonales con acceso limitado para reparto de mercancías en horarios concretos.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Todas las ciudades peatonales prohíben cualquier vehículo en todo momento.",
+      "Algunos municipios permiten acceso limitado para repartos en ciertos horarios.",
+      "Las zonas peatonales siempre empeoran la calidad del aire del centro urbano.",
+      "Los detractores niegan que pueda producirse desvío de tráfico."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El texto indica que algunos municipios combinan peatonalización con acceso limitado para repartos en horarios concretos. Los detractores advierten del desvío de tráfico, no lo niegan."
+  },
+  {
+    "id": "verbal-012",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Literatura",
+    "tags": ["cultura"],
+    "passage": "Las bibliotecas públicas prestan libros gratuitamente y ofrecen acceso a internet, actividades infantiles y archivos locales. En la era digital, muchas han ampliado sus servicios con préstamo de libros electrónicos, aunque no todos los títulos están disponibles en formato digital por restricciones de licencia de las editoriales.",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Las bibliotecas públicas solo prestan libros en papel.",
+      "Todos los libros impresos están disponibles automáticamente como e-books en préstamo.",
+      "Algunos títulos digitales pueden no estar disponibles por restricciones de licencia.",
+      "Las bibliotecas públicas cobran por el préstamo estándar de libros."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El pasaje señala que no todos los títulos están en digital por restricciones de licencia. También menciona préstamo gratuito y otros servicios más allá del papel."
+  }
+]

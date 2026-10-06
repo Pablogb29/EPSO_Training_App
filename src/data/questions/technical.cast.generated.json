@@ -1,0 +1,2096 @@
+[
+  {
+    "id": "technical-cast-001",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "IAM",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "RBAC",
+      "mínimo privilegio"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué ventaja aporta asignar permisos mediante roles en lugar de permisos directos a cada usuario?",
+    "options": [
+      "Elimina la necesidad de autenticar a los usuarios.",
+      "Permite compartir contraseñas entre miembros del mismo equipo.",
+      "Impide que existan cuentas privilegiadas en la organización.",
+      "Reduce errores y facilita revisar permisos según funciones homogéneas."
+    ],
+    "correctAnswer": 3,
+    "explanation": "RBAC agrupa permisos por rol, lo que simplifica altas, bajas, cambios de puesto y revisiones periódicas."
+  },
+  {
+    "id": "technical-cast-002",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "IAM",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "MFA",
+      "administradores"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué control debe priorizarse para cuentas administrativas expuestas a acceso remoto?",
+    "options": [
+      "Autenticación multifactor resistente al phishing y revisión periódica de privilegios.",
+      "Contraseñas compartidas para acelerar la respuesta a incidentes.",
+      "Desactivar los registros de acceso para reducir ruido operativo.",
+      "Permitir acceso permanente desde cualquier país sin validación adicional."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las cuentas administrativas requieren controles reforzados porque su compromiso tiene alto impacto."
+  },
+  {
+    "id": "technical-cast-003",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Federación de identidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SAML",
+      "SSO"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué elemento es esencial para confiar en una aserción SAML recibida de un proveedor de identidad?",
+    "options": [
+      "Omitir la validación de audiencia cuando el canal usa HTTPS.",
+      "Validar la firma, el emisor, la audiencia y la vigencia temporal de la aserción.",
+      "Aceptar cualquier aserción si el nombre del usuario parece correcto.",
+      "Convertir la aserción en texto plano y guardarla en el navegador."
+    ],
+    "correctAnswer": 1,
+    "explanation": "SAML exige validar firma y claims críticos para evitar suplantación o reutilización indebida."
+  },
+  {
+    "id": "technical-cast-004",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Federación de identidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "OIDC",
+      "OAuth2"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿para qué se usa principalmente un ID token en OpenID Connect?",
+    "options": [
+      "Para sustituir todos los registros de auditoría de una aplicación.",
+      "Para cifrar automáticamente la base de datos del proveedor.",
+      "Para transportar información de autenticación sobre el usuario hacia el cliente.",
+      "Para conceder permisos de red a un cortafuegos perimetral."
+    ],
+    "correctAnswer": 2,
+    "explanation": "OIDC añade una capa de autenticación sobre OAuth 2.0; el ID token representa la autenticación del usuario."
+  },
+  {
+    "id": "technical-cast-005",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Federación de identidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "OAuth2",
+      "autorización"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué describe mejor un access token de OAuth 2.0?",
+    "options": [
+      "Una prueba universal de identidad válida para cualquier aplicación.",
+      "Una copia cifrada de la contraseña del usuario final.",
+      "Un certificado raíz que firma todos los dominios internos.",
+      "Un artefacto usado para autorizar acceso a recursos concretos durante un tiempo limitado."
+    ],
+    "correctAnswer": 3,
+    "explanation": "OAuth 2.0 se centra en autorización delegada; el access token no debe tratarse como contraseña ni identidad universal."
+  },
+  {
+    "id": "technical-cast-006",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Directorios",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "LDAP",
+      "Active Directory"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿cuál es una función habitual de LDAP en entornos corporativos?",
+    "options": [
+      "Consultar y organizar identidades, grupos y atributos en un directorio.",
+      "Sustituir el cifrado TLS de todas las comunicaciones web.",
+      "Calcular automáticamente el riesgo jurídico de un contrato.",
+      "Bloquear ataques DDoS a nivel de proveedor de internet."
+    ],
+    "correctAnswer": 0,
+    "explanation": "LDAP es un protocolo de acceso a directorios y se usa con frecuencia para identidades y grupos."
+  },
+  {
+    "id": "technical-cast-007",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Acceso privilegiado",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "PAM",
+      "just-in-time"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué práctica reduce mejor el riesgo de privilegios administrativos permanentes?",
+    "options": [
+      "Usar una cuenta genérica sin trazabilidad para tareas urgentes.",
+      "Conceder elevación temporal aprobada, registrada y limitada al tiempo necesario.",
+      "Mantener privilegios de administrador local en todos los equipos de oficina.",
+      "Guardar claves maestras en una hoja de cálculo compartida."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El acceso privilegiado just-in-time reduce exposición y mejora trazabilidad."
+  },
+  {
+    "id": "technical-cast-008",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Criptografía",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "PKI",
+      "certificados"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿por qué se valida la cadena de certificación al establecer una conexión TLS?",
+    "options": [
+      "Para eliminar la necesidad de renovar certificados caducados.",
+      "Para convertir automáticamente HTTP en una red privada virtual.",
+      "Para comprobar que el certificado del servidor deriva de una autoridad de confianza.",
+      "Para medir el ancho de banda disponible entre cliente y servidor."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La confianza en TLS depende de una cadena válida hasta una CA reconocida y de comprobaciones de nombre y vigencia."
+  },
+  {
+    "id": "technical-cast-009",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Criptografía",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "TLS",
+      "datos en tránsito"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué protege principalmente TLS cuando está correctamente configurado?",
+    "options": [
+      "La disponibilidad física del centro de datos.",
+      "La eliminación automática de vulnerabilidades en la aplicación.",
+      "La exactitud de los datos introducidos por usuarios autorizados.",
+      "La confidencialidad e integridad de datos en tránsito y la autenticidad del servidor."
+    ],
+    "correctAnswer": 3,
+    "explanation": "TLS protege comunicaciones en tránsito, pero no corrige fallos lógicos ni garantiza disponibilidad."
+  },
+  {
+    "id": "technical-cast-010",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Criptografía",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hash",
+      "integridad"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué propiedad tiene una función hash criptográfica segura?",
+    "options": [
+      "Produce una huella de tamaño fijo y debe ser computacionalmente difícil encontrar colisiones útiles.",
+      "Permite recuperar el texto original si se conoce la clave pública.",
+      "Cifra ficheros grandes de forma reversible sin usar claves.",
+      "Garantiza que un mensaje no contiene datos personales."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los hashes se usan para integridad y huellas; no son cifrado reversible."
+  },
+  {
+    "id": "technical-cast-011",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Criptografía",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "firma digital"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué aporta una firma digital válida sobre un documento?",
+    "options": [
+      "Reducción del tamaño del documento sin pérdida de calidad.",
+      "Integridad del documento y vinculación con la clave privada del firmante.",
+      "Traducción automática del documento a todas las lenguas oficiales.",
+      "Anonimización irreversible de todos los datos personales incluidos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La firma digital permite detectar modificaciones y asociar la firma a una clave privada concreta."
+  },
+  {
+    "id": "technical-cast-012",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Criptografía",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "cifrado en reposo"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué escenario mitiga principalmente el cifrado de disco en un portátil corporativo?",
+    "options": [
+      "Errores de cálculo en hojas de presupuesto.",
+      "Phishing que convence al usuario para entregar su contraseña.",
+      "Lectura de datos si el equipo se pierde o es robado estando apagado.",
+      "Ejecución de macros maliciosas por un usuario autenticado."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El cifrado en reposo protege datos almacenados, especialmente ante pérdida física del dispositivo."
+  },
+  {
+    "id": "technical-cast-013",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Gestión de claves",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "rotación",
+      "KMS"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿por qué conviene rotar claves criptográficas según una política definida?",
+    "options": [
+      "Para evitar diseñar controles de acceso sobre quién puede usar la clave.",
+      "Para que las claves puedan compartirse por correo sin cifrado.",
+      "Para sustituir la necesidad de copias de seguridad.",
+      "Para limitar el impacto temporal si una clave se ve comprometida."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La rotación no sustituye otros controles, pero reduce exposición si una clave acaba comprometida."
+  },
+  {
+    "id": "technical-cast-014",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Gestión de claves",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "HSM",
+      "claves privadas"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué beneficio aporta un HSM en la protección de claves privadas críticas?",
+    "options": [
+      "Mantener operaciones criptográficas en un entorno endurecido que dificulta extraer la clave.",
+      "Aumentar automáticamente el espacio disponible en la red.",
+      "Traducir protocolos antiguos a versiones compatibles con móviles.",
+      "Eliminar la necesidad de definir responsables de custodia."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Un HSM protege claves y operaciones sensibles mediante hardware y controles específicos."
+  },
+  {
+    "id": "technical-cast-015",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Monitorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SIEM",
+      "correlación"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿cuál es el objetivo principal de un SIEM?",
+    "options": [
+      "Garantizar que ningún usuario pueda equivocarse al introducir datos.",
+      "Centralizar, normalizar y correlacionar eventos para detectar patrones relevantes.",
+      "Reemplazar todos los controles preventivos de red.",
+      "Escribir automáticamente código seguro para las aplicaciones."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un SIEM ayuda a detectar y analizar actividad mediante eventos de múltiples fuentes."
+  },
+  {
+    "id": "technical-cast-016",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Monitorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "EDR",
+      "endpoints"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué capacidad se espera de una solución EDR moderna?",
+    "options": [
+      "Sustituir todos los contratos de soporte con proveedores.",
+      "Firmar digitalmente normativas internas sin intervención humana.",
+      "Recoger telemetría de endpoints, detectar comportamientos sospechosos y apoyar contención.",
+      "Gestionar exclusivamente el inventario de mobiliario de oficina."
+    ],
+    "correctAnswer": 2,
+    "explanation": "EDR está orientado a endpoints: detección, investigación y respuesta en equipos y servidores."
+  },
+  {
+    "id": "technical-cast-017",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Redes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "IDS",
+      "IPS"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué diferencia básica existe entre IDS e IPS?",
+    "options": [
+      "Un IDS cifra discos y un IPS firma contratos.",
+      "Un IDS solo se usa para correo y un IPS solo para impresoras.",
+      "No existe diferencia operativa entre ambos conceptos.",
+      "Un IDS detecta y alerta; un IPS puede bloquear tráfico según la política configurada."
+    ],
+    "correctAnswer": 3,
+    "explanation": "IDS es principalmente detector; IPS se sitúa en línea o con capacidad de prevención."
+  },
+  {
+    "id": "technical-cast-018",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Respuesta a incidentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "contención",
+      "ransomware"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ante un equipo con indicios sólidos de ransomware activo, ¿qué acción inicial es más adecuada?",
+    "options": [
+      "Aislar el equipo de la red preservando evidencias y escalar al equipo de respuesta.",
+      "Formatear de inmediato todos los servidores sin recopilar información.",
+      "Enviar una captura del rescate a todo el personal externo.",
+      "Ignorar el aviso hasta el siguiente ciclo mensual de parches."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La contención temprana limita propagación, pero debe coordinarse con preservación de evidencias."
+  },
+  {
+    "id": "technical-cast-019",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Respuesta a incidentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "evidencias",
+      "forense"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿por qué se documenta la cadena de custodia durante una investigación técnica?",
+    "options": [
+      "Para evitar que la evidencia se almacene cifrada.",
+      "Para demostrar quién accedió a la evidencia, cuándo y bajo qué condiciones.",
+      "Para aumentar la velocidad de descarga de los registros.",
+      "Para sustituir el análisis técnico por una aprobación verbal."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La cadena de custodia protege la integridad y credibilidad de la evidencia."
+  },
+  {
+    "id": "technical-cast-020",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CVSS",
+      "priorización"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿para qué se usa normalmente CVSS?",
+    "options": [
+      "Para traducir automáticamente logs de red.",
+      "Para calcular la velocidad de una línea de fibra.",
+      "Para puntuar la severidad técnica de vulnerabilidades y apoyar la priorización.",
+      "Para conceder permisos de vacaciones al personal técnico."
+    ],
+    "correctAnswer": 2,
+    "explanation": "CVSS proporciona una escala común; debe combinarse con contexto de exposición y criticidad del activo."
+  },
+  {
+    "id": "technical-cast-021",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "parches",
+      "exposición"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, si hay dos vulnerabilidades críticas, una en un portal expuesto a internet y otra en un laboratorio aislado, ¿qué criterio de priorización es razonable?",
+    "options": [
+      "Priorizar siempre el activo menos expuesto porque es más fácil de parchear.",
+      "No aplicar ningún parche hasta que todas las áreas estén de acuerdo.",
+      "Ignorar la exposición externa si ambas tienen el mismo nombre comercial.",
+      "Priorizar el portal expuesto si el resto de condiciones de severidad y explotación son comparables."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La exposición externa aumenta probabilidad de explotación y suele elevar la prioridad."
+  },
+  {
+    "id": "technical-cast-022",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "escaneo",
+      "inventario"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué requisito previo mejora la utilidad de un programa de gestión de vulnerabilidades?",
+    "options": [
+      "Mantener un inventario fiable de activos, propietarios y criticidad.",
+      "Escanear solo activos desconocidos para evitar resultados repetidos.",
+      "Eliminar etiquetas de criticidad para que todos los sistemas parezcan iguales.",
+      "Ejecutar escaneos sin informar a nadie aunque afecten a producción crítica."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sin inventario, es difícil interpretar hallazgos, asignar propietarios y priorizar correcciones."
+  },
+  {
+    "id": "technical-cast-023",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Continuidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "backup",
+      "3-2-1"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué expresa la regla 3-2-1 de copias de seguridad?",
+    "options": [
+      "Tres firewalls se sustituyen por dos VLAN y una impresora segura.",
+      "Mantener tres copias, en dos soportes distintos, con una copia fuera del entorno principal.",
+      "Tres usuarios comparten dos contraseñas y una cuenta administrativa.",
+      "Tres incidentes se resuelven en dos días con un solo informe final."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La regla 3-2-1 busca resiliencia ante fallos, borrado, ransomware o desastre físico."
+  },
+  {
+    "id": "technical-cast-024",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Continuidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "RTO",
+      "disponibilidad"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué representa el RTO de un servicio?",
+    "options": [
+      "El número de administradores asignados a un turno.",
+      "El porcentaje de registros que deben anonimizarse.",
+      "El tiempo máximo objetivo para restaurar el servicio tras una interrupción.",
+      "La cantidad máxima de datos que puede perderse medida en tiempo."
+    ],
+    "correctAnswer": 2,
+    "explanation": "RTO se centra en tiempo de recuperación del servicio; RPO se centra en pérdida de datos tolerable."
+  },
+  {
+    "id": "technical-cast-025",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Continuidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "RPO",
+      "copias"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué representa el RPO de un sistema?",
+    "options": [
+      "La duración máxima de una reunión de coordinación.",
+      "El número de intentos permitidos antes de bloquear una cuenta.",
+      "La velocidad mínima de un enlace de red interno.",
+      "La antigüedad máxima aceptable de los datos restaurados tras un incidente."
+    ],
+    "correctAnswer": 3,
+    "explanation": "RPO define cuánta pérdida de datos, medida en tiempo, puede tolerarse."
+  },
+  {
+    "id": "technical-cast-026",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Continuidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "restauración",
+      "pruebas"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿por qué no basta con comprobar que una copia de seguridad se creó sin error?",
+    "options": [
+      "Porque debe verificarse que puede restaurarse en tiempo y forma cuando sea necesario.",
+      "Porque las copias correctas siempre deben eliminarse tras crearse.",
+      "Porque una copia creada sin error nunca contiene datos útiles.",
+      "Porque restaurar datos está prohibido en cualquier entorno de prueba."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La utilidad real de una copia se confirma con pruebas de restauración."
+  },
+  {
+    "id": "technical-cast-027",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Redes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "segmentación",
+      "movimiento lateral"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué objetivo tiene la segmentación de red en seguridad?",
+    "options": [
+      "Sustituir por completo la gestión de identidades.",
+      "Limitar el movimiento lateral y aplicar controles diferenciados entre zonas.",
+      "Garantizar que todos los equipos comparten la misma contraseña local.",
+      "Hacer que los logs de seguridad desaparezcan al cerrar sesión."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La segmentación reduce alcance de compromisos y permite políticas específicas por zona."
+  },
+  {
+    "id": "technical-cast-028",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Redes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "VLAN",
+      "segmentación"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué precaución conviene recordar sobre las VLAN?",
+    "options": [
+      "Las VLAN sustituyen la necesidad de autenticar administradores.",
+      "Una VLAN impide cualquier ataque de aplicación web.",
+      "Ayudan a separar tráfico, pero deben acompañarse de controles de capa 3/4 y administración segura.",
+      "Una VLAN cifra automáticamente todo el tráfico extremo a extremo."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las VLAN son una herramienta de segmentación, no una solución completa por sí mismas."
+  },
+  {
+    "id": "technical-cast-029",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Redes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "firewall",
+      "mínimo privilegio"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué regla general refleja mejor una política de firewall restrictiva?",
+    "options": [
+      "Permitir todo el tráfico para simplificar el soporte.",
+      "Usar reglas temporales sin fecha de caducidad ni propietario.",
+      "Abrir puertos administrativos a internet para evitar VPN.",
+      "Denegar por defecto y permitir solo flujos justificados y documentados."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La política restrictiva aplica mínimo privilegio a flujos de red."
+  },
+  {
+    "id": "technical-cast-030",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "DNS",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "DNSSEC",
+      "integridad"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué aporta DNSSEC cuando está correctamente desplegado?",
+    "options": [
+      "Autenticación de origen e integridad de respuestas DNS mediante firmas.",
+      "Cifrado del contenido de todas las páginas web visitadas.",
+      "Bloqueo automático de cualquier correo de phishing.",
+      "Sustitución de certificados TLS para servidores web."
+    ],
+    "correctAnswer": 0,
+    "explanation": "DNSSEC protege la integridad/autenticidad de respuestas DNS; no cifra contenido web."
+  },
+  {
+    "id": "technical-cast-031",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Acceso remoto",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "VPN",
+      "túnel"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué función cumple una VPN corporativa bien configurada?",
+    "options": [
+      "Convertir cualquier dispositivo personal en equipo gestionado automáticamente.",
+      "Crear un canal cifrado y autenticado hacia recursos autorizados de la organización.",
+      "Hacer anónimo todo el trabajo del usuario frente al propio empleador.",
+      "Eliminar la necesidad de aplicar parches en equipos remotos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La VPN protege el canal de acceso, pero no sustituye gestión de dispositivos ni parches."
+  },
+  {
+    "id": "technical-cast-032",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Arquitectura",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Zero Trust",
+      "verificación"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué principio resume mejor Zero Trust?",
+    "options": [
+      "Eliminar todos los controles para mejorar la experiencia de usuario.",
+      "Conceder privilegios permanentes después del primer inicio de sesión.",
+      "Verificar explícitamente cada acceso según identidad, contexto, dispositivo y riesgo.",
+      "Confiar siempre en cualquier sistema dentro de la red interna."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Zero Trust evita confianza implícita basada solo en ubicación de red."
+  },
+  {
+    "id": "technical-cast-033",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Aplicaciones web",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "WAF",
+      "HTTP"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿para qué se usa un WAF?",
+    "options": [
+      "Para reparar automáticamente todos los defectos del código fuente.",
+      "Para reemplazar copias de seguridad de bases de datos.",
+      "Para autenticar físicamente visitantes en recepción.",
+      "Para filtrar y monitorizar tráfico HTTP/HTTPS hacia aplicaciones web según reglas de seguridad."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Un WAF puede mitigar ciertos ataques web, aunque no sustituye desarrollo seguro."
+  },
+  {
+    "id": "technical-cast-034",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Aplicaciones web",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "inyección",
+      "OWASP"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué medida reduce el riesgo de inyección SQL?",
+    "options": [
+      "Usar consultas parametrizadas y validación adecuada de entradas.",
+      "Concatenar directamente texto recibido del usuario en consultas.",
+      "Dar privilegios de administrador a la cuenta de base de datos de la aplicación.",
+      "Mostrar mensajes de error completos con trazas internas al usuario final."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las consultas parametrizadas separan código y datos, reduciendo inyección."
+  },
+  {
+    "id": "technical-cast-035",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Aplicaciones web",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "XSS",
+      "codificación"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué control ayuda a prevenir XSS reflejado o almacenado?",
+    "options": [
+      "Permitir HTML arbitrario de usuarios sin filtrado ni codificación.",
+      "Codificar la salida según el contexto y aplicar una política CSP adecuada.",
+      "Guardar contraseñas en texto claro para acelerar el inicio de sesión.",
+      "Desactivar HTTPS en páginas internas."
+    ],
+    "correctAnswer": 1,
+    "explanation": "XSS se mitiga controlando cómo se interpreta contenido no confiable en el navegador."
+  },
+  {
+    "id": "technical-cast-036",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Aplicaciones web",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CSRF",
+      "sesiones"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué defensa es típica frente a CSRF?",
+    "options": [
+      "Aceptar cambios de estado mediante GET sin validación adicional.",
+      "Desactivar cualquier comprobación de origen para ahorrar latencia.",
+      "Tokens anti-CSRF impredecibles y atributos SameSite apropiados en cookies.",
+      "Publicar tokens de sesión en la URL para facilitar soporte."
+    ],
+    "correctAnswer": 2,
+    "explanation": "CSRF abusa de sesiones existentes; tokens y SameSite reducen solicitudes no autorizadas."
+  },
+  {
+    "id": "technical-cast-037",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Desarrollo seguro",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "secretos",
+      "vault"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿cuál es una buena práctica para gestionar secretos de aplicación?",
+    "options": [
+      "Incluirlos en el repositorio para que despliegue todo el equipo.",
+      "Enviarlos por chat sin caducidad cuando haya una incidencia.",
+      "Usar la misma clave en desarrollo, pruebas y producción indefinidamente.",
+      "Almacenarlos en un gestor de secretos con control de acceso, rotación y auditoría."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los secretos requieren almacenamiento especializado, trazabilidad y rotación."
+  },
+  {
+    "id": "technical-cast-038",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Desarrollo seguro",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SAST",
+      "código"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué caracteriza a una herramienta SAST?",
+    "options": [
+      "Analiza código fuente o artefactos sin ejecutar la aplicación.",
+      "Solo prueba una aplicación desplegada enviando tráfico HTTP real.",
+      "Sustituye revisiones de arquitectura y modelado de amenazas.",
+      "Se limita a medir disponibilidad de servidores de producción."
+    ],
+    "correctAnswer": 0,
+    "explanation": "SAST es análisis estático; DAST analiza aplicaciones en ejecución."
+  },
+  {
+    "id": "technical-cast-039",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Desarrollo seguro",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "DAST",
+      "pruebas"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué caracteriza a una herramienta DAST?",
+    "options": [
+      "Cifra discos completos de portátiles perdidos.",
+      "Prueba una aplicación en ejecución desde fuera para detectar comportamientos vulnerables.",
+      "Revisa exclusivamente comentarios del código fuente sin ejecutar nada.",
+      "Gestiona vacaciones de administradores de sistemas."
+    ],
+    "correctAnswer": 1,
+    "explanation": "DAST observa el comportamiento de una aplicación desplegada o ejecutándose."
+  },
+  {
+    "id": "technical-cast-040",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Desarrollo seguro",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "dependencias",
+      "CVE"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿por qué se escanean dependencias de software?",
+    "options": [
+      "Para convertir automáticamente código inseguro en código probado.",
+      "Para evitar documentar componentes de terceros.",
+      "Para identificar bibliotecas con vulnerabilidades conocidas o licencias problemáticas.",
+      "Para ocultar deliberadamente versiones usadas por la aplicación."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El análisis de dependencias ayuda a gestionar riesgo de componentes externos."
+  },
+  {
+    "id": "technical-cast-041",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Protección de datos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "minimización",
+      "RGPD"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué implica el principio de minimización de datos?",
+    "options": [
+      "Recoger todos los datos posibles por si resultan útiles en el futuro.",
+      "Publicar datos personales si proceden de un formulario interno.",
+      "Evitar explicar la finalidad para conservar flexibilidad ilimitada.",
+      "Recoger y conservar solo los datos necesarios para la finalidad definida."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La minimización limita datos a lo necesario, adecuado y pertinente."
+  },
+  {
+    "id": "technical-cast-042",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Protección de datos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "DPIA",
+      "alto riesgo"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿cuándo es especialmente pertinente una evaluación de impacto relativa a protección de datos?",
+    "options": [
+      "Cuando un tratamiento puede entrañar alto riesgo para derechos y libertades de personas.",
+      "Solo cuando no se usa ningún dato personal.",
+      "Únicamente después de publicar los datos en internet.",
+      "Exclusivamente para cambiar el logotipo de una intranet."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La DPIA se usa para analizar y mitigar riesgos altos antes o durante el diseño del tratamiento."
+  },
+  {
+    "id": "technical-cast-043",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Protección de datos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "brecha",
+      "notificación"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, si se confirma una brecha de datos personales con riesgo para las personas, ¿qué aspecto debe controlarse cuidadosamente?",
+    "options": [
+      "La suspensión permanente de cualquier sistema no relacionado.",
+      "El plazo de notificación a la autoridad competente desde que la organización tiene constancia.",
+      "La eliminación de todos los registros antes de investigar.",
+      "La publicación automática de nombres de personas afectadas en redes sociales."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las brechas con riesgo activan obligaciones de evaluación y, en su caso, notificación en plazos definidos."
+  },
+  {
+    "id": "technical-cast-044",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Protección de datos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "encargado",
+      "contrato"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué debe regular un contrato con un proveedor que trata datos personales por cuenta de la institución?",
+    "options": [
+      "La transferencia libre de datos a cualquier tercero sin informar.",
+      "La imposibilidad de auditar al proveedor en cualquier circunstancia.",
+      "Instrucciones, confidencialidad, medidas de seguridad, subencargados y asistencia en derechos e incidentes.",
+      "Solo el precio, sin ninguna obligación de seguridad o confidencialidad."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El tratamiento por encargo exige obligaciones contractuales claras y controlables."
+  },
+  {
+    "id": "technical-cast-045",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Cumplimiento",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "NIS2",
+      "riesgo"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué enfoque promueve NIS2 para entidades en sectores relevantes?",
+    "options": [
+      "Eliminar toda responsabilidad de la dirección sobre ciberseguridad.",
+      "Regular únicamente el diseño gráfico de portales públicos.",
+      "Sustituir todas las normas de protección de datos personales.",
+      "Medidas de gestión de riesgos de ciberseguridad y obligaciones de notificación de incidentes significativos."
+    ],
+    "correctAnswer": 3,
+    "explanation": "NIS2 refuerza gestión de riesgos, gobernanza y notificación en sectores esenciales e importantes."
+  },
+  {
+    "id": "technical-cast-046",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Monitorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "logs",
+      "retención"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué criterio debe aplicarse a la retención de logs de seguridad?",
+    "options": [
+      "Conservarlos el tiempo necesario y proporcional, protegiendo acceso e integridad.",
+      "Borrarlos siempre a las veinticuatro horas aunque haya requisitos de investigación.",
+      "Conservarlos indefinidamente sin finalidad ni control de acceso.",
+      "Permitir que cualquier usuario los modifique para corregir errores."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los logs deben equilibrar seguridad, cumplimiento, proporcionalidad y protección frente a alteraciones."
+  },
+  {
+    "id": "technical-cast-047",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Contratación TIC",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "requisitos",
+      "proveedores"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué conviene incluir en una licitación de servicios TIC críticos?",
+    "options": [
+      "La obligación de usar contraseñas compartidas para simplificar soporte.",
+      "Requisitos de seguridad verificables, evidencias, derechos de auditoría y obligaciones de notificación.",
+      "Solo una descripción estética de la interfaz sin controles técnicos.",
+      "Una cláusula que prohíba al comprador revisar medidas de seguridad."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los requisitos de seguridad deben poder evaluarse y exigirse durante la ejecución contractual."
+  },
+  {
+    "id": "technical-cast-048",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Cloud",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "responsabilidad compartida"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué significa el modelo de responsabilidad compartida en cloud?",
+    "options": [
+      "El cliente asume siempre el mantenimiento físico de los centros de datos del proveedor.",
+      "Ninguna parte necesita documentar controles porque el servicio está en la nube.",
+      "Proveedor y cliente tienen responsabilidades distintas que dependen del tipo de servicio contratado.",
+      "El proveedor asume siempre todas las tareas, incluidas identidades y configuración del cliente."
+    ],
+    "correctAnswer": 2,
+    "explanation": "En cloud, responsabilidades cambian entre IaaS, PaaS y SaaS; la configuración del cliente sigue siendo clave."
+  },
+  {
+    "id": "technical-cast-049",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Cloud",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "IAM cloud",
+      "políticas"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué práctica reduce permisos excesivos en una cuenta cloud?",
+    "options": [
+      "Asignar rol de administrador global a todas las cuentas de servicio.",
+      "Dejar claves de acceso permanentes sin rotación ni propietario.",
+      "Desactivar registros de actividad para reducir almacenamiento.",
+      "Usar políticas de mínimo privilegio y revisar permisos efectivos con herramientas de análisis."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La seguridad cloud depende en gran parte de identidades, permisos y registros correctamente configurados."
+  },
+  {
+    "id": "technical-cast-050",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Cloud",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "almacenamiento",
+      "exposición"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué riesgo aparece al configurar un repositorio de objetos cloud como público por error?",
+    "options": [
+      "Exposición no autorizada de documentos o datos almacenados.",
+      "Pérdida automática de todos los certificados TLS de la organización.",
+      "Conversión irreversible de ficheros PDF en ejecutables.",
+      "Bloqueo físico de las oficinas administrativas."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La exposición pública accidental de buckets o contenedores es un riesgo común de configuración."
+  },
+  {
+    "id": "technical-cast-051",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Correo",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SPF",
+      "DKIM",
+      "DMARC"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué objetivo tienen SPF, DKIM y DMARC combinados?",
+    "options": [
+      "Sustituir la clasificación documental interna.",
+      "Mejorar la autenticación de correo y reducir suplantación de dominios.",
+      "Cifrar siempre el contenido de todos los adjuntos enviados.",
+      "Eliminar la necesidad de formación frente a phishing."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Estos controles ayudan a validar remitentes y políticas de dominio, aunque no resuelven todo phishing."
+  },
+  {
+    "id": "technical-cast-052",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Correo",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "phishing",
+      "concienciación"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué señal debe aumentar la sospecha ante un correo que pide credenciales?",
+    "options": [
+      "Que llegue durante horario laboral.",
+      "Que mencione un tema conocido por la organización.",
+      "Urgencia inusual, enlace a dominio no esperado y solicitud de contraseña o MFA.",
+      "Que el mensaje tenga saludo formal y firma corporativa."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El phishing suele combinar urgencia, enlaces engañosos y petición de secretos."
+  },
+  {
+    "id": "technical-cast-053",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Clasificación de información",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "etiquetado",
+      "DLP"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿para qué sirve etiquetar información según sensibilidad?",
+    "options": [
+      "Eliminar la necesidad de saber quién es propietario del documento.",
+      "Permitir que todo documento se publique automáticamente.",
+      "Garantizar que nunca habrá errores de contenido.",
+      "Aplicar controles de acceso, retención, cifrado y compartición acordes al riesgo."
+    ],
+    "correctAnswer": 3,
+    "explanation": "El etiquetado facilita aplicar controles proporcionales al nivel de sensibilidad."
+  },
+  {
+    "id": "technical-cast-054",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Gestión de activos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CMDB",
+      "propietario"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿por qué es importante asignar propietario a cada activo TIC?",
+    "options": [
+      "Para saber quién acepta riesgos, prioriza cambios y responde a hallazgos.",
+      "Para impedir que el activo tenga controles técnicos.",
+      "Para evitar registrar versiones o dependencias.",
+      "Para permitir que cualquier persona borre el activo sin aprobación."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La propiedad clara permite responsabilizar decisiones y remediaciones."
+  },
+  {
+    "id": "technical-cast-055",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Cambio y configuración",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "gestión de cambios"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué debe incluir un cambio técnico de alto impacto antes de producción?",
+    "options": [
+      "Eliminación de logs para que el despliegue sea más rápido.",
+      "Evaluación de riesgo, plan de reversión, ventana aprobada y comunicación a afectados.",
+      "Ejecución inmediata sin pruebas para ahorrar documentación.",
+      "Cambio de contraseña de todos los usuarios aunque no esté relacionado."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los cambios críticos requieren control para reducir interrupciones y permitir recuperación."
+  },
+  {
+    "id": "technical-cast-056",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Configuración segura",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hardening",
+      "baseline"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué aporta una baseline de configuración segura?",
+    "options": [
+      "Un sustituto completo de copias de seguridad.",
+      "Un mecanismo para compartir cuentas administrativas.",
+      "Un estado esperado contra el que comparar sistemas y detectar desviaciones.",
+      "Una excepción permanente a todos los controles de seguridad."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las baselines ayudan a estandarizar hardening y supervisar cumplimiento técnico."
+  },
+  {
+    "id": "technical-cast-057",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Privacidad por diseño",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "privacy by design"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué ejemplo encaja con privacidad por diseño?",
+    "options": [
+      "Añadir una nota de privacidad después de desplegar sin analizar datos tratados.",
+      "Recoger todos los datos posibles para decidir más tarde la finalidad.",
+      "Desactivar registros de auditoría porque pueden contener identificadores.",
+      "Definir minimización, controles de acceso y retención desde la fase de diseño del servicio."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La privacidad por diseño integra protección de datos desde el inicio, no como añadido tardío."
+  },
+  {
+    "id": "technical-cast-058",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Terceros",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "proveedores",
+      "riesgo"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué medida es útil al incorporar un proveedor TIC con acceso a sistemas internos?",
+    "options": [
+      "Evaluar su seguridad, limitar accesos, exigir confidencialidad y supervisar actividad relevante.",
+      "Conceder acceso administrador permanente antes de firmar contrato.",
+      "Compartir cuentas internas para evitar registrar identidades externas.",
+      "Excluir al proveedor de cualquier obligación de notificar incidentes."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El riesgo de terceros se gestiona con evaluación previa, controles contractuales y supervisión."
+  },
+  {
+    "id": "technical-cast-059",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Disponibilidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "DDoS",
+      "resiliencia"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué medida ayuda frente a ataques DDoS contra un portal público?",
+    "options": [
+      "Eliminar copias de seguridad porque no influyen en tráfico.",
+      "Usar protección de mitigación DDoS, escalado y filtrado con procedimientos de respuesta.",
+      "Desactivar TLS permanentemente para ahorrar CPU.",
+      "Publicar credenciales administrativas para que usuarios reinicien el portal."
+    ],
+    "correctAnswer": 1,
+    "explanation": "DDoS requiere mitigación de red/aplicación y coordinación operativa."
+  },
+  {
+    "id": "technical-cast-060",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Gestión de sesiones",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "cookies",
+      "seguridad"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué atributos de cookie ayudan a proteger sesiones web?",
+    "options": [
+      "PlainText, Global y Anonymous en todas las cookies.",
+      "NoCache aplicado solo a imágenes estáticas.",
+      "Secure, HttpOnly y SameSite configurados según el caso de uso.",
+      "Public, Editable y Permanent para facilitar depuración."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Secure exige HTTPS, HttpOnly reduce robo vía scripts y SameSite mitiga ciertos CSRF."
+  },
+  {
+    "id": "technical-cast-061",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Autenticación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "contraseñas",
+      "hash"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿cómo deben almacenarse contraseñas de usuarios?",
+    "options": [
+      "En texto claro para facilitar recuperación por soporte.",
+      "Cifradas con una clave publicada en el repositorio.",
+      "En cookies del navegador sin caducidad.",
+      "Con algoritmos de hashing de contraseñas adecuados, sal única y parámetros de coste."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las contraseñas se verifican con hashes resistentes a fuerza bruta, no se recuperan en claro."
+  },
+  {
+    "id": "technical-cast-062",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Auditoría",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "trazabilidad",
+      "privilegios"
+    ],
+    "question": "En una institución de la UE que prepara un servicio común, ¿qué debe permitir un registro de auditoría de acciones privilegiadas?",
+    "options": [
+      "Vincular acciones a identidades concretas, fecha, sistema afectado y resultado.",
+      "Ocultar qué cuenta ejecutó cada acción para proteger al administrador.",
+      "Modificar eventos pasados sin dejar rastro.",
+      "Eliminar toda información temporal para ahorrar espacio."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La trazabilidad de acciones privilegiadas es clave para investigación y rendición de cuentas."
+  },
+  {
+    "id": "technical-cast-063",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "IAM",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "RBAC",
+      "mínimo privilegio"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué ventaja aporta asignar permisos mediante roles en lugar de permisos directos a cada usuario?",
+    "options": [
+      "Impide que existan cuentas privilegiadas en la organización.",
+      "Reduce errores y facilita revisar permisos según funciones homogéneas.",
+      "Elimina la necesidad de autenticar a los usuarios.",
+      "Permite compartir contraseñas entre miembros del mismo equipo."
+    ],
+    "correctAnswer": 1,
+    "explanation": "RBAC agrupa permisos por rol, lo que simplifica altas, bajas, cambios de puesto y revisiones periódicas."
+  },
+  {
+    "id": "technical-cast-064",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "IAM",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "MFA",
+      "administradores"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué control debe priorizarse para cuentas administrativas expuestas a acceso remoto?",
+    "options": [
+      "Desactivar los registros de acceso para reducir ruido operativo.",
+      "Permitir acceso permanente desde cualquier país sin validación adicional.",
+      "Autenticación multifactor resistente al phishing y revisión periódica de privilegios.",
+      "Contraseñas compartidas para acelerar la respuesta a incidentes."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las cuentas administrativas requieren controles reforzados porque su compromiso tiene alto impacto."
+  },
+  {
+    "id": "technical-cast-065",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Federación de identidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SAML",
+      "SSO"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué elemento es esencial para confiar en una aserción SAML recibida de un proveedor de identidad?",
+    "options": [
+      "Aceptar cualquier aserción si el nombre del usuario parece correcto.",
+      "Convertir la aserción en texto plano y guardarla en el navegador.",
+      "Omitir la validación de audiencia cuando el canal usa HTTPS.",
+      "Validar la firma, el emisor, la audiencia y la vigencia temporal de la aserción."
+    ],
+    "correctAnswer": 3,
+    "explanation": "SAML exige validar firma y claims críticos para evitar suplantación o reutilización indebida."
+  },
+  {
+    "id": "technical-cast-066",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Federación de identidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "OIDC",
+      "OAuth2"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿para qué se usa principalmente un ID token en OpenID Connect?",
+    "options": [
+      "Para transportar información de autenticación sobre el usuario hacia el cliente.",
+      "Para conceder permisos de red a un cortafuegos perimetral.",
+      "Para sustituir todos los registros de auditoría de una aplicación.",
+      "Para cifrar automáticamente la base de datos del proveedor."
+    ],
+    "correctAnswer": 0,
+    "explanation": "OIDC añade una capa de autenticación sobre OAuth 2.0; el ID token representa la autenticación del usuario."
+  },
+  {
+    "id": "technical-cast-067",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Federación de identidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "OAuth2",
+      "autorización"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué describe mejor un access token de OAuth 2.0?",
+    "options": [
+      "Un certificado raíz que firma todos los dominios internos.",
+      "Un artefacto usado para autorizar acceso a recursos concretos durante un tiempo limitado.",
+      "Una prueba universal de identidad válida para cualquier aplicación.",
+      "Una copia cifrada de la contraseña del usuario final."
+    ],
+    "correctAnswer": 1,
+    "explanation": "OAuth 2.0 se centra en autorización delegada; el access token no debe tratarse como contraseña ni identidad universal."
+  },
+  {
+    "id": "technical-cast-068",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Directorios",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "LDAP",
+      "Active Directory"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿cuál es una función habitual de LDAP en entornos corporativos?",
+    "options": [
+      "Calcular automáticamente el riesgo jurídico de un contrato.",
+      "Bloquear ataques DDoS a nivel de proveedor de internet.",
+      "Consultar y organizar identidades, grupos y atributos en un directorio.",
+      "Sustituir el cifrado TLS de todas las comunicaciones web."
+    ],
+    "correctAnswer": 2,
+    "explanation": "LDAP es un protocolo de acceso a directorios y se usa con frecuencia para identidades y grupos."
+  },
+  {
+    "id": "technical-cast-069",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Acceso privilegiado",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "PAM",
+      "just-in-time"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué práctica reduce mejor el riesgo de privilegios administrativos permanentes?",
+    "options": [
+      "Mantener privilegios de administrador local en todos los equipos de oficina.",
+      "Guardar claves maestras en una hoja de cálculo compartida.",
+      "Usar una cuenta genérica sin trazabilidad para tareas urgentes.",
+      "Conceder elevación temporal aprobada, registrada y limitada al tiempo necesario."
+    ],
+    "correctAnswer": 3,
+    "explanation": "El acceso privilegiado just-in-time reduce exposición y mejora trazabilidad."
+  },
+  {
+    "id": "technical-cast-070",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Criptografía",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "PKI",
+      "certificados"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿por qué se valida la cadena de certificación al establecer una conexión TLS?",
+    "options": [
+      "Para comprobar que el certificado del servidor deriva de una autoridad de confianza.",
+      "Para medir el ancho de banda disponible entre cliente y servidor.",
+      "Para eliminar la necesidad de renovar certificados caducados.",
+      "Para convertir automáticamente HTTP en una red privada virtual."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La confianza en TLS depende de una cadena válida hasta una CA reconocida y de comprobaciones de nombre y vigencia."
+  },
+  {
+    "id": "technical-cast-071",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Criptografía",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "TLS",
+      "datos en tránsito"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué protege principalmente TLS cuando está correctamente configurado?",
+    "options": [
+      "La exactitud de los datos introducidos por usuarios autorizados.",
+      "La confidencialidad e integridad de datos en tránsito y la autenticidad del servidor.",
+      "La disponibilidad física del centro de datos.",
+      "La eliminación automática de vulnerabilidades en la aplicación."
+    ],
+    "correctAnswer": 1,
+    "explanation": "TLS protege comunicaciones en tránsito, pero no corrige fallos lógicos ni garantiza disponibilidad."
+  },
+  {
+    "id": "technical-cast-072",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Criptografía",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hash",
+      "integridad"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué propiedad tiene una función hash criptográfica segura?",
+    "options": [
+      "Cifra ficheros grandes de forma reversible sin usar claves.",
+      "Garantiza que un mensaje no contiene datos personales.",
+      "Produce una huella de tamaño fijo y debe ser computacionalmente difícil encontrar colisiones útiles.",
+      "Permite recuperar el texto original si se conoce la clave pública."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los hashes se usan para integridad y huellas; no son cifrado reversible."
+  },
+  {
+    "id": "technical-cast-073",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Criptografía",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "firma digital"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué aporta una firma digital válida sobre un documento?",
+    "options": [
+      "Traducción automática del documento a todas las lenguas oficiales.",
+      "Anonimización irreversible de todos los datos personales incluidos.",
+      "Reducción del tamaño del documento sin pérdida de calidad.",
+      "Integridad del documento y vinculación con la clave privada del firmante."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La firma digital permite detectar modificaciones y asociar la firma a una clave privada concreta."
+  },
+  {
+    "id": "technical-cast-074",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Criptografía",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "cifrado en reposo"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué escenario mitiga principalmente el cifrado de disco en un portátil corporativo?",
+    "options": [
+      "Lectura de datos si el equipo se pierde o es robado estando apagado.",
+      "Ejecución de macros maliciosas por un usuario autenticado.",
+      "Errores de cálculo en hojas de presupuesto.",
+      "Phishing que convence al usuario para entregar su contraseña."
+    ],
+    "correctAnswer": 0,
+    "explanation": "El cifrado en reposo protege datos almacenados, especialmente ante pérdida física del dispositivo."
+  },
+  {
+    "id": "technical-cast-075",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Gestión de claves",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "rotación",
+      "KMS"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿por qué conviene rotar claves criptográficas según una política definida?",
+    "options": [
+      "Para sustituir la necesidad de copias de seguridad.",
+      "Para limitar el impacto temporal si una clave se ve comprometida.",
+      "Para evitar diseñar controles de acceso sobre quién puede usar la clave.",
+      "Para que las claves puedan compartirse por correo sin cifrado."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La rotación no sustituye otros controles, pero reduce exposición si una clave acaba comprometida."
+  },
+  {
+    "id": "technical-cast-076",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Gestión de claves",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "HSM",
+      "claves privadas"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué beneficio aporta un HSM en la protección de claves privadas críticas?",
+    "options": [
+      "Traducir protocolos antiguos a versiones compatibles con móviles.",
+      "Eliminar la necesidad de definir responsables de custodia.",
+      "Mantener operaciones criptográficas en un entorno endurecido que dificulta extraer la clave.",
+      "Aumentar automáticamente el espacio disponible en la red."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Un HSM protege claves y operaciones sensibles mediante hardware y controles específicos."
+  },
+  {
+    "id": "technical-cast-077",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Monitorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SIEM",
+      "correlación"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿cuál es el objetivo principal de un SIEM?",
+    "options": [
+      "Reemplazar todos los controles preventivos de red.",
+      "Escribir automáticamente código seguro para las aplicaciones.",
+      "Garantizar que ningún usuario pueda equivocarse al introducir datos.",
+      "Centralizar, normalizar y correlacionar eventos para detectar patrones relevantes."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Un SIEM ayuda a detectar y analizar actividad mediante eventos de múltiples fuentes."
+  },
+  {
+    "id": "technical-cast-078",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Monitorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "EDR",
+      "endpoints"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué capacidad se espera de una solución EDR moderna?",
+    "options": [
+      "Recoger telemetría de endpoints, detectar comportamientos sospechosos y apoyar contención.",
+      "Gestionar exclusivamente el inventario de mobiliario de oficina.",
+      "Sustituir todos los contratos de soporte con proveedores.",
+      "Firmar digitalmente normativas internas sin intervención humana."
+    ],
+    "correctAnswer": 0,
+    "explanation": "EDR está orientado a endpoints: detección, investigación y respuesta en equipos y servidores."
+  },
+  {
+    "id": "technical-cast-079",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Redes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "IDS",
+      "IPS"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué diferencia básica existe entre IDS e IPS?",
+    "options": [
+      "No existe diferencia operativa entre ambos conceptos.",
+      "Un IDS detecta y alerta; un IPS puede bloquear tráfico según la política configurada.",
+      "Un IDS cifra discos y un IPS firma contratos.",
+      "Un IDS solo se usa para correo y un IPS solo para impresoras."
+    ],
+    "correctAnswer": 1,
+    "explanation": "IDS es principalmente detector; IPS se sitúa en línea o con capacidad de prevención."
+  },
+  {
+    "id": "technical-cast-080",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Respuesta a incidentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "contención",
+      "ransomware"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ante un equipo con indicios sólidos de ransomware activo, ¿qué acción inicial es más adecuada?",
+    "options": [
+      "Enviar una captura del rescate a todo el personal externo.",
+      "Ignorar el aviso hasta el siguiente ciclo mensual de parches.",
+      "Aislar el equipo de la red preservando evidencias y escalar al equipo de respuesta.",
+      "Formatear de inmediato todos los servidores sin recopilar información."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La contención temprana limita propagación, pero debe coordinarse con preservación de evidencias."
+  },
+  {
+    "id": "technical-cast-081",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Respuesta a incidentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "evidencias",
+      "forense"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿por qué se documenta la cadena de custodia durante una investigación técnica?",
+    "options": [
+      "Para aumentar la velocidad de descarga de los registros.",
+      "Para sustituir el análisis técnico por una aprobación verbal.",
+      "Para evitar que la evidencia se almacene cifrada.",
+      "Para demostrar quién accedió a la evidencia, cuándo y bajo qué condiciones."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La cadena de custodia protege la integridad y credibilidad de la evidencia."
+  },
+  {
+    "id": "technical-cast-082",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CVSS",
+      "priorización"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿para qué se usa normalmente CVSS?",
+    "options": [
+      "Para puntuar la severidad técnica de vulnerabilidades y apoyar la priorización.",
+      "Para conceder permisos de vacaciones al personal técnico.",
+      "Para traducir automáticamente logs de red.",
+      "Para calcular la velocidad de una línea de fibra."
+    ],
+    "correctAnswer": 0,
+    "explanation": "CVSS proporciona una escala común; debe combinarse con contexto de exposición y criticidad del activo."
+  },
+  {
+    "id": "technical-cast-083",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "parches",
+      "exposición"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, si hay dos vulnerabilidades críticas, una en un portal expuesto a internet y otra en un laboratorio aislado, ¿qué criterio de priorización es razonable?",
+    "options": [
+      "Ignorar la exposición externa si ambas tienen el mismo nombre comercial.",
+      "Priorizar el portal expuesto si el resto de condiciones de severidad y explotación son comparables.",
+      "Priorizar siempre el activo menos expuesto porque es más fácil de parchear.",
+      "No aplicar ningún parche hasta que todas las áreas estén de acuerdo."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La exposición externa aumenta probabilidad de explotación y suele elevar la prioridad."
+  },
+  {
+    "id": "technical-cast-084",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "escaneo",
+      "inventario"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué requisito previo mejora la utilidad de un programa de gestión de vulnerabilidades?",
+    "options": [
+      "Eliminar etiquetas de criticidad para que todos los sistemas parezcan iguales.",
+      "Ejecutar escaneos sin informar a nadie aunque afecten a producción crítica.",
+      "Mantener un inventario fiable de activos, propietarios y criticidad.",
+      "Escanear solo activos desconocidos para evitar resultados repetidos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Sin inventario, es difícil interpretar hallazgos, asignar propietarios y priorizar correcciones."
+  },
+  {
+    "id": "technical-cast-085",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Continuidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "backup",
+      "3-2-1"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué expresa la regla 3-2-1 de copias de seguridad?",
+    "options": [
+      "Tres usuarios comparten dos contraseñas y una cuenta administrativa.",
+      "Tres incidentes se resuelven en dos días con un solo informe final.",
+      "Tres firewalls se sustituyen por dos VLAN y una impresora segura.",
+      "Mantener tres copias, en dos soportes distintos, con una copia fuera del entorno principal."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La regla 3-2-1 busca resiliencia ante fallos, borrado, ransomware o desastre físico."
+  },
+  {
+    "id": "technical-cast-086",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Continuidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "RTO",
+      "disponibilidad"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué representa el RTO de un servicio?",
+    "options": [
+      "El tiempo máximo objetivo para restaurar el servicio tras una interrupción.",
+      "La cantidad máxima de datos que puede perderse medida en tiempo.",
+      "El número de administradores asignados a un turno.",
+      "El porcentaje de registros que deben anonimizarse."
+    ],
+    "correctAnswer": 0,
+    "explanation": "RTO se centra en tiempo de recuperación del servicio; RPO se centra en pérdida de datos tolerable."
+  },
+  {
+    "id": "technical-cast-087",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Continuidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "RPO",
+      "copias"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué representa el RPO de un sistema?",
+    "options": [
+      "La velocidad mínima de un enlace de red interno.",
+      "La antigüedad máxima aceptable de los datos restaurados tras un incidente.",
+      "La duración máxima de una reunión de coordinación.",
+      "El número de intentos permitidos antes de bloquear una cuenta."
+    ],
+    "correctAnswer": 1,
+    "explanation": "RPO define cuánta pérdida de datos, medida en tiempo, puede tolerarse."
+  },
+  {
+    "id": "technical-cast-088",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Continuidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "restauración",
+      "pruebas"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿por qué no basta con comprobar que una copia de seguridad se creó sin error?",
+    "options": [
+      "Porque una copia creada sin error nunca contiene datos útiles.",
+      "Porque restaurar datos está prohibido en cualquier entorno de prueba.",
+      "Porque debe verificarse que puede restaurarse en tiempo y forma cuando sea necesario.",
+      "Porque las copias correctas siempre deben eliminarse tras crearse."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La utilidad real de una copia se confirma con pruebas de restauración."
+  },
+  {
+    "id": "technical-cast-089",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Redes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "segmentación",
+      "movimiento lateral"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué objetivo tiene la segmentación de red en seguridad?",
+    "options": [
+      "Garantizar que todos los equipos comparten la misma contraseña local.",
+      "Hacer que los logs de seguridad desaparezcan al cerrar sesión.",
+      "Sustituir por completo la gestión de identidades.",
+      "Limitar el movimiento lateral y aplicar controles diferenciados entre zonas."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La segmentación reduce alcance de compromisos y permite políticas específicas por zona."
+  },
+  {
+    "id": "technical-cast-090",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Redes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "VLAN",
+      "segmentación"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué precaución conviene recordar sobre las VLAN?",
+    "options": [
+      "Ayudan a separar tráfico, pero deben acompañarse de controles de capa 3/4 y administración segura.",
+      "Una VLAN cifra automáticamente todo el tráfico extremo a extremo.",
+      "Las VLAN sustituyen la necesidad de autenticar administradores.",
+      "Una VLAN impide cualquier ataque de aplicación web."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las VLAN son una herramienta de segmentación, no una solución completa por sí mismas."
+  },
+  {
+    "id": "technical-cast-091",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Redes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "firewall",
+      "mínimo privilegio"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué regla general refleja mejor una política de firewall restrictiva?",
+    "options": [
+      "Abrir puertos administrativos a internet para evitar VPN.",
+      "Denegar por defecto y permitir solo flujos justificados y documentados.",
+      "Permitir todo el tráfico para simplificar el soporte.",
+      "Usar reglas temporales sin fecha de caducidad ni propietario."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La política restrictiva aplica mínimo privilegio a flujos de red."
+  },
+  {
+    "id": "technical-cast-092",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "DNS",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "DNSSEC",
+      "integridad"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué aporta DNSSEC cuando está correctamente desplegado?",
+    "options": [
+      "Bloqueo automático de cualquier correo de phishing.",
+      "Sustitución de certificados TLS para servidores web.",
+      "Autenticación de origen e integridad de respuestas DNS mediante firmas.",
+      "Cifrado del contenido de todas las páginas web visitadas."
+    ],
+    "correctAnswer": 2,
+    "explanation": "DNSSEC protege la integridad/autenticidad de respuestas DNS; no cifra contenido web."
+  },
+  {
+    "id": "technical-cast-093",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Acceso remoto",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "VPN",
+      "túnel"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué función cumple una VPN corporativa bien configurada?",
+    "options": [
+      "Hacer anónimo todo el trabajo del usuario frente al propio empleador.",
+      "Eliminar la necesidad de aplicar parches en equipos remotos.",
+      "Convertir cualquier dispositivo personal en equipo gestionado automáticamente.",
+      "Crear un canal cifrado y autenticado hacia recursos autorizados de la organización."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La VPN protege el canal de acceso, pero no sustituye gestión de dispositivos ni parches."
+  },
+  {
+    "id": "technical-cast-094",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Arquitectura",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Zero Trust",
+      "verificación"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué principio resume mejor Zero Trust?",
+    "options": [
+      "Verificar explícitamente cada acceso según identidad, contexto, dispositivo y riesgo.",
+      "Confiar siempre en cualquier sistema dentro de la red interna.",
+      "Eliminar todos los controles para mejorar la experiencia de usuario.",
+      "Conceder privilegios permanentes después del primer inicio de sesión."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Zero Trust evita confianza implícita basada solo en ubicación de red."
+  },
+  {
+    "id": "technical-cast-095",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Aplicaciones web",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "WAF",
+      "HTTP"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿para qué se usa un WAF?",
+    "options": [
+      "Para autenticar físicamente visitantes en recepción.",
+      "Para filtrar y monitorizar tráfico HTTP/HTTPS hacia aplicaciones web según reglas de seguridad.",
+      "Para reparar automáticamente todos los defectos del código fuente.",
+      "Para reemplazar copias de seguridad de bases de datos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un WAF puede mitigar ciertos ataques web, aunque no sustituye desarrollo seguro."
+  },
+  {
+    "id": "technical-cast-096",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Aplicaciones web",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "inyección",
+      "OWASP"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué medida reduce el riesgo de inyección SQL?",
+    "options": [
+      "Dar privilegios de administrador a la cuenta de base de datos de la aplicación.",
+      "Mostrar mensajes de error completos con trazas internas al usuario final.",
+      "Usar consultas parametrizadas y validación adecuada de entradas.",
+      "Concatenar directamente texto recibido del usuario en consultas."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las consultas parametrizadas separan código y datos, reduciendo inyección."
+  },
+  {
+    "id": "technical-cast-097",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Aplicaciones web",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "XSS",
+      "codificación"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué control ayuda a prevenir XSS reflejado o almacenado?",
+    "options": [
+      "Guardar contraseñas en texto claro para acelerar el inicio de sesión.",
+      "Desactivar HTTPS en páginas internas.",
+      "Permitir HTML arbitrario de usuarios sin filtrado ni codificación.",
+      "Codificar la salida según el contexto y aplicar una política CSP adecuada."
+    ],
+    "correctAnswer": 3,
+    "explanation": "XSS se mitiga controlando cómo se interpreta contenido no confiable en el navegador."
+  },
+  {
+    "id": "technical-cast-098",
+    "type": "technical",
+    "difficulty": 1,
+    "category": "Aplicaciones web",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CSRF",
+      "sesiones"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué defensa es típica frente a CSRF?",
+    "options": [
+      "Tokens anti-CSRF impredecibles y atributos SameSite apropiados en cookies.",
+      "Publicar tokens de sesión en la URL para facilitar soporte.",
+      "Aceptar cambios de estado mediante GET sin validación adicional.",
+      "Desactivar cualquier comprobación de origen para ahorrar latencia."
+    ],
+    "correctAnswer": 0,
+    "explanation": "CSRF abusa de sesiones existentes; tokens y SameSite reducen solicitudes no autorizadas."
+  },
+  {
+    "id": "technical-cast-099",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Desarrollo seguro",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "secretos",
+      "vault"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿cuál es una buena práctica para gestionar secretos de aplicación?",
+    "options": [
+      "Usar la misma clave en desarrollo, pruebas y producción indefinidamente.",
+      "Almacenarlos en un gestor de secretos con control de acceso, rotación y auditoría.",
+      "Incluirlos en el repositorio para que despliegue todo el equipo.",
+      "Enviarlos por chat sin caducidad cuando haya una incidencia."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los secretos requieren almacenamiento especializado, trazabilidad y rotación."
+  },
+  {
+    "id": "technical-cast-100",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Desarrollo seguro",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SAST",
+      "código"
+    ],
+    "question": "En una agencia europea con personal interno y contratistas, ¿qué caracteriza a una herramienta SAST?",
+    "options": [
+      "Sustituye revisiones de arquitectura y modelado de amenazas.",
+      "Se limita a medir disponibilidad de servidores de producción.",
+      "Analiza código fuente o artefactos sin ejecutar la aplicación.",
+      "Solo prueba una aplicación desplegada enviando tráfico HTTP real."
+    ],
+    "correctAnswer": 2,
+    "explanation": "SAST es análisis estático; DAST analiza aplicaciones en ejecución."
+  }
+]

@@ -1,0 +1,270 @@
+[
+  {
+    "id": "official-style-numerical-001",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Ventas y porcentajes",
+    "tags": [
+      "generado",
+      "estilo-oficial",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Producto",
+        "Precio (EUR)"
+      ],
+      "rows": [
+        [
+          "Entrada estandar",
+          "12.00"
+        ],
+        [
+          "Entrada reducida",
+          "8.00"
+        ],
+        [
+          "Catalogo",
+          "5.00"
+        ]
+      ]
+    },
+    "question": "Un museo vende 40 entradas estandar con un margen del 25% y 30 entradas reducidas con un margen del 30%. Cuanto beneficio obtiene por esas entradas?",
+    "options": [
+      "EUR142",
+      "EUR150",
+      "EUR168",
+      "EUR192",
+      "EUR204"
+    ],
+    "correctAnswer": 3,
+    "explanation": "40 x 12 x 25% = 120. 30 x 8 x 30% = 72. Beneficio total = 192."
+  },
+  {
+    "id": "official-style-numerical-002",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Tiempos y velocidad",
+    "tags": [
+      "generado",
+      "estilo-oficial",
+      "velocidad"
+    ],
+    "dataTable": {
+      "headers": [
+        "Corredor",
+        "Tiempo (h:mm:ss)"
+      ],
+      "rows": [
+        [
+          "Arias",
+          "1:42:30"
+        ],
+        [
+          "Bello",
+          "1:43:00"
+        ],
+        [
+          "Cano",
+          "1:44:15"
+        ]
+      ]
+    },
+    "question": "Cano paso el marcador de mitad de una carrera de 30 km en 0:53:00. Cual fue su velocidad media en la segunda mitad?",
+    "options": [
+      "16.3 km/h",
+      "17.2 km/h",
+      "17.6 km/h",
+      "18.4 km/h",
+      "19.1 km/h"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tiempo total de Cano = 6255 s. Segunda mitad = 6255 - 3180 = 3075 s = 0.8542 h. Velocidad = 15 / 0.8542 = 17.6 km/h."
+  },
+  {
+    "id": "official-style-numerical-003",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Ventas por categoria",
+    "tags": [
+      "generado",
+      "estilo-oficial",
+      "tabla"
+    ],
+    "dataTable": {
+      "headers": [
+        "Categoria",
+        "2024 (EUR000)",
+        "2025 (EUR000)"
+      ],
+      "rows": [
+        [
+          "Libros",
+          "72.0",
+          "75.6"
+        ],
+        [
+          "Revistas",
+          "18.0",
+          "17.1"
+        ],
+        [
+          "Papeleria",
+          "30.0",
+          "33.6"
+        ],
+        [
+          "Bebidas",
+          "24.0",
+          "27.6"
+        ]
+      ]
+    },
+    "question": "Que categoria tuvo el mayor incremento porcentual entre 2024 y 2025?",
+    "options": [
+      "Libros",
+      "Revistas",
+      "Papeleria",
+      "Bebidas",
+      "Libros y bebidas empatan"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Libros sube 5%, revistas baja 5%, papeleria sube 12% y bebidas sube 15%."
+  },
+  {
+    "id": "official-style-numerical-004",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Poblacion y porcentajes",
+    "tags": [
+      "generado",
+      "estilo-oficial",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Grupo",
+        "Porcentaje de poblacion"
+      ],
+      "rows": [
+        [
+          "Menores de 25",
+          "28.0"
+        ],
+        [
+          "Con permiso de conducir",
+          "62.0"
+        ],
+        [
+          "Empleados",
+          "46.0"
+        ]
+      ]
+    },
+    "question": "Como minimo, que porcentaje de los no empleados tiene permiso de conducir?",
+    "options": [
+      "16.0%",
+      "24.0%",
+      "29.6%",
+      "35.0%",
+      "42.0%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Para minimizarlo, todos los empleados tienen permiso. Queda 62% - 46% = 16% de la poblacion entre no empleados, que son 54%. 16/54 = 29.6%."
+  },
+  {
+    "id": "official-style-numerical-005",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Encuestas",
+    "tags": [
+      "generado",
+      "estilo-oficial",
+      "media"
+    ],
+    "dataTable": {
+      "headers": [
+        "Pregunta",
+        "Respuestas",
+        "Media"
+      ],
+      "rows": [
+        [
+          "Atencion",
+          "96",
+          "8.4"
+        ],
+        [
+          "Rapidez",
+          "90",
+          "7.8"
+        ],
+        [
+          "Claridad",
+          "84",
+          "8.0"
+        ]
+      ]
+    },
+    "question": "Cual fue el numero medio de respuestas por pregunta?",
+    "options": [
+      "84",
+      "88",
+      "90",
+      "92",
+      "96"
+    ],
+    "correctAnswer": 2,
+    "explanation": "(96 + 90 + 84) / 3 = 90."
+  },
+  {
+    "id": "official-style-numerical-006",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Consumo per capita",
+    "tags": [
+      "generado",
+      "estilo-oficial",
+      "ratio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Pais",
+        "Poblacion 2025 (000)",
+        "Consumo (000 t)"
+      ],
+      "rows": [
+        [
+          "A",
+          "5200",
+          "78"
+        ],
+        [
+          "B",
+          "8400",
+          "100.8"
+        ],
+        [
+          "C",
+          "3100",
+          "55.8"
+        ],
+        [
+          "D",
+          "7600",
+          "91.2"
+        ]
+      ]
+    },
+    "question": "Que pais tiene el mayor consumo per capita?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "B y D empatan"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A=15, B=12, C=18 y D=12 toneladas por mil habitantes; el mayor es C."
+  }
+]

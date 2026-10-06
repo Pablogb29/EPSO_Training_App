@@ -1,0 +1,95 @@
+[
+  {
+    "id": "technical-gen-1782847762327-hxr3h",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Gestión de vulnerabilidades",
+    "tags": [
+      "CVSS"
+    ],
+    "question": "CVSS se utiliza principalmente para:",
+    "options": [
+      "Puntuar la severidad de vulnerabilidades",
+      "Cifrar correos",
+      "Gestionar grupos de Active Directory",
+      "Auditar informes financieros"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CVSS proporciona una forma estandarizada de puntuar la severidad de vulnerabilidades."
+  },
+  {
+    "id": "technical-gen-1782847762327-jdepd",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "IAM",
+    "tags": [
+      "RBAC"
+    ],
+    "question": "¿A qué asigna principalmente permisos RBAC?",
+    "options": [
+      "Usuarios individuales",
+      "Roles",
+      "Direcciones IP",
+      "Ventanas horarias"
+    ],
+    "correctAnswer": 1,
+    "explanation": "RBAC asigna permisos a roles, que los usuarios heredan al pertenecer a ellos."
+  },
+  {
+    "id": "technical-gen-1782847762327-sdycq",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Criptografía",
+    "tags": [
+      "TLS",
+      "PKI"
+    ],
+    "question": "¿Qué protege principalmente TLS?",
+    "options": [
+      "Datos en reposo en disco",
+      "Datos en tránsito",
+      "Acceso físico al datacenter",
+      "Integridad de copias de seguridad"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TLS cifra y autentica los datos en tránsito entre cliente y servidor."
+  },
+  {
+    "id": "technical-gen-1782847762327-x72n8",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Seguridad cloud",
+    "tags": [
+      "AWS",
+      "cifrado"
+    ],
+    "question": "¿Qué servicio de AWS gestiona claves de cifrado en la nube?",
+    "options": [
+      "AWS KMS",
+      "AWS SNS",
+      "AWS SQS",
+      "AWS CloudFront"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AWS Key Management Service (KMS) crea y controla claves de cifrado."
+  },
+  {
+    "id": "technical-gen-1782847762327-118o8",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Gestión de identidades",
+    "tags": [
+      "Kerberos",
+      "Active Directory"
+    ],
+    "question": "Kerberos se asocia principalmente con:",
+    "options": [
+      "Autenticación de red en dominios Windows",
+      "Orquestación de contenedores",
+      "Agregación de logs",
+      "Alojamiento de sitios estáticos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Kerberos es el protocolo de autenticación por defecto en dominios Active Directory."
+  }
+]

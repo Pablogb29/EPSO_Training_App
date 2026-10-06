@@ -1,0 +1,107 @@
+[
+  {
+    "id": "official-style-verbal-001",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Ciencia aplicada",
+    "tags": [
+      "generado",
+      "estilo-oficial",
+      "inferencia"
+    ],
+    "passage": "Un consorcio europeo probo sensores de humedad en vinedos durante dos veranos consecutivos. Los agricultores recibian avisos cuando el suelo alcanzaba niveles criticos y podian retrasar el riego si se preveian lluvias. El estudio concluyo que el sistema redujo el consumo de agua, pero no elimino la necesidad de inspecciones manuales porque algunos sensores fallaron tras tormentas intensas.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "El sistema permitio abandonar por completo las inspecciones manuales.",
+      "Los sensores ayudaron a reducir el consumo de agua en los vinedos estudiados.",
+      "Los avisos solo se enviaban despues de que hubiese llovido.",
+      "El estudio se realizo durante una unica temporada de verano."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El texto dice que el sistema redujo el consumo de agua, pero tambien que siguieron siendo necesarias inspecciones manuales."
+  },
+  {
+    "id": "official-style-verbal-002",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Administracion publica",
+    "tags": [
+      "generado",
+      "estilo-oficial",
+      "procedimiento"
+    ],
+    "passage": "La digitalizacion de expedientes municipales acelero la consulta de documentos historicos, aunque el proceso fue mas lento de lo previsto. Parte de los archivos estaba danada y tuvo que restaurarse antes de escanearse. Ademas, los documentos con datos personales fueron revisados por un equipo juridico antes de su publicacion en linea.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "La publicacion en linea se realizo sin revision juridica previa.",
+      "Todos los documentos pudieron escanearse inmediatamente.",
+      "El estado fisico de algunos archivos retraso el proceso de digitalizacion.",
+      "La digitalizacion impidio consultar documentos historicos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El pasaje indica que archivos danados tuvieron que restaurarse antes del escaneo, lo que ralentizo el proceso."
+  },
+  {
+    "id": "official-style-verbal-003",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Economia",
+    "tags": [
+      "generado",
+      "estilo-oficial",
+      "matiz"
+    ],
+    "passage": "Una reduccion temporal del impuesto sobre la energia puede aliviar la factura de los hogares, pero sus efectos distributivos dependen del consumo previo. Los hogares con mayor gasto energetico reciben un ahorro absoluto superior, aunque los hogares con rentas bajas pueden beneficiarse mas en terminos relativos si la medida se combina con bonos focalizados.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Los hogares con menor renta siempre obtienen el mayor ahorro absoluto.",
+      "La medida tiene identico efecto distributivo con independencia del consumo previo.",
+      "Los hogares con mayor consumo energetico pueden ahorrar mas en terminos absolutos.",
+      "Los bonos focalizados reducen necesariamente el beneficio relativo de los hogares de renta baja."
+    ],
+    "correctAnswer": 2,
+    "explanation": "El texto afirma que los hogares con mayor gasto energetico reciben un ahorro absoluto superior."
+  },
+  {
+    "id": "official-style-verbal-004",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Medio ambiente",
+    "tags": [
+      "generado",
+      "estilo-oficial",
+      "causalidad"
+    ],
+    "passage": "La restauracion de humedales urbanos puede mejorar la biodiversidad y reducir inundaciones locales al retener agua de lluvia. Sin embargo, los resultados dependen del mantenimiento de canales y vegetacion. En varias ciudades, proyectos abandonados tras su inauguracion perdieron capacidad de drenaje en pocos anos.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "El mantenimiento influye en la eficacia de los humedales restaurados.",
+      "Todos los proyectos de humedales mantienen su capacidad de drenaje indefinidamente.",
+      "La restauracion de humedales impide cualquier inundacion urbana.",
+      "Los canales y la vegetacion no afectan a la retencion de agua."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La eficacia depende del mantenimiento de canales y vegetacion."
+  },
+  {
+    "id": "official-style-verbal-005",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Tecnologia",
+    "tags": [
+      "generado",
+      "estilo-oficial",
+      "limitaciones"
+    ],
+    "passage": "Los modelos de prediccion de demanda electrica funcionan mejor cuando combinan datos meteorologicos con patrones de consumo anteriores. Aun asi, los picos causados por eventos excepcionales, como apagones regionales o restricciones imprevistas, siguen siendo dificiles de anticipar porque no aparecen con frecuencia suficiente en los datos historicos.",
+    "question": "Cual de las siguientes afirmaciones es correcta?",
+    "options": [
+      "Los eventos excepcionales son faciles de predecir porque abundan en los datos historicos.",
+      "Los modelos mejoran cuando incorporan tanto clima como consumo pasado.",
+      "Los datos meteorologicos empeoran siempre la prediccion de demanda.",
+      "Los patrones de consumo anteriores son irrelevantes para estos modelos."
+    ],
+    "correctAnswer": 1,
+    "explanation": "El pasaje dice que los modelos funcionan mejor al combinar datos meteorologicos y patrones de consumo anteriores."
+  }
+]

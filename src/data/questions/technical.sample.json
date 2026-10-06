@@ -1,0 +1,82 @@
+[
+  {
+    "id": "technical-001",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "IAM",
+    "tags": ["MFA", "autenticación"],
+    "question": "¿Qué categoría de factor representa principalmente una llave de seguridad hardware (FIDO2/WebAuthn)?",
+    "options": [
+      "Algo que sabes",
+      "Algo que tienes",
+      "Algo que eres",
+      "Algún lugar donde estás"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las llaves hardware son dispositivos físicos que el usuario posee, por lo que corresponden al factor «algo que tienes»."
+  },
+  {
+    "id": "technical-002",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Protocolos",
+    "tags": ["OAuth2", "OIDC", "SAML"],
+    "question": "En OAuth 2.0, ¿qué flujo de concesión se recomienda generalmente para aplicaciones confidenciales del lado servidor?",
+    "options": [
+      "Implicit grant",
+      "Authorization Code con PKCE",
+      "Resource Owner Password Credentials",
+      "Client Credentials (para delegación de usuario)"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Authorization Code con PKCE es el flujo moderno recomendado. Evita exponer tokens en el navegador y mitiga ataques de interceptación."
+  },
+  {
+    "id": "technical-003",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Criptografía",
+    "tags": ["TLS", "PKI", "cifrado"],
+    "question": "¿Cuál es el propósito principal de una Autoridad de Certificación (CA) en PKI?",
+    "options": [
+      "Cifrar datos en reposo en endpoints",
+      "Emitir y firmar certificados digitales para establecer cadenas de confianza",
+      "Realizar hash de contraseñas de usuarios",
+      "Monitorizar tráfico de red en busca de anomalías"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las CA emiten y firman certificados, permitiendo verificar identidades y establecer conexiones TLS/SSL de confianza."
+  },
+  {
+    "id": "technical-004",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Respuesta a incidentes",
+    "tags": ["SIEM", "SOC", "MITRE ATT&CK"],
+    "question": "Un analista SOC mapea TTPs observadas a técnicas MITRE ATT&CK. ¿Cuál es el principal beneficio?",
+    "options": [
+      "Parchear automáticamente los sistemas afectados",
+      "Proporcionar un lenguaje común para clasificar el comportamiento del adversario",
+      "Sustituir la necesidad de políticas de retención de logs",
+      "Garantizar el cumplimiento del RGPD"
+    ],
+    "correctAnswer": 1,
+    "explanation": "MITRE ATT&CK estandariza tácticas y técnicas del adversario, mejorando detección, hunting y comunicación entre equipos."
+  },
+  {
+    "id": "technical-005",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Seguridad cloud",
+    "tags": ["AWS", "Azure", "RGPD", "NIS2"],
+    "question": "¿Qué afirmación describe mejor el modelo de responsabilidad compartida en seguridad cloud?",
+    "options": [
+      "El proveedor cloud es responsable de todos los controles de seguridad",
+      "El cliente es responsable de todos los controles de seguridad",
+      "Las responsabilidades se reparten entre proveedor y cliente según el modelo de servicio",
+      "Marcos como el RGPD solo aplican a sistemas on-premises"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El proveedor asegura la infraestructura; el cliente asegura sus datos, identidades, configuraciones y aplicaciones. El alcance varía según IaaS/PaaS/SaaS."
+  }
+]

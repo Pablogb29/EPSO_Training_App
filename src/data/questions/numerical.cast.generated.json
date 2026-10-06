@@ -1,0 +1,4112 @@
+[
+  {
+    "id": "numerical-cast-001",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Análisis presupuestario",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "incremento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Gasto en formación"
+      ],
+      "rows": [
+        [
+          "2024",
+          "1000 €"
+        ],
+        [
+          "2025",
+          "1080 €"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual del gasto en formación entre 2024 y 2025?",
+    "options": [
+      "8 %",
+      "5 %",
+      "11 %",
+      "14 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El incremento es 80 €. Dividido entre 1000 € equivale a 8 %."
+  },
+  {
+    "id": "numerical-cast-002",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Análisis presupuestario",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "incremento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Gasto en formación"
+      ],
+      "rows": [
+        [
+          "2024",
+          "1100 €"
+        ],
+        [
+          "2025",
+          "1210 €"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual del gasto en formación entre 2024 y 2025?",
+    "options": [
+      "16 %",
+      "10 %",
+      "7 %",
+      "13 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El incremento es 110 €. Dividido entre 1100 € equivale a 10 %."
+  },
+  {
+    "id": "numerical-cast-003",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Análisis presupuestario",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "incremento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Gasto en formación"
+      ],
+      "rows": [
+        [
+          "2024",
+          "1200 €"
+        ],
+        [
+          "2025",
+          "1344 €"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual del gasto en formación entre 2024 y 2025?",
+    "options": [
+      "15 %",
+      "18 %",
+      "12 %",
+      "9 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El incremento es 144 €. Dividido entre 1200 € equivale a 12 %."
+  },
+  {
+    "id": "numerical-cast-004",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Análisis presupuestario",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "incremento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Gasto en formación"
+      ],
+      "rows": [
+        [
+          "2024",
+          "1300 €"
+        ],
+        [
+          "2025",
+          "1482 €"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual del gasto en formación entre 2024 y 2025?",
+    "options": [
+      "11 %",
+      "17 %",
+      "20 %",
+      "14 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El incremento es 182 €. Dividido entre 1300 € equivale a 14 %."
+  },
+  {
+    "id": "numerical-cast-005",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Análisis presupuestario",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "incremento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Gasto en formación"
+      ],
+      "rows": [
+        [
+          "2024",
+          "1400 €"
+        ],
+        [
+          "2025",
+          "1624 €"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual del gasto en formación entre 2024 y 2025?",
+    "options": [
+      "16 %",
+      "13 %",
+      "19 %",
+      "22 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El incremento es 224 €. Dividido entre 1400 € equivale a 16 %."
+  },
+  {
+    "id": "numerical-cast-006",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Análisis presupuestario",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "incremento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Gasto en formación"
+      ],
+      "rows": [
+        [
+          "2024",
+          "1500 €"
+        ],
+        [
+          "2025",
+          "1770 €"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual del gasto en formación entre 2024 y 2025?",
+    "options": [
+      "24 %",
+      "18 %",
+      "15 %",
+      "21 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El incremento es 270 €. Dividido entre 1500 € equivale a 18 %."
+  },
+  {
+    "id": "numerical-cast-007",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Análisis presupuestario",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "incremento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Gasto en formación"
+      ],
+      "rows": [
+        [
+          "2024",
+          "1600 €"
+        ],
+        [
+          "2025",
+          "1920 €"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual del gasto en formación entre 2024 y 2025?",
+    "options": [
+      "23 %",
+      "26 %",
+      "20 %",
+      "17 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El incremento es 320 €. Dividido entre 1600 € equivale a 20 %."
+  },
+  {
+    "id": "numerical-cast-008",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Análisis presupuestario",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "incremento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Gasto en formación"
+      ],
+      "rows": [
+        [
+          "2024",
+          "1700 €"
+        ],
+        [
+          "2025",
+          "2074 €"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual del gasto en formación entre 2024 y 2025?",
+    "options": [
+      "19 %",
+      "25 %",
+      "28 %",
+      "22 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El incremento es 374 €. Dividido entre 1700 € equivale a 22 %."
+  },
+  {
+    "id": "numerical-cast-009",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Análisis presupuestario",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "incremento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Gasto en formación"
+      ],
+      "rows": [
+        [
+          "2024",
+          "1800 €"
+        ],
+        [
+          "2025",
+          "2232 €"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual del gasto en formación entre 2024 y 2025?",
+    "options": [
+      "24 %",
+      "21 %",
+      "27 %",
+      "30 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El incremento es 432 €. Dividido entre 1800 € equivale a 24 %."
+  },
+  {
+    "id": "numerical-cast-010",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Análisis presupuestario",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "incremento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Gasto en formación"
+      ],
+      "rows": [
+        [
+          "2024",
+          "1900 €"
+        ],
+        [
+          "2025",
+          "2394 €"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual del gasto en formación entre 2024 y 2025?",
+    "options": [
+      "32 %",
+      "26 %",
+      "23 %",
+      "29 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El incremento es 494 €. Dividido entre 1900 € equivale a 26 %."
+  },
+  {
+    "id": "numerical-cast-011",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Indicadores de servicio",
+    "tags": [
+      "CAST",
+      "media ponderada"
+    ],
+    "dataTable": {
+      "headers": [
+        "Equipo",
+        "Casos cerrados",
+        "Satisfacción media"
+      ],
+      "rows": [
+        [
+          "A",
+          "12",
+          "70"
+        ],
+        [
+          "B",
+          "18",
+          "82"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la satisfacción media ponderada de los dos equipos?",
+    "options": [
+      "78,7",
+      "75,2",
+      "77,2",
+      "76,0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Media ponderada = (12 × 70 + 18 × 82) / 30 = 77,2."
+  },
+  {
+    "id": "numerical-cast-012",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Indicadores de servicio",
+    "tags": [
+      "CAST",
+      "media ponderada"
+    ],
+    "dataTable": {
+      "headers": [
+        "Equipo",
+        "Casos cerrados",
+        "Satisfacción media"
+      ],
+      "rows": [
+        [
+          "A",
+          "13",
+          "71"
+        ],
+        [
+          "B",
+          "19",
+          "83"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la satisfacción media ponderada de los dos equipos?",
+    "options": [
+      "77,0",
+      "79,6",
+      "76,1",
+      "78,1"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Media ponderada = (13 × 71 + 19 × 83) / 32 = 78,1."
+  },
+  {
+    "id": "numerical-cast-013",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Indicadores de servicio",
+    "tags": [
+      "CAST",
+      "media ponderada"
+    ],
+    "dataTable": {
+      "headers": [
+        "Equipo",
+        "Casos cerrados",
+        "Satisfacción media"
+      ],
+      "rows": [
+        [
+          "A",
+          "14",
+          "72"
+        ],
+        [
+          "B",
+          "20",
+          "84"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la satisfacción media ponderada de los dos equipos?",
+    "options": [
+      "79,1",
+      "78,0",
+      "80,6",
+      "77,1"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Media ponderada = (14 × 72 + 20 × 84) / 34 = 79,1."
+  },
+  {
+    "id": "numerical-cast-014",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Indicadores de servicio",
+    "tags": [
+      "CAST",
+      "media ponderada"
+    ],
+    "dataTable": {
+      "headers": [
+        "Equipo",
+        "Casos cerrados",
+        "Satisfacción media"
+      ],
+      "rows": [
+        [
+          "A",
+          "15",
+          "73"
+        ],
+        [
+          "B",
+          "21",
+          "85"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la satisfacción media ponderada de los dos equipos?",
+    "options": [
+      "78,0",
+      "80,0",
+      "79,0",
+      "81,5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Media ponderada = (15 × 73 + 21 × 85) / 36 = 80,0."
+  },
+  {
+    "id": "numerical-cast-015",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Indicadores de servicio",
+    "tags": [
+      "CAST",
+      "media ponderada"
+    ],
+    "dataTable": {
+      "headers": [
+        "Equipo",
+        "Casos cerrados",
+        "Satisfacción media"
+      ],
+      "rows": [
+        [
+          "A",
+          "16",
+          "74"
+        ],
+        [
+          "B",
+          "22",
+          "86"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la satisfacción media ponderada de los dos equipos?",
+    "options": [
+      "82,4",
+      "78,9",
+      "80,9",
+      "80,0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Media ponderada = (16 × 74 + 22 × 86) / 38 = 80,9."
+  },
+  {
+    "id": "numerical-cast-016",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Indicadores de servicio",
+    "tags": [
+      "CAST",
+      "media ponderada"
+    ],
+    "dataTable": {
+      "headers": [
+        "Equipo",
+        "Casos cerrados",
+        "Satisfacción media"
+      ],
+      "rows": [
+        [
+          "A",
+          "17",
+          "75"
+        ],
+        [
+          "B",
+          "23",
+          "87"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la satisfacción media ponderada de los dos equipos?",
+    "options": [
+      "81,0",
+      "83,4",
+      "79,9",
+      "81,9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Media ponderada = (17 × 75 + 23 × 87) / 40 = 81,9."
+  },
+  {
+    "id": "numerical-cast-017",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Indicadores de servicio",
+    "tags": [
+      "CAST",
+      "media ponderada"
+    ],
+    "dataTable": {
+      "headers": [
+        "Equipo",
+        "Casos cerrados",
+        "Satisfacción media"
+      ],
+      "rows": [
+        [
+          "A",
+          "18",
+          "76"
+        ],
+        [
+          "B",
+          "24",
+          "88"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la satisfacción media ponderada de los dos equipos?",
+    "options": [
+      "82,9",
+      "82,0",
+      "84,4",
+      "80,9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Media ponderada = (18 × 76 + 24 × 88) / 42 = 82,9."
+  },
+  {
+    "id": "numerical-cast-018",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Indicadores de servicio",
+    "tags": [
+      "CAST",
+      "media ponderada"
+    ],
+    "dataTable": {
+      "headers": [
+        "Equipo",
+        "Casos cerrados",
+        "Satisfacción media"
+      ],
+      "rows": [
+        [
+          "A",
+          "19",
+          "77"
+        ],
+        [
+          "B",
+          "25",
+          "89"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la satisfacción media ponderada de los dos equipos?",
+    "options": [
+      "81,8",
+      "83,8",
+      "83,0",
+      "85,3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Media ponderada = (19 × 77 + 25 × 89) / 44 = 83,8."
+  },
+  {
+    "id": "numerical-cast-019",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Indicadores de servicio",
+    "tags": [
+      "CAST",
+      "media ponderada"
+    ],
+    "dataTable": {
+      "headers": [
+        "Equipo",
+        "Casos cerrados",
+        "Satisfacción media"
+      ],
+      "rows": [
+        [
+          "A",
+          "20",
+          "78"
+        ],
+        [
+          "B",
+          "26",
+          "90"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la satisfacción media ponderada de los dos equipos?",
+    "options": [
+      "86,3",
+      "82,8",
+      "84,8",
+      "84,0"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Media ponderada = (20 × 78 + 26 × 90) / 46 = 84,8."
+  },
+  {
+    "id": "numerical-cast-020",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Indicadores de servicio",
+    "tags": [
+      "CAST",
+      "media ponderada"
+    ],
+    "dataTable": {
+      "headers": [
+        "Equipo",
+        "Casos cerrados",
+        "Satisfacción media"
+      ],
+      "rows": [
+        [
+          "A",
+          "21",
+          "79"
+        ],
+        [
+          "B",
+          "27",
+          "91"
+        ]
+      ]
+    },
+    "question": "¿Cuál es la satisfacción media ponderada de los dos equipos?",
+    "options": [
+      "85,0",
+      "87,3",
+      "83,8",
+      "85,8"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Media ponderada = (21 × 79 + 27 × 91) / 48 = 85,8."
+  },
+  {
+    "id": "numerical-cast-021",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Productividad",
+    "tags": [
+      "CAST",
+      "ratio",
+      "comparación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Expedientes resueltos",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Alfa",
+          "120",
+          "10"
+        ],
+        [
+          "Beta",
+          "95",
+          "8"
+        ],
+        [
+          "Gamma",
+          "140",
+          "14"
+        ],
+        [
+          "Delta",
+          "110",
+          "9"
+        ]
+      ]
+    },
+    "question": "¿Qué unidad resolvió más expedientes por persona asignada?",
+    "options": [
+      "Delta",
+      "Alfa",
+      "Beta",
+      "Gamma"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los ratios son Alfa: 12,00, Beta: 11,88, Gamma: 10,00, Delta: 12,22. El mayor corresponde a Delta."
+  },
+  {
+    "id": "numerical-cast-022",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Productividad",
+    "tags": [
+      "CAST",
+      "ratio",
+      "comparación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Expedientes resueltos",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Alfa",
+          "128",
+          "11"
+        ],
+        [
+          "Beta",
+          "104",
+          "9"
+        ],
+        [
+          "Gamma",
+          "146",
+          "15"
+        ],
+        [
+          "Delta",
+          "117",
+          "10"
+        ]
+      ]
+    },
+    "question": "¿Qué unidad resolvió más expedientes por persona asignada?",
+    "options": [
+      "Gamma",
+      "Delta",
+      "Alfa",
+      "Beta"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los ratios son Alfa: 11,64, Beta: 11,56, Gamma: 9,73, Delta: 11,70. El mayor corresponde a Delta."
+  },
+  {
+    "id": "numerical-cast-023",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Productividad",
+    "tags": [
+      "CAST",
+      "ratio",
+      "comparación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Expedientes resueltos",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Alfa",
+          "136",
+          "12"
+        ],
+        [
+          "Beta",
+          "113",
+          "10"
+        ],
+        [
+          "Gamma",
+          "152",
+          "16"
+        ],
+        [
+          "Delta",
+          "124",
+          "11"
+        ]
+      ]
+    },
+    "question": "¿Qué unidad resolvió más expedientes por persona asignada?",
+    "options": [
+      "Gamma",
+      "Delta",
+      "Alfa",
+      "Beta"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los ratios son Alfa: 11,33, Beta: 11,30, Gamma: 9,50, Delta: 11,27. El mayor corresponde a Alfa."
+  },
+  {
+    "id": "numerical-cast-024",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Productividad",
+    "tags": [
+      "CAST",
+      "ratio",
+      "comparación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Expedientes resueltos",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Alfa",
+          "144",
+          "13"
+        ],
+        [
+          "Beta",
+          "122",
+          "11"
+        ],
+        [
+          "Gamma",
+          "158",
+          "17"
+        ],
+        [
+          "Delta",
+          "131",
+          "12"
+        ]
+      ]
+    },
+    "question": "¿Qué unidad resolvió más expedientes por persona asignada?",
+    "options": [
+      "Alfa",
+      "Gamma",
+      "Delta",
+      "Beta"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los ratios son Alfa: 11,08, Beta: 11,09, Gamma: 9,29, Delta: 10,92. El mayor corresponde a Beta."
+  },
+  {
+    "id": "numerical-cast-025",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Productividad",
+    "tags": [
+      "CAST",
+      "ratio",
+      "comparación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Expedientes resueltos",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Alfa",
+          "152",
+          "14"
+        ],
+        [
+          "Beta",
+          "131",
+          "12"
+        ],
+        [
+          "Gamma",
+          "164",
+          "18"
+        ],
+        [
+          "Delta",
+          "138",
+          "13"
+        ]
+      ]
+    },
+    "question": "¿Qué unidad resolvió más expedientes por persona asignada?",
+    "options": [
+      "Beta",
+      "Alfa",
+      "Gamma",
+      "Delta"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los ratios son Alfa: 10,86, Beta: 10,92, Gamma: 9,11, Delta: 10,62. El mayor corresponde a Beta."
+  },
+  {
+    "id": "numerical-cast-026",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Productividad",
+    "tags": [
+      "CAST",
+      "ratio",
+      "comparación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Expedientes resueltos",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Alfa",
+          "160",
+          "15"
+        ],
+        [
+          "Beta",
+          "140",
+          "13"
+        ],
+        [
+          "Gamma",
+          "170",
+          "19"
+        ],
+        [
+          "Delta",
+          "145",
+          "14"
+        ]
+      ]
+    },
+    "question": "¿Qué unidad resolvió más expedientes por persona asignada?",
+    "options": [
+      "Delta",
+      "Beta",
+      "Alfa",
+      "Gamma"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los ratios son Alfa: 10,67, Beta: 10,77, Gamma: 8,95, Delta: 10,36. El mayor corresponde a Beta."
+  },
+  {
+    "id": "numerical-cast-027",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Productividad",
+    "tags": [
+      "CAST",
+      "ratio",
+      "comparación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Expedientes resueltos",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Alfa",
+          "168",
+          "16"
+        ],
+        [
+          "Beta",
+          "149",
+          "14"
+        ],
+        [
+          "Gamma",
+          "176",
+          "20"
+        ],
+        [
+          "Delta",
+          "152",
+          "15"
+        ]
+      ]
+    },
+    "question": "¿Qué unidad resolvió más expedientes por persona asignada?",
+    "options": [
+      "Gamma",
+      "Delta",
+      "Beta",
+      "Alfa"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los ratios son Alfa: 10,50, Beta: 10,64, Gamma: 8,80, Delta: 10,13. El mayor corresponde a Beta."
+  },
+  {
+    "id": "numerical-cast-028",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Productividad",
+    "tags": [
+      "CAST",
+      "ratio",
+      "comparación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Expedientes resueltos",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Alfa",
+          "176",
+          "17"
+        ],
+        [
+          "Beta",
+          "158",
+          "15"
+        ],
+        [
+          "Gamma",
+          "182",
+          "21"
+        ],
+        [
+          "Delta",
+          "159",
+          "16"
+        ]
+      ]
+    },
+    "question": "¿Qué unidad resolvió más expedientes por persona asignada?",
+    "options": [
+      "Alfa",
+      "Gamma",
+      "Delta",
+      "Beta"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los ratios son Alfa: 10,35, Beta: 10,53, Gamma: 8,67, Delta: 9,94. El mayor corresponde a Beta."
+  },
+  {
+    "id": "numerical-cast-029",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Productividad",
+    "tags": [
+      "CAST",
+      "ratio",
+      "comparación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Expedientes resueltos",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Alfa",
+          "184",
+          "18"
+        ],
+        [
+          "Beta",
+          "167",
+          "16"
+        ],
+        [
+          "Gamma",
+          "188",
+          "22"
+        ],
+        [
+          "Delta",
+          "166",
+          "17"
+        ]
+      ]
+    },
+    "question": "¿Qué unidad resolvió más expedientes por persona asignada?",
+    "options": [
+      "Beta",
+      "Alfa",
+      "Gamma",
+      "Delta"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los ratios son Alfa: 10,22, Beta: 10,44, Gamma: 8,55, Delta: 9,76. El mayor corresponde a Beta."
+  },
+  {
+    "id": "numerical-cast-030",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Productividad",
+    "tags": [
+      "CAST",
+      "ratio",
+      "comparación"
+    ],
+    "dataTable": {
+      "headers": [
+        "Unidad",
+        "Expedientes resueltos",
+        "Personal asignado"
+      ],
+      "rows": [
+        [
+          "Alfa",
+          "192",
+          "19"
+        ],
+        [
+          "Beta",
+          "176",
+          "17"
+        ],
+        [
+          "Gamma",
+          "194",
+          "23"
+        ],
+        [
+          "Delta",
+          "173",
+          "18"
+        ]
+      ]
+    },
+    "question": "¿Qué unidad resolvió más expedientes por persona asignada?",
+    "options": [
+      "Delta",
+      "Beta",
+      "Alfa",
+      "Gamma"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los ratios son Alfa: 10,11, Beta: 10,35, Gamma: 8,43, Delta: 9,61. El mayor corresponde a Beta."
+  },
+  {
+    "id": "numerical-cast-031",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Planificación de recursos",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "distribución"
+    ],
+    "dataTable": {
+      "headers": [
+        "Línea",
+        "Importe"
+      ],
+      "rows": [
+        [
+          "Digitalización",
+          "160 €"
+        ],
+        [
+          "Asesoría jurídica",
+          "240 €"
+        ],
+        [
+          "Comunicación",
+          "400 €"
+        ],
+        [
+          "Total",
+          "800 €"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total se asignó a digitalización?",
+    "options": [
+      "16,0 %",
+      "30,0 %",
+      "20,0 %",
+      "25,0 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Digitalización representa 160 € de 800 €: 160 / 800 × 100 = 20,0 %."
+  },
+  {
+    "id": "numerical-cast-032",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Planificación de recursos",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "distribución"
+    ],
+    "dataTable": {
+      "headers": [
+        "Línea",
+        "Importe"
+      ],
+      "rows": [
+        [
+          "Digitalización",
+          "184 €"
+        ],
+        [
+          "Asesoría jurídica",
+          "260 €"
+        ],
+        [
+          "Comunicación",
+          "436 €"
+        ],
+        [
+          "Total",
+          "880 €"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total se asignó a digitalización?",
+    "options": [
+      "25,9 %",
+      "16,9 %",
+      "29,5 %",
+      "20,9 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Digitalización representa 184 € de 880 €: 184 / 880 × 100 = 20,9 %."
+  },
+  {
+    "id": "numerical-cast-033",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Planificación de recursos",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "distribución"
+    ],
+    "dataTable": {
+      "headers": [
+        "Línea",
+        "Importe"
+      ],
+      "rows": [
+        [
+          "Digitalización",
+          "208 €"
+        ],
+        [
+          "Asesoría jurídica",
+          "280 €"
+        ],
+        [
+          "Comunicación",
+          "472 €"
+        ],
+        [
+          "Total",
+          "960 €"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total se asignó a digitalización?",
+    "options": [
+      "21,7 %",
+      "26,7 %",
+      "17,7 %",
+      "29,2 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Digitalización representa 208 € de 960 €: 208 / 960 × 100 = 21,7 %."
+  },
+  {
+    "id": "numerical-cast-034",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Planificación de recursos",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "distribución"
+    ],
+    "dataTable": {
+      "headers": [
+        "Línea",
+        "Importe"
+      ],
+      "rows": [
+        [
+          "Digitalización",
+          "232 €"
+        ],
+        [
+          "Asesoría jurídica",
+          "300 €"
+        ],
+        [
+          "Comunicación",
+          "508 €"
+        ],
+        [
+          "Total",
+          "1040 €"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total se asignó a digitalización?",
+    "options": [
+      "28,8 %",
+      "22,3 %",
+      "27,3 %",
+      "18,3 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Digitalización representa 232 € de 1040 €: 232 / 1040 × 100 = 22,3 %."
+  },
+  {
+    "id": "numerical-cast-035",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Planificación de recursos",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "distribución"
+    ],
+    "dataTable": {
+      "headers": [
+        "Línea",
+        "Importe"
+      ],
+      "rows": [
+        [
+          "Digitalización",
+          "256 €"
+        ],
+        [
+          "Asesoría jurídica",
+          "320 €"
+        ],
+        [
+          "Comunicación",
+          "544 €"
+        ],
+        [
+          "Total",
+          "1120 €"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total se asignó a digitalización?",
+    "options": [
+      "18,9 %",
+      "28,6 %",
+      "22,9 %",
+      "27,9 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Digitalización representa 256 € de 1120 €: 256 / 1120 × 100 = 22,9 %."
+  },
+  {
+    "id": "numerical-cast-036",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Planificación de recursos",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "distribución"
+    ],
+    "dataTable": {
+      "headers": [
+        "Línea",
+        "Importe"
+      ],
+      "rows": [
+        [
+          "Digitalización",
+          "280 €"
+        ],
+        [
+          "Asesoría jurídica",
+          "340 €"
+        ],
+        [
+          "Comunicación",
+          "580 €"
+        ],
+        [
+          "Total",
+          "1200 €"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total se asignó a digitalización?",
+    "options": [
+      "28,3 %",
+      "19,3 %",
+      "Ninguna de las anteriores (3)",
+      "23,3 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Digitalización representa 280 € de 1200 €: 280 / 1200 × 100 = 23,3 %."
+  },
+  {
+    "id": "numerical-cast-037",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Planificación de recursos",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "distribución"
+    ],
+    "dataTable": {
+      "headers": [
+        "Línea",
+        "Importe"
+      ],
+      "rows": [
+        [
+          "Digitalización",
+          "304 €"
+        ],
+        [
+          "Asesoría jurídica",
+          "360 €"
+        ],
+        [
+          "Comunicación",
+          "616 €"
+        ],
+        [
+          "Total",
+          "1280 €"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total se asignó a digitalización?",
+    "options": [
+      "23,8 %",
+      "28,8 %",
+      "19,8 %",
+      "28,1 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Digitalización representa 304 € de 1280 €: 304 / 1280 × 100 = 23,8 %."
+  },
+  {
+    "id": "numerical-cast-038",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Planificación de recursos",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "distribución"
+    ],
+    "dataTable": {
+      "headers": [
+        "Línea",
+        "Importe"
+      ],
+      "rows": [
+        [
+          "Digitalización",
+          "328 €"
+        ],
+        [
+          "Asesoría jurídica",
+          "380 €"
+        ],
+        [
+          "Comunicación",
+          "652 €"
+        ],
+        [
+          "Total",
+          "1360 €"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total se asignó a digitalización?",
+    "options": [
+      "27,9 %",
+      "24,1 %",
+      "29,1 %",
+      "20,1 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Digitalización representa 328 € de 1360 €: 328 / 1360 × 100 = 24,1 %."
+  },
+  {
+    "id": "numerical-cast-039",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Planificación de recursos",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "distribución"
+    ],
+    "dataTable": {
+      "headers": [
+        "Línea",
+        "Importe"
+      ],
+      "rows": [
+        [
+          "Digitalización",
+          "352 €"
+        ],
+        [
+          "Asesoría jurídica",
+          "400 €"
+        ],
+        [
+          "Comunicación",
+          "688 €"
+        ],
+        [
+          "Total",
+          "1440 €"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total se asignó a digitalización?",
+    "options": [
+      "20,4 %",
+      "27,8 %",
+      "24,4 %",
+      "29,4 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Digitalización representa 352 € de 1440 €: 352 / 1440 × 100 = 24,4 %."
+  },
+  {
+    "id": "numerical-cast-040",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Planificación de recursos",
+    "tags": [
+      "CAST",
+      "porcentaje",
+      "distribución"
+    ],
+    "dataTable": {
+      "headers": [
+        "Línea",
+        "Importe"
+      ],
+      "rows": [
+        [
+          "Digitalización",
+          "376 €"
+        ],
+        [
+          "Asesoría jurídica",
+          "420 €"
+        ],
+        [
+          "Comunicación",
+          "724 €"
+        ],
+        [
+          "Total",
+          "1520 €"
+        ]
+      ]
+    },
+    "question": "¿Qué porcentaje del total se asignó a digitalización?",
+    "options": [
+      "29,7 %",
+      "20,7 %",
+      "27,6 %",
+      "24,7 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Digitalización representa 376 € de 1520 €: 376 / 1520 × 100 = 24,7 %."
+  },
+  {
+    "id": "numerical-cast-041",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Gestión de expedientes",
+    "tags": [
+      "CAST",
+      "objetivo",
+      "backlog"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Expedientes"
+      ],
+      "rows": [
+        [
+          "Pendientes iniciales",
+          "300"
+        ],
+        [
+          "Cerrados",
+          "80"
+        ],
+        [
+          "Nuevos recibidos",
+          "35"
+        ],
+        [
+          "Objetivo máximo final",
+          "255"
+        ]
+      ]
+    },
+    "question": "¿Cuántos expedientes adicionales deben cerrarse para alcanzar el objetivo máximo final?",
+    "options": [
+      "0",
+      "8",
+      "14",
+      "Ninguna de las anteriores (3)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pendientes actuales = 300 - 80 + 35 = 255. Para llegar a 255, deben cerrarse 0 adicionales."
+  },
+  {
+    "id": "numerical-cast-042",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Gestión de expedientes",
+    "tags": [
+      "CAST",
+      "objetivo",
+      "backlog"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Expedientes"
+      ],
+      "rows": [
+        [
+          "Pendientes iniciales",
+          "320"
+        ],
+        [
+          "Cerrados",
+          "87"
+        ],
+        [
+          "Nuevos recibidos",
+          "39"
+        ],
+        [
+          "Objetivo máximo final",
+          "272"
+        ]
+      ]
+    },
+    "question": "¿Cuántos expedientes adicionales deben cerrarse para alcanzar el objetivo máximo final?",
+    "options": [
+      "Ninguna de las anteriores (3)",
+      "0",
+      "8",
+      "14"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pendientes actuales = 320 - 87 + 39 = 272. Para llegar a 272, deben cerrarse 0 adicionales."
+  },
+  {
+    "id": "numerical-cast-043",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Gestión de expedientes",
+    "tags": [
+      "CAST",
+      "objetivo",
+      "backlog"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Expedientes"
+      ],
+      "rows": [
+        [
+          "Pendientes iniciales",
+          "340"
+        ],
+        [
+          "Cerrados",
+          "94"
+        ],
+        [
+          "Nuevos recibidos",
+          "43"
+        ],
+        [
+          "Objetivo máximo final",
+          "289"
+        ]
+      ]
+    },
+    "question": "¿Cuántos expedientes adicionales deben cerrarse para alcanzar el objetivo máximo final?",
+    "options": [
+      "14",
+      "Ninguna de las anteriores (3)",
+      "0",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pendientes actuales = 340 - 94 + 43 = 289. Para llegar a 289, deben cerrarse 0 adicionales."
+  },
+  {
+    "id": "numerical-cast-044",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Gestión de expedientes",
+    "tags": [
+      "CAST",
+      "objetivo",
+      "backlog"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Expedientes"
+      ],
+      "rows": [
+        [
+          "Pendientes iniciales",
+          "360"
+        ],
+        [
+          "Cerrados",
+          "101"
+        ],
+        [
+          "Nuevos recibidos",
+          "47"
+        ],
+        [
+          "Objetivo máximo final",
+          "306"
+        ]
+      ]
+    },
+    "question": "¿Cuántos expedientes adicionales deben cerrarse para alcanzar el objetivo máximo final?",
+    "options": [
+      "8",
+      "14",
+      "Ninguna de las anteriores (3)",
+      "0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pendientes actuales = 360 - 101 + 47 = 306. Para llegar a 306, deben cerrarse 0 adicionales."
+  },
+  {
+    "id": "numerical-cast-045",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Gestión de expedientes",
+    "tags": [
+      "CAST",
+      "objetivo",
+      "backlog"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Expedientes"
+      ],
+      "rows": [
+        [
+          "Pendientes iniciales",
+          "380"
+        ],
+        [
+          "Cerrados",
+          "108"
+        ],
+        [
+          "Nuevos recibidos",
+          "51"
+        ],
+        [
+          "Objetivo máximo final",
+          "323"
+        ]
+      ]
+    },
+    "question": "¿Cuántos expedientes adicionales deben cerrarse para alcanzar el objetivo máximo final?",
+    "options": [
+      "0",
+      "8",
+      "14",
+      "Ninguna de las anteriores (3)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pendientes actuales = 380 - 108 + 51 = 323. Para llegar a 323, deben cerrarse 0 adicionales."
+  },
+  {
+    "id": "numerical-cast-046",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Gestión de expedientes",
+    "tags": [
+      "CAST",
+      "objetivo",
+      "backlog"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Expedientes"
+      ],
+      "rows": [
+        [
+          "Pendientes iniciales",
+          "400"
+        ],
+        [
+          "Cerrados",
+          "115"
+        ],
+        [
+          "Nuevos recibidos",
+          "55"
+        ],
+        [
+          "Objetivo máximo final",
+          "340"
+        ]
+      ]
+    },
+    "question": "¿Cuántos expedientes adicionales deben cerrarse para alcanzar el objetivo máximo final?",
+    "options": [
+      "Ninguna de las anteriores (3)",
+      "0",
+      "8",
+      "14"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pendientes actuales = 400 - 115 + 55 = 340. Para llegar a 340, deben cerrarse 0 adicionales."
+  },
+  {
+    "id": "numerical-cast-047",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Gestión de expedientes",
+    "tags": [
+      "CAST",
+      "objetivo",
+      "backlog"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Expedientes"
+      ],
+      "rows": [
+        [
+          "Pendientes iniciales",
+          "420"
+        ],
+        [
+          "Cerrados",
+          "122"
+        ],
+        [
+          "Nuevos recibidos",
+          "59"
+        ],
+        [
+          "Objetivo máximo final",
+          "357"
+        ]
+      ]
+    },
+    "question": "¿Cuántos expedientes adicionales deben cerrarse para alcanzar el objetivo máximo final?",
+    "options": [
+      "14",
+      "Ninguna de las anteriores (3)",
+      "0",
+      "8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Pendientes actuales = 420 - 122 + 59 = 357. Para llegar a 357, deben cerrarse 0 adicionales."
+  },
+  {
+    "id": "numerical-cast-048",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Gestión de expedientes",
+    "tags": [
+      "CAST",
+      "objetivo",
+      "backlog"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Expedientes"
+      ],
+      "rows": [
+        [
+          "Pendientes iniciales",
+          "440"
+        ],
+        [
+          "Cerrados",
+          "129"
+        ],
+        [
+          "Nuevos recibidos",
+          "63"
+        ],
+        [
+          "Objetivo máximo final",
+          "374"
+        ]
+      ]
+    },
+    "question": "¿Cuántos expedientes adicionales deben cerrarse para alcanzar el objetivo máximo final?",
+    "options": [
+      "8",
+      "14",
+      "Ninguna de las anteriores (3)",
+      "0"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pendientes actuales = 440 - 129 + 63 = 374. Para llegar a 374, deben cerrarse 0 adicionales."
+  },
+  {
+    "id": "numerical-cast-049",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Gestión de expedientes",
+    "tags": [
+      "CAST",
+      "objetivo",
+      "backlog"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Expedientes"
+      ],
+      "rows": [
+        [
+          "Pendientes iniciales",
+          "460"
+        ],
+        [
+          "Cerrados",
+          "136"
+        ],
+        [
+          "Nuevos recibidos",
+          "67"
+        ],
+        [
+          "Objetivo máximo final",
+          "391"
+        ]
+      ]
+    },
+    "question": "¿Cuántos expedientes adicionales deben cerrarse para alcanzar el objetivo máximo final?",
+    "options": [
+      "0",
+      "8",
+      "14",
+      "Ninguna de las anteriores (3)"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pendientes actuales = 460 - 136 + 67 = 391. Para llegar a 391, deben cerrarse 0 adicionales."
+  },
+  {
+    "id": "numerical-cast-050",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Gestión de expedientes",
+    "tags": [
+      "CAST",
+      "objetivo",
+      "backlog"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Expedientes"
+      ],
+      "rows": [
+        [
+          "Pendientes iniciales",
+          "480"
+        ],
+        [
+          "Cerrados",
+          "143"
+        ],
+        [
+          "Nuevos recibidos",
+          "71"
+        ],
+        [
+          "Objetivo máximo final",
+          "408"
+        ]
+      ]
+    },
+    "question": "¿Cuántos expedientes adicionales deben cerrarse para alcanzar el objetivo máximo final?",
+    "options": [
+      "Ninguna de las anteriores (3)",
+      "0",
+      "8",
+      "14"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pendientes actuales = 480 - 143 + 71 = 408. Para llegar a 408, deben cerrarse 0 adicionales."
+  },
+  {
+    "id": "numerical-cast-051",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Procesos administrativos",
+    "tags": [
+      "CAST",
+      "media",
+      "tiempo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Horas totales registradas",
+          "150"
+        ],
+        [
+          "Procesos completados",
+          "25"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el tiempo medio por proceso completado, expresado en minutos?",
+    "options": [
+      "372,0 minutos",
+      "351,0 minutos",
+      "360,0 minutos",
+      "6,0 minutos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tiempo medio = 150 horas × 60 / 25 procesos = 360,0 minutos."
+  },
+  {
+    "id": "numerical-cast-052",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Procesos administrativos",
+    "tags": [
+      "CAST",
+      "media",
+      "tiempo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Horas totales registradas",
+          "168"
+        ],
+        [
+          "Procesos completados",
+          "28"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el tiempo medio por proceso completado, expresado en minutos?",
+    "options": [
+      "6,0 minutos",
+      "372,0 minutos",
+      "351,0 minutos",
+      "360,0 minutos"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Tiempo medio = 168 horas × 60 / 28 procesos = 360,0 minutos."
+  },
+  {
+    "id": "numerical-cast-053",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Procesos administrativos",
+    "tags": [
+      "CAST",
+      "media",
+      "tiempo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Horas totales registradas",
+          "186"
+        ],
+        [
+          "Procesos completados",
+          "31"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el tiempo medio por proceso completado, expresado en minutos?",
+    "options": [
+      "360,0 minutos",
+      "6,0 minutos",
+      "372,0 minutos",
+      "351,0 minutos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tiempo medio = 186 horas × 60 / 31 procesos = 360,0 minutos."
+  },
+  {
+    "id": "numerical-cast-054",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Procesos administrativos",
+    "tags": [
+      "CAST",
+      "media",
+      "tiempo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Horas totales registradas",
+          "204"
+        ],
+        [
+          "Procesos completados",
+          "34"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el tiempo medio por proceso completado, expresado en minutos?",
+    "options": [
+      "351,0 minutos",
+      "360,0 minutos",
+      "6,0 minutos",
+      "372,0 minutos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tiempo medio = 204 horas × 60 / 34 procesos = 360,0 minutos."
+  },
+  {
+    "id": "numerical-cast-055",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Procesos administrativos",
+    "tags": [
+      "CAST",
+      "media",
+      "tiempo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Horas totales registradas",
+          "222"
+        ],
+        [
+          "Procesos completados",
+          "37"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el tiempo medio por proceso completado, expresado en minutos?",
+    "options": [
+      "372,0 minutos",
+      "351,0 minutos",
+      "360,0 minutos",
+      "6,0 minutos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tiempo medio = 222 horas × 60 / 37 procesos = 360,0 minutos."
+  },
+  {
+    "id": "numerical-cast-056",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Procesos administrativos",
+    "tags": [
+      "CAST",
+      "media",
+      "tiempo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Horas totales registradas",
+          "240"
+        ],
+        [
+          "Procesos completados",
+          "40"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el tiempo medio por proceso completado, expresado en minutos?",
+    "options": [
+      "6,0 minutos",
+      "372,0 minutos",
+      "351,0 minutos",
+      "360,0 minutos"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Tiempo medio = 240 horas × 60 / 40 procesos = 360,0 minutos."
+  },
+  {
+    "id": "numerical-cast-057",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Procesos administrativos",
+    "tags": [
+      "CAST",
+      "media",
+      "tiempo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Horas totales registradas",
+          "258"
+        ],
+        [
+          "Procesos completados",
+          "43"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el tiempo medio por proceso completado, expresado en minutos?",
+    "options": [
+      "360,0 minutos",
+      "6,0 minutos",
+      "372,0 minutos",
+      "351,0 minutos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tiempo medio = 258 horas × 60 / 43 procesos = 360,0 minutos."
+  },
+  {
+    "id": "numerical-cast-058",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Procesos administrativos",
+    "tags": [
+      "CAST",
+      "media",
+      "tiempo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Horas totales registradas",
+          "276"
+        ],
+        [
+          "Procesos completados",
+          "46"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el tiempo medio por proceso completado, expresado en minutos?",
+    "options": [
+      "351,0 minutos",
+      "360,0 minutos",
+      "6,0 minutos",
+      "372,0 minutos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tiempo medio = 276 horas × 60 / 46 procesos = 360,0 minutos."
+  },
+  {
+    "id": "numerical-cast-059",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Procesos administrativos",
+    "tags": [
+      "CAST",
+      "media",
+      "tiempo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Horas totales registradas",
+          "294"
+        ],
+        [
+          "Procesos completados",
+          "49"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el tiempo medio por proceso completado, expresado en minutos?",
+    "options": [
+      "372,0 minutos",
+      "351,0 minutos",
+      "360,0 minutos",
+      "6,0 minutos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tiempo medio = 294 horas × 60 / 49 procesos = 360,0 minutos."
+  },
+  {
+    "id": "numerical-cast-060",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Procesos administrativos",
+    "tags": [
+      "CAST",
+      "media",
+      "tiempo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Horas totales registradas",
+          "312"
+        ],
+        [
+          "Procesos completados",
+          "52"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el tiempo medio por proceso completado, expresado en minutos?",
+    "options": [
+      "6,0 minutos",
+      "372,0 minutos",
+      "351,0 minutos",
+      "360,0 minutos"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Tiempo medio = 312 horas × 60 / 52 procesos = 360,0 minutos."
+  },
+  {
+    "id": "numerical-cast-061",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Costes cloud",
+    "tags": [
+      "CAST",
+      "ahorro",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Coste mensual actual",
+          "4200 €"
+        ],
+        [
+          "Reducción prevista",
+          "10 %"
+        ],
+        [
+          "Meses considerados",
+          "12"
+        ]
+      ]
+    },
+    "question": "¿Cuál sería el ahorro anual si se cumple la reducción prevista?",
+    "options": [
+      "5040 €",
+      "420 €",
+      "9240 €",
+      "4536 €"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ahorro anual = 4200 € × 10 % × 12 = 5040 €."
+  },
+  {
+    "id": "numerical-cast-062",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Costes cloud",
+    "tags": [
+      "CAST",
+      "ahorro",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Coste mensual actual",
+          "4550 €"
+        ],
+        [
+          "Reducción prevista",
+          "11 %"
+        ],
+        [
+          "Meses considerados",
+          "12"
+        ]
+      ]
+    },
+    "question": "¿Cuál sería el ahorro anual si se cumple la reducción prevista?",
+    "options": [
+      "5405 €",
+      "6006 €",
+      "501 €",
+      "10.556 €"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ahorro anual = 4550 € × 11 % × 12 = 6006 €."
+  },
+  {
+    "id": "numerical-cast-063",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Costes cloud",
+    "tags": [
+      "CAST",
+      "ahorro",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Coste mensual actual",
+          "4900 €"
+        ],
+        [
+          "Reducción prevista",
+          "12 %"
+        ],
+        [
+          "Meses considerados",
+          "12"
+        ]
+      ]
+    },
+    "question": "¿Cuál sería el ahorro anual si se cumple la reducción prevista?",
+    "options": [
+      "11.956 €",
+      "6350 €",
+      "7056 €",
+      "588 €"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ahorro anual = 4900 € × 12 % × 12 = 7056 €."
+  },
+  {
+    "id": "numerical-cast-064",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Costes cloud",
+    "tags": [
+      "CAST",
+      "ahorro",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Coste mensual actual",
+          "5250 €"
+        ],
+        [
+          "Reducción prevista",
+          "13 %"
+        ],
+        [
+          "Meses considerados",
+          "12"
+        ]
+      ]
+    },
+    "question": "¿Cuál sería el ahorro anual si se cumple la reducción prevista?",
+    "options": [
+      "683 €",
+      "13.440 €",
+      "7371 €",
+      "8190 €"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Ahorro anual = 5250 € × 13 % × 12 = 8190 €."
+  },
+  {
+    "id": "numerical-cast-065",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Costes cloud",
+    "tags": [
+      "CAST",
+      "ahorro",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Coste mensual actual",
+          "5600 €"
+        ],
+        [
+          "Reducción prevista",
+          "14 %"
+        ],
+        [
+          "Meses considerados",
+          "12"
+        ]
+      ]
+    },
+    "question": "¿Cuál sería el ahorro anual si se cumple la reducción prevista?",
+    "options": [
+      "9408 €",
+      "784 €",
+      "15.008 €",
+      "8467 €"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ahorro anual = 5600 € × 14 % × 12 = 9408 €."
+  },
+  {
+    "id": "numerical-cast-066",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Costes cloud",
+    "tags": [
+      "CAST",
+      "ahorro",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Coste mensual actual",
+          "5950 €"
+        ],
+        [
+          "Reducción prevista",
+          "15 %"
+        ],
+        [
+          "Meses considerados",
+          "12"
+        ]
+      ]
+    },
+    "question": "¿Cuál sería el ahorro anual si se cumple la reducción prevista?",
+    "options": [
+      "9639 €",
+      "10.710 €",
+      "893 €",
+      "16.660 €"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ahorro anual = 5950 € × 15 % × 12 = 10.710 €."
+  },
+  {
+    "id": "numerical-cast-067",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Costes cloud",
+    "tags": [
+      "CAST",
+      "ahorro",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Coste mensual actual",
+          "6300 €"
+        ],
+        [
+          "Reducción prevista",
+          "16 %"
+        ],
+        [
+          "Meses considerados",
+          "12"
+        ]
+      ]
+    },
+    "question": "¿Cuál sería el ahorro anual si se cumple la reducción prevista?",
+    "options": [
+      "18.396 €",
+      "10.886 €",
+      "12.096 €",
+      "1008 €"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ahorro anual = 6300 € × 16 % × 12 = 12.096 €."
+  },
+  {
+    "id": "numerical-cast-068",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Costes cloud",
+    "tags": [
+      "CAST",
+      "ahorro",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Coste mensual actual",
+          "6650 €"
+        ],
+        [
+          "Reducción prevista",
+          "17 %"
+        ],
+        [
+          "Meses considerados",
+          "12"
+        ]
+      ]
+    },
+    "question": "¿Cuál sería el ahorro anual si se cumple la reducción prevista?",
+    "options": [
+      "1131 €",
+      "20.216 €",
+      "12.209 €",
+      "13.566 €"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Ahorro anual = 6650 € × 17 % × 12 = 13.566 €."
+  },
+  {
+    "id": "numerical-cast-069",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Costes cloud",
+    "tags": [
+      "CAST",
+      "ahorro",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Coste mensual actual",
+          "7000 €"
+        ],
+        [
+          "Reducción prevista",
+          "18 %"
+        ],
+        [
+          "Meses considerados",
+          "12"
+        ]
+      ]
+    },
+    "question": "¿Cuál sería el ahorro anual si se cumple la reducción prevista?",
+    "options": [
+      "15.120 €",
+      "1260 €",
+      "22.120 €",
+      "13.608 €"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ahorro anual = 7000 € × 18 % × 12 = 15.120 €."
+  },
+  {
+    "id": "numerical-cast-070",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Costes cloud",
+    "tags": [
+      "CAST",
+      "ahorro",
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Coste mensual actual",
+          "7350 €"
+        ],
+        [
+          "Reducción prevista",
+          "19 %"
+        ],
+        [
+          "Meses considerados",
+          "12"
+        ]
+      ]
+    },
+    "question": "¿Cuál sería el ahorro anual si se cumple la reducción prevista?",
+    "options": [
+      "15.082 €",
+      "16.758 €",
+      "1397 €",
+      "24.108 €"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Ahorro anual = 7350 € × 19 % × 12 = 16.758 €."
+  },
+  {
+    "id": "numerical-cast-071",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Índices de actividad",
+    "tags": [
+      "CAST",
+      "índice",
+      "crecimiento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Índice de solicitudes"
+      ],
+      "rows": [
+        [
+          "2023",
+          "100"
+        ],
+        [
+          "2024",
+          "108"
+        ],
+        [
+          "2025",
+          "114"
+        ]
+      ]
+    },
+    "question": "Tomando 2023 como base 100, ¿cuál es el crecimiento acumulado en 2025?",
+    "options": [
+      "8 %",
+      "19 %",
+      "14 %",
+      "6 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Un índice 114 frente a base 100 indica un crecimiento acumulado de 14 %."
+  },
+  {
+    "id": "numerical-cast-072",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Índices de actividad",
+    "tags": [
+      "CAST",
+      "índice",
+      "crecimiento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Índice de solicitudes"
+      ],
+      "rows": [
+        [
+          "2023",
+          "100"
+        ],
+        [
+          "2024",
+          "109"
+        ],
+        [
+          "2025",
+          "116"
+        ]
+      ]
+    },
+    "question": "Tomando 2023 como base 100, ¿cuál es el crecimiento acumulado en 2025?",
+    "options": [
+      "7 %",
+      "9 %",
+      "21 %",
+      "16 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Un índice 116 frente a base 100 indica un crecimiento acumulado de 16 %."
+  },
+  {
+    "id": "numerical-cast-073",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Índices de actividad",
+    "tags": [
+      "CAST",
+      "índice",
+      "crecimiento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Índice de solicitudes"
+      ],
+      "rows": [
+        [
+          "2023",
+          "100"
+        ],
+        [
+          "2024",
+          "110"
+        ],
+        [
+          "2025",
+          "118"
+        ]
+      ]
+    },
+    "question": "Tomando 2023 como base 100, ¿cuál es el crecimiento acumulado en 2025?",
+    "options": [
+      "18 %",
+      "8 %",
+      "10 %",
+      "23 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Un índice 118 frente a base 100 indica un crecimiento acumulado de 18 %."
+  },
+  {
+    "id": "numerical-cast-074",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Índices de actividad",
+    "tags": [
+      "CAST",
+      "índice",
+      "crecimiento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Índice de solicitudes"
+      ],
+      "rows": [
+        [
+          "2023",
+          "100"
+        ],
+        [
+          "2024",
+          "111"
+        ],
+        [
+          "2025",
+          "120"
+        ]
+      ]
+    },
+    "question": "Tomando 2023 como base 100, ¿cuál es el crecimiento acumulado en 2025?",
+    "options": [
+      "25 %",
+      "20 %",
+      "9 %",
+      "11 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un índice 120 frente a base 100 indica un crecimiento acumulado de 20 %."
+  },
+  {
+    "id": "numerical-cast-075",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Índices de actividad",
+    "tags": [
+      "CAST",
+      "índice",
+      "crecimiento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Índice de solicitudes"
+      ],
+      "rows": [
+        [
+          "2023",
+          "100"
+        ],
+        [
+          "2024",
+          "112"
+        ],
+        [
+          "2025",
+          "122"
+        ]
+      ]
+    },
+    "question": "Tomando 2023 como base 100, ¿cuál es el crecimiento acumulado en 2025?",
+    "options": [
+      "12 %",
+      "27 %",
+      "22 %",
+      "10 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Un índice 122 frente a base 100 indica un crecimiento acumulado de 22 %."
+  },
+  {
+    "id": "numerical-cast-076",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Índices de actividad",
+    "tags": [
+      "CAST",
+      "índice",
+      "crecimiento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Índice de solicitudes"
+      ],
+      "rows": [
+        [
+          "2023",
+          "100"
+        ],
+        [
+          "2024",
+          "113"
+        ],
+        [
+          "2025",
+          "124"
+        ]
+      ]
+    },
+    "question": "Tomando 2023 como base 100, ¿cuál es el crecimiento acumulado en 2025?",
+    "options": [
+      "11 %",
+      "13 %",
+      "29 %",
+      "24 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Un índice 124 frente a base 100 indica un crecimiento acumulado de 24 %."
+  },
+  {
+    "id": "numerical-cast-077",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Índices de actividad",
+    "tags": [
+      "CAST",
+      "índice",
+      "crecimiento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Índice de solicitudes"
+      ],
+      "rows": [
+        [
+          "2023",
+          "100"
+        ],
+        [
+          "2024",
+          "114"
+        ],
+        [
+          "2025",
+          "126"
+        ]
+      ]
+    },
+    "question": "Tomando 2023 como base 100, ¿cuál es el crecimiento acumulado en 2025?",
+    "options": [
+      "26 %",
+      "12 %",
+      "14 %",
+      "31 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Un índice 126 frente a base 100 indica un crecimiento acumulado de 26 %."
+  },
+  {
+    "id": "numerical-cast-078",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Índices de actividad",
+    "tags": [
+      "CAST",
+      "índice",
+      "crecimiento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Índice de solicitudes"
+      ],
+      "rows": [
+        [
+          "2023",
+          "100"
+        ],
+        [
+          "2024",
+          "115"
+        ],
+        [
+          "2025",
+          "128"
+        ]
+      ]
+    },
+    "question": "Tomando 2023 como base 100, ¿cuál es el crecimiento acumulado en 2025?",
+    "options": [
+      "33 %",
+      "28 %",
+      "13 %",
+      "15 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un índice 128 frente a base 100 indica un crecimiento acumulado de 28 %."
+  },
+  {
+    "id": "numerical-cast-079",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Índices de actividad",
+    "tags": [
+      "CAST",
+      "índice",
+      "crecimiento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Índice de solicitudes"
+      ],
+      "rows": [
+        [
+          "2023",
+          "100"
+        ],
+        [
+          "2024",
+          "116"
+        ],
+        [
+          "2025",
+          "130"
+        ]
+      ]
+    },
+    "question": "Tomando 2023 como base 100, ¿cuál es el crecimiento acumulado en 2025?",
+    "options": [
+      "16 %",
+      "35 %",
+      "30 %",
+      "14 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Un índice 130 frente a base 100 indica un crecimiento acumulado de 30 %."
+  },
+  {
+    "id": "numerical-cast-080",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Índices de actividad",
+    "tags": [
+      "CAST",
+      "índice",
+      "crecimiento"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Índice de solicitudes"
+      ],
+      "rows": [
+        [
+          "2023",
+          "100"
+        ],
+        [
+          "2024",
+          "117"
+        ],
+        [
+          "2025",
+          "132"
+        ]
+      ]
+    },
+    "question": "Tomando 2023 como base 100, ¿cuál es el crecimiento acumulado en 2025?",
+    "options": [
+      "15 %",
+      "17 %",
+      "37 %",
+      "32 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Un índice 132 frente a base 100 indica un crecimiento acumulado de 32 %."
+  },
+  {
+    "id": "numerical-cast-081",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Planificación de personal",
+    "tags": [
+      "CAST",
+      "capacidad",
+      "redondeo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Expedientes",
+          "42"
+        ],
+        [
+          "Horas por expediente",
+          "6,0"
+        ],
+        [
+          "Días disponibles",
+          "10"
+        ],
+        [
+          "Horas diarias por persona",
+          "7,5"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el número mínimo de personas necesarias para terminar en el plazo?",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Horas necesarias = 6,0 × 42. Capacidad por persona = 10 × 7,5. Se redondea al alza: 4."
+  },
+  {
+    "id": "numerical-cast-082",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Planificación de personal",
+    "tags": [
+      "CAST",
+      "capacidad",
+      "redondeo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Expedientes",
+          "46"
+        ],
+        [
+          "Horas por expediente",
+          "6,5"
+        ],
+        [
+          "Días disponibles",
+          "10"
+        ],
+        [
+          "Horas diarias por persona",
+          "7,5"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el número mínimo de personas necesarias para terminar en el plazo?",
+    "options": [
+      "6",
+      "4",
+      "3",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Horas necesarias = 6,5 × 46. Capacidad por persona = 10 × 7,5. Se redondea al alza: 4."
+  },
+  {
+    "id": "numerical-cast-083",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Planificación de personal",
+    "tags": [
+      "CAST",
+      "capacidad",
+      "redondeo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Expedientes",
+          "50"
+        ],
+        [
+          "Horas por expediente",
+          "7,0"
+        ],
+        [
+          "Días disponibles",
+          "10"
+        ],
+        [
+          "Horas diarias por persona",
+          "7,5"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el número mínimo de personas necesarias para terminar en el plazo?",
+    "options": [
+      "6",
+      "7",
+      "5",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Horas necesarias = 7,0 × 50. Capacidad por persona = 10 × 7,5. Se redondea al alza: 5."
+  },
+  {
+    "id": "numerical-cast-084",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Planificación de personal",
+    "tags": [
+      "CAST",
+      "capacidad",
+      "redondeo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Expedientes",
+          "54"
+        ],
+        [
+          "Horas por expediente",
+          "7,5"
+        ],
+        [
+          "Días disponibles",
+          "10"
+        ],
+        [
+          "Horas diarias por persona",
+          "7,5"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el número mínimo de personas necesarias para terminar en el plazo?",
+    "options": [
+      "5",
+      "7",
+      "8",
+      "6"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Horas necesarias = 7,5 × 54. Capacidad por persona = 10 × 7,5. Se redondea al alza: 6."
+  },
+  {
+    "id": "numerical-cast-085",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Planificación de personal",
+    "tags": [
+      "CAST",
+      "capacidad",
+      "redondeo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Expedientes",
+          "58"
+        ],
+        [
+          "Horas por expediente",
+          "8,0"
+        ],
+        [
+          "Días disponibles",
+          "10"
+        ],
+        [
+          "Horas diarias por persona",
+          "7,5"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el número mínimo de personas necesarias para terminar en el plazo?",
+    "options": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Horas necesarias = 8,0 × 58. Capacidad por persona = 10 × 7,5. Se redondea al alza: 7."
+  },
+  {
+    "id": "numerical-cast-086",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Planificación de personal",
+    "tags": [
+      "CAST",
+      "capacidad",
+      "redondeo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Expedientes",
+          "62"
+        ],
+        [
+          "Horas por expediente",
+          "8,5"
+        ],
+        [
+          "Días disponibles",
+          "10"
+        ],
+        [
+          "Horas diarias por persona",
+          "7,5"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el número mínimo de personas necesarias para terminar en el plazo?",
+    "options": [
+      "10",
+      "8",
+      "7",
+      "9"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Horas necesarias = 8,5 × 62. Capacidad por persona = 10 × 7,5. Se redondea al alza: 8."
+  },
+  {
+    "id": "numerical-cast-087",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Planificación de personal",
+    "tags": [
+      "CAST",
+      "capacidad",
+      "redondeo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Expedientes",
+          "66"
+        ],
+        [
+          "Horas por expediente",
+          "9,0"
+        ],
+        [
+          "Días disponibles",
+          "10"
+        ],
+        [
+          "Horas diarias por persona",
+          "7,5"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el número mínimo de personas necesarias para terminar en el plazo?",
+    "options": [
+      "9",
+      "10",
+      "8",
+      "7"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Horas necesarias = 9,0 × 66. Capacidad por persona = 10 × 7,5. Se redondea al alza: 8."
+  },
+  {
+    "id": "numerical-cast-088",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Planificación de personal",
+    "tags": [
+      "CAST",
+      "capacidad",
+      "redondeo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Expedientes",
+          "70"
+        ],
+        [
+          "Horas por expediente",
+          "9,5"
+        ],
+        [
+          "Días disponibles",
+          "10"
+        ],
+        [
+          "Horas diarias por persona",
+          "7,5"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el número mínimo de personas necesarias para terminar en el plazo?",
+    "options": [
+      "8",
+      "10",
+      "11",
+      "9"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Horas necesarias = 9,5 × 70. Capacidad por persona = 10 × 7,5. Se redondea al alza: 9."
+  },
+  {
+    "id": "numerical-cast-089",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Planificación de personal",
+    "tags": [
+      "CAST",
+      "capacidad",
+      "redondeo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Expedientes",
+          "74"
+        ],
+        [
+          "Horas por expediente",
+          "10,0"
+        ],
+        [
+          "Días disponibles",
+          "10"
+        ],
+        [
+          "Horas diarias por persona",
+          "7,5"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el número mínimo de personas necesarias para terminar en el plazo?",
+    "options": [
+      "10",
+      "9",
+      "11",
+      "12"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Horas necesarias = 10,0 × 74. Capacidad por persona = 10 × 7,5. Se redondea al alza: 10."
+  },
+  {
+    "id": "numerical-cast-090",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Planificación de personal",
+    "tags": [
+      "CAST",
+      "capacidad",
+      "redondeo"
+    ],
+    "dataTable": {
+      "headers": [
+        "Concepto",
+        "Valor"
+      ],
+      "rows": [
+        [
+          "Expedientes",
+          "78"
+        ],
+        [
+          "Horas por expediente",
+          "10,5"
+        ],
+        [
+          "Días disponibles",
+          "10"
+        ],
+        [
+          "Horas diarias por persona",
+          "7,5"
+        ]
+      ]
+    },
+    "question": "¿Cuál es el número mínimo de personas necesarias para terminar en el plazo?",
+    "options": [
+      "13",
+      "11",
+      "10",
+      "12"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Horas necesarias = 10,5 × 78. Capacidad por persona = 10 × 7,5. Se redondea al alza: 11."
+  },
+  {
+    "id": "numerical-cast-091",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Automatización",
+    "tags": [
+      "CAST",
+      "proporción",
+      "servicios digitales"
+    ],
+    "dataTable": {
+      "headers": [
+        "Canal",
+        "Solicitudes"
+      ],
+      "rows": [
+        [
+          "Automático",
+          "180"
+        ],
+        [
+          "Manual",
+          "320"
+        ],
+        [
+          "Total",
+          "500"
+        ]
+      ]
+    },
+    "question": "¿Qué proporción de solicitudes se tramitó automáticamente?",
+    "options": [
+      "43,0 %",
+      "31,0 %",
+      "36,0 %",
+      "64,0 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Proporción automática = 180 / 500 × 100 = 36,0 %."
+  },
+  {
+    "id": "numerical-cast-092",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Automatización",
+    "tags": [
+      "CAST",
+      "proporción",
+      "servicios digitales"
+    ],
+    "dataTable": {
+      "headers": [
+        "Canal",
+        "Solicitudes"
+      ],
+      "rows": [
+        [
+          "Automático",
+          "210"
+        ],
+        [
+          "Manual",
+          "340"
+        ],
+        [
+          "Total",
+          "550"
+        ]
+      ]
+    },
+    "question": "¿Qué proporción de solicitudes se tramitó automáticamente?",
+    "options": [
+      "61,8 %",
+      "45,2 %",
+      "33,2 %",
+      "38,2 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Proporción automática = 210 / 550 × 100 = 38,2 %."
+  },
+  {
+    "id": "numerical-cast-093",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Automatización",
+    "tags": [
+      "CAST",
+      "proporción",
+      "servicios digitales"
+    ],
+    "dataTable": {
+      "headers": [
+        "Canal",
+        "Solicitudes"
+      ],
+      "rows": [
+        [
+          "Automático",
+          "240"
+        ],
+        [
+          "Manual",
+          "360"
+        ],
+        [
+          "Total",
+          "600"
+        ]
+      ]
+    },
+    "question": "¿Qué proporción de solicitudes se tramitó automáticamente?",
+    "options": [
+      "40,0 %",
+      "60,0 %",
+      "47,0 %",
+      "35,0 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Proporción automática = 240 / 600 × 100 = 40,0 %."
+  },
+  {
+    "id": "numerical-cast-094",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Automatización",
+    "tags": [
+      "CAST",
+      "proporción",
+      "servicios digitales"
+    ],
+    "dataTable": {
+      "headers": [
+        "Canal",
+        "Solicitudes"
+      ],
+      "rows": [
+        [
+          "Automático",
+          "270"
+        ],
+        [
+          "Manual",
+          "380"
+        ],
+        [
+          "Total",
+          "650"
+        ]
+      ]
+    },
+    "question": "¿Qué proporción de solicitudes se tramitó automáticamente?",
+    "options": [
+      "36,5 %",
+      "41,5 %",
+      "58,5 %",
+      "48,5 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Proporción automática = 270 / 650 × 100 = 41,5 %."
+  },
+  {
+    "id": "numerical-cast-095",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Automatización",
+    "tags": [
+      "CAST",
+      "proporción",
+      "servicios digitales"
+    ],
+    "dataTable": {
+      "headers": [
+        "Canal",
+        "Solicitudes"
+      ],
+      "rows": [
+        [
+          "Automático",
+          "300"
+        ],
+        [
+          "Manual",
+          "400"
+        ],
+        [
+          "Total",
+          "700"
+        ]
+      ]
+    },
+    "question": "¿Qué proporción de solicitudes se tramitó automáticamente?",
+    "options": [
+      "49,9 %",
+      "37,9 %",
+      "42,9 %",
+      "57,1 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Proporción automática = 300 / 700 × 100 = 42,9 %."
+  },
+  {
+    "id": "numerical-cast-096",
+    "type": "numerical",
+    "difficulty": 3,
+    "category": "Automatización",
+    "tags": [
+      "CAST",
+      "proporción",
+      "servicios digitales"
+    ],
+    "dataTable": {
+      "headers": [
+        "Canal",
+        "Solicitudes"
+      ],
+      "rows": [
+        [
+          "Automático",
+          "330"
+        ],
+        [
+          "Manual",
+          "420"
+        ],
+        [
+          "Total",
+          "750"
+        ]
+      ]
+    },
+    "question": "¿Qué proporción de solicitudes se tramitó automáticamente?",
+    "options": [
+      "56,0 %",
+      "51,0 %",
+      "39,0 %",
+      "44,0 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Proporción automática = 330 / 750 × 100 = 44,0 %."
+  },
+  {
+    "id": "numerical-cast-097",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Automatización",
+    "tags": [
+      "CAST",
+      "proporción",
+      "servicios digitales"
+    ],
+    "dataTable": {
+      "headers": [
+        "Canal",
+        "Solicitudes"
+      ],
+      "rows": [
+        [
+          "Automático",
+          "360"
+        ],
+        [
+          "Manual",
+          "440"
+        ],
+        [
+          "Total",
+          "800"
+        ]
+      ]
+    },
+    "question": "¿Qué proporción de solicitudes se tramitó automáticamente?",
+    "options": [
+      "45,0 %",
+      "55,0 %",
+      "52,0 %",
+      "40,0 %"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Proporción automática = 360 / 800 × 100 = 45,0 %."
+  },
+  {
+    "id": "numerical-cast-098",
+    "type": "numerical",
+    "difficulty": 5,
+    "category": "Automatización",
+    "tags": [
+      "CAST",
+      "proporción",
+      "servicios digitales"
+    ],
+    "dataTable": {
+      "headers": [
+        "Canal",
+        "Solicitudes"
+      ],
+      "rows": [
+        [
+          "Automático",
+          "390"
+        ],
+        [
+          "Manual",
+          "460"
+        ],
+        [
+          "Total",
+          "850"
+        ]
+      ]
+    },
+    "question": "¿Qué proporción de solicitudes se tramitó automáticamente?",
+    "options": [
+      "40,9 %",
+      "45,9 %",
+      "54,1 %",
+      "52,9 %"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Proporción automática = 390 / 850 × 100 = 45,9 %."
+  },
+  {
+    "id": "numerical-cast-099",
+    "type": "numerical",
+    "difficulty": 1,
+    "category": "Automatización",
+    "tags": [
+      "CAST",
+      "proporción",
+      "servicios digitales"
+    ],
+    "dataTable": {
+      "headers": [
+        "Canal",
+        "Solicitudes"
+      ],
+      "rows": [
+        [
+          "Automático",
+          "420"
+        ],
+        [
+          "Manual",
+          "480"
+        ],
+        [
+          "Total",
+          "900"
+        ]
+      ]
+    },
+    "question": "¿Qué proporción de solicitudes se tramitó automáticamente?",
+    "options": [
+      "53,7 %",
+      "41,7 %",
+      "46,7 %",
+      "53,3 %"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Proporción automática = 420 / 900 × 100 = 46,7 %."
+  },
+  {
+    "id": "numerical-cast-100",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Automatización",
+    "tags": [
+      "CAST",
+      "proporción",
+      "servicios digitales"
+    ],
+    "dataTable": {
+      "headers": [
+        "Canal",
+        "Solicitudes"
+      ],
+      "rows": [
+        [
+          "Automático",
+          "450"
+        ],
+        [
+          "Manual",
+          "500"
+        ],
+        [
+          "Total",
+          "950"
+        ]
+      ]
+    },
+    "question": "¿Qué proporción de solicitudes se tramitó automáticamente?",
+    "options": [
+      "52,6 %",
+      "54,4 %",
+      "42,4 %",
+      "47,4 %"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Proporción automática = 450 / 950 × 100 = 47,4 %."
+  }
+]

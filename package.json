@@ -1,0 +1,46 @@
+{
+  "name": "epso-trainer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"scripts/**/*.ts\"",
+    "generate:verbal": "tsx scripts/generate/generate-verbal.ts",
+    "generate:numerical": "tsx scripts/generate/generate-numerical.ts",
+    "generate:technical": "tsx scripts/generate/generate-technical.ts",
+    "generate:abstract": "tsx scripts/generate/generate-abstract.ts",
+    "generate:cast": "tsx scripts/generate/generate-cast-bank.ts",
+    "generate:all": "npm run generate:verbal && npm run generate:numerical && npm run generate:technical && npm run generate:abstract && npm run generate:cast",
+    "import:cast": "tsx scripts/import/import-cast-bank.ts",
+    "import:official": "tsx scripts/import-official.ts"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.18.1",
+    "zustand": "^5.0.14"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.2",
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "eslint": "^10.6.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "prettier": "^3.9.4",
+    "tailwindcss": "^4.3.2",
+    "tsx": "^4.22.4",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.62.1",
+    "vite": "^8.1.1"
+  }
+}

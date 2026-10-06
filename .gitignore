@@ -1,0 +1,37 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Bulky scrape intermediates (app runs from JSON + public/cast-assets)
+CAST/epsoprep_export/
+CAST/epsoprep_export_png/formatted/
+CAST/epsoprep_export_png/Abstracto.md
+CAST/epsoprep_export_png/Digital.md
+CAST/epsoprep_export_png/EU_Knowledge.md
+CAST/epsoprep_export_png/Numerico_epsoprep.md
+CAST/epsoprep_export_png/Verbal_epsoprep.md
+CAST/epsoprep_export_png/summary.json
+
+# Personal application notes — do not publish
+CAST/EPSO_CAST_Profile_Data_Pablo.md

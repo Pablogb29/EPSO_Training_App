@@ -1,0 +1,172 @@
+[
+  {
+    "id": "numerical-gen-1782847761833-4k940",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Asignación de personal",
+    "tags": [
+      "diferencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Valor (€)"
+      ],
+      "rows": [
+        [
+          "2023",
+          "1300"
+        ],
+        [
+          "2024",
+          "1672"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual de 2023 a 2024?",
+    "options": [
+      "24%",
+      "29%",
+      "34%",
+      "39%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Incremento = 372. Porcentaje = (372 / 1300) × 100 = 29%."
+  },
+  {
+    "id": "numerical-gen-1782847761833-zotng",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Costes cloud",
+    "tags": [
+      "ratio"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Valor (€)"
+      ],
+      "rows": [
+        [
+          "2023",
+          "1700"
+        ],
+        [
+          "2024",
+          "2017"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual de 2023 a 2024?",
+    "options": [
+      "14%",
+      "19%",
+      "24%",
+      "29%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Incremento = 317. Porcentaje = (317 / 1700) × 100 = 19%."
+  },
+  {
+    "id": "numerical-gen-1782847761833-xpsts",
+    "type": "numerical",
+    "difficulty": 2,
+    "category": "Análisis presupuestario",
+    "tags": [
+      "diferencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Valor (€)"
+      ],
+      "rows": [
+        [
+          "2023",
+          "2900"
+        ],
+        [
+          "2024",
+          "3772"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual de 2023 a 2024?",
+    "options": [
+      "25%",
+      "30%",
+      "35%",
+      "40%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Incremento = 872. Porcentaje = (872 / 2900) × 100 = 30%."
+  },
+  {
+    "id": "numerical-gen-1782847761833-mouk4",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Asignación de personal",
+    "tags": [
+      "diferencia"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Valor (€)"
+      ],
+      "rows": [
+        [
+          "2023",
+          "2900"
+        ],
+        [
+          "2024",
+          "3944"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual de 2023 a 2024?",
+    "options": [
+      "31%",
+      "36%",
+      "41%",
+      "46%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Incremento = 1044. Porcentaje = (1044 / 2900) × 100 = 36%."
+  },
+  {
+    "id": "numerical-gen-1782847761833-s22a9",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Asignación de personal",
+    "tags": [
+      "porcentaje"
+    ],
+    "dataTable": {
+      "headers": [
+        "Año",
+        "Valor (€)"
+      ],
+      "rows": [
+        [
+          "2023",
+          "1900"
+        ],
+        [
+          "2024",
+          "2421"
+        ]
+      ]
+    },
+    "question": "¿Cuál fue el incremento porcentual de 2023 a 2024?",
+    "options": [
+      "22%",
+      "27%",
+      "32%",
+      "37%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Incremento = 521. Porcentaje = (521 / 1900) × 100 = 27%."
+  }
+]

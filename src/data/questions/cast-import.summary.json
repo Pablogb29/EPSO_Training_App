@@ -1,0 +1,41 @@
+{
+  "importedAt": "2026-10-06T18:46:31.167Z",
+  "assetsCopied": 541,
+  "banks": [
+    {
+      "file": "Verbal_epsoprep.md",
+      "type": "verbal",
+      "kept": 179,
+      "skippedDup": 0,
+      "skippedBad": 0
+    },
+    {
+      "file": "Numerico_epsoprep.md",
+      "type": "numerical",
+      "kept": 291,
+      "skippedDup": 0,
+      "skippedBad": 13
+    },
+    {
+      "file": "Abstracto.md",
+      "type": "abstract",
+      "kept": 250,
+      "skippedDup": 0,
+      "skippedBad": 0
+    },
+    {
+      "file": "Digital.md",
+      "type": "digital",
+      "kept": 300,
+      "skippedDup": 0,
+      "skippedBad": 0
+    },
+    {
+      "file": "EU_Knowledge.md",
+      "type": "eu",
+      "kept": 300,
+      "skippedDup": 0,
+      "skippedBad": 0
+    }
+  ]
+}

@@ -1,0 +1,3942 @@
+[
+  {
+    "id": "technical-exp-a-001",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Gestión de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "vulnerabilidades",
+      "inventario de activos"
+    ],
+    "question": "Antes de desplegar un programa de gestión de vulnerabilidades, ¿cuál es el prerrequisito fundamental sin el cual el resto del ciclo pierde eficacia?",
+    "options": [
+      "Contratar un servicio de pentest anual con un proveedor certificado",
+      "Adquirir una licencia de un scanner comercial de última generación",
+      "Definir sanciones internas para los equipos que no parcheen a tiempo",
+      "Disponer de un inventario de activos completo y actualizado"
+    ],
+    "correctAnswer": 3,
+    "explanation": "No se puede evaluar ni proteger lo que no se conoce: el inventario de activos (hardware, software, servicios expuestos) es la base sobre la que se construye el descubrimiento y la priorización de vulnerabilidades."
+  },
+  {
+    "id": "technical-exp-a-002",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Gestión de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "métricas",
+      "MTTR"
+    ],
+    "question": "En el contexto de un programa de gestión de vulnerabilidades, ¿qué mide el MTTR (Mean Time To Remediate)?",
+    "options": [
+      "El tiempo medio que tarda el scanner en completar un escaneo de toda la red",
+      "El número medio de vulnerabilidades detectadas por activo en cada ciclo",
+      "El tiempo medio transcurrido desde la detección de una vulnerabilidad hasta su remediación",
+      "El tiempo medio que tarda un atacante en explotar una vulnerabilidad publicada"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El MTTR mide el tiempo medio entre la detección de una vulnerabilidad y su corrección efectiva, y es una de las métricas clave para evaluar la madurez del programa de remediación."
+  },
+  {
+    "id": "technical-exp-a-003",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Gestión de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "triaje",
+      "vulnerabilidades"
+    ],
+    "question": "Tras un escaneo, el equipo recibe 4.000 hallazgos. ¿En qué consiste correctamente la fase de triaje?",
+    "options": [
+      "Analizar y clasificar los hallazgos, descartando falsos positivos y agrupando duplicados antes de priorizar",
+      "Reenviar automáticamente todos los hallazgos a los administradores de sistemas para que los resuelvan",
+      "Aplicar parches de forma inmediata a todos los sistemas afectados sin análisis previo",
+      "Archivar los hallazgos de severidad baja y media para revisarlos en el siguiente trimestre"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El triaje consiste en validar, deduplicar y clasificar los hallazgos para separar el ruido (falsos positivos, duplicados) de las vulnerabilidades reales que deben pasar a la fase de priorización."
+  },
+  {
+    "id": "technical-exp-a-004",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Gestión de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "remediación",
+      "verificación"
+    ],
+    "question": "Un administrador informa de que ha aplicado el parche que corrige una vulnerabilidad crítica en un servidor de correo. ¿Cuál es la forma adecuada de cerrar el ciclo de gestión de esa vulnerabilidad?",
+    "options": [
+      "Cerrar el ticket inmediatamente, ya que la palabra del administrador es suficiente evidencia",
+      "Esperar al escaneo trimestral programado para comprobar si la vulnerabilidad reaparece",
+      "Marcar la vulnerabilidad como riesgo aceptado para no distorsionar las métricas",
+      "Ejecutar un nuevo escaneo o comprobación dirigida que verifique que la vulnerabilidad ya no es detectable"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La fase de verificación exige comprobar técnicamente que la remediación ha sido efectiva (rescan o validación dirigida), ya que los parches pueden fallar, no aplicarse a todas las instancias o requerir reinicio."
+  },
+  {
+    "id": "technical-exp-a-005",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Gestión de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SLA",
+      "priorización"
+    ],
+    "question": "Una organización define SLA de remediación por severidad: 7 días para vulnerabilidades críticas, 30 para altas y 90 para medias. ¿Cuál es el propósito principal de este tipo de acuerdos?",
+    "options": [
+      "Garantizar que el scanner asigna severidades coherentes con el estándar CVSS",
+      "Establecer plazos máximos de corrección acordes al riesgo y poder medir su cumplimiento",
+      "Trasladar la responsabilidad legal de un incidente al equipo que incumpla el plazo",
+      "Reducir la frecuencia de los escaneos en los sistemas ya remediados"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los SLA por severidad fijan expectativas de tiempo de remediación proporcionales al riesgo y permiten medir el cumplimiento del programa mediante métricas objetivas."
+  },
+  {
+    "id": "technical-exp-a-006",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Gestión de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "métricas",
+      "remediación"
+    ],
+    "question": "¿Qué indica la tasa de remediación (remediation rate) en los informes de un programa de gestión de vulnerabilidades?",
+    "options": [
+      "La proporción de vulnerabilidades corregidas respecto al total detectado en un periodo dado",
+      "El porcentaje de activos de la red que han sido escaneados al menos una vez",
+      "La velocidad a la que el scanner procesa direcciones IP durante un escaneo",
+      "El porcentaje de parches del fabricante que se publican con exploit conocido"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La tasa de remediación mide qué proporción de las vulnerabilidades identificadas se ha corregido en un periodo, y ayuda a detectar acumulación de deuda de seguridad."
+  },
+  {
+    "id": "technical-exp-a-007",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Gestión de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "priorización",
+      "riesgo"
+    ],
+    "question": "Con recursos limitados, el equipo debe elegir qué remediar primero entre miles de hallazgos. ¿Qué enfoque de priorización es el más sólido?",
+    "options": [
+      "Ordenar exclusivamente por puntuación CVSS base descendente y remediar de mayor a menor",
+      "Priorizar los hallazgos más antiguos para reducir el tiempo medio de vida de las vulnerabilidades",
+      "Combinar severidad, probabilidad de explotación, exposición del activo y su criticidad para el negocio",
+      "Remediar primero los sistemas con mayor número absoluto de vulnerabilidades detectadas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La priorización basada en riesgo combina la severidad técnica con la probabilidad de explotación (EPSS, KEV), la exposición real del activo (por ejemplo, accesible desde Internet) y su criticidad para el negocio."
+  },
+  {
+    "id": "technical-exp-a-008",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Gestión de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "descubrimiento",
+      "vulnerabilidades"
+    ],
+    "question": "¿Cuál de las siguientes NO es una fuente habitual de la fase de descubrimiento en un programa de gestión de vulnerabilidades?",
+    "options": [
+      "Escaneos periódicos de infraestructura y aplicaciones",
+      "Avisos de seguridad de fabricantes y feeds de inteligencia de amenazas",
+      "Informes de pentests y programas de divulgación responsable",
+      "Los registros contables del departamento financiero de la organización"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El descubrimiento se nutre de escaneos, avisos de fabricantes, inteligencia de amenazas, pentests y reportes externos; los registros contables no aportan información sobre vulnerabilidades técnicas."
+  },
+  {
+    "id": "technical-exp-a-009",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Gestión de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "riesgo",
+      "excepciones"
+    ],
+    "question": "Un sistema legado crítico no puede parchearse porque el fabricante ya no da soporte y la aplicación dejaría de funcionar. ¿Cuál es el tratamiento correcto de la vulnerabilidad detectada?",
+    "options": [
+      "Eliminar el hallazgo del sistema de seguimiento, ya que no existe parche disponible",
+      "Documentar una excepción con aprobación formal, aplicar mitigaciones compensatorias y fijar fecha de revisión",
+      "Reclasificar la vulnerabilidad como informativa para que no compute en las métricas",
+      "Desconectar el sistema de forma inmediata sin evaluar el impacto en el negocio"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cuando la remediación directa no es viable, el riesgo debe aceptarse formalmente mediante una excepción documentada y aprobada, acompañada de controles compensatorios (segmentación, monitorización) y revisión periódica."
+  },
+  {
+    "id": "technical-exp-a-010",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Gestión de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "métricas",
+      "informes"
+    ],
+    "question": "La dirección celebra que el número total de vulnerabilidades abiertas ha bajado de 12.000 a 9.000, pero el analista señala que la métrica puede ser engañosa. ¿Cuál de las siguientes situaciones justificaría su escepticismo?",
+    "options": [
+      "La reducción coincide con la retirada de activos del alcance de escaneo, y el MTTR de las críticas ha empeorado",
+      "El scanner ha recibido nuevas firmas de detección durante el mismo periodo",
+      "La tasa de remediación de vulnerabilidades bajas ha aumentado un 20 %",
+      "Se ha ampliado la cobertura de escaneo autenticado a más servidores"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los recuentos absolutos sin contexto pueden mejorar simplemente por reducir el alcance de escaneo; métricas normalizadas (por activo) y de tiempo (MTTR por severidad) reflejan mejor la salud real del programa."
+  },
+  {
+    "id": "technical-exp-a-011",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Puntuación y priorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CVSS",
+      "vulnerabilidades"
+    ],
+    "question": "¿Qué grupos de métricas componen la puntuación base de CVSS v3.1?",
+    "options": [
+      "Madurez del exploit, nivel de remediación y confianza en el informe",
+      "Requisitos de confidencialidad, integridad y disponibilidad del entorno concreto",
+      "Métricas de explotabilidad (vector, complejidad, privilegios, interacción), alcance e impacto sobre confidencialidad, integridad y disponibilidad",
+      "Probabilidad de explotación en 30 días y presencia en catálogos de explotación activa"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La puntuación base de CVSS v3.1 combina métricas de explotabilidad (AV, AC, PR, UI), el alcance (Scope) y las métricas de impacto sobre confidencialidad, integridad y disponibilidad."
+  },
+  {
+    "id": "technical-exp-a-012",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Puntuación y priorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CVSS",
+      "vectores"
+    ],
+    "question": "En un vector CVSS v3.1, ¿qué significa el componente AV:N?",
+    "options": [
+      "Que la vulnerabilidad no tiene vector de ataque conocido",
+      "Que la vulnerabilidad es explotable de forma remota a través de la red",
+      "Que se requiere acceso físico al dispositivo para explotarla",
+      "Que el atacante necesita estar en la misma red local que la víctima"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AV:N (Attack Vector: Network) indica que la vulnerabilidad puede explotarse remotamente a través de la red, lo que en general incrementa la puntuación frente a vectores adyacente (A), local (L) o físico (P)."
+  },
+  {
+    "id": "technical-exp-a-013",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Puntuación y priorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CVSS",
+      "métricas ambientales"
+    ],
+    "question": "¿Para qué sirven las métricas ambientales (Environmental) de CVSS?",
+    "options": [
+      "Para reflejar la madurez del código de exploit disponible públicamente",
+      "Para medir el consumo energético y la huella de carbono de los sistemas afectados",
+      "Para calcular la puntuación oficial que publica NVD para cada CVE",
+      "Para ajustar la puntuación al contexto de la organización según la criticidad y los controles del activo afectado"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las métricas ambientales permiten a cada organización modificar la puntuación base según los requisitos de confidencialidad, integridad y disponibilidad del activo concreto y los controles compensatorios existentes."
+  },
+  {
+    "id": "technical-exp-a-014",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Puntuación y priorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "EPSS",
+      "priorización"
+    ],
+    "question": "¿Qué proporciona el sistema EPSS (Exploit Prediction Scoring System)?",
+    "options": [
+      "Una estimación de la probabilidad de que una vulnerabilidad sea explotada en los próximos 30 días",
+      "Una medida de la gravedad técnica del impacto de una vulnerabilidad sobre el sistema",
+      "Un listado oficial de vulnerabilidades cuya explotación ha sido confirmada por CISA",
+      "Una clasificación de debilidades de software por tipo de error de programación"
+    ],
+    "correctAnswer": 0,
+    "explanation": "EPSS es un modelo del FIRST que estima la probabilidad de explotación de un CVE en los próximos 30 días; complementa a CVSS, que mide severidad y no probabilidad."
+  },
+  {
+    "id": "technical-exp-a-015",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Puntuación y priorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "KEV",
+      "CISA"
+    ],
+    "question": "¿Qué implica que un CVE esté incluido en el catálogo KEV (Known Exploited Vulnerabilities) de CISA?",
+    "options": [
+      "Que existe una prueba de concepto publicada en algún repositorio público",
+      "Que la vulnerabilidad tiene una puntuación CVSS base igual o superior a 9.0",
+      "Que hay evidencia de explotación activa en el mundo real, por lo que su remediación debe priorizarse",
+      "Que el fabricante afectado todavía no ha publicado ningún parche"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El catálogo KEV recoge vulnerabilidades con evidencia de explotación activa; su inclusión es un indicador fuerte de riesgo real que debe elevar la prioridad de remediación con independencia del CVSS."
+  },
+  {
+    "id": "technical-exp-a-016",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Puntuación y priorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CVSS v4",
+      "estándares"
+    ],
+    "question": "¿Cuál de los siguientes cambios introduce CVSS v4.0 respecto a la versión 3.1?",
+    "options": [
+      "Añade un rango de puntuación ampliado de 0 a 100 para dar más granularidad",
+      "Elimina la métrica Scope y la sustituye por métricas de impacto separadas para el sistema vulnerable y los sistemas subsiguientes",
+      "Suprime las métricas de interacción del usuario por considerarse redundantes",
+      "Incorpora la puntuación EPSS directamente dentro del cálculo de la puntuación base"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CVSS v4.0 elimina Scope e introduce métricas de impacto diferenciadas para el sistema vulnerable y los subsiguientes, además de añadir Attack Requirements, refinar User Interaction y renombrar las métricas temporales como métricas de amenaza (Threat)."
+  },
+  {
+    "id": "technical-exp-a-017",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Puntuación y priorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "priorización",
+      "KEV"
+    ],
+    "question": "El equipo debe elegir entre parchear primero: (a) un CVE con CVSS 9.8 y EPSS del 0,04 % en un servidor interno aislado, o (b) un CVE con CVSS 7.2 incluido en el catálogo KEV que afecta a un portal expuesto a Internet. ¿Qué decisión refleja una priorización basada en riesgo?",
+    "options": [
+      "Parchear primero (a), porque la puntuación CVSS es el criterio determinante",
+      "Parchear ambos simultáneamente sin distinción, ya que los dos superan CVSS 7.0",
+      "Posponer ambos hasta confirmar con el fabricante cuál de los dos parches es más estable",
+      "Parchear primero (b), porque combina explotación activa confirmada y exposición directa a Internet"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La explotación activa (KEV) y la exposición a Internet elevan la probabilidad real de compromiso; una vulnerabilidad con CVSS más alto pero sin explotación conocida en un activo aislado supone menos riesgo inmediato."
+  },
+  {
+    "id": "technical-exp-a-018",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Puntuación y priorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CVSS",
+      "vectores"
+    ],
+    "question": "En CVSS v3.1, ¿qué significa que una vulnerabilidad tenga Scope: Changed (S:C)?",
+    "options": [
+      "Que la explotación permite impactar recursos más allá del ámbito de seguridad del componente vulnerable, como escapar de una máquina virtual al hipervisor",
+      "Que la puntuación de la vulnerabilidad ha sido modificada tras una reevaluación de NVD",
+      "Que el alcance del escaneo debe ampliarse para cubrir todos los sistemas afectados",
+      "Que el exploit cambia su comportamiento según el sistema operativo de la víctima"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Scope: Changed indica que el impacto trasciende el ámbito de seguridad del componente vulnerable y afecta a recursos gestionados por otra autoridad de seguridad, como en un escape de sandbox o de máquina virtual."
+  },
+  {
+    "id": "technical-exp-a-019",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Puntuación y priorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CVSS",
+      "vectores"
+    ],
+    "question": "Un CVE presenta el vector CVSS:3.1/AV:N/AC:L/PR:N/UI:R/... ¿Cómo se interpretan los componentes PR:N y UI:R?",
+    "options": [
+      "El atacante necesita privilegios de administrador y la víctima no interviene en el ataque",
+      "El atacante necesita privilegios básicos y la explotación es completamente automática",
+      "El atacante no necesita privilegios previos, pero la explotación requiere que un usuario realice alguna acción, como abrir un enlace",
+      "No existe parche disponible y la explotación requiere reiniciar el sistema de la víctima"
+    ],
+    "correctAnswer": 2,
+    "explanation": "PR:N (Privileges Required: None) indica que no se requieren privilegios previos, y UI:R (User Interaction: Required) que la explotación depende de una acción de la víctima, patrón típico de ataques de phishing con enlace o adjunto malicioso."
+  },
+  {
+    "id": "technical-exp-a-020",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Puntuación y priorización",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CVSS",
+      "riesgo"
+    ],
+    "question": "¿Cuál es la principal limitación de usar únicamente la puntuación CVSS base para decidir el orden de remediación?",
+    "options": [
+      "Que CVSS solo está disponible para vulnerabilidades de software de código abierto",
+      "Que mide severidad teórica y no incorpora la probabilidad de explotación ni el contexto del activo en la organización",
+      "Que las puntuaciones CVSS caducan a los 90 días de la publicación del CVE",
+      "Que CVSS solo puntúa vulnerabilidades explotables de forma remota por red"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La puntuación base refleja la severidad intrínseca en el peor caso razonable, pero no dice nada sobre si la vulnerabilidad se está explotando ni sobre la criticidad o exposición del activo concreto; por eso se complementa con EPSS, KEV y métricas ambientales."
+  },
+  {
+    "id": "technical-exp-a-021",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Escaneo de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "escaneo",
+      "escaneo autenticado"
+    ],
+    "question": "¿Qué ventaja principal ofrece un escaneo autenticado (con credenciales) frente a uno no autenticado?",
+    "options": [
+      "Permite inspeccionar el sistema desde dentro, detectando parches ausentes y configuraciones inseguras con menos falsos positivos",
+      "Reduce el tiempo total de escaneo porque omite la fase de descubrimiento de puertos",
+      "Evita por completo cualquier impacto operativo en el sistema analizado",
+      "Elimina la necesidad de mantener actualizadas las firmas de detección del scanner"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Con credenciales, el scanner accede al sistema y enumera con precisión software instalado, niveles de parche y configuraciones, lo que aumenta la cobertura y reduce los falsos positivos típicos de la detección basada solo en banners."
+  },
+  {
+    "id": "technical-exp-a-022",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Escaneo de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "escaneo",
+      "agentes"
+    ],
+    "question": "Una organización con muchos portátiles de teletrabajadores que rara vez se conectan a la VPN quiere evaluarlos de forma continua. ¿Qué enfoque de escaneo resulta más adecuado?",
+    "options": [
+      "Escaneo de red no autenticado semanal desde la sede central",
+      "Escaneo de red autenticado lanzado únicamente cuando los equipos visitan la oficina",
+      "Análisis manual de cada portátil por parte del servicio de soporte una vez al año",
+      "Despliegue de agentes en los endpoints que reporten su estado al servidor central cuando tengan conectividad"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los agentes evalúan el equipo localmente y envían los resultados cuando hay conectividad, por lo que son la opción idónea para activos móviles o intermitentemente conectados que un escaneo de red no puede alcanzar de forma fiable."
+  },
+  {
+    "id": "technical-exp-a-023",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Escaneo de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "falsos positivos",
+      "triaje"
+    ],
+    "question": "Un scanner informa de una vulnerabilidad en un servidor, pero tras la verificación manual se comprueba que el parche correspondiente ya estaba aplicado. ¿Cómo se denomina este tipo de resultado?",
+    "options": [
+      "Falso negativo",
+      "Falso positivo",
+      "Verdadero positivo",
+      "Hallazgo residual"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un falso positivo es un hallazgo reportado por la herramienta que en realidad no existe; suele deberse a detecciones basadas en versiones de banner sin comprobar la presencia real del fallo."
+  },
+  {
+    "id": "technical-exp-a-024",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Escaneo de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "falsos negativos",
+      "riesgo"
+    ],
+    "question": "¿Por qué los falsos negativos se consideran generalmente más peligrosos que los falsos positivos en un programa de escaneo?",
+    "options": [
+      "Porque inflan artificialmente las métricas de vulnerabilidades abiertas ante la dirección",
+      "Porque consumen tiempo de los analistas al obligar a verificar hallazgos inexistentes",
+      "Porque generan una falsa sensación de seguridad: la vulnerabilidad existe pero nadie la conoce ni la remedia",
+      "Porque provocan la aplicación de parches innecesarios que pueden desestabilizar los sistemas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Un falso negativo es una vulnerabilidad real que la herramienta no detecta, dejando a la organización expuesta sin saberlo; los falsos positivos cuestan tiempo, pero no ocultan riesgo real."
+  },
+  {
+    "id": "technical-exp-a-025",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Escaneo de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "DAST",
+      "aplicaciones web"
+    ],
+    "question": "¿Qué diferencia fundamental existe entre un scanner de aplicaciones web (DAST) y un scanner de vulnerabilidades de infraestructura?",
+    "options": [
+      "El DAST interactúa con la aplicación en ejecución enviando peticiones para descubrir fallos como inyecciones o XSS, mientras que el de infraestructura identifica servicios, versiones y parches ausentes en hosts y red",
+      "El DAST analiza el código fuente de la aplicación línea a línea, mientras que el de infraestructura solo revisa la configuración del firewall",
+      "El de infraestructura requiere siempre credenciales de administrador, mientras que el DAST nunca puede autenticarse en la aplicación",
+      "No hay diferencia real: ambos utilizan la misma base de firmas y técnicas de detección"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Un DAST prueba dinámicamente la aplicación desplegada (inyecciones, XSS, fallos de autenticación), mientras que un scanner de infraestructura se centra en servicios de red, versiones de software y parches ausentes; el análisis de código fuente corresponde a SAST."
+  },
+  {
+    "id": "technical-exp-a-026",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Escaneo de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "impacto operativo",
+      "ventanas de escaneo"
+    ],
+    "question": "Durante un escaneo de red, varios dispositivos antiguos de un sistema de control dejaron de responder y hubo que reiniciarlos. ¿Qué medida es la más apropiada para futuros escaneos de ese segmento?",
+    "options": [
+      "Excluir permanentemente esos dispositivos de todo tipo de evaluación de seguridad",
+      "Repetir el mismo escaneo en horario laboral para que el personal pueda reiniciarlos antes",
+      "Aumentar la velocidad del escaneo para reducir el tiempo de exposición de los dispositivos",
+      "Usar perfiles de escaneo seguros y menos intrusivos, ventanas acordadas y, cuando sea posible, técnicas pasivas o consultas al fabricante"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los equipos legados y de entornos OT pueden fallar ante sondas agresivas; la práctica correcta es ajustar la intensidad del escaneo, pactar ventanas de mantenimiento y recurrir a métodos pasivos o basados en inventario, no excluirlos de la evaluación."
+  },
+  {
+    "id": "technical-exp-a-027",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Escaneo de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Nuclei",
+      "automatización"
+    ],
+    "question": "¿Qué caracteriza a Nuclei frente a scanners de vulnerabilidades tradicionales como Nessus o Qualys?",
+    "options": [
+      "Es un scanner comercial de infraestructura centrado en el cumplimiento de políticas de parcheo",
+      "Es una herramienta open source basada en plantillas YAML de la comunidad, muy orientada a detectar vulnerabilidades y misconfiguraciones concretas de forma rápida y automatizable",
+      "Es un framework de explotación diseñado para desarrollar y lanzar exploits en pentests",
+      "Es un analizador estático de código fuente para detectar debilidades antes del despliegue"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nuclei es un scanner open source de ProjectDiscovery que ejecuta plantillas YAML mantenidas por la comunidad; su rapidez y facilidad para crear plantillas propias lo hacen muy popular en automatización y detección de CVE recientes en superficies expuestas."
+  },
+  {
+    "id": "technical-exp-a-028",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Escaneo de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "herramientas",
+      "OpenVAS"
+    ],
+    "question": "¿Cuál de las siguientes afirmaciones sobre OpenVAS/Greenbone es correcta?",
+    "options": [
+      "Es un módulo de pago exclusivo de la suite Nessus Professional",
+      "Solo permite escanear aplicaciones web, no infraestructura de red",
+      "Es un scanner de vulnerabilidades de código abierto, derivado históricamente del proyecto Nessus original, mantenido por Greenbone",
+      "Es un servicio en la nube de CISA para escanear organismos públicos estadounidenses"
+    ],
+    "correctAnswer": 2,
+    "explanation": "OpenVAS surgió como bifurcación de Nessus cuando este dejó de ser open source, y hoy se mantiene dentro de la plataforma de Greenbone como alternativa de código abierto para escaneo de vulnerabilidades de infraestructura."
+  },
+  {
+    "id": "technical-exp-a-029",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Escaneo de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "frecuencia",
+      "superficie de exposición"
+    ],
+    "question": "Una organización escanea toda su infraestructura una vez por trimestre. ¿Cuál es el principal argumento para pasar a un modelo de escaneo más frecuente o continuo en los activos expuestos a Internet?",
+    "options": [
+      "Las vulnerabilidades críticas se explotan a menudo pocos días u horas después de publicarse, por lo que una ventana trimestral deja meses de exposición sin visibilidad",
+      "Los escaneos trimestrales consumen más ancho de banda total que los escaneos diarios",
+      "Los estándares internacionales prohíben expresamente intervalos de escaneo superiores a una semana",
+      "Los scanners modernos dejan de funcionar correctamente si no se ejecutan al menos una vez al día"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El tiempo entre publicación y explotación masiva de vulnerabilidades críticas se ha reducido drásticamente; los activos expuestos a Internet requieren escaneo frecuente o continuo para detectar nuevas vulnerabilidades antes que los atacantes."
+  },
+  {
+    "id": "technical-exp-a-030",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Escaneo de vulnerabilidades",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "escaneo autenticado",
+      "credenciales"
+    ],
+    "question": "Para habilitar escaneos autenticados en cientos de servidores, ¿cuál es la práctica más segura de gestión de las credenciales del scanner?",
+    "options": [
+      "Reutilizar la cuenta personal de un administrador de dominio para simplificar la gestión",
+      "Configurar la misma contraseña local de administrador en todos los servidores para el scanner",
+      "Usar una cuenta de servicio dedicada, con credenciales gestionadas en un vault, restricciones de uso (origen, horario) y monitorización de su actividad",
+      "Almacenar las credenciales en el fichero de configuración del scanner en texto claro, protegido por permisos del sistema de archivos"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Las cuentas de escaneo autenticado suelen requerir privilegios elevados, por lo que deben ser cuentas de servicio dedicadas, integradas con un gestor de credenciales (vault/PAM), restringidas en origen y horario, y auditadas: son un objetivo muy valioso para un atacante."
+  },
+  {
+    "id": "technical-exp-a-031",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Identificadores y fuentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CVE",
+      "estándares"
+    ],
+    "question": "¿Qué es exactamente un identificador CVE?",
+    "options": [
+      "Una puntuación numérica que indica la gravedad de un fallo de seguridad",
+      "Una herramienta de escaneo mantenida por la agencia estadounidense CISA",
+      "Una categoría genérica de errores de programación, como el desbordamiento de búfer",
+      "Un identificador único y público asignado a una vulnerabilidad concreta de un producto, con el formato CVE-AÑO-NÚMERO"
+    ],
+    "correctAnswer": 3,
+    "explanation": "CVE (Common Vulnerabilities and Exposures) es el sistema de identificadores únicos para vulnerabilidades concretas, gestionado por MITRE, que permite a herramientas, fabricantes y analistas referirse al mismo fallo sin ambigüedad."
+  },
+  {
+    "id": "technical-exp-a-032",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Identificadores y fuentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CWE",
+      "CVE"
+    ],
+    "question": "¿Cuál es la diferencia entre CVE y CWE?",
+    "options": [
+      "CVE clasifica debilidades de hardware y CWE debilidades de software",
+      "Son sinónimos: ambos identifican vulnerabilidades concretas de productos",
+      "CVE es el estándar europeo y CWE el estándar estadounidense equivalente",
+      "CVE identifica vulnerabilidades concretas en productos específicos, mientras que CWE clasifica tipos genéricos de debilidad, como CWE-89 para inyección SQL"
+    ],
+    "correctAnswer": 3,
+    "explanation": "CWE (Common Weakness Enumeration) es una taxonomía de tipos de debilidad de software y hardware; un CVE concreto suele mapearse a uno o varios CWE que describen la causa raíz del fallo."
+  },
+  {
+    "id": "technical-exp-a-033",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Identificadores y fuentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CPE",
+      "inventario de activos"
+    ],
+    "question": "¿Para qué se utiliza el estándar CPE (Common Platform Enumeration) en la gestión de vulnerabilidades?",
+    "options": [
+      "Para nombrar de forma estructurada y única productos de software, hardware y sistemas operativos, permitiendo correlacionar inventario con CVE aplicables",
+      "Para puntuar la facilidad de explotación de una vulnerabilidad en una plataforma dada",
+      "Para certificar que una plataforma cumple los requisitos mínimos de seguridad de la UE",
+      "Para cifrar los identificadores de los activos en las bases de datos del scanner"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CPE proporciona nombres normalizados de productos y versiones (por ejemplo, cpe:2.3:a:apache:http_server:2.4.57), lo que permite a las herramientas correlacionar automáticamente el software inventariado con los CVE que le afectan."
+  },
+  {
+    "id": "technical-exp-a-034",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Identificadores y fuentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "NVD",
+      "CVE"
+    ],
+    "question": "¿Qué relación existe entre la lista CVE gestionada por MITRE y la NVD (National Vulnerability Database) del NIST?",
+    "options": [
+      "Son bases de datos independientes que asignan identificadores distintos a las mismas vulnerabilidades",
+      "La NVD es la fuente original de los CVE y MITRE se limita a replicar su contenido",
+      "La NVD toma los registros CVE publicados y los enriquece con puntuaciones CVSS, identificadores CPE y referencias adicionales",
+      "MITRE publica solo vulnerabilidades de software estadounidense y la NVD las del resto del mundo"
+    ],
+    "correctAnswer": 2,
+    "explanation": "MITRE gestiona el programa CVE y la asignación de identificadores; la NVD del NIST consume esos registros y los enriquece con análisis, puntuaciones CVSS, mapeos CWE y cadenas CPE que facilitan la automatización."
+  },
+  {
+    "id": "technical-exp-a-035",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Identificadores y fuentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "divulgación coordinada",
+      "CVD"
+    ],
+    "question": "Un investigador descubre una vulnerabilidad crítica en un producto comercial. Según el modelo de divulgación coordinada de vulnerabilidades (CVD), ¿cuál es el proceder correcto?",
+    "options": [
+      "Publicar inmediatamente todos los detalles técnicos para forzar al fabricante a reaccionar",
+      "Notificar al fabricante de forma privada y acordar un plazo razonable para publicar los detalles una vez disponible la corrección",
+      "Vender la información del fallo al mejor postor en un mercado de vulnerabilidades",
+      "Guardar el hallazgo en secreto de forma indefinida para no alarmar a los usuarios del producto"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La divulgación coordinada busca equilibrar la transparencia y la protección de los usuarios: el fabricante recibe la información en privado y dispone de un plazo (habitualmente 90 días como referencia) para corregir antes de la publicación."
+  },
+  {
+    "id": "technical-exp-a-036",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Identificadores y fuentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "conceptos",
+      "vulnerabilidades"
+    ],
+    "question": "¿Cuál de las siguientes afirmaciones describe correctamente la relación entre vulnerabilidad, exploit y exposición?",
+    "options": [
+      "La vulnerabilidad es la debilidad del sistema, el exploit es el código o técnica que la aprovecha, y la exposición depende de si el sistema afectado es alcanzable por un atacante",
+      "El exploit es la debilidad del sistema y la vulnerabilidad es el programa que la aprovecha",
+      "Vulnerabilidad y exposición son sinónimos, y el exploit es la métrica que las cuantifica",
+      "Una vulnerabilidad solo existe oficialmente cuando se ha publicado un exploit funcional"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La vulnerabilidad es el fallo o debilidad; el exploit es el medio (código o técnica) para aprovecharla; la exposición describe si el activo vulnerable es accesible para un atacante, factor clave en la evaluación del riesgo real."
+  },
+  {
+    "id": "technical-exp-a-037",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Identificadores y fuentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CNA",
+      "CVE"
+    ],
+    "question": "En el ecosistema CVE, ¿qué es una CNA (CVE Numbering Authority)?",
+    "options": [
+      "Un algoritmo que genera automáticamente los números de los identificadores CVE",
+      "El comité del NIST que valida las puntuaciones CVSS antes de su publicación",
+      "Una agencia gubernamental encargada de sancionar a los fabricantes que ocultan vulnerabilidades",
+      "Una organización autorizada (fabricante, CERT, investigador institucional) para asignar identificadores CVE a vulnerabilidades dentro de su ámbito"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las CNA son entidades autorizadas por el programa CVE (fabricantes como Microsoft o Red Hat, CERT, coordinadores) que pueden reservar y asignar identificadores CVE para vulnerabilidades dentro de su alcance definido."
+  },
+  {
+    "id": "technical-exp-a-038",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Identificadores y fuentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "avisos de fabricantes",
+      "NVD"
+    ],
+    "question": "El martes de parches, un fabricante publica un aviso sobre una vulnerabilidad crítica explotada activamente, pero la entrada en NVD aún no tiene puntuación CVSS ni análisis. ¿Cómo debe actuar el equipo de gestión de vulnerabilidades?",
+    "options": [
+      "Esperar a que NVD complete el análisis, ya que es la única fuente oficial válida",
+      "Actuar de inmediato basándose en el aviso del fabricante, que es fuente autorizada y suele incluir la severidad, los productos afectados y las mitigaciones",
+      "Ignorar el aviso hasta que aparezca una prueba de concepto pública que lo confirme",
+      "Solicitar a MITRE una puntuación provisional antes de iniciar cualquier acción"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los avisos del fabricante son fuente primaria y a menudo llegan antes que el enriquecimiento de NVD; ante explotación activa, esperar el análisis de terceros retrasa innecesariamente la respuesta."
+  },
+  {
+    "id": "technical-exp-a-039",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Identificadores y fuentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "CVE",
+      "divulgación"
+    ],
+    "question": "Al consultar un identificador, aparece con estado \"Reserved\" y sin ningún detalle técnico publicado. ¿Qué significa?",
+    "options": [
+      "Que la vulnerabilidad ha sido descartada por tratarse de un falso positivo",
+      "Que el CVE está restringido a organismos gubernamentales con acreditación de seguridad",
+      "Que una CNA ha reservado el identificador para una vulnerabilidad cuyos detalles aún no se han hecho públicos",
+      "Que la vulnerabilidad afecta únicamente a productos que ya están fuera de soporte"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El estado Reserved indica que el identificador ha sido asignado por una CNA pero los detalles todavía no se han publicado, algo habitual durante procesos de divulgación coordinada en curso."
+  },
+  {
+    "id": "technical-exp-a-040",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Identificadores y fuentes",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "zero-day",
+      "conceptos"
+    ],
+    "question": "¿Cuál es la definición correcta de una vulnerabilidad zero-day?",
+    "options": [
+      "Una vulnerabilidad desconocida para el fabricante o sin parche disponible que ya puede estar siendo explotada",
+      "Cualquier vulnerabilidad publicada hace menos de veinticuatro horas en la base de datos NVD",
+      "Una vulnerabilidad cuya puntuación CVSS base es exactamente 10.0",
+      "Un fallo que solo puede explotarse el mismo día en que se reinicia el sistema afectado"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Una zero-day es una vulnerabilidad para la que el fabricante no ha tenido oportunidad de publicar una corrección (cero días de margen), lo que la hace especialmente peligrosa si existe explotación activa."
+  },
+  {
+    "id": "technical-exp-a-041",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Evaluación práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "pentest",
+      "evaluación de vulnerabilidades"
+    ],
+    "question": "¿Cuál es la diferencia esencial entre una evaluación de vulnerabilidades y un test de penetración (pentest)?",
+    "options": [
+      "La evaluación de vulnerabilidades solo puede realizarla personal interno y el pentest solo empresas externas",
+      "El pentest se limita a aplicaciones web y la evaluación de vulnerabilidades a infraestructura de red",
+      "La evaluación identifica y cataloga debilidades de forma amplia, mientras que el pentest intenta explotarlas activamente para demostrar el impacto real",
+      "No existe diferencia práctica: son dos nombres comerciales para el mismo servicio"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La evaluación de vulnerabilidades busca amplitud (identificar el máximo de debilidades), mientras que el pentest busca profundidad: explotar vulnerabilidades y encadenarlas para demostrar el impacto real alcanzable por un atacante."
+  },
+  {
+    "id": "technical-exp-a-042",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Evaluación práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "red team",
+      "seguridad ofensiva"
+    ],
+    "question": "¿Qué distingue a un ejercicio de red team de un pentest convencional?",
+    "options": [
+      "El red team utiliza exclusivamente herramientas automáticas mientras que el pentest es manual",
+      "El red team simula un adversario realista con objetivos concretos, de forma sigilosa y prolongada, poniendo a prueba también la detección y respuesta del defensor",
+      "El pentest requiere autorización escrita y el red team puede ejecutarse sin permiso del cliente",
+      "El red team se limita a ataques de ingeniería social y el pentest a ataques técnicos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un red team emula tácticas, técnicas y procedimientos de adversarios reales con objetivos definidos y sigilo, evaluando la capacidad de detección y respuesta (blue team), mientras que el pentest suele tener alcance más acotado y menos énfasis en la evasión."
+  },
+  {
+    "id": "technical-exp-a-043",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Evaluación práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "reglas de compromiso",
+      "alcance"
+    ],
+    "question": "Antes de iniciar un pentest, cliente y equipo evaluador firman las reglas de compromiso (rules of engagement). ¿Qué deben recoger principalmente?",
+    "options": [
+      "Únicamente el precio del servicio y las penalizaciones por retraso en la entrega del informe",
+      "La lista completa de vulnerabilidades que el equipo espera encontrar durante la prueba",
+      "El compromiso del evaluador de no documentar hallazgos que puedan perjudicar la imagen del cliente",
+      "El alcance autorizado, las técnicas permitidas y prohibidas, las ventanas horarias, los contactos de emergencia y el tratamiento de la información"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las reglas de compromiso delimitan qué sistemas se pueden atacar, con qué técnicas, en qué horarios y cómo escalar incidentes, protegiendo legalmente a ambas partes y evitando daños operativos no autorizados."
+  },
+  {
+    "id": "technical-exp-a-044",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Evaluación práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "validación manual",
+      "inyección SQL"
+    ],
+    "question": "Un scanner marca una posible inyección SQL en un formulario de búsqueda. ¿Cuál es la forma adecuada de validar manualmente el hallazgo minimizando el riesgo sobre el sistema en producción?",
+    "options": [
+      "Reproducir la petición con payloads controlados y no destructivos (por ejemplo, condiciones booleanas o funciones de tiempo) y observar si la respuesta confirma el comportamiento inyectable",
+      "Ejecutar una sentencia DROP TABLE para comprobar de forma concluyente si la inyección es real",
+      "Dar por válido el hallazgo sin más pruebas, dado que los scanners modernos apenas cometen errores",
+      "Lanzar una herramienta de explotación automática con todas las opciones agresivas activadas contra el servidor de producción"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La validación manual debe usar payloads inocuos (comparaciones booleanas, retardos controlados) que confirmen la vulnerabilidad sin alterar datos ni degradar el servicio; las pruebas destructivas o agresivas en producción son inaceptables."
+  },
+  {
+    "id": "technical-exp-a-045",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Evaluación práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SSRF",
+      "aplicaciones web"
+    ],
+    "question": "Una aplicación web permite indicar una URL para importar un avatar y el servidor descarga el recurso. Un evaluador consigue que el servidor haga peticiones a http://169.254.169.254/ y lea metadatos internos de la nube. ¿Qué vulnerabilidad ha demostrado?",
+    "options": [
+      "Cross-Site Scripting (XSS) reflejado a través del parámetro de la URL",
+      "Server-Side Request Forgery (SSRF), al forzar al servidor a realizar peticiones hacia recursos internos",
+      "Inyección de comandos en el sistema operativo del servidor web",
+      "Cross-Site Request Forgery (CSRF) contra la sesión del usuario administrador"
+    ],
+    "correctAnswer": 1,
+    "explanation": "En un SSRF el atacante manipula al servidor para que realice peticiones en su nombre, alcanzando recursos internos no expuestos, como el servicio de metadatos de instancias cloud (169.254.169.254), que puede revelar credenciales."
+  },
+  {
+    "id": "technical-exp-a-046",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Evaluación práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "deserialización",
+      "RCE"
+    ],
+    "question": "¿Por qué la deserialización insegura de datos controlados por el usuario se considera una vulnerabilidad de alto riesgo?",
+    "options": [
+      "Porque provoca siempre la corrupción irreversible de la base de datos de la aplicación",
+      "Porque expone las cookies de sesión de los usuarios a redes Wi-Fi no cifradas",
+      "Porque un objeto serializado malicioso puede desencadenar cadenas de ejecución (gadget chains) que deriven en ejecución remota de código en el servidor",
+      "Porque impide que la aplicación valide los certificados TLS de sus dependencias"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Al deserializar datos no confiables, el proceso puede instanciar objetos y ejecutar métodos definidos por el atacante mediante cadenas de gadgets, lo que en plataformas como Java, .NET, PHP o Python conduce con frecuencia a ejecución remota de código."
+  },
+  {
+    "id": "technical-exp-a-047",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Evaluación práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "path traversal",
+      "aplicaciones web"
+    ],
+    "question": "Al solicitar la ruta descarga?fichero=../../../../etc/passwd, la aplicación devuelve el contenido del fichero de usuarios del sistema. ¿Qué vulnerabilidad presenta la aplicación?",
+    "options": [
+      "Path traversal (directory traversal), que permite acceder a ficheros fuera del directorio previsto mediante secuencias de salto de directorio",
+      "Cross-Site Scripting almacenado en el parámetro de descarga del fichero",
+      "Inyección SQL a través del nombre del fichero solicitado",
+      "Denegación de servicio por agotamiento del sistema de ficheros del servidor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El path traversal aprovecha la falta de saneamiento de las rutas para usar secuencias como ../ y salir del directorio previsto, accediendo a ficheros arbitrarios del sistema como /etc/passwd."
+  },
+  {
+    "id": "technical-exp-a-048",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Evaluación práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "parcheo virtual",
+      "WAF"
+    ],
+    "question": "Se ha publicado una vulnerabilidad crítica de RCE en un servidor de aplicaciones expuesto, pero el parche del fabricante no estará listo hasta dentro de varios días. ¿Qué medida de mitigación temporal es la más adecuada?",
+    "options": [
+      "Aumentar el nivel de registro (logging) del servidor para poder analizar el incidente a posteriori",
+      "Aplicar parcheo virtual mediante una regla en el WAF/IPS que bloquee el patrón de explotación mientras llega el parche oficial",
+      "Reiniciar periódicamente el servicio afectado para interrumpir posibles sesiones maliciosas",
+      "Rebajar la severidad del hallazgo en el sistema de seguimiento hasta que exista parche"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El parcheo virtual consiste en desplegar reglas en un WAF o IPS que detecten y bloqueen el patrón de explotación, reduciendo la exposición como medida provisional hasta poder aplicar la corrección definitiva del fabricante."
+  },
+  {
+    "id": "technical-exp-a-049",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Evaluación práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "misconfiguraciones",
+      "exposición"
+    ],
+    "question": "Durante una evaluación se descubre un bucket de almacenamiento en la nube accesible públicamente que contiene copias de seguridad de bases de datos. ¿Cómo se clasifica principalmente este hallazgo?",
+    "options": [
+      "Como un desbordamiento de búfer en el servicio de almacenamiento en la nube",
+      "Como una vulnerabilidad zero-day del proveedor de nube que requiere aviso CVE",
+      "Como un ataque de denegación de servicio contra el servicio de almacenamiento",
+      "Como una configuración insegura (misconfiguration) que expone datos sensibles por permisos de acceso incorrectos"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Un bucket público con datos sensibles es una misconfiguración: no hay un fallo en el software del proveedor, sino permisos de acceso mal establecidos por el cliente, una de las causas más frecuentes de fugas de datos en la nube."
+  },
+  {
+    "id": "technical-exp-a-050",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Evaluación práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "RCE",
+      "encadenamiento de vulnerabilidades"
+    ],
+    "question": "En un pentest, el evaluador combina un SSRF que alcanza un servicio interno de metadatos, obtiene credenciales temporales y con ellas accede a una API administrativa que ejecuta comandos. ¿Qué concepto ilustra mejor esta situación?",
+    "options": [
+      "Un falso positivo, ya que ninguna de las vulnerabilidades por separado es crítica",
+      "El encadenamiento de vulnerabilidades, donde fallos de menor severidad individual se combinan para lograr un impacto mucho mayor",
+      "Un ataque de fuerza bruta contra las credenciales de la API administrativa",
+      "Una denegación de servicio distribuida contra el servicio de metadatos interno"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El encadenamiento (chaining) demuestra por qué el pentest aporta más que un listado de hallazgos aislados: vulnerabilidades individualmente moderadas pueden combinarse para alcanzar un compromiso grave, como la ejecución de comandos con privilegios."
+  },
+  {
+    "id": "technical-exp-b-001",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "GNU/Linux",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "permisos"
+    ],
+    "question": "Un ejecutable tiene los permisos -rwsr-xr-x tras ejecutar chmod 4755 sobre él. ¿Qué implica la 's' en el trío del propietario?",
+    "options": [
+      "El archivo solo puede ser borrado por su propietario",
+      "El binario se ejecutará con el grupo del propietario del archivo",
+      "El binario se ejecutará con el UID efectivo del propietario del archivo, no del usuario que lo lanza",
+      "El archivo queda bloqueado contra escritura hasta reiniciar el sistema"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El bit setuid (valor octal 4000) hace que el proceso se ejecute con el UID efectivo del propietario del binario, típicamente root, lo que lo convierte en un vector clásico de escalada de privilegios si está mal configurado."
+  },
+  {
+    "id": "technical-exp-b-002",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "GNU/Linux",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "permisos"
+    ],
+    "question": "El directorio /tmp suele mostrar los permisos drwxrwxrwt. ¿Qué efecto tiene la 't' final (sticky bit)?",
+    "options": [
+      "Solo el propietario de cada archivo (o root) puede borrar o renombrar sus archivos dentro del directorio",
+      "Los archivos creados heredan automáticamente el grupo del directorio",
+      "El contenido del directorio se elimina automáticamente en cada reinicio",
+      "Nadie salvo root puede crear nuevos archivos en el directorio"
+    ],
+    "correctAnswer": 0,
+    "explanation": "En un directorio con sticky bit, aunque todos tengan permiso de escritura, cada usuario solo puede eliminar o renombrar los archivos de los que es propietario; es la protección estándar de /tmp."
+  },
+  {
+    "id": "technical-exp-b-003",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "GNU/Linux",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "procesos"
+    ],
+    "question": "¿Cuál es la diferencia principal entre ejecutar kill -15 PID y kill -9 PID sobre un proceso?",
+    "options": [
+      "kill -15 detiene el proceso temporalmente y kill -9 lo reanuda",
+      "SIGTERM (15) puede ser capturado por el proceso para terminar de forma ordenada; SIGKILL (9) no puede capturarse ni ignorarse",
+      "SIGKILL (9) permite al proceso guardar su estado antes de cerrar; SIGTERM (15) lo mata inmediatamente",
+      "Ambas señales son idénticas, solo cambia la prioridad con la que las procesa el planificador"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SIGTERM es una petición de terminación que el proceso puede manejar para cerrarse limpiamente, mientras que SIGKILL es forzosa: el kernel termina el proceso sin darle opción a capturar la señal."
+  },
+  {
+    "id": "technical-exp-b-004",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "GNU/Linux",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "systemd"
+    ],
+    "question": "En un servidor con systemd, ¿qué diferencia hay entre systemctl start nginx y systemctl enable nginx?",
+    "options": [
+      "start habilita el arranque automático y enable lo inicia en ese momento",
+      "start solo funciona para servicios de usuario y enable para servicios del sistema",
+      "enable arranca el servicio con más prioridad de CPU que start",
+      "start inicia el servicio inmediatamente; enable crea los enlaces para que arranque automáticamente en el boot"
+    ],
+    "correctAnswer": 3,
+    "explanation": "systemctl start actúa solo sobre la sesión actual, mientras que enable crea los symlinks en los targets correspondientes para que la unidad se inicie en cada arranque; suelen combinarse con --now."
+  },
+  {
+    "id": "technical-exp-b-005",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "GNU/Linux",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "systemd"
+    ],
+    "question": "Necesitas revisar los mensajes del servicio sshd generados únicamente desde el último arranque del sistema. ¿Qué comando es el adecuado?",
+    "options": [
+      "journalctl -u sshd -b",
+      "journalctl --service sshd --last-boot",
+      "systemctl logs sshd --boot",
+      "dmesg -u sshd"
+    ],
+    "correctAnswer": 0,
+    "explanation": "journalctl -u <unidad> filtra por unidad de systemd y la opción -b limita la salida al arranque actual; systemctl no tiene subcomando logs y dmesg solo muestra el buffer del kernel."
+  },
+  {
+    "id": "technical-exp-b-006",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "GNU/Linux",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "usuarios"
+    ],
+    "question": "Quieres añadir al usuario ana al grupo docker sin quitarla de sus grupos actuales. ¿Qué comando debes usar?",
+    "options": [
+      "usermod -G docker ana",
+      "groupadd docker ana",
+      "usermod -aG docker ana",
+      "chgrp docker ana"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción -a (append) junto con -G añade el grupo suplementario sin sobrescribir la lista existente; usermod -G sin -a reemplazaría todos los grupos secundarios del usuario."
+  },
+  {
+    "id": "technical-exp-b-007",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "GNU/Linux",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "paquetes"
+    ],
+    "question": "En un sistema Debian/Ubuntu, ¿qué hace exactamente apt update a diferencia de apt upgrade?",
+    "options": [
+      "apt update instala las versiones nuevas de todos los paquetes del sistema",
+      "apt update solo actualiza el propio gestor de paquetes apt",
+      "apt update reinstala los paquetes dañados y upgrade los verifica",
+      "apt update refresca los índices de paquetes de los repositorios; upgrade instala las versiones nuevas disponibles"
+    ],
+    "correctAnswer": 3,
+    "explanation": "apt update descarga la lista actualizada de paquetes y versiones de los repositorios configurados, pero no instala nada; apt upgrade aplica las actualizaciones usando esos índices."
+  },
+  {
+    "id": "technical-exp-b-008",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "GNU/Linux",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "sistemas de archivos"
+    ],
+    "question": "En /etc/fstab, una partición montada con las opciones nosuid,nodev,noexec busca sobre todo:",
+    "options": [
+      "Acelerar el acceso a disco desactivando el journaling",
+      "Impedir que en esa partición se respeten bits setuid, se usen archivos de dispositivo o se ejecuten binarios",
+      "Evitar que la partición se monte automáticamente en el arranque",
+      "Forzar que solo root pueda leer los archivos de la partición"
+    ],
+    "correctAnswer": 1,
+    "explanation": "nosuid ignora los bits setuid/setgid, nodev impide interpretar archivos de dispositivo y noexec bloquea la ejecución de binarios; son opciones de hardening habituales para /tmp o /var."
+  },
+  {
+    "id": "technical-exp-b-009",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "GNU/Linux",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "cron"
+    ],
+    "question": "¿Cuándo se ejecuta una tarea de crontab definida con la línea: 0 3 * * 1 /opt/scripts/backup.sh?",
+    "options": [
+      "Cada lunes a las 03:00",
+      "Cada día 1 del mes a las 03:00",
+      "Cada 3 horas los lunes",
+      "El 1 de enero a las 03:00"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los campos de cron son minuto, hora, día del mes, mes y día de la semana; el valor 1 en el quinto campo corresponde al lunes, por lo que se ejecuta los lunes a las 03:00."
+  },
+  {
+    "id": "technical-exp-b-010",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "GNU/Linux",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "systemd"
+    ],
+    "question": "Frente a cron, una ventaja propia de los timers de systemd para programar tareas periódicas es:",
+    "options": [
+      "No requieren ningún archivo de configuración, se definen solo por línea de comandos",
+      "Se ejecutan siempre con privilegios de root, evitando problemas de permisos",
+      "Permiten dependencias entre unidades, registro en journald y ejecución diferida de tareas perdidas con Persistent=true",
+      "Consumen menos memoria porque no necesitan ningún demonio en ejecución"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Un timer de systemd activa una unidad de servicio, hereda sus dependencias, registra la salida en journald y con Persistent=true ejecuta la tarea pendiente si el sistema estaba apagado cuando tocaba."
+  },
+  {
+    "id": "technical-exp-b-011",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Línea de comandos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "grep"
+    ],
+    "question": "Quieres buscar la cadena \"password\" sin distinguir mayúsculas de minúsculas en todos los archivos bajo /etc de forma recursiva. ¿Qué comando usarías?",
+    "options": [
+      "grep -v -R password /etc",
+      "grep -ri password /etc",
+      "grep -c -i password /etc",
+      "grep -l password /etc/*"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción -r (o -R) hace la búsqueda recursiva y -i ignora mayúsculas/minúsculas; -v invierte la coincidencia, -c cuenta líneas y -l solo lista nombres de archivo sin recursión en subdirectorios."
+  },
+  {
+    "id": "technical-exp-b-012",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Línea de comandos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "awk"
+    ],
+    "question": "Dado un archivo con líneas del tipo \"usuario espacio IP\", ¿qué comando imprime solo la segunda columna de cada línea?",
+    "options": [
+      "sed -n '2p' archivo",
+      "cut -c2 archivo",
+      "grep -o 2 archivo",
+      "awk '{print $2}' archivo"
+    ],
+    "correctAnswer": 3,
+    "explanation": "En awk, $2 referencia el segundo campo separado por espacios o tabuladores; sed -n '2p' imprimiría la segunda línea completa y cut -c2 solo el segundo carácter de cada línea."
+  },
+  {
+    "id": "technical-exp-b-013",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Línea de comandos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "pipes"
+    ],
+    "question": "Para obtener las direcciones IP más repetidas en un log donde la IP es el primer campo, ¿qué tubería es correcta?",
+    "options": [
+      "awk '{print $1}' access.log | sort | uniq -c | sort -rn | head",
+      "awk '{print $1}' access.log | uniq -c | sort | head",
+      "cat access.log | uniq | sort -c | head",
+      "sort access.log | grep -c IP | head"
+    ],
+    "correctAnswer": 0,
+    "explanation": "uniq -c solo agrupa líneas adyacentes, por lo que hay que ordenar antes con sort; después sort -rn ordena numéricamente de mayor a menor el recuento. Saltarse el primer sort da recuentos incorrectos."
+  },
+  {
+    "id": "technical-exp-b-014",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Línea de comandos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "redirecciones"
+    ],
+    "question": "¿Qué consigue la redirección en el comando: ./script.sh > salida.log 2>&1?",
+    "options": [
+      "Guarda solo los errores en salida.log y descarta la salida normal",
+      "Duplica el archivo salida.log en dos copias numeradas 1 y 2",
+      "Envía tanto la salida estándar como la de error al archivo salida.log",
+      "Ejecuta el script dos veces y concatena ambas salidas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El operador > redirige stdout al archivo y 2>&1 redirige stderr (descriptor 2) al mismo destino que stdout (descriptor 1), de modo que todo queda en salida.log."
+  },
+  {
+    "id": "technical-exp-b-015",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Línea de comandos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "find"
+    ],
+    "question": "Durante una revisión de seguridad quieres localizar todos los binarios con el bit setuid activo en el sistema. ¿Qué comando es el correcto?",
+    "options": [
+      "find / -type f -perm 0777 2>/dev/null",
+      "find / -type f -perm -4000 2>/dev/null",
+      "find / -type f -uid 0 2>/dev/null",
+      "find / -type f -perm -1000 2>/dev/null"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El bit setuid corresponde al valor octal 4000 y la sintaxis -perm -4000 encuentra archivos que tengan al menos ese bit; -uid 0 solo filtra por propietario root y -1000 buscaría el sticky bit."
+  },
+  {
+    "id": "technical-exp-b-016",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Línea de comandos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "tar"
+    ],
+    "question": "Has recibido el archivo evidencias.tar.gz y quieres extraer su contenido en el directorio actual. ¿Qué comando debes ejecutar?",
+    "options": [
+      "tar -xzf evidencias.tar.gz",
+      "tar -czf evidencias.tar.gz",
+      "tar -tvf evidencias.tar.gz .",
+      "gzip -x evidencias.tar.gz"
+    ],
+    "correctAnswer": 0,
+    "explanation": "-x extrae, -z descomprime gzip y -f indica el archivo; -c crearía un archivo nuevo, -t solo lista el contenido y gzip no tiene opción -x para extraer archivos tar."
+  },
+  {
+    "id": "technical-exp-b-017",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Línea de comandos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "curl"
+    ],
+    "question": "Quieres ver únicamente las cabeceras HTTP de respuesta de un servidor web, sin descargar el cuerpo. ¿Qué opción de curl usas?",
+    "options": [
+      "curl -O https://ejemplo.eu",
+      "curl -s https://ejemplo.eu",
+      "curl -L https://ejemplo.eu",
+      "curl -I https://ejemplo.eu"
+    ],
+    "correctAnswer": 3,
+    "explanation": "curl -I realiza una petición HEAD y muestra solo las cabeceras de respuesta; -O guarda el cuerpo en un archivo, -s silencia la barra de progreso y -L sigue redirecciones."
+  },
+  {
+    "id": "technical-exp-b-018",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Línea de comandos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "ssh"
+    ],
+    "question": "SSH rechaza usar tu clave privada ~/.ssh/id_ed25519 mostrando el aviso \"UNPROTECTED PRIVATE KEY FILE\". ¿Cuál es la corrección adecuada?",
+    "options": [
+      "chmod 777 ~/.ssh/id_ed25519",
+      "chown root:root ~/.ssh/id_ed25519",
+      "chmod 600 ~/.ssh/id_ed25519",
+      "mv ~/.ssh/id_ed25519 /etc/ssh/"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El cliente SSH exige que la clave privada solo sea accesible por su propietario; chmod 600 concede lectura y escritura únicamente al usuario, que es el requisito para que SSH la acepte."
+  },
+  {
+    "id": "technical-exp-b-019",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Línea de comandos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "bash"
+    ],
+    "question": "En un script de bash, justo después de ejecutar un comando, ¿qué contiene la variable especial $??",
+    "options": [
+      "El PID del último comando ejecutado en segundo plano",
+      "El número de argumentos recibidos por el script",
+      "El nombre del último comando ejecutado",
+      "El código de salida del último comando: 0 si tuvo éxito, distinto de 0 si falló"
+    ],
+    "correctAnswer": 3,
+    "explanation": "$? almacena el exit code del último comando; por convención 0 indica éxito y cualquier otro valor un error. El PID del último proceso en segundo plano es $! y el número de argumentos es $#."
+  },
+  {
+    "id": "technical-exp-b-020",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Línea de comandos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "ssh"
+    ],
+    "question": "¿Qué hace el comando ssh -L 8080:intranet.local:80 usuario@bastion?",
+    "options": [
+      "Publica el puerto 8080 de tu máquina para que bastion pueda conectarse a él",
+      "Crea un túnel: las conexiones a localhost:8080 en tu máquina se reenvían a intranet.local:80 a través de bastion",
+      "Limita el ancho de banda de la sesión SSH a 8080 KB/s",
+      "Abre una sesión SSH en el puerto 8080 de bastion en lugar del 22"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción -L configura un reenvío de puertos local: el cliente escucha en 8080 y todo el tráfico se envía cifrado hasta bastion, que lo entrega a intranet.local:80. El reenvío inverso sería -R y el puerto de conexión se cambia con -p."
+  },
+  {
+    "id": "technical-exp-b-021",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Logs y observabilidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "logs"
+    ],
+    "question": "En un sistema Debian/Ubuntu con rsyslog, ¿en qué archivo se registran por defecto los intentos de autenticación, incluidos los fallos de SSH?",
+    "options": [
+      "/var/log/auth.log",
+      "/var/log/dmesg",
+      "/var/log/apt/history.log",
+      "/var/log/faillock"
+    ],
+    "correctAnswer": 0,
+    "explanation": "En la familia Debian los eventos de autenticación (PAM, sshd, sudo) van a /var/log/auth.log; el equivalente en RHEL/CentOS es /var/log/secure."
+  },
+  {
+    "id": "technical-exp-b-022",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Logs y observabilidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "journald"
+    ],
+    "question": "Para revisar solo los mensajes de prioridad error o superior registrados por journald en la última hora, ¿qué comando es correcto?",
+    "options": [
+      "journalctl --level err --time 1h",
+      "journalctl -f --errors-only --last 60",
+      "journalctl -p err --since \"1 hour ago\"",
+      "journalctl -e --priority high --hours 1"
+    ],
+    "correctAnswer": 2,
+    "explanation": "journalctl usa -p (priority) con niveles syslog como err, y --since acepta expresiones temporales como \"1 hour ago\"; las demás combinaciones de opciones no existen."
+  },
+  {
+    "id": "technical-exp-b-023",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Logs y observabilidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "auditd"
+    ],
+    "question": "¿Qué consigue la regla de auditd: -w /etc/passwd -p wa -k identidad?",
+    "options": [
+      "Bloquea cualquier escritura en /etc/passwd salvo la de root",
+      "Cifra el archivo /etc/passwd y guarda la clave con la etiqueta identidad",
+      "Hace una copia de seguridad de /etc/passwd cada vez que alguien lo lee",
+      "Registra en el log de auditoría las escrituras y cambios de atributos sobre /etc/passwd, etiquetados con la clave identidad"
+    ],
+    "correctAnswer": 3,
+    "explanation": "-w define una vigilancia sobre la ruta, -p wa audita escrituras (w) y cambios de atributos (a), y -k asigna una clave para filtrar después con ausearch -k identidad; auditd registra, no bloquea."
+  },
+  {
+    "id": "technical-exp-b-024",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Logs y observabilidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "logs"
+    ],
+    "question": "¿Cuál es la función principal de logrotate en un servidor Linux?",
+    "options": [
+      "Replicar los logs en tiempo real hacia un servidor SIEM central",
+      "Rotar, comprimir y eliminar logs antiguos según políticas definidas, evitando que llenen el disco",
+      "Reordenar los logs cronológicamente cuando el reloj del sistema cambia",
+      "Convertir los logs binarios de journald a texto plano"
+    ],
+    "correctAnswer": 1,
+    "explanation": "logrotate aplica políticas periódicas (tamaño, antigüedad, número de copias) para archivar, comprimir y purgar logs, lo que preserva espacio en disco y facilita su gestión."
+  },
+  {
+    "id": "technical-exp-b-025",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Logs y observabilidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "autenticación"
+    ],
+    "question": "Quieres listar los intentos de inicio de sesión fallidos registrados en /var/log/btmp. ¿Qué comando muestra directamente esa información?",
+    "options": [
+      "lastlog",
+      "last",
+      "lastb",
+      "who -b"
+    ],
+    "correctAnswer": 2,
+    "explanation": "lastb lee /var/log/btmp, que almacena los intentos de login fallidos; last lee wtmp (sesiones correctas), lastlog muestra el último acceso de cada usuario y who -b indica la hora del último arranque."
+  },
+  {
+    "id": "technical-exp-b-026",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Logs y observabilidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "rsyslog"
+    ],
+    "question": "En la configuración de rsyslog, ¿qué significa el selector authpriv.* en una regla?",
+    "options": [
+      "Procesar los mensajes de la facility authpriv con cualquier severidad",
+      "Procesar solo los mensajes de autenticación con severidad crítica",
+      "Descartar todos los mensajes relacionados con autenticación",
+      "Procesar los mensajes de cualquier facility cuya severidad sea authpriv"
+    ],
+    "correctAnswer": 0,
+    "explanation": "En syslog el selector tiene la forma facility.severity; authpriv es la facility de mensajes de seguridad/autenticación y el asterisco indica todas las severidades, de emerg a debug."
+  },
+  {
+    "id": "technical-exp-b-027",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Logs y observabilidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "journald"
+    ],
+    "question": "Tras cada reinicio pierdes el histórico de journalctl. ¿Cuál es la forma correcta de hacer persistente el journal de systemd?",
+    "options": [
+      "Ejecutar journalctl --vacuum-time=0 para desactivar el borrado",
+      "Crear el directorio /var/log/journal (o establecer Storage=persistent en journald.conf) y reiniciar systemd-journald",
+      "Copiar manualmente /run/log/journal a /home antes de cada apagado",
+      "Instalar rsyslog, ya que journald no puede almacenar logs en disco"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Por defecto journald puede guardar solo en /run (volátil); si existe /var/log/journal o se fija Storage=persistent en /etc/systemd/journald.conf, los logs se conservan entre reinicios."
+  },
+  {
+    "id": "technical-exp-b-028",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Logs y observabilidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "detección"
+    ],
+    "question": "Sospechas de un ataque de fuerza bruta por SSH contra un servidor Debian. ¿Qué comando te da una primera visión rápida de los intentos fallidos?",
+    "options": [
+      "grep \"session opened\" /var/log/syslog",
+      "awk '/sudo/' /var/log/auth.log",
+      "cat /var/log/kern.log | grep ssh",
+      "grep \"Failed password\" /var/log/auth.log"
+    ],
+    "correctAnswer": 3,
+    "explanation": "sshd registra cada intento fallido con el mensaje \"Failed password\" (o \"Invalid user\") en auth.log; filtrar esas líneas y contar IPs de origen es el primer paso típico del análisis."
+  },
+  {
+    "id": "technical-exp-b-029",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Logs y observabilidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "autenticación"
+    ],
+    "question": "¿Qué información almacena el archivo /var/log/wtmp en un sistema Linux?",
+    "options": [
+      "El histórico de inicios y cierres de sesión, reinicios y apagados, consultable con el comando last",
+      "Las contraseñas cifradas de los usuarios locales",
+      "Los procesos que estaban en ejecución en el momento del último apagado",
+      "La lista de paquetes actualizados en el sistema"
+    ],
+    "correctAnswer": 0,
+    "explanation": "wtmp es un registro binario de sesiones (logins, logouts, reboots) que se consulta con last; utmp refleja las sesiones activas actuales y btmp los intentos fallidos."
+  },
+  {
+    "id": "technical-exp-b-030",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Logs y observabilidad",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "auditd"
+    ],
+    "question": "Después de definir reglas de auditd con claves (-k), ¿qué herramienta permite buscar en el log de auditoría los eventos asociados a una clave concreta?",
+    "options": [
+      "auditctl -R clave",
+      "journalctl -k clave",
+      "ausearch -k clave",
+      "grep -k clave /var/log/audit/audit.log"
+    ],
+    "correctAnswer": 2,
+    "explanation": "ausearch es la herramienta de consulta del log de auditd y su opción -k filtra por la clave asignada en las reglas; auditctl gestiona reglas en caliente y journalctl -k muestra mensajes del kernel."
+  },
+  {
+    "id": "technical-exp-b-031",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Hardening y CIS Benchmarks",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hardening",
+      "CIS"
+    ],
+    "question": "En los CIS Benchmarks, ¿qué distingue a las recomendaciones de Level 2 frente a las de Level 1?",
+    "options": [
+      "Level 2 solo aplica a sistemas Windows y Level 1 a Linux",
+      "Level 2 son recomendaciones opcionales sin impacto en la seguridad",
+      "Level 1 se aplica automáticamente y Level 2 requiere licencia de pago",
+      "Level 2 ofrece defensa en profundidad para entornos de alta seguridad, con mayor probabilidad de afectar a la funcionalidad"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Level 1 recoge medidas básicas con impacto operativo mínimo, mientras que Level 2 está pensado para entornos que exigen mayor seguridad y sus controles pueden reducir funcionalidad o compatibilidad."
+  },
+  {
+    "id": "technical-exp-b-032",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Hardening y CIS Benchmarks",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hardening",
+      "ssh"
+    ],
+    "question": "Para impedir que root inicie sesión directamente por SSH, ¿qué directiva debes fijar en /etc/ssh/sshd_config?",
+    "options": [
+      "DenyUsers admin",
+      "PermitRootLogin no",
+      "RootAccess disabled",
+      "AllowRoot false"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La directiva PermitRootLogin no de sshd_config bloquea el acceso directo de root por SSH; tras cambiarla hay que recargar el servicio sshd. Las otras directivas no existen con esa sintaxis."
+  },
+  {
+    "id": "technical-exp-b-033",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Hardening y CIS Benchmarks",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hardening",
+      "ssh"
+    ],
+    "question": "¿Por qué la autenticación SSH con claves públicas se considera más robusta que la basada en contraseñas?",
+    "options": [
+      "La clave privada nunca se transmite al servidor y no puede adivinarse por fuerza bruta en línea, a diferencia de una contraseña",
+      "Las claves SSH caducan automáticamente cada 90 días, forzando su renovación",
+      "El servidor almacena la clave privada cifrada, lo que impide su robo",
+      "Las claves públicas viajan cifradas por la red mientras que las contraseñas van en claro"
+    ],
+    "correctAnswer": 0,
+    "explanation": "En la autenticación de clave pública el cliente demuestra la posesión de la clave privada mediante una firma, sin enviarla nunca; esto elimina el vector de adivinación de contraseñas por fuerza bruta remota."
+  },
+  {
+    "id": "technical-exp-b-034",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Hardening y CIS Benchmarks",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hardening",
+      "firewall"
+    ],
+    "question": "Al configurar ufw en un servidor recién instalado, ¿cuál es la política base recomendada antes de abrir puertos concretos?",
+    "options": [
+      "ufw default allow incoming; ufw default allow outgoing",
+      "ufw default deny outgoing; ufw default allow incoming",
+      "ufw default deny incoming; ufw default allow outgoing",
+      "ufw default deny forward; ufw default deny outgoing"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El principio de mínima exposición implica denegar por defecto todo el tráfico entrante y permitir el saliente, añadiendo después reglas explícitas solo para los servicios necesarios (por ejemplo, ufw allow 22/tcp)."
+  },
+  {
+    "id": "technical-exp-b-035",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Hardening y CIS Benchmarks",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hardening",
+      "SELinux"
+    ],
+    "question": "En un sistema con SELinux, el comando getenforce devuelve \"Permissive\". ¿Qué significa ese estado?",
+    "options": [
+      "SELinux está completamente desactivado y no carga ninguna política",
+      "SELinux bloquea las violaciones de política pero no las registra",
+      "SELinux solo protege los procesos del sistema, no los de usuario",
+      "SELinux evalúa y registra las violaciones de política, pero no las bloquea"
+    ],
+    "correctAnswer": 3,
+    "explanation": "En modo permissive la política se evalúa y las denegaciones se registran (útil para depurar etiquetados), pero no se aplican; solo el modo enforcing bloquea realmente los accesos."
+  },
+  {
+    "id": "technical-exp-b-036",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Hardening y CIS Benchmarks",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hardening",
+      "AppArmor"
+    ],
+    "question": "En AppArmor, ¿qué diferencia hay entre poner un perfil en modo complain y en modo enforce?",
+    "options": [
+      "complain aplica el perfil solo a usuarios sin privilegios; enforce lo aplica a todos",
+      "En complain las violaciones del perfil solo se registran; en enforce se bloquean",
+      "complain desactiva el perfil por completo; enforce lo compila para mayor rendimiento",
+      "complain solo funciona con perfiles de red; enforce con perfiles de archivos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El modo complain (aa-complain) registra las acciones que violarían el perfil sin impedirlas, lo que sirve para ajustarlo; el modo enforce (aa-enforce) las bloquea activamente."
+  },
+  {
+    "id": "technical-exp-b-037",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Hardening y CIS Benchmarks",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hardening",
+      "umask"
+    ],
+    "question": "Si se establece umask 027, ¿qué permisos efectivos obtiene un archivo de texto recién creado (base 666)?",
+    "options": [
+      "666 (rw-rw-rw-)",
+      "750 (rwxr-x---)",
+      "640 (rw-r-----)",
+      "600 (rw-------)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La umask retira bits de los permisos base: 666 quitando 027 deja 640, es decir, lectura/escritura para el propietario, lectura para el grupo y nada para el resto; 750 sería el resultado para un directorio (base 777)."
+  },
+  {
+    "id": "technical-exp-b-038",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Hardening y CIS Benchmarks",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hardening",
+      "parches"
+    ],
+    "question": "En Debian/Ubuntu, ¿qué mecanismo permite instalar automáticamente las actualizaciones de seguridad sin intervención manual?",
+    "options": [
+      "El paquete unattended-upgrades con su configuración en /etc/apt/apt.conf.d/",
+      "El comando apt-get dist-upgrade --daemon",
+      "La opción AutoUpdate=yes en /etc/apt/sources.list",
+      "El servicio apt-security que viene activado por defecto"
+    ],
+    "correctAnswer": 0,
+    "explanation": "unattended-upgrades ejecuta periódicamente la instalación de actualizaciones (típicamente las de la fuente de seguridad) según lo definido en 50unattended-upgrades y 20auto-upgrades; las otras opciones no existen."
+  },
+  {
+    "id": "technical-exp-b-039",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Hardening y CIS Benchmarks",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hardening",
+      "particionado"
+    ],
+    "question": "Los CIS Benchmarks recomiendan montar /var/log en una partición separada. ¿Cuál es la razón principal de seguridad?",
+    "options": [
+      "Los logs se escriben más rápido en particiones dedicadas por el caché del kernel",
+      "Evitar que un crecimiento descontrolado de los logs llene la partición raíz y degrade el sistema, además de poder aplicar opciones de montaje restrictivas",
+      "Permitir que los logs sobrevivan a un formateo completo del disco",
+      "Impedir que los usuarios normales puedan leer cualquier log"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Separar /var/log aísla el consumo de disco de los logs (un atacante o un fallo no puede llenar la raíz) y permite montar la partición con opciones como nodev, nosuid o noexec."
+  },
+  {
+    "id": "technical-exp-b-040",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Hardening y CIS Benchmarks",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "hardening",
+      "servicios"
+    ],
+    "question": "Como parte de la minimización de la superficie de ataque, quieres ver qué servicios están habilitados para arrancar con el sistema. ¿Qué comando usarías en un sistema con systemd?",
+    "options": [
+      "ps aux --enabled",
+      "service --status-all --boot",
+      "chkconfig --list-active",
+      "systemctl list-unit-files --type=service --state=enabled"
+    ],
+    "correctAnswer": 3,
+    "explanation": "systemctl list-unit-files muestra el estado de habilitación de las unidades; filtrando por --state=enabled se identifican los servicios que arrancan en el boot y que conviene revisar y deshabilitar si no son necesarios."
+  },
+  {
+    "id": "technical-exp-b-041",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Seguridad práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "sudo"
+    ],
+    "question": "¿Cuál es la forma correcta y segura de modificar el archivo de configuración de sudo?",
+    "options": [
+      "nano /etc/sudoers y guardar directamente",
+      "sudoedit /etc/passwd",
+      "Usar visudo, que valida la sintaxis antes de guardar y evita bloquear el acceso sudo por un error",
+      "chmod 666 /etc/sudoers y editarlo con cualquier editor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "visudo edita /etc/sudoers con bloqueo y comprobación sintáctica: si hay un error lo avisa antes de guardar, evitando dejar el sistema sin posibilidad de usar sudo."
+  },
+  {
+    "id": "technical-exp-b-042",
+    "type": "technical",
+    "difficulty": 5,
+    "category": "Seguridad práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "escalada de privilegios"
+    ],
+    "question": "Durante una revisión descubres que /usr/bin/find tiene el bit setuid de root. ¿Por qué supone esto una vía directa de escalada de privilegios?",
+    "options": [
+      "find permite ejecutar comandos arbitrarios con -exec, que heredarían el UID efectivo de root",
+      "find puede leer cualquier archivo pero nunca ejecutar procesos hijos",
+      "El setuid en find solo es peligroso si además tiene activo el sticky bit",
+      "find con setuid provoca siempre un desbordamiento de búfer al arrancar"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Con setuid root, find -exec puede lanzar por ejemplo /bin/sh con privilegios efectivos de root (find . -exec /bin/sh \\;), lo que da una shell privilegiada; por eso los binarios con -exec no deben tener setuid."
+  },
+  {
+    "id": "technical-exp-b-043",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Seguridad práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "escalada de privilegios"
+    ],
+    "question": "¿Por qué es peligroso que un script ejecutado como root use rutas relativas de comandos, como simplemente ls, con un PATH que incluya un directorio escribible por otros usuarios?",
+    "options": [
+      "Porque ls es más lento al no usar la ruta absoluta /bin/ls",
+      "Porque un atacante puede colocar un binario malicioso llamado ls en ese directorio del PATH y lograr que root lo ejecute",
+      "Porque el PATH relativo impide que el script encuentre sus dependencias",
+      "Porque bash convierte automáticamente las rutas relativas en enlaces simbólicos inseguros"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Si un directorio escribible aparece antes en el PATH, un atacante puede introducir un ejecutable con el mismo nombre que un comando del script; al invocarlo por nombre, root ejecutaría el binario del atacante. Por eso conviene usar rutas absolutas o un PATH controlado."
+  },
+  {
+    "id": "technical-exp-b-044",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Seguridad práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "contenedores",
+      "docker"
+    ],
+    "question": "¿Cuál es la razón de seguridad para ejecutar los procesos de un contenedor con un usuario no root (USER en el Dockerfile)?",
+    "options": [
+      "Reducir el tamaño final de la imagen del contenedor",
+      "Acelerar el arranque del contenedor al evitar comprobaciones de privilegios",
+      "Limitar el impacto de una fuga del contenedor, ya que un proceso no root dispone de menos capacidades sobre el host",
+      "Permitir que el contenedor acceda directamente a los dispositivos del host"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Root dentro del contenedor puede mapearse a root en el host si se escapa del aislamiento; ejecutar como usuario sin privilegios reduce las capacidades disponibles y mitiga el impacto de una fuga o vulnerabilidad."
+  },
+  {
+    "id": "technical-exp-b-045",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Seguridad práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "contenedores",
+      "imágenes"
+    ],
+    "question": "¿Cuál es la principal ventaja de seguridad de usar imágenes base mínimas (por ejemplo distroless o alpine) en contenedores?",
+    "options": [
+      "Permiten ejecutar el contenedor sin necesidad de un runtime como Docker o containerd",
+      "Garantizan que el contenedor nunca necesitará actualizaciones de seguridad",
+      "Cifran automáticamente todo el sistema de archivos del contenedor",
+      "Reducen la superficie de ataque al incluir menos paquetes y binarios que puedan contener vulnerabilidades"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Cuantos menos paquetes, bibliotecas y utilidades (por ejemplo shells) contenga la imagen, menor es la superficie de ataque y menos CVE potenciales; las imágenes mínimas también dificultan el trabajo de un atacante tras una intrusión."
+  },
+  {
+    "id": "technical-exp-b-046",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Seguridad práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "integridad"
+    ],
+    "question": "¿Cuál es la finalidad de una herramienta de integridad de archivos como AIDE en un servidor Linux?",
+    "options": [
+      "Detectar cambios no autorizados comparando el estado actual de los archivos con una base de datos de hashes de referencia",
+      "Cifrar automáticamente los archivos sensibles del sistema en cada acceso",
+      "Bloquear en tiempo real cualquier escritura sobre los archivos del sistema",
+      "Realizar copias de seguridad incrementales de todo el sistema de archivos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AIDE (Advanced Intrusion Detection Environment) crea una base de datos de referencia con hashes y atributos de los archivos y, en comprobaciones posteriores, detecta modificaciones, adiciones o borrados que puedan indicar un compromiso."
+  },
+  {
+    "id": "technical-exp-b-047",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Seguridad práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "contenedores",
+      "namespaces"
+    ],
+    "question": "En la tecnología de contenedores de Linux, ¿qué papel desempeñan los namespaces del kernel?",
+    "options": [
+      "Cifran el tráfico de red entre contenedores y el host",
+      "Aíslan la visión que tiene un proceso de recursos como PID, red, puntos de montaje o usuarios",
+      "Limitan la cantidad de CPU y memoria que puede consumir un contenedor",
+      "Firman digitalmente las imágenes para garantizar su procedencia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los namespaces (pid, net, mnt, uts, ipc, user) proporcionan el aislamiento: cada contenedor ve su propio conjunto de recursos. El límite de CPU/memoria lo aportan los cgroups, no los namespaces."
+  },
+  {
+    "id": "technical-exp-b-048",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Seguridad práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "kernel"
+    ],
+    "question": "¿Qué efecto tiene fijar el parámetro de kernel net.ipv4.ip_forward = 0 mediante sysctl en un host que no debe actuar como router?",
+    "options": [
+      "Bloquea todo el tráfico entrante dirigido al propio host",
+      "Desactiva por completo la pila IPv4 del sistema",
+      "Deshabilita el reenvío de paquetes IPv4 entre interfaces, evitando que el host encamine tráfico ajeno",
+      "Fuerza el cifrado de todos los paquetes IPv4 salientes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "ip_forward controla si el kernel reenvía paquetes entre interfaces; ponerlo a 0 impide que un host actúe como router, medida de hardening habitual en equipos que no cumplen esa función."
+  },
+  {
+    "id": "technical-exp-b-049",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Seguridad práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "sudoers"
+    ],
+    "question": "En un archivo sudoers, la línea: ana ALL=(ALL) NOPASSWD: /usr/bin/systemctl restart nginx concede a ana permiso para:",
+    "options": [
+      "Ejecutar cualquier comando como root sin introducir su contraseña",
+      "Reiniciar cualquier servicio del sistema, pidiéndole siempre la contraseña",
+      "Ejecutar solo systemctl restart nginx como root sin que se le pida contraseña",
+      "Convertirse en el usuario nginx para gestionar el servicio"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La regla restringe el privilegio a ese comando exacto y NOPASSWD elimina la petición de contraseña solo para él; ana no obtiene acceso general de root ni puede ejecutar otros comandos con sudo sin autenticarse."
+  },
+  {
+    "id": "technical-exp-b-050",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Seguridad práctica",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "linux",
+      "integridad"
+    ],
+    "question": "Has descargado una imagen ISO y quieres verificar que coincide con el hash SHA-256 publicado oficialmente. ¿Qué comando calcula ese hash?",
+    "options": [
+      "sha256sum imagen.iso",
+      "md5sum -sha256 imagen.iso",
+      "openssl aes-256 imagen.iso",
+      "gpg --hash imagen.iso"
+    ],
+    "correctAnswer": 0,
+    "explanation": "sha256sum calcula el resumen SHA-256 del archivo, que se compara con el valor publicado para verificar integridad; md5sum solo genera MD5, openssl aes-256 cifra en lugar de resumir y gpg --hash no es la sintaxis para esto."
+  },
+  {
+    "id": "technical-exp-c-001",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Fundamentos TCP/IP",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "redes"
+    ],
+    "question": "Un analista captura el inicio de una conexión TCP y observa tres segmentos consecutivos entre cliente y servidor. ¿Cuál es la secuencia correcta del three-way handshake?",
+    "options": [
+      "SYN, SYN-ACK, ACK",
+      "SYN, ACK, SYN-ACK",
+      "ACK, SYN, SYN-ACK",
+      "SYN-ACK, SYN, ACK"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El establecimiento de una conexión TCP consta de SYN del cliente, SYN-ACK del servidor y ACK final del cliente, tras lo cual la conexión queda establecida."
+  },
+  {
+    "id": "technical-exp-c-002",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Fundamentos TCP/IP",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "puertos"
+    ],
+    "question": "Durante una auditoría se detecta tráfico hacia el puerto 22/TCP de varios hosts. ¿Qué servicio está asociado por defecto a ese puerto?",
+    "options": [
+      "Telnet",
+      "FTP",
+      "RDP",
+      "SSH"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El puerto 22/TCP corresponde a SSH; Telnet usa el 23, FTP el 21 (control) y RDP el 3389."
+  },
+  {
+    "id": "technical-exp-c-003",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Fundamentos TCP/IP",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "subnetting"
+    ],
+    "question": "¿Cuántas direcciones IP utilizables para hosts ofrece una subred con máscara /26?",
+    "options": [
+      "30",
+      "126",
+      "62",
+      "64"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Una /26 tiene 64 direcciones totales (2^6); descontando red y broadcast quedan 62 direcciones utilizables para hosts."
+  },
+  {
+    "id": "technical-exp-c-004",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Fundamentos TCP/IP",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "protocolos"
+    ],
+    "question": "Un servicio de voz sobre IP prioriza la latencia baja frente a la retransmisión de paquetes perdidos. ¿Qué característica de UDP lo hace adecuado frente a TCP?",
+    "options": [
+      "Es orientado a conexión con control de flujo",
+      "Garantiza la entrega ordenada de los segmentos",
+      "No establece conexión ni retransmite paquetes perdidos",
+      "Usa un handshake de cuatro pasos al iniciar"
+    ],
+    "correctAnswer": 2,
+    "explanation": "UDP es un protocolo sin conexión que no confirma ni retransmite datagramas, lo que reduce la latencia a costa de la fiabilidad."
+  },
+  {
+    "id": "technical-exp-c-005",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Fundamentos TCP/IP",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "ARP"
+    ],
+    "question": "En una LAN, un host necesita enviar una trama a otro host del que solo conoce su dirección IP. ¿Qué protocolo utiliza para obtener la dirección MAC correspondiente?",
+    "options": [
+      "ARP",
+      "DHCP",
+      "ICMP",
+      "DNS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ARP (Address Resolution Protocol) resuelve una dirección IPv4 a la dirección MAC asociada dentro del mismo segmento de red local."
+  },
+  {
+    "id": "technical-exp-c-006",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Fundamentos TCP/IP",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "ICMP"
+    ],
+    "question": "La herramienta ping envía un tipo concreto de mensaje ICMP para comprobar la accesibilidad de un host. ¿De qué mensaje se trata?",
+    "options": [
+      "Destination Unreachable",
+      "Time Exceeded",
+      "Redirect",
+      "Echo Request"
+    ],
+    "correctAnswer": 3,
+    "explanation": "ping emite un ICMP Echo Request (tipo 8) y espera un Echo Reply (tipo 0) del destino para confirmar la conectividad."
+  },
+  {
+    "id": "technical-exp-c-007",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Fundamentos TCP/IP",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "NAT"
+    ],
+    "question": "Varias estaciones con direcciones privadas acceden a Internet a través de una única IP pública, diferenciándose las conexiones por el número de puerto de origen. ¿Cómo se denomina esta técnica?",
+    "options": [
+      "NAT estático uno a uno",
+      "Proxy transparente de capa 7",
+      "PAT (NAT con sobrecarga de puertos)",
+      "Enrutamiento por políticas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "PAT (Port Address Translation), o NAT overload, mapea múltiples direcciones privadas a una sola IP pública distinguiéndolas por el puerto de origen."
+  },
+  {
+    "id": "technical-exp-c-008",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Fundamentos TCP/IP",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "IPv6"
+    ],
+    "question": "Al inspeccionar la configuración de una interfaz IPv6, se observa una dirección que comienza por fe80::. ¿Qué tipo de dirección es?",
+    "options": [
+      "Dirección global de unicast enrutable",
+      "Dirección de multicast de todos los nodos",
+      "Dirección única local (ULA)",
+      "Dirección de enlace local (link-local)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El prefijo fe80::/10 identifica direcciones de enlace local, válidas solo dentro del segmento y no enrutables en Internet."
+  },
+  {
+    "id": "technical-exp-c-009",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Fundamentos TCP/IP",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "modelo OSI"
+    ],
+    "question": "Un firewall toma decisiones basándose en direcciones IP de origen y destino. ¿En qué capa del modelo OSI opera principalmente esa función?",
+    "options": [
+      "Capa de enlace (2)",
+      "Capa de transporte (4)",
+      "Capa de red (3)",
+      "Capa de aplicación (7)"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El direccionamiento IP y el enrutamiento pertenecen a la capa de red (capa 3) del modelo OSI."
+  },
+  {
+    "id": "technical-exp-c-010",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Fundamentos TCP/IP",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "subnetting"
+    ],
+    "question": "La dirección 192.168.10.0/24 debe dividirse en subredes de 32 direcciones cada una. ¿Qué máscara de prefijo se necesita?",
+    "options": [
+      "/25",
+      "/26",
+      "/27",
+      "/28"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Un bloque de 32 direcciones equivale a 2^5, es decir 32 = 256/8, lo que corresponde a un prefijo /27 (32 hosts por subred)."
+  },
+  {
+    "id": "technical-exp-c-011",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Protocolos de aplicación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "DNS"
+    ],
+    "question": "Un administrador necesita publicar un registro que asocie el nombre de dominio a una dirección IPv6. ¿Qué tipo de registro DNS debe crear?",
+    "options": [
+      "Registro A",
+      "Registro CNAME",
+      "Registro MX",
+      "Registro AAAA"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El registro AAAA mapea un nombre a una dirección IPv6; el registro A se usa para IPv4, CNAME para alias y MX para servidores de correo."
+  },
+  {
+    "id": "technical-exp-c-012",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Protocolos de aplicación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "DNS"
+    ],
+    "question": "Un servidor DNS mal configurado permite a cualquier cliente solicitar la copia completa de una zona. ¿Qué operación se está exponiendo indebidamente?",
+    "options": [
+      "Consulta recursiva estándar",
+      "Transferencia de zona (AXFR)",
+      "Resolución inversa PTR",
+      "Actualización dinámica DDNS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Una transferencia de zona AXFR replica todos los registros de la zona; permitirla sin restricción revela el inventario completo de nombres a un atacante."
+  },
+  {
+    "id": "technical-exp-c-013",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Protocolos de aplicación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "HTTP"
+    ],
+    "question": "Al probar una API, el servidor responde con el código de estado 401. ¿Qué indica esa respuesta?",
+    "options": [
+      "El recurso solicitado no existe",
+      "El servidor sufrió un error interno",
+      "El acceso está prohibido pese a estar autenticado",
+      "Se requiere autenticación y no se ha proporcionado válida"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El código 401 Unauthorized indica que falta autenticación válida; el 403 corresponde a acceso prohibido, el 404 a recurso inexistente y el 500 a error de servidor."
+  },
+  {
+    "id": "technical-exp-c-014",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Protocolos de aplicación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "cabeceras de seguridad"
+    ],
+    "question": "Se quiere forzar que el navegador acceda a un sitio siempre por HTTPS durante un periodo determinado. ¿Qué cabecera de respuesta HTTP cumple ese objetivo?",
+    "options": [
+      "Content-Security-Policy",
+      "X-Frame-Options",
+      "Strict-Transport-Security",
+      "X-Content-Type-Options"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La cabecera Strict-Transport-Security (HSTS) obliga al navegador a usar HTTPS durante el tiempo indicado en max-age, evitando conexiones en claro."
+  },
+  {
+    "id": "technical-exp-c-015",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Protocolos de aplicación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "TLS"
+    ],
+    "question": "Un mismo servidor web aloja varios dominios con certificados distintos sobre una única dirección IP. ¿Qué extensión del handshake TLS permite al cliente indicar qué host solicita?",
+    "options": [
+      "OCSP Stapling",
+      "ALPN (Application-Layer Protocol Negotiation)",
+      "SNI (Server Name Indication)",
+      "Session Ticket"
+    ],
+    "correctAnswer": 2,
+    "explanation": "SNI permite al cliente enviar el nombre del host deseado en el ClientHello, de modo que el servidor presente el certificado correcto entre varios dominios."
+  },
+  {
+    "id": "technical-exp-c-016",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Protocolos de aplicación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "TLS"
+    ],
+    "question": "Al revisar la configuración de un servicio, se debe decidir qué versiones de TLS mantener habilitadas conforme a las buenas prácticas actuales. ¿Cuál es la opción recomendada?",
+    "options": [
+      "Habilitar TLS 1.0 y 1.1 por compatibilidad",
+      "Habilitar únicamente SSL 3.0",
+      "Habilitar TLS 1.2 y TLS 1.3, deshabilitando versiones anteriores",
+      "Habilitar todas las versiones disponibles"
+    ],
+    "correctAnswer": 2,
+    "explanation": "TLS 1.2 y TLS 1.3 son las versiones consideradas seguras; SSL 3.0, TLS 1.0 y TLS 1.1 están obsoletas y deben deshabilitarse."
+  },
+  {
+    "id": "technical-exp-c-017",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Protocolos de aplicación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SMTP"
+    ],
+    "question": "En una revisión de correo se documenta el puerto del protocolo SMTP usado tradicionalmente para el envío entre servidores. ¿Qué puerto es?",
+    "options": [
+      "25/TCP",
+      "110/TCP",
+      "143/TCP",
+      "993/TCP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SMTP emplea el puerto 25/TCP para el transporte de correo entre servidores; 110 es POP3, 143 IMAP y 993 IMAP sobre TLS."
+  },
+  {
+    "id": "technical-exp-c-018",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Protocolos de aplicación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "DNS"
+    ],
+    "question": "Para saber qué servidores gestionan el correo entrante de un dominio, ¿qué tipo de registro DNS debe consultarse?",
+    "options": [
+      "Registro NS",
+      "Registro TXT",
+      "Registro MX",
+      "Registro SOA"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El registro MX (Mail Exchanger) indica los servidores responsables de recibir correo del dominio, con su prioridad asociada."
+  },
+  {
+    "id": "technical-exp-c-019",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Protocolos de aplicación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "HTTP"
+    ],
+    "question": "Un desarrollador quiere obtener únicamente las cabeceras de una respuesta HTTP, sin descargar el cuerpo del recurso. ¿Qué método debería utilizar?",
+    "options": [
+      "GET",
+      "OPTIONS",
+      "HEAD",
+      "TRACE"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El método HEAD devuelve las mismas cabeceras que GET pero sin el cuerpo de la respuesta, útil para comprobar metadatos o disponibilidad."
+  },
+  {
+    "id": "technical-exp-c-020",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Protocolos de aplicación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "TLS"
+    ],
+    "question": "Durante la validación de un certificado, el cliente comprueba que el nombre presentado coincida con el dominio y que la cadena llegue a una CA de confianza. ¿Qué campo del certificado contiene los nombres de dominio adicionales válidos?",
+    "options": [
+      "Subject Alternative Name (SAN)",
+      "Issuer Distinguished Name",
+      "Key Usage",
+      "Serial Number"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La extensión Subject Alternative Name (SAN) enumera los nombres de host para los que el certificado es válido; los navegadores modernos ya no usan el Common Name a tal efecto."
+  },
+  {
+    "id": "technical-exp-c-021",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Escaneo y reconocimiento",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "nmap"
+    ],
+    "question": "Un pentester quiere realizar un escaneo sigiloso que no complete la conexión TCP, enviando solo el primer paquete del handshake. ¿Qué opción de nmap corresponde?",
+    "options": [
+      "-sT",
+      "-sU",
+      "-sA",
+      "-sS"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El escaneo -sS (SYN scan o half-open) envía un SYN y no completa el handshake, lo que resulta más rápido y discreto que el connect scan -sT."
+  },
+  {
+    "id": "technical-exp-c-022",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Escaneo y reconocimiento",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "estados de puerto"
+    ],
+    "question": "nmap informa de un puerto como 'filtered'. ¿Qué significa habitualmente este estado?",
+    "options": [
+      "Hay un servicio activo aceptando conexiones",
+      "No hay servicio y el host responde con RST",
+      "Un firewall o filtro impide determinar si está abierto",
+      "El puerto responde pero rechaza la autenticación"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El estado 'filtered' indica que nmap no recibe respuesta clara porque un cortafuegos o filtro descarta los paquetes, impidiendo saber si el puerto está abierto."
+  },
+  {
+    "id": "technical-exp-c-023",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Escaneo y reconocimiento",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "nmap"
+    ],
+    "question": "Se necesita identificar la versión concreta del software que escucha en cada puerto abierto. ¿Qué opción de nmap habilita la detección de versiones?",
+    "options": [
+      "-O",
+      "-sn",
+      "-F",
+      "-sV"
+    ],
+    "correctAnswer": 3,
+    "explanation": "-sV activa la detección de versiones de servicio; -O detecta el sistema operativo, -sn hace un ping scan sin puertos y -F limita a los puertos más comunes."
+  },
+  {
+    "id": "technical-exp-c-024",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Escaneo y reconocimiento",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "banner grabbing"
+    ],
+    "question": "Un analista se conecta manualmente con netcat a un puerto abierto y lee la cadena de bienvenida que revela el producto y su versión. ¿Cómo se denomina esta técnica?",
+    "options": [
+      "Fuzzing",
+      "Banner grabbing",
+      "Pivoting",
+      "Sniffing"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El banner grabbing consiste en capturar la información de identificación que muchos servicios envían al conectarse, revelando producto y versión."
+  },
+  {
+    "id": "technical-exp-c-025",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Escaneo y reconocimiento",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "masscan"
+    ],
+    "question": "Se debe escanear un puerto concreto en todo un rango de millones de direcciones en el menor tiempo posible. ¿Qué herramienta está diseñada específicamente para ese escaneo masivo asíncrono?",
+    "options": [
+      "masscan",
+      "traceroute",
+      "dig",
+      "arp-scan"
+    ],
+    "correctAnswer": 0,
+    "explanation": "masscan usa transmisión asíncrona de paquetes para escanear rangos de Internet a gran velocidad, muy por encima del rendimiento de nmap en cobertura amplia."
+  },
+  {
+    "id": "technical-exp-c-026",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Escaneo y reconocimiento",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "tcpdump"
+    ],
+    "question": "Se quiere capturar con tcpdump únicamente el tráfico dirigido o proveniente del puerto 443. ¿Qué filtro es correcto?",
+    "options": [
+      "tcpdump host 443",
+      "tcpdump net 443",
+      "tcpdump proto 443",
+      "tcpdump port 443"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El filtro 'port 443' captura el tráfico con puerto de origen o destino 443; 'host' filtra por dirección y 'net' por red, no por puerto."
+  },
+  {
+    "id": "technical-exp-c-027",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Escaneo y reconocimiento",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "nmap"
+    ],
+    "question": "Un puerto TCP responde con un paquete RST tras el SYN de nmap. ¿Qué estado reportará la herramienta?",
+    "options": [
+      "open",
+      "filtered",
+      "closed",
+      "open|filtered"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Una respuesta RST al SYN indica que el puerto está accesible pero sin servicio escuchando, por lo que nmap lo clasifica como 'closed'."
+  },
+  {
+    "id": "technical-exp-c-028",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Escaneo y reconocimiento",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "NSE"
+    ],
+    "question": "El motor de scripts de nmap (NSE) permite automatizar tareas como detección de vulnerabilidades o enumeración. ¿Qué opción se usa para invocarlo?",
+    "options": [
+      "--traceroute",
+      "--script",
+      "--top-ports",
+      "--reason"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción --script ejecuta scripts del NSE (por ejemplo --script vuln), ampliando las capacidades de nmap más allá del descubrimiento de puertos."
+  },
+  {
+    "id": "technical-exp-c-029",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Escaneo y reconocimiento",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "UDP"
+    ],
+    "question": "El escaneo de puertos UDP con nmap suele ser lento y ambiguo. ¿Cuál es la razón técnica principal?",
+    "options": [
+      "UDP exige completar un handshake de tres pasos",
+      "La falta de respuesta no distingue con certeza entre abierto y filtrado",
+      "nmap cifra cada datagrama UDP enviado",
+      "UDP solo permite escanear un puerto por segundo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Al no ser orientado a conexión, un puerto UDP abierto a menudo no responde, por lo que nmap debe marcarlo como 'open|filtered' y depender de reintentos y timeouts."
+  },
+  {
+    "id": "technical-exp-c-030",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Escaneo y reconocimiento",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "wireshark"
+    ],
+    "question": "En Wireshark se desea mostrar solo los paquetes de una conversación con la IP 10.0.0.5. ¿Qué filtro de visualización es correcto?",
+    "options": [
+      "ip.addr == 10.0.0.5",
+      "ip = 10.0.0.5",
+      "host 10.0.0.5",
+      "addr.ip == 10.0.0.5"
+    ],
+    "correctAnswer": 0,
+    "explanation": "En Wireshark los filtros de visualización usan la sintaxis 'ip.addr == 10.0.0.5'; 'host' pertenece a la sintaxis de captura BPF, no a la de display."
+  },
+  {
+    "id": "technical-exp-c-031",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Superficie de ataque externa (EASM)",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "EASM"
+    ],
+    "question": "Un equipo de seguridad quiere enumerar subdominios de una organización analizando los certificados emitidos públicamente. ¿Qué fuente resulta idónea?",
+    "options": [
+      "Los registros SOA de la zona",
+      "La caché ARP de los routers perimetrales",
+      "Los ficheros robots.txt de cada web",
+      "Los logs de Certificate Transparency"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los logs de Certificate Transparency (consultables, por ejemplo, en crt.sh) exponen los nombres para los que se han emitido certificados, revelando subdominios que quizá no figuren en fuentes internas."
+  },
+  {
+    "id": "technical-exp-c-032",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Superficie de ataque externa (EASM)",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "takeover"
+    ],
+    "question": "Un registro CNAME apunta a un servicio de terceros que ya no está aprovisionado, permitiendo a un atacante reclamar ese recurso. ¿Qué riesgo describe esta situación?",
+    "options": [
+      "Envenenamiento de caché DNS",
+      "Toma de control de subdominio (subdomain takeover)",
+      "Amplificación DNS",
+      "Túnel DNS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un CNAME 'colgado' hacia un recurso liberado permite que un atacante lo registre en el proveedor y sirva contenido bajo el subdominio legítimo: un subdomain takeover."
+  },
+  {
+    "id": "technical-exp-c-033",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Superficie de ataque externa (EASM)",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Shodan"
+    ],
+    "question": "Un analista quiere localizar dispositivos y servicios de la organización expuestos en Internet, consultando un buscador que indexa banners y metadatos de hosts públicos. ¿Qué servicio es el más adecuado?",
+    "options": [
+      "Shodan",
+      "VirusTotal",
+      "Have I Been Pwned",
+      "MITRE ATT&CK"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Shodan (al igual que Censys) indexa servicios accesibles desde Internet y sus banners, permitiendo descubrir activos y exposiciones no gestionadas."
+  },
+  {
+    "id": "technical-exp-c-034",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Superficie de ataque externa (EASM)",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "shadow IT"
+    ],
+    "question": "Durante un descubrimiento de activos aparece un servidor web público desplegado por un departamento sin conocimiento del equipo de seguridad. ¿Qué concepto describe este hallazgo?",
+    "options": [
+      "Honeypot",
+      "Air gap",
+      "Bastion host",
+      "Shadow IT"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El shadow IT son sistemas o servicios desplegados al margen de los procesos oficiales, que amplían la superficie de ataque sin supervisión ni controles adecuados."
+  },
+  {
+    "id": "technical-exp-c-035",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Superficie de ataque externa (EASM)",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "certificados"
+    ],
+    "question": "En la monitorización continua de activos externos conviene vigilar la caducidad de los certificados TLS. ¿Cuál es el principal riesgo de no hacerlo?",
+    "options": [
+      "Se filtran las claves privadas automáticamente",
+      "El servicio queda inaccesible o genera avisos de seguridad al expirar",
+      "El certificado cambia de algoritmo por sí solo",
+      "El dominio se transfiere a otro propietario"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un certificado caducado provoca advertencias de seguridad en los navegadores e interrupciones del servicio, afectando a disponibilidad y confianza."
+  },
+  {
+    "id": "technical-exp-c-036",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Superficie de ataque externa (EASM)",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "subdominios"
+    ],
+    "question": "Se quiere enumerar subdominios sin lanzar consultas directas contra los servidores DNS de la organización objetivo. ¿Qué enfoque corresponde?",
+    "options": [
+      "DNS pasivo a partir de datos históricos y fuentes públicas",
+      "Transferencia de zona AXFR autenticada",
+      "Fuerza bruta de resolución sobre el resolver interno",
+      "Envío de actualizaciones dinámicas DDNS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El DNS pasivo reúne resoluciones observadas y almacenadas por terceros, permitiendo descubrir subdominios sin interrogar directamente la infraestructura del objetivo."
+  },
+  {
+    "id": "technical-exp-c-037",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Superficie de ataque externa (EASM)",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "exposición"
+    ],
+    "question": "Un escaneo externo detecta un panel de administración accesible sin restricción de IP en Internet. ¿Cuál es la recomendación de mitigación más adecuada?",
+    "options": [
+      "Cambiar el puerto por uno no estándar como única medida",
+      "Deshabilitar el registro de eventos del panel",
+      "Restringir el acceso por red (VPN o lista de IP permitidas) y exigir autenticación fuerte",
+      "Publicar el panel también por HTTP para redundancia"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los paneles de administración no deben exponerse abiertamente; deben limitarse por red mediante VPN o listas de IP y protegerse con autenticación robusta, ya que cambiar el puerto es solo seguridad por oscuridad."
+  },
+  {
+    "id": "technical-exp-c-038",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Superficie de ataque externa (EASM)",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "descubrimiento"
+    ],
+    "question": "Al construir el inventario de activos externos de una organización, ¿qué punto de partida permite delimitar los rangos de red que le pertenecen?",
+    "options": [
+      "Los números de sistema autónomo (ASN) y bloques de IP registrados en los RIR",
+      "El fichero hosts de las estaciones de trabajo",
+      "La tabla de rutas de un router doméstico",
+      "Las cabeceras User-Agent de los navegadores"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Consultar los ASN y las asignaciones de bloques de IP en los registros regionales (RIR) permite delimitar el espacio de direcciones propiedad de la organización para su monitorización."
+  },
+  {
+    "id": "technical-exp-c-039",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Superficie de ataque externa (EASM)",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Censys"
+    ],
+    "question": "Un analista necesita correlacionar certificados, servicios y hosts observados en escaneos periódicos de todo Internet para vigilar la exposición externa. ¿Qué plataforma está orientada a ese caso de uso?",
+    "options": [
+      "Censys",
+      "Nessus",
+      "Burp Suite",
+      "OpenVAS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Censys realiza escaneos globales de Internet e indexa hosts, servicios y certificados, siendo idónea para la monitorización de superficie de ataque externa; Nessus, Burp y OpenVAS se centran en evaluación puntual."
+  },
+  {
+    "id": "technical-exp-c-040",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Superficie de ataque externa (EASM)",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "servicios expuestos"
+    ],
+    "question": "Un escaneo externo revela el puerto 3389/TCP abierto en un servidor de producción. ¿Qué servicio está expuesto y por qué preocupa?",
+    "options": [
+      "SMB, susceptible de ransomware por explotación remota",
+      "RDP, objetivo frecuente de fuerza bruta y explotación",
+      "MySQL, con credenciales por defecto habituales",
+      "SNMP, con community strings públicas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El puerto 3389/TCP corresponde a RDP; exponerlo directamente en Internet lo convierte en blanco recurrente de ataques de fuerza bruta y explotación de vulnerabilidades."
+  },
+  {
+    "id": "technical-exp-c-041",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Seguridad de red",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "DMZ"
+    ],
+    "question": "Una organización coloca sus servidores web públicos en una red intermedia separada tanto de Internet como de la red interna. ¿Cómo se denomina este segmento?",
+    "options": [
+      "VLAN de gestión",
+      "Red de invitados",
+      "Backbone interno",
+      "DMZ (zona desmilitarizada)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La DMZ aloja servicios accesibles desde Internet aislándolos de la red interna, de modo que un compromiso del servicio expuesto no alcance directamente los sistemas internos."
+  },
+  {
+    "id": "technical-exp-c-042",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Seguridad de red",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "firewall"
+    ],
+    "question": "Como buena práctica al definir el conjunto de reglas de un cortafuegos perimetral, ¿qué política por defecto debería aplicarse al tráfico no contemplado?",
+    "options": [
+      "Permitir todo salvo lo explícitamente denegado",
+      "Denegar todo salvo lo explícitamente permitido",
+      "Permitir el tráfico saliente y entrante sin filtrar",
+      "Registrar el tráfico pero permitirlo siempre"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El principio de denegación por defecto (default deny) bloquea todo el tráfico salvo el explícitamente autorizado, reduciendo la superficie de exposición."
+  },
+  {
+    "id": "technical-exp-c-043",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Seguridad de red",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Zero Trust"
+    ],
+    "question": "Un modelo de seguridad parte de que ninguna petición es de confianza por su origen en la red y verifica identidad y contexto en cada acceso. ¿Qué enfoque describe, en contraste con una VPN perimetral tradicional?",
+    "options": [
+      "Seguridad basada en perímetro de confianza",
+      "Defensa en profundidad exclusivamente física",
+      "Seguridad por oscuridad",
+      "Zero Trust (confianza cero)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Zero Trust elimina la confianza implícita por ubicación de red y exige verificar identidad, dispositivo y contexto en cada solicitud, a diferencia de la VPN que suele conceder acceso amplio a la red interna."
+  },
+  {
+    "id": "technical-exp-c-044",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Seguridad de red",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "segmentación"
+    ],
+    "question": "¿Cuál es el principal beneficio de segmentar la red interna en zonas con controles entre ellas?",
+    "options": [
+      "Aumenta la velocidad de todos los enlaces automáticamente",
+      "Limita el movimiento lateral de un atacante que compromete un segmento",
+      "Elimina la necesidad de aplicar parches de seguridad",
+      "Cifra por sí misma todo el tráfico de la red"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La segmentación contiene un compromiso dentro de una zona y dificulta el movimiento lateral hacia otros segmentos, reduciendo el impacto de una brecha."
+  },
+  {
+    "id": "technical-exp-c-045",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Seguridad de red",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "servicios expuestos"
+    ],
+    "question": "Un escaneo externo encuentra el puerto 445/TCP accesible desde Internet. ¿Qué servicio representa y por qué es especialmente peligroso exponerlo?",
+    "options": [
+      "SMB, vinculado a gusanos y ransomware que explotan sus fallos",
+      "RDP, con sesiones de escritorio sin cifrar",
+      "LDAP, con volcado del directorio completo",
+      "SMTP, usado como relay abierto"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El puerto 445/TCP corresponde a SMB; su exposición a Internet ha sido vector de gusanos y ransomware (como los que explotaron EternalBlue) y nunca debería estar accesible externamente."
+  },
+  {
+    "id": "technical-exp-c-046",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Seguridad de red",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "APIs"
+    ],
+    "question": "Para proteger una API pública frente a abuso y ataques de fuerza bruta contra el endpoint de autenticación, ¿qué control es el más pertinente?",
+    "options": [
+      "Aumentar el tamaño máximo de las respuestas",
+      "Aplicar rate limiting por cliente o dirección IP",
+      "Desactivar el cifrado TLS para reducir latencia",
+      "Exponer la API también por un puerto UDP"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El rate limiting restringe el número de peticiones por cliente en un intervalo, mitigando la fuerza bruta y el abuso de recursos de la API expuesta."
+  },
+  {
+    "id": "technical-exp-c-047",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Seguridad de red",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "proxy"
+    ],
+    "question": "Un servidor intermedio recibe las peticiones de los clientes internos hacia Internet, aplicando filtrado y registro del tráfico saliente. ¿Qué componente es?",
+    "options": [
+      "Proxy directo (forward proxy)",
+      "Proxy inverso (reverse proxy)",
+      "Balanceador de carga interno",
+      "Servidor DHCP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Un forward proxy media las salidas de los clientes internos hacia Internet, permitiendo filtrar, cachear y registrar el tráfico; el reverse proxy, en cambio, protege servicios entrantes."
+  },
+  {
+    "id": "technical-exp-c-048",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Seguridad de red",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "bases de datos"
+    ],
+    "question": "Un escaneo detecta el puerto 3306/TCP abierto de cara a Internet. ¿Qué servicio expuesto indica y cuál es la recomendación?",
+    "options": [
+      "PostgreSQL, que debería moverse al puerto 5432",
+      "MySQL/MariaDB, que no debería ser accesible directamente desde Internet",
+      "MSSQL, que solo requiere cambiar la contraseña de sa",
+      "MongoDB, que basta con habilitar en modo solo lectura"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El puerto 3306/TCP corresponde a MySQL/MariaDB; una base de datos nunca debería exponerse directamente a Internet, sino restringirse a la red interna o a través de un bastión."
+  },
+  {
+    "id": "technical-exp-c-049",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Seguridad de red",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "firewall"
+    ],
+    "question": "Se compara un firewall de inspección de estado (stateful) con uno sin estado (stateless). ¿Qué caracteriza al firewall stateful?",
+    "options": [
+      "Evalúa cada paquete de forma aislada sin memoria de conexiones",
+      "Mantiene una tabla de conexiones y permite el tráfico de retorno legítimo",
+      "Solo puede filtrar por dirección MAC de origen",
+      "Descifra obligatoriamente todo el tráfico TLS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Un firewall stateful rastrea el estado de las conexiones en una tabla y permite automáticamente el tráfico de retorno asociado a sesiones establecidas, a diferencia del stateless que evalúa cada paquete por separado."
+  },
+  {
+    "id": "technical-exp-c-050",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Seguridad de red",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "VPN"
+    ],
+    "question": "Una organización necesita que sus teletrabajadores accedan a recursos internos mediante un túnel cifrado sobre Internet. ¿Qué tecnología cubre este requisito de forma directa?",
+    "options": [
+      "Una VPN de acceso remoto",
+      "Un servidor NTP público",
+      "Un registro DNS de tipo TXT",
+      "Un balanceador de carga de capa 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Una VPN de acceso remoto establece un túnel cifrado entre el usuario y la red corporativa a través de Internet, protegiendo la confidencialidad e integridad del tráfico."
+  },
+  {
+    "id": "technical-exp-d-001",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Python",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Python",
+      "automatización"
+    ],
+    "question": "Un script en Python usa requests.get(url) para consultar la API de un escáner de vulnerabilidades y a veces se queda colgado indefinidamente. ¿Cuál es la causa más probable?",
+    "options": [
+      "requests aplica un timeout por defecto de 30 segundos, insuficiente para APIs lentas",
+      "El GIL de Python bloquea las peticiones HTTP cuando hay más de un hilo",
+      "requests no aplica ningún timeout por defecto, por lo que hay que pasarlo explícitamente (p. ej. timeout=10)",
+      "La API devuelve un código 429 y requests reintenta automáticamente sin límite"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La librería requests no establece ningún timeout por defecto: si el servidor no responde, la llamada puede bloquearse indefinidamente. Es una buena práctica pasar siempre el parámetro timeout."
+  },
+  {
+    "id": "technical-exp-d-002",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Python",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Python",
+      "APIs"
+    ],
+    "question": "Al automatizar cientos de llamadas a la misma API con la librería requests, ¿qué ventaja principal aporta usar un objeto requests.Session() en lugar de llamadas sueltas a requests.get()?",
+    "options": [
+      "Reutiliza las conexiones TCP (keep-alive) y persiste cabeceras y cookies entre peticiones, mejorando el rendimiento",
+      "Cifra automáticamente el cuerpo de las peticiones aunque la URL sea HTTP",
+      "Paraleliza las peticiones en varios hilos sin código adicional",
+      "Convierte todas las respuestas a JSON sin necesidad de llamar a .json()"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Session reutiliza la conexión TCP subyacente mediante keep-alive y mantiene estado (cabeceras, cookies, autenticación) entre peticiones, lo que reduce la latencia en llamadas repetidas al mismo host."
+  },
+  {
+    "id": "technical-exp-d-003",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Python",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Python",
+      "manejo de errores"
+    ],
+    "question": "En Python, tras response = requests.get(url), ¿qué hace exactamente response.raise_for_status()?",
+    "options": [
+      "Reintenta la petición automáticamente si el servidor devolvió un error temporal",
+      "Lanza una excepción HTTPError si el código de estado es 4xx o 5xx; si es 2xx no hace nada",
+      "Devuelve True o False según si la petición tuvo éxito, sin lanzar excepciones",
+      "Cierra la conexión y libera los recursos de red asociados a la respuesta"
+    ],
+    "correctAnswer": 1,
+    "explanation": "raise_for_status() lanza requests.exceptions.HTTPError cuando el código de estado indica error de cliente o servidor (4xx/5xx), lo que permite gestionar fallos con try/except en lugar de comprobar manualmente el código."
+  },
+  {
+    "id": "technical-exp-d-004",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Python",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "cadena de suministro",
+      "dependencias"
+    ],
+    "question": "Para reducir el riesgo de cadena de suministro al desplegar una herramienta interna de seguridad escrita en Python, ¿cuál es la práctica más robusta al gestionar dependencias con pip?",
+    "options": [
+      "Usar siempre la última versión de cada paquete para incorporar los parches más recientes",
+      "Instalar los paquetes con permisos de administrador para evitar entornos virtuales",
+      "Declarar solo las dependencias directas y dejar que pip resuelva las transitivas en cada despliegue",
+      "Fijar versiones exactas y hashes de los paquetes (p. ej. pip install --require-hashes) en el fichero de requisitos"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Fijar versiones exactas junto con sus hashes garantiza builds reproducibles y detecta si un paquete publicado ha sido sustituido o manipulado, mitigando ataques a la cadena de suministro."
+  },
+  {
+    "id": "technical-exp-d-005",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Python",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "cadena de suministro",
+      "PyPI"
+    ],
+    "question": "Un desarrollador ejecuta por error 'pip install reqeusts' (con el nombre mal escrito) y el paquete se instala correctamente. ¿Qué tipo de ataque podría estar sufriendo?",
+    "options": [
+      "Typosquatting: un atacante publica en PyPI paquetes con nombres similares a librerías populares para distribuir código malicioso",
+      "Cross-site scripting: el paquete inyecta JavaScript en el navegador del desarrollador",
+      "Fuerza bruta: el atacante prueba nombres de paquetes hasta acertar con uno existente",
+      "SQL injection: el nombre mal escrito altera la consulta que pip envía al índice de paquetes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El typosquatting consiste en registrar paquetes con nombres casi idénticos a los legítimos; al instalarse pueden ejecutar código arbitrario, por ejemplo en el script setup.py o en hooks de instalación."
+  },
+  {
+    "id": "technical-exp-d-006",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Python",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "concurrencia",
+      "escaneo"
+    ],
+    "question": "Un script de escaneo de red en Python usa threading para consultar 500 hosts en paralelo y funciona notablemente más rápido que la versión secuencial. ¿Por qué el GIL no impide esta mejora?",
+    "options": [
+      "El GIL solo existe en Python 2 y fue eliminado en Python 3",
+      "threading crea procesos independientes, cada uno con su propio GIL",
+      "El GIL se libera durante las operaciones de entrada/salida, por lo que los hilos progresan en paralelo en tareas limitadas por red",
+      "Las peticiones de red se ejecutan en la GPU, fuera del alcance del GIL"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El GIL limita la ejecución simultánea de bytecode Python, pero se libera mientras un hilo espera operaciones de E/S (red, disco), de modo que las cargas I/O-bound como los escaneos sí se benefician de threading."
+  },
+  {
+    "id": "technical-exp-d-007",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Python",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "logging",
+      "buenas prácticas"
+    ],
+    "question": "En una herramienta de automatización de seguridad que se ejecuta de forma desatendida, ¿cuál es el enfoque adecuado para registrar su actividad?",
+    "options": [
+      "Usar print() con redirección de la salida a un fichero, ya que es más simple que configurar logging",
+      "Registrar todo en nivel DEBUG en producción, incluidos tokens y credenciales, para facilitar el diagnóstico",
+      "Desactivar los registros en producción para no consumir disco y activarlos solo tras un incidente",
+      "Usar el módulo logging con niveles apropiados y formato con marca de tiempo, evitando registrar secretos como tokens o contraseñas"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El módulo logging permite niveles, formatos con timestamp y múltiples destinos, esenciales para operar herramientas desatendidas; los secretos nunca deben escribirse en los registros."
+  },
+  {
+    "id": "technical-exp-d-008",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Python",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "JSON",
+      "seguridad"
+    ],
+    "question": "Un script recibe respuestas de una API externa como texto y necesita convertirlas en estructuras de Python. ¿Cuál es la forma segura de hacerlo?",
+    "options": [
+      "Usar eval() sobre el texto, ya que la sintaxis de JSON es compatible con la de Python",
+      "Usar json.loads(), que solo interpreta la gramática JSON y nunca ejecuta código",
+      "Usar exec() dentro de un bloque try/except para capturar cualquier problema",
+      "Usar pickle.loads(), el módulo estándar de deserialización de Python"
+    ],
+    "correctAnswer": 1,
+    "explanation": "json.loads() parsea únicamente datos JSON sin ejecutar código. En cambio, eval/exec ejecutan expresiones arbitrarias y pickle puede ejecutar código durante la deserialización, lo que es peligroso con datos no confiables."
+  },
+  {
+    "id": "technical-exp-d-009",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Go",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Go",
+      "concurrencia"
+    ],
+    "question": "¿Qué es una goroutine en el lenguaje Go?",
+    "options": [
+      "Un proceso del sistema operativo que Go lanza para cada función concurrente",
+      "Un hilo de ejecución ligero gestionado por el runtime de Go, mucho más barato que un hilo del sistema operativo",
+      "Una función que solo puede ejecutarse una vez durante la vida del programa",
+      "Un mecanismo de callbacks equivalente a las promesas de JavaScript"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las goroutines son hilos ligeros multiplexados por el planificador del runtime de Go sobre unos pocos hilos del sistema operativo, lo que permite lanzar miles de ellas con muy poco coste de memoria."
+  },
+  {
+    "id": "technical-exp-d-010",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Go",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Go",
+      "concurrencia"
+    ],
+    "question": "En Go, ¿cuál es el propósito principal de los canales (channels)?",
+    "options": [
+      "Almacenar variables globales accesibles desde cualquier paquete del programa",
+      "Definir interfaces de red para escuchar conexiones TCP entrantes",
+      "Serializar estructuras de datos a JSON para enviarlas por HTTP",
+      "Comunicar y sincronizar goroutines pasando valores entre ellas de forma segura"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Los canales permiten que las goroutines intercambien datos y se sincronicen sin compartir memoria directamente, siguiendo el principio de Go de \"comunicar para compartir memoria\"."
+  },
+  {
+    "id": "technical-exp-d-011",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Go",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Go",
+      "despliegue"
+    ],
+    "question": "¿Qué ventaja operativa ofrece la compilación de Go a la hora de distribuir una herramienta de seguridad entre servidores heterogéneos?",
+    "options": [
+      "Genera un binario estático autocontenido que se ejecuta sin instalar intérpretes ni dependencias en el destino",
+      "Produce bytecode portable que requiere la máquina virtual de Go instalada en cada servidor",
+      "Compila a scripts de shell compatibles con cualquier sistema POSIX",
+      "Empaqueta automáticamente la herramienta como imagen de contenedor Docker"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Go compila por defecto a binarios estáticamente enlazados y permite compilación cruzada, de modo que basta copiar un único ejecutable al servidor destino sin instalar runtimes ni librerías."
+  },
+  {
+    "id": "technical-exp-d-012",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Go",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Go",
+      "Python"
+    ],
+    "question": "Un equipo debe decidir entre Python y Go para una nueva herramienta de seguridad. ¿Cuál de los siguientes escenarios favorece más claramente a Go?",
+    "options": [
+      "Un cuaderno de análisis exploratorio de datos con pandas y visualizaciones",
+      "Un script puntual que transforma un CSV y se ejecuta una vez al mes en el equipo del analista",
+      "Un agente de recolección de alto rendimiento que debe desplegarse como binario único en miles de endpoints sin dependencias",
+      "Un prototipo rápido que reutiliza varias librerías existentes de análisis de malware en Python"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Go destaca cuando se necesitan binarios estáticos sin dependencias, buen rendimiento y concurrencia nativa a gran escala; Python es preferible para prototipado rápido y aprovechamiento de su ecosistema de librerías."
+  },
+  {
+    "id": "technical-exp-d-013",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Go",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Go",
+      "manejo de errores"
+    ],
+    "question": "¿Cómo se gestionan habitualmente los errores en Go, a diferencia de lenguajes como Python o Java?",
+    "options": [
+      "Con bloques try/catch que capturan excepciones lanzadas por las funciones",
+      "Con un manejador global de excepciones que registra los fallos automáticamente",
+      "Mediante códigos de retorno numéricos que se consultan con la función errno()",
+      "Las funciones devuelven un valor de tipo error junto al resultado, y el llamante comprueba explícitamente si err != nil"
+    ],
+    "correctAnswer": 3,
+    "explanation": "En Go los errores son valores devueltos explícitamente por las funciones; el patrón idiomático es comprobar 'if err != nil' tras cada llamada, en lugar de usar excepciones (panic/recover se reserva para fallos irrecuperables)."
+  },
+  {
+    "id": "technical-exp-d-014",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Programación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "regex",
+      "indicadores"
+    ],
+    "question": "Para extraer identificadores de vulnerabilidades como CVE-2024-12345 de un texto, ¿cuál de las siguientes expresiones regulares es la más adecuada?",
+    "options": [
+      "CVE-[0-9]{4}",
+      "CVE-\\d{4}-\\d{4,}",
+      "CVE-\\w+-\\w+-\\w+",
+      "CVE.*\\d+"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El formato oficial es CVE-AAAA-NNNN..., con año de cuatro dígitos y un identificador de al menos cuatro dígitos (puede tener más); \\d{4}-\\d{4,} captura exactamente esa estructura."
+  },
+  {
+    "id": "technical-exp-d-015",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Programación",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "regex",
+      "validación"
+    ],
+    "question": "Se usa la regex \\b(?:\\d{1,3}\\.){3}\\d{1,3}\\b para extraer direcciones IPv4 de logs. ¿Cuál es su principal limitación?",
+    "options": [
+      "No reconoce direcciones que empiecen por cero, como 10.0.0.1",
+      "Solo funciona con direcciones privadas de los rangos RFC 1918",
+      "Acepta cadenas con octetos fuera de rango, como 999.999.999.999, generando falsos positivos",
+      "Requiere que la dirección esté al principio de la línea para coincidir"
+    ],
+    "correctAnswer": 2,
+    "explanation": "\\d{1,3} coincide con cualquier número de 1 a 3 dígitos, incluidos valores superiores a 255; hay que validar los rangos de cada octeto aparte (o usar una regex más estricta) para descartar direcciones imposibles."
+  },
+  {
+    "id": "technical-exp-d-016",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Go",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "Go",
+      "rate limiting"
+    ],
+    "question": "Un escáner escrito en Go lanza una goroutine por cada host objetivo, pero satura la red y provoca bloqueos del firewall. ¿Qué patrón conceptual resuelve el problema manteniendo la concurrencia?",
+    "options": [
+      "Limitar las goroutines concurrentes con un semáforo (canal con búfer) o un pool de workers, añadiendo control de la tasa de peticiones",
+      "Sustituir todas las goroutines por un único bucle secuencial, ya que la concurrencia es incompatible con el escaneo",
+      "Aumentar el número de goroutines para terminar antes y reducir la ventana de detección",
+      "Ejecutar el escáner con privilegios de root para que el sistema priorice su tráfico"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Un canal con búfer usado como semáforo o un pool de workers de tamaño fijo limita cuántas goroutines trabajan a la vez, y un limitador de tasa (p. ej. time.Ticker) controla las peticiones por segundo sin renunciar a la concurrencia."
+  },
+  {
+    "id": "technical-exp-d-017",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "APIs e integración",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "REST",
+      "idempotencia"
+    ],
+    "question": "En una API REST, ¿qué significa que un método HTTP sea idempotente y cuáles lo son?",
+    "options": [
+      "Que repetir la misma petición produce el mismo estado en el servidor que hacerla una vez; GET, PUT y DELETE son idempotentes, POST no",
+      "Que la petición no requiere autenticación; GET y HEAD son idempotentes por ser públicos",
+      "Que la respuesta puede almacenarse en caché indefinidamente; solo GET es idempotente",
+      "Que la petición se procesa de forma asíncrona; POST y PATCH son idempotentes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Idempotencia significa que N peticiones idénticas dejan el servidor en el mismo estado que una sola. GET, HEAD, PUT y DELETE se definen como idempotentes; POST no, porque cada envío puede crear un recurso nuevo."
+  },
+  {
+    "id": "technical-exp-d-018",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "APIs e integración",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "REST",
+      "rate limiting"
+    ],
+    "question": "Un script de integración recibe respuestas HTTP 429 de la API de un proveedor de inteligencia de amenazas. ¿Qué indica ese código y cómo debe reaccionar el cliente?",
+    "options": [
+      "Error de autenticación; debe regenerar el token y reintentar de inmediato",
+      "Recurso no encontrado; debe corregir la URL del endpoint",
+      "Demasiadas peticiones (rate limit excedido); debe reducir la frecuencia y respetar la cabecera Retry-After si está presente",
+      "Error interno del servidor; debe abrir una incidencia con el proveedor sin reintentar"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El código 429 Too Many Requests indica que el cliente ha superado el límite de tasa; la respuesta suele incluir la cabecera Retry-After con el tiempo de espera recomendado antes de reintentar."
+  },
+  {
+    "id": "technical-exp-d-019",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "APIs e integración",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "REST",
+      "paginación"
+    ],
+    "question": "Un script descarga los hallazgos de un escáner mediante una API que devuelve 100 resultados por página. El informe final siempre contiene exactamente 100 vulnerabilidades aunque hay miles. ¿Cuál es el error más probable?",
+    "options": [
+      "La API comprime las respuestas y el script no descomprime el resto de resultados",
+      "El token de API caduca después de la primera petición",
+      "El escáner tiene un límite fijo de 100 hallazgos por análisis",
+      "El script solo procesa la primera página y no itera siguiendo el cursor o el enlace de página siguiente hasta agotar los resultados"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Las APIs paginadas devuelven los datos por lotes junto con un cursor, offset o enlace next; el cliente debe repetir la petición hasta que no haya más páginas para obtener el conjunto completo."
+  },
+  {
+    "id": "technical-exp-d-020",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "APIs e integración",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "autenticación",
+      "API keys"
+    ],
+    "question": "¿Cuál es la forma más segura de enviar una clave de API al consumir un servicio REST?",
+    "options": [
+      "Como parámetro en la query string (?api_key=...), para que quede documentada en la URL",
+      "En una cabecera HTTP (p. ej. Authorization) sobre una conexión HTTPS",
+      "En el campo User-Agent, ya que los proxies no lo inspeccionan",
+      "Codificada en Base64 dentro de la URL, porque Base64 es un mecanismo de cifrado"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las cabeceras viajan cifradas dentro de HTTPS y no suelen almacenarse; en cambio, las claves en la query string quedan registradas en logs de servidores y proxies y en el historial. Base64 es solo codificación, no cifrado."
+  },
+  {
+    "id": "technical-exp-d-021",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "APIs e integración",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "webhooks",
+      "integración"
+    ],
+    "question": "Un servicio de escaneo notifica los resultados a nuestra plataforma mediante webhooks. ¿Cómo debe verificarse que cada notificación entrante procede realmente del servicio legítimo?",
+    "options": [
+      "Comprobando que la petición llega por el puerto 443, reservado a servicios de confianza",
+      "Aceptando solo peticiones cuyo User-Agent coincida con el nombre del servicio",
+      "Validando la firma HMAC de la carga útil calculada con un secreto compartido, comparándola con la cabecera de firma enviada",
+      "Confiando en la dirección IP de origen indicada en la cabecera X-Forwarded-For"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El patrón estándar es que el emisor firme el cuerpo del webhook con HMAC y un secreto compartido; el receptor recalcula la firma y la compara. El User-Agent y X-Forwarded-For son falsificables por cualquier cliente."
+  },
+  {
+    "id": "technical-exp-d-022",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "APIs e integración",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "resiliencia",
+      "reintentos"
+    ],
+    "question": "¿En qué consiste la estrategia de reintentos con backoff exponencial y jitter al integrar APIs externas?",
+    "options": [
+      "Esperar entre reintentos un tiempo que crece exponencialmente (1s, 2s, 4s...) con un componente aleatorio para evitar que muchos clientes reintenten a la vez",
+      "Reintentar inmediatamente en bucle hasta que la petición tenga éxito, registrando cada fallo",
+      "Duplicar el número de peticiones simultáneas tras cada fallo para compensar las pérdidas",
+      "Esperar siempre un intervalo fijo de 60 segundos entre reintentos, independientemente del número de fallos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El backoff exponencial aumenta progresivamente la espera entre reintentos y el jitter añade aleatoriedad para desincronizar a los clientes, evitando avalanchas de peticiones simultáneas contra un servicio ya degradado."
+  },
+  {
+    "id": "technical-exp-d-023",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "APIs e integración",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "STIX",
+      "threat intelligence"
+    ],
+    "question": "¿Qué es STIX en el contexto del intercambio de información de ciberseguridad?",
+    "options": [
+      "Un protocolo de cifrado de extremo a extremo para correos entre CERTs",
+      "Un lenguaje estructurado y estandarizado para representar e intercambiar inteligencia de amenazas (indicadores, actores, campañas) en formato legible por máquinas",
+      "Un escáner de vulnerabilidades de código abierto mantenido por OASIS",
+      "Una base de datos centralizada donde los fabricantes publican sus CVE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "STIX (Structured Threat Information eXpression) es un estándar de OASIS, basado en JSON en su versión 2, que modela objetos de inteligencia de amenazas y sus relaciones; suele transportarse mediante el protocolo TAXII."
+  },
+  {
+    "id": "technical-exp-d-024",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "APIs e integración",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "YAML",
+      "deserialización"
+    ],
+    "question": "Un script en Python procesa ficheros YAML de configuración enviados por terceros usando yaml.load(datos). ¿Cuál es el riesgo y la corrección adecuada?",
+    "options": [
+      "YAML no admite comentarios, por lo que hay que convertir antes los ficheros a JSON",
+      "yaml.load() ignora la indentación, así que debe usarse yaml.parse() para respetar la jerarquía",
+      "El único riesgo es de rendimiento; basta con cachear el resultado del parseo",
+      "yaml.load() sin un loader seguro puede instanciar objetos arbitrarios de Python y ejecutar código; debe usarse yaml.safe_load()"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El cargador completo de PyYAML permite etiquetas que construyen objetos Python arbitrarios, lo que posibilita la ejecución de código con entradas maliciosas; safe_load restringe el parseo a tipos de datos básicos."
+  },
+  {
+    "id": "technical-exp-d-025",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "DevSecOps",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SAST",
+      "DAST"
+    ],
+    "question": "¿Cuál es la diferencia fundamental entre las herramientas SAST y DAST en un pipeline de CI/CD?",
+    "options": [
+      "SAST analiza contenedores y DAST analiza dependencias de terceros",
+      "SAST solo funciona con lenguajes compilados y DAST con lenguajes interpretados",
+      "SAST se ejecuta en producción y DAST en el entorno de desarrollo",
+      "SAST analiza el código fuente sin ejecutarlo, mientras que DAST prueba la aplicación en ejecución desde el exterior"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El análisis estático (SAST) inspecciona el código fuente o binario en busca de patrones vulnerables sin ejecutar la aplicación; el análisis dinámico (DAST) ataca la aplicación desplegada y en ejecución, como haría un atacante externo."
+  },
+  {
+    "id": "technical-exp-d-026",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "CI/CD",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "secretos",
+      "GitLab CI"
+    ],
+    "question": "Un pipeline de GitLab CI necesita un token para publicar resultados de escaneo en una plataforma externa. ¿Cómo debe gestionarse ese token?",
+    "options": [
+      "Escribirlo en el fichero .gitlab-ci.yml, ya que solo los miembros del proyecto pueden leerlo",
+      "Definirlo como variable de CI/CD protegida y enmascarada (o en un gestor de secretos externo) y referenciarla desde el pipeline",
+      "Incluirlo en un fichero de texto dentro del repositorio con extensión .secret para identificarlo fácilmente",
+      "Pasarlo como argumento visible en la línea de comandos de cada job para facilitar la depuración"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Las variables protegidas y enmascaradas de CI/CD (o un vault externo) evitan que el secreto quede en el repositorio o aparezca en los logs del pipeline; cualquier valor en el YAML versionado queda expuesto en el historial de git."
+  },
+  {
+    "id": "technical-exp-d-027",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "DevSecOps",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "quality gates",
+      "CI/CD"
+    ],
+    "question": "¿Qué es un 'security gate' (puerta de calidad de seguridad) bien diseñado en un pipeline de CI/CD?",
+    "options": [
+      "Un firewall que protege los runners del pipeline frente a accesos externos",
+      "Una revisión manual obligatoria de todo el código por el equipo de seguridad antes de cada commit",
+      "Un criterio automatizado que bloquea el paso a la siguiente fase si se detectan, por ejemplo, vulnerabilidades críticas nuevas, permitiendo excepciones gestionadas",
+      "Un paso que ejecuta los escáneres en modo informativo, sin afectar nunca al resultado del pipeline"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Un security gate define umbrales objetivos (p. ej. ninguna vulnerabilidad crítica nueva) que hacen fallar el pipeline automáticamente, con un proceso de excepciones documentado; en modo solo informativo los hallazgos tienden a ignorarse."
+  },
+  {
+    "id": "technical-exp-d-028",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "DevSecOps",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SCA",
+      "dependencias"
+    ],
+    "question": "¿Qué detecta principalmente una herramienta de análisis de composición de software (SCA) integrada en el pipeline?",
+    "options": [
+      "Vulnerabilidades conocidas (CVE) y problemas de licencia en las dependencias de terceros del proyecto",
+      "Errores de lógica de negocio en el código propio de la aplicación",
+      "Configuraciones débiles del servidor web en producción",
+      "Intentos de intrusión en tiempo real contra la aplicación desplegada"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las herramientas SCA inventarían las dependencias directas y transitivas del proyecto y las cotejan con bases de datos de vulnerabilidades conocidas y políticas de licencias; el código propio es terreno del SAST."
+  },
+  {
+    "id": "technical-exp-d-029",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "DevSecOps",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "secretos",
+      "git"
+    ],
+    "question": "El escáner de secretos del pipeline detecta una clave de AWS en un commit. El desarrollador la elimina en un commit posterior. ¿Es suficiente esa acción?",
+    "options": [
+      "Sí, siempre que el commit de borrado se suba antes de 24 horas",
+      "No: el secreto sigue accesible en el historial de git, por lo que hay que revocarlo y rotarlo de inmediato, además de limpiar el historial si procede",
+      "Sí, porque git sobrescribe el contenido antiguo al hacer commit del borrado",
+      "No: primero hay que renombrar el fichero para que el escáner deje de detectarlo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Git conserva todo el historial: cualquier persona con acceso al repositorio puede recuperar el secreto de commits anteriores. La medida imprescindible es revocar y rotar la credencial; reescribir el historial es complementario."
+  },
+  {
+    "id": "technical-exp-d-030",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "DevSecOps",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "firma de artefactos",
+      "cadena de suministro"
+    ],
+    "question": "¿Qué garantiza la firma criptográfica de artefactos (por ejemplo con Sigstore/cosign) al final de un pipeline de CI/CD?",
+    "options": [
+      "Que el artefacto no contiene ninguna vulnerabilidad explotable",
+      "Que el artefacto se ejecutará con los mínimos privilegios en producción",
+      "Que el código fuente ha sido revisado manualmente por al menos dos personas",
+      "La integridad y la procedencia del artefacto: que fue producido por el pipeline legítimo y no ha sido alterado desde entonces"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La firma permite verificar antes del despliegue que el artefacto procede del proceso de build autorizado y que no se ha modificado; no dice nada sobre la ausencia de vulnerabilidades en su contenido."
+  },
+  {
+    "id": "technical-exp-d-031",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "DevSecOps",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "contenedores",
+      "escaneo"
+    ],
+    "question": "¿En qué punto del ciclo de vida conviene escanear una imagen de contenedor en busca de paquetes vulnerables, y qué analiza ese escaneo?",
+    "options": [
+      "En el pipeline, antes de publicarla en el registro y desplegarla; el escáner analiza las capas de la imagen y compara los paquetes instalados con bases de datos de CVE",
+      "Solo en producción, porque las vulnerabilidades únicamente se manifiestan con la aplicación en ejecución",
+      "Únicamente al crear el Dockerfile, ya que las capas posteriores no pueden introducir vulnerabilidades",
+      "No es necesario si la imagen base es oficial, porque los fabricantes garantizan la ausencia de CVE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El escaneo en el pipeline (shift-left) inspecciona las capas de la imagen, inventaría los paquetes del sistema y de la aplicación, y los coteja con bases de CVE antes del despliegue; las imágenes oficiales también contienen vulnerabilidades."
+  },
+  {
+    "id": "technical-exp-d-032",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "CI/CD",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "IaC",
+      "Terraform"
+    ],
+    "question": "¿Qué aporta el escaneo de infraestructura como código (IaC) con herramientas como Checkov o tfsec dentro del pipeline?",
+    "options": [
+      "Ejecuta pruebas de penetración contra la infraestructura ya desplegada en la nube",
+      "Optimiza el coste de los recursos cloud eliminando instancias infrautilizadas",
+      "Detecta configuraciones inseguras (buckets públicos, grupos de seguridad abiertos, cifrado deshabilitado) en las plantillas antes de desplegar la infraestructura",
+      "Convierte automáticamente las plantillas de Terraform a CloudFormation para validarlas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El escaneo de IaC analiza estáticamente plantillas de Terraform, CloudFormation o Kubernetes y detecta malas configuraciones de seguridad antes de que lleguen al entorno real, cuando corregirlas es mucho más barato."
+  },
+  {
+    "id": "technical-exp-d-033",
+    "type": "technical",
+    "difficulty": 2,
+    "category": "Splunk",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SPL",
+      "análisis de datos"
+    ],
+    "question": "En Splunk, ¿qué hace la siguiente búsqueda? index=vulns | stats count by severity",
+    "options": [
+      "Muestra los eventos del índice vulns ordenados por gravedad descendente",
+      "Elimina los eventos duplicados que tengan la misma gravedad",
+      "Cuenta cuántos eventos hay en el índice vulns agrupados por cada valor del campo severity",
+      "Crea un campo nuevo llamado count con el valor de severity de cada evento"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El comando stats agrega los eventos: 'stats count by severity' devuelve una fila por cada valor distinto de severity con el número de eventos que lo tienen, útil para resumir hallazgos por gravedad."
+  },
+  {
+    "id": "technical-exp-d-034",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Splunk",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SPL",
+      "visualización"
+    ],
+    "question": "¿Para qué sirve el comando timechart de SPL y en qué se diferencia de stats?",
+    "options": [
+      "timechart filtra los eventos por rango temporal, mientras que stats los agrega",
+      "timechart solo funciona con métricas de rendimiento del propio Splunk",
+      "Son equivalentes, pero timechart es más rápido en índices grandes",
+      "timechart agrega los datos en intervalos de tiempo (p. ej. por día) generando series temporales listas para graficar, mientras que stats agrega sin eje temporal automático"
+    ],
+    "correctAnswer": 3,
+    "explanation": "timechart divide el rango de búsqueda en intervalos (span) y calcula la agregación por cada intervalo, produciendo series temporales; stats agrega por los campos indicados sin estructurar el resultado en el tiempo."
+  },
+  {
+    "id": "technical-exp-d-035",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Splunk",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "SPL",
+      "deduplicación"
+    ],
+    "question": "Los resultados de varios escaneos semanales se indexan en Splunk y una misma vulnerabilidad aparece repetida en cada ejecución. Para obtener la foto actual sin repeticiones, ¿qué comando SPL es el más directo?",
+    "options": [
+      "dedup host, cve — conserva el evento más reciente por cada combinación de host y CVE",
+      "eval unique=true — marca los eventos únicos para filtrarlos después",
+      "delete — elimina físicamente los eventos duplicados del índice",
+      "rare host — devuelve los hosts que aparecen menos veces"
+    ],
+    "correctAnswer": 0,
+    "explanation": "dedup elimina de los resultados los eventos duplicados según los campos indicados, quedándose por defecto con el más reciente; es el patrón habitual para quedarse con el último estado de cada par activo-vulnerabilidad."
+  },
+  {
+    "id": "technical-exp-d-036",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Splunk",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "lookups",
+      "enriquecimiento"
+    ],
+    "question": "En Splunk se quiere que cada hallazgo de vulnerabilidad muestre también el propietario y la criticidad del activo afectado, datos que mantiene el equipo de inventario en un CSV. ¿Cuál es el mecanismo adecuado?",
+    "options": [
+      "Reindexar todos los eventos añadiendo manualmente los campos del inventario",
+      "Definir un lookup (fichero CSV o KV store) y usar el comando lookup para enriquecer los eventos con esos campos en tiempo de búsqueda",
+      "Crear un índice nuevo por cada propietario de activos y buscar en todos a la vez",
+      "Usar el comando join con una búsqueda en tiempo real sobre el correo del propietario"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los lookups permiten cruzar los eventos con tablas externas (CSV o KV store) en tiempo de búsqueda, añadiendo campos como propietario o criticidad sin reindexar; es el mecanismo estándar de enriquecimiento en Splunk."
+  },
+  {
+    "id": "technical-exp-d-037",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Splunk",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "índices",
+      "sourcetype"
+    ],
+    "question": "En Splunk, ¿cuál es la diferencia entre 'index' y 'sourcetype'?",
+    "options": [
+      "El index determina dónde se almacenan físicamente los datos (y su retención y control de acceso), mientras que el sourcetype identifica el formato de los datos y cómo deben parsearse",
+      "El index es el nombre del servidor de origen y el sourcetype es la dirección IP desde la que llegan los datos",
+      "Son sinónimos: ambos identifican la aplicación que generó los eventos",
+      "El sourcetype define la retención de los datos y el index define su formato de timestamp"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El index es el contenedor de almacenamiento (con su retención y permisos asociados), mientras que el sourcetype describe el tipo y formato de los datos, determinando la extracción de timestamps y campos."
+  },
+  {
+    "id": "technical-exp-d-038",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Métricas",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "métricas",
+      "gestión de vulnerabilidades"
+    ],
+    "question": "En un programa de gestión de vulnerabilidades, ¿qué mide el 'tiempo medio de remediación' (MTTR)?",
+    "options": [
+      "El tiempo que tarda el escáner en completar un análisis de toda la red",
+      "El intervalo medio entre dos escaneos consecutivos del mismo activo",
+      "El tiempo medio transcurrido desde que se detecta una vulnerabilidad hasta que se corrige o mitiga, habitualmente segmentado por severidad",
+      "El número de vulnerabilidades corregidas por cada técnico y mes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El MTTR de remediación mide cuánto se tarda de media en cerrar una vulnerabilidad desde su detección; se suele reportar por severidad y compararse con los SLA internos (p. ej. críticas en 15 días)."
+  },
+  {
+    "id": "technical-exp-d-039",
+    "type": "technical",
+    "difficulty": 4,
+    "category": "Métricas",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "métricas",
+      "cobertura"
+    ],
+    "question": "¿Por qué la 'cobertura de escaneo' es una métrica imprescindible al interpretar el resto de indicadores de un programa de vulnerabilidades?",
+    "options": [
+      "Porque determina el coste de licencias del escáner, que se factura por activo analizado",
+      "Porque los escáneres solo son fiables cuando analizan más de mil activos por ejecución",
+      "Porque la normativa europea obliga a publicar ese porcentaje en los informes anuales",
+      "Porque un recuento bajo de vulnerabilidades puede deberse a que muchos activos del inventario no se están escaneando, dando una falsa sensación de seguridad"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La cobertura (porcentaje de activos del inventario efectivamente escaneados en la ventana definida) contextualiza las demás métricas: sin ella, una cifra baja de hallazgos puede reflejar puntos ciegos y no una mejora real."
+  },
+  {
+    "id": "technical-exp-d-040",
+    "type": "technical",
+    "difficulty": 3,
+    "category": "Análisis de datos",
+    "tags": [
+      "CAST",
+      "perfil técnico",
+      "reporting",
+      "dirección"
+    ],
+    "question": "Al preparar el informe mensual de vulnerabilidades para la dirección, ¿qué enfoque es el más eficaz?",
+    "options": [
+      "Adjuntar la exportación completa del escáner con todos los CVE detectados para máxima transparencia",
+      "Presentar tendencias y métricas agregadas (riesgo por unidad, evolución del MTTR, cumplimiento de SLA, cobertura) con visualizaciones claras y recomendaciones accionables",
+      "Incluir únicamente las vulnerabilidades de severidad crítica con su descripción técnica completa y el exploit asociado",
+      "Enviar los dashboards técnicos de Splunk sin modificar, ya que contienen toda la información"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La dirección necesita información agregada y orientada a decisiones: tendencias, riesgo, cumplimiento de objetivos y acciones recomendadas; los listados exhaustivos de CVE y los dashboards técnicos son para las audiencias operativas."
+  }
+]

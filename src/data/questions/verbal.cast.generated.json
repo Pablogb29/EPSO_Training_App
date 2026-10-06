@@ -1,0 +1,2102 @@
+[
+  {
+    "id": "verbal-cast-001",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Protección de datos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la oficina de protección de datos actualizó el procedimiento sobre la evaluación previa de tratamientos con datos personales. Las evaluaciones completas solo se exigen antes de poner en producción tratamientos que puedan implicar un riesgo alto. El informe revisó 18 expedientes y detectó 2 excepciones menores. Además, señala que las pruebas internas con datos ficticios quedan fuera de ese requisito, aunque deben documentarse. El responsable del tratamiento conserva la obligación de consultar a la oficina si el alcance cambia durante el proyecto.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "No todas las pruebas internas requieren una evaluación completa, pero los cambios de alcance deben consultarse.",
+      "Todas las pruebas internas requieren siempre una evaluación completa antes de empezar.",
+      "El texto indica que los datos ficticios están prohibidos en proyectos piloto.",
+      "El responsable queda exento de consultar a la oficina si el proyecto ya ha empezado."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: No todas las pruebas internas requieren una evaluación completa, pero los cambios de alcance deben consultarse."
+  },
+  {
+    "id": "verbal-cast-002",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Traducción institucional",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la unidad de traducción actualizó el procedimiento sobre la priorización de solicitudes multilingües. Las solicitudes con plazo jurídico obligatorio se atienden antes que los textos divulgativos. El informe revisó 21 expedientes y detectó 3 excepciones menores. Además, señala que los documentos divulgativos pueden adelantarse si ya existe una memoria de traducción reutilizable. El orden de llegada solo se aplica cuando dos solicitudes tienen la misma prioridad operativa.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Las memorias de traducción no influyen en la planificación del trabajo.",
+      "El orden de llegada no es el criterio principal cuando existen plazos jurídicos u otras prioridades.",
+      "Los textos divulgativos siempre se traducen antes que los documentos jurídicos.",
+      "La unidad atiende todas las solicitudes estrictamente por orden de llegada."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El orden de llegada no es el criterio principal cuando existen plazos jurídicos u otras prioridades."
+  },
+  {
+    "id": "verbal-cast-003",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Contratación pública",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, el comité de evaluación actualizó el procedimiento sobre la revisión de ofertas en una licitación de servicios. Primero se comprueban los criterios de exclusión y selección, y después se puntúa la oferta técnica. El informe revisó 24 expedientes y detectó 4 excepciones menores. Además, señala que la oferta económica solo se abre si la propuesta técnica supera el umbral mínimo. Una oferta barata puede ser rechazada si no acredita la capacidad técnica exigida.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La propuesta más barata debe adjudicarse aunque no cumpla el umbral técnico.",
+      "El comité omite los criterios de exclusión cuando hay suficiente competencia.",
+      "El precio no basta para adjudicar si la oferta no supera los requisitos técnicos y de selección.",
+      "La oferta económica se abre siempre antes de comprobar los requisitos de selección."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El precio no basta para adjudicar si la oferta no supera los requisitos técnicos y de selección."
+  },
+  {
+    "id": "verbal-cast-004",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la dirección de recursos humanos actualizó el procedimiento sobre el teletrabajo en periodos de alta demanda. Se permiten hasta dos días semanales de teletrabajo cuando la cobertura del servicio queda garantizada. El informe revisó 27 expedientes y detectó 5 excepciones menores. Además, señala que los responsables pueden limitarlo durante reuniones presenciales críticas o tareas con documentación sensible. La autorización concedida para una semana no crea un derecho automático para semanas posteriores.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La autorización semanal concede un derecho permanente a teletrabajar dos días.",
+      "Los responsables no pueden limitar el teletrabajo por reuniones críticas.",
+      "El texto prohíbe el teletrabajo siempre que exista documentación sensible en la unidad.",
+      "El teletrabajo está condicionado por las necesidades del servicio y puede limitarse en semanas concretas."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El teletrabajo está condicionado por las necesidades del servicio y puede limitarse en semanas concretas."
+  },
+  {
+    "id": "verbal-cast-005",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Ciberseguridad",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, el equipo de sensibilización en ciberseguridad actualizó el procedimiento sobre las simulaciones de phishing y la formación asociada. Las campañas de simulación se realizan trimestralmente y no se usan para sanciones disciplinarias automáticas. El informe revisó 30 expedientes y detectó 6 excepciones menores. Además, señala que quienes gestionan cuentas privilegiadas deben completar formación adicional si fallan dos simulaciones consecutivas. Los resultados se comunican a los responsables de servicio de forma agregada salvo en casos de riesgo crítico.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La formación adicional se activa para cuentas privilegiadas tras dos fallos consecutivos, no tras cualquier error aislado.",
+      "Cualquier fallo en una simulación implica una sanción disciplinaria automática.",
+      "Los resultados individuales se comunican siempre a toda la organización.",
+      "Las campañas se ejecutan solo una vez cada dos años."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La formación adicional se activa para cuentas privilegiadas tras dos fallos consecutivos, no tras cualquier error aislado."
+  },
+  {
+    "id": "verbal-cast-006",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Seguridad física",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la oficina de acreditaciones actualizó el procedimiento sobre la gestión de tarjetas de acceso a edificios. Las tarjetas sin uso durante más de treinta días se suspenden de forma preventiva. El informe revisó 33 expedientes y detectó 7 excepciones menores. Además, señala que la suspensión no se aplica a personal con misión registrada o permiso parental comunicado. La reactivación exige confirmación del responsable jerárquico y verificación de identidad.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La tarjeta se reactiva automáticamente al primer intento de entrada.",
+      "Una tarjeta inactiva puede suspenderse, salvo excepciones registradas, y su reactivación requiere verificación.",
+      "Toda tarjeta sin uso se elimina definitivamente sin posibilidad de reactivación.",
+      "Las misiones registradas no tienen ningún efecto sobre la suspensión preventiva."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Una tarjeta inactiva puede suspenderse, salvo excepciones registradas, y su reactivación requiere verificación."
+  },
+  {
+    "id": "verbal-cast-007",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Gestión documental",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, el archivo central actualizó el procedimiento sobre la conservación de expedientes contractuales. Los contratos firmados se conservan durante diez años desde el cierre financiero del expediente. El informe revisó 36 expedientes y detectó 8 excepciones menores. Además, señala que los borradores sin valor decisorio se eliminan a los dos años si no existe litigio ni auditoría abierta. Una retención por litigio prevalece sobre el calendario ordinario de eliminación.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La retención por litigio no modifica el calendario de eliminación documental.",
+      "Los contratos firmados se eliminan a los dos años del cierre financiero.",
+      "Los borradores pueden eliminarse antes que los contratos firmados, salvo si existe litigio o auditoría.",
+      "Todos los borradores se conservan durante diez años aunque no tengan valor decisorio."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los borradores pueden eliminarse antes que los contratos firmados, salvo si existe litigio o auditoría."
+  },
+  {
+    "id": "verbal-cast-008",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Accesibilidad digital",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, el equipo web actualizó el procedimiento sobre la publicación de documentos accesibles. El contenido nuevo debe cumplir los requisitos de accesibilidad antes de publicarse. El informe revisó 39 expedientes y detectó 2 excepciones menores. Además, señala que los PDF antiguos se corrigen prioritariamente cuando reciben muchas consultas o cuando una persona solicita una versión accesible. La falta de una petición concreta no justifica publicar nuevo contenido inaccesible.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El equipo solo adapta documentos si existe una reclamación formal previa.",
+      "Los PDF antiguos nunca pueden corregirse después de publicados.",
+      "La accesibilidad se exige únicamente a páginas HTML, no a documentos publicados.",
+      "Los documentos nuevos deben ser accesibles, y los antiguos se corrigen con prioridad según uso o solicitud."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los documentos nuevos deben ser accesibles, y los antiguos se corrigen con prioridad según uso o solicitud."
+  },
+  {
+    "id": "verbal-cast-009",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Gestión de incidentes",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, el centro de respuesta a incidentes actualizó el procedimiento sobre la notificación interna de posibles brechas de datos. Las sospechas de brecha se notifican internamente en las primeras veinticuatro horas. El informe revisó 42 expedientes y detectó 3 excepciones menores. Además, señala que la decisión de notificar a la autoridad corresponde al responsable competente tras valorar el riesgo. La notificación interna temprana no implica reconocer de inmediato que la brecha esté confirmada.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Una sospecha debe escalarse pronto internamente, aunque la confirmación y la notificación externa requieran valoración.",
+      "Solo se informa internamente cuando la brecha ya está confirmada judicialmente.",
+      "Toda sospecha obliga automáticamente a notificar a la autoridad sin valorar el riesgo.",
+      "La notificación interna equivale a admitir que la brecha está plenamente confirmada."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Una sospecha debe escalarse pronto internamente, aunque la confirmación y la notificación externa requieran valoración."
+  },
+  {
+    "id": "verbal-cast-010",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Servicios cloud",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, el programa de migración a la nube actualizó el procedimiento sobre la selección de sistemas para una primera oleada. La primera oleada incluye archivos no sensibles y aplicaciones con dependencias técnicas simples. El informe revisó 45 expedientes y detectó 4 excepciones menores. Además, señala que los sistemas con información clasificada permanecen fuera hasta completar la acreditación de seguridad. La decisión de migrar considera tanto el riesgo de la información como la complejidad de integración.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La primera oleada incluye cualquier archivo, con independencia de su sensibilidad.",
+      "La primera migración prioriza sistemas de menor riesgo y complejidad; los clasificados esperan acreditación.",
+      "Los sistemas con información clasificada se migran primero para acelerar el calendario.",
+      "La complejidad de integración no influye en la selección de sistemas."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La primera migración prioriza sistemas de menor riesgo y complejidad; los clasificados esperan acreditación."
+  },
+  {
+    "id": "verbal-cast-011",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Organización de eventos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la secretaría de conferencias actualizó el procedimiento sobre la reserva de interpretación para reuniones híbridas. La interpretación se confirma cuando al menos doce participantes solicitan una lengua antes del plazo interno. El informe revisó 48 expedientes y detectó 5 excepciones menores. Además, señala que las solicitudes tardías se aceptan solo si hay cabinas y personal disponibles. La inscripción en la reunión no equivale por sí sola a solicitar interpretación.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Las solicitudes tardías se aceptan siempre aunque no haya personal disponible.",
+      "La secretaría confirma interpretación con una sola solicitud recibida.",
+      "La interpretación depende de solicitudes lingüísticas suficientes y dentro de plazo, no solo de la inscripción general.",
+      "Toda persona inscrita genera automáticamente una cabina de interpretación."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La interpretación depende de solicitudes lingüísticas suficientes y dentro de plazo, no solo de la inscripción general."
+  },
+  {
+    "id": "verbal-cast-012",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Formación",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, el comité de aprendizaje actualizó el procedimiento sobre la asignación del presupuesto anual de formación. La ciberseguridad y la contratación pública tienen prioridad por obligaciones regulatorias recientes. El informe revisó 51 expedientes y detectó 6 excepciones menores. Además, señala que los cursos de idiomas se financian con el presupuesto restante cuando están vinculados al puesto. Las solicitudes aprobadas pueden posponerse si coinciden con periodos críticos de servicio.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los cursos de idiomas tienen siempre prioridad sobre la formación obligatoria.",
+      "El comité no puede posponer ninguna solicitud ya aprobada.",
+      "La vinculación con el puesto no influye en la financiación de idiomas.",
+      "Los idiomas pueden financiarse, pero después de prioridades obligatorias y si guardan relación con el puesto."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los idiomas pueden financiarse, pero después de prioridades obligatorias y si guardan relación con el puesto."
+  },
+  {
+    "id": "verbal-cast-013",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Sostenibilidad",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la oficina de movilidad sostenible actualizó el procedimiento sobre los desplazamientos profesionales de corta distancia. Para trayectos inferiores a seiscientos kilómetros se recomienda el tren cuando el horario permite llegar el mismo día. El informe revisó 54 expedientes y detectó 7 excepciones menores. Además, señala que el avión puede autorizarse si la combinación ferroviaria impide asistir a una reunión esencial. La recomendación ambiental no elimina la obligación de justificar el coste y el tiempo de viaje.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El tren es preferente en trayectos cortos, pero puede autorizarse el avión si el horario ferroviario no permite asistir.",
+      "El avión está prohibido en todos los trayectos inferiores a seiscientos kilómetros.",
+      "La recomendación ambiental elimina cualquier control de coste del viaje.",
+      "El tren solo se recomienda si el viaje supera seiscientos kilómetros."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El tren es preferente en trayectos cortos, pero puede autorizarse el avión si el horario ferroviario no permite asistir."
+  },
+  {
+    "id": "verbal-cast-014",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Soporte informático",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, el servicio de asistencia informática actualizó el procedimiento sobre los niveles de servicio para incidencias de usuario. Las interrupciones que afectan a más de cincuenta usuarios tienen objetivo de resolución de cuatro horas. El informe revisó 57 expedientes y detectó 8 excepciones menores. Además, señala que las incidencias individuales sin impacto crítico se planifican en un plazo de dos días laborables. La prioridad se revisa si una incidencia inicialmente individual revela un fallo generalizado.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El número de usuarios afectados no influye en el nivel de servicio.",
+      "La prioridad depende del impacto, y una incidencia puede reclasificarse si se descubre un alcance mayor.",
+      "Todas las incidencias individuales tienen objetivo de resolución de cuatro horas.",
+      "Una incidencia nunca puede cambiar de prioridad después de registrarse."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La prioridad depende del impacto, y una incidencia puede reclasificarse si se descubre un alcance mayor."
+  },
+  {
+    "id": "verbal-cast-015",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Datos abiertos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, el equipo de datos abiertos actualizó el procedimiento sobre la publicación de conjuntos de datos administrativos. Los conjuntos pueden publicarse tras anonimización y aprobación del propietario de la información. El informe revisó 60 expedientes y detectó 2 excepciones menores. Además, señala que los ficheros brutos con datos personales quedan excluidos de la publicación abierta. La publicación se acompaña de metadatos que explican alcance, fecha y limitaciones de uso.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los metadatos se omiten para evitar explicar limitaciones del conjunto.",
+      "La aprobación del propietario de la información no es necesaria para publicar datos.",
+      "La publicación abierta requiere anonimización, aprobación y metadatos; los ficheros brutos personales quedan excluidos.",
+      "Los ficheros brutos con datos personales se publican si tienen interés estadístico."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La publicación abierta requiere anonimización, aprobación y metadatos; los ficheros brutos personales quedan excluidos."
+  },
+  {
+    "id": "verbal-cast-016",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Clasificación documental",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la autoridad de seguridad actualizó el procedimiento sobre la revisión de marcas de protección en documentos internos. Las marcas de protección se revisan anualmente para comprobar si siguen justificadas. El informe revisó 63 expedientes y detectó 3 excepciones menores. Además, señala que la retirada de una marca exige confirmar que el perjuicio potencial ha desaparecido o se ha reducido. El paso del tiempo por sí solo no convierte automáticamente un documento protegido en público.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Todo documento protegido pasa a ser público automáticamente al cabo de un año.",
+      "Las marcas de protección no se revisan una vez aplicadas.",
+      "La retirada de una marca no requiere analizar el perjuicio potencial.",
+      "La revisión anual puede retirar marcas, pero solo si el riesgo que las justificaba ha cambiado."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La revisión anual puede retirar marcas, pero solo si el riesgo que las justificaba ha cambiado."
+  },
+  {
+    "id": "verbal-cast-017",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Control de accesos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la unidad de seguridad de sedes actualizó el procedimiento sobre el acceso de visitantes a zonas restringidas. Los visitantes deben estar acompañados en zonas restringidas salvo que cuenten con autorización previa específica. El informe revisó 66 expedientes y detectó 4 excepciones menores. Además, señala que la autorización previa se concede para una finalidad y una franja horaria determinadas. Registrarse en recepción no habilita el acceso autónomo a todas las plantas.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El registro en recepción no basta para moverse sin acompañamiento por zonas restringidas.",
+      "Cualquier visitante registrado puede circular libremente por todas las plantas.",
+      "La autorización previa se concede sin límite de finalidad ni horario.",
+      "Los visitantes nunca pueden acceder a zonas restringidas aunque estén autorizados."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El registro en recepción no basta para moverse sin acompañamiento por zonas restringidas."
+  },
+  {
+    "id": "verbal-cast-018",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Gestión de parches",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, el equipo de administración de sistemas actualizó el procedimiento sobre la instalación de actualizaciones de seguridad. Los parches críticos en servicios expuestos a internet se aplican en un plazo máximo de siete días. El informe revisó 69 expedientes y detectó 5 excepciones menores. Además, señala que los sistemas internos no críticos se actualizan en la ventana mensual salvo riesgo excepcional. Las excepciones deben documentarse con una medida temporal de mitigación.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los sistemas internos no críticos siempre tienen prioridad sobre los servicios expuestos.",
+      "Los servicios expuestos con parches críticos tienen prioridad, y las excepciones requieren mitigación documentada.",
+      "Todos los sistemas se actualizan solo una vez al año, aunque estén expuestos a internet.",
+      "Las excepciones no necesitan justificación ni medidas temporales."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los servicios expuestos con parches críticos tienen prioridad, y las excepciones requieren mitigación documentada."
+  },
+  {
+    "id": "verbal-cast-019",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Encuestas internas",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la oficina de análisis organizativo actualizó el procedimiento sobre la publicación de resultados de una encuesta de personal. Los resultados se publican por unidad solo cuando hay al menos diez respuestas válidas. El informe revisó 72 expedientes y detectó 6 excepciones menores. Además, señala que si el umbral no se alcanza, los datos se agregan a un nivel organizativo superior. Los comentarios libres se revisan para retirar referencias que identifiquen indirectamente a personas.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los comentarios libres se publican íntegros sin revisar referencias identificables.",
+      "Si no se alcanza el umbral, los datos se eliminan y no pueden agregarse.",
+      "Las unidades con pocas respuestas no se publican de forma separada para reducir el riesgo de identificación.",
+      "Los resultados se publican por unidad aunque solo responda una persona."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Las unidades con pocas respuestas no se publican de forma separada para reducir el riesgo de identificación."
+  },
+  {
+    "id": "verbal-cast-020",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Subvenciones",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la unidad de subvenciones actualizó el procedimiento sobre la subsanación de solicitudes incompletas. Las entidades pueden aportar documentos administrativos omitidos dentro de los cinco días hábiles siguientes. El informe revisó 75 expedientes y detectó 7 excepciones menores. Además, señala que no se permite modificar los criterios técnicos que se evalúan con puntuación. La subsanación busca corregir defectos formales, no mejorar la propuesta después del cierre.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Las entidades pueden reescribir la propuesta técnica después del cierre.",
+      "Los documentos administrativos omitidos nunca pueden aportarse posteriormente.",
+      "La subsanación se usa para conceder puntuación adicional a todas las solicitudes.",
+      "La subsanación permite corregir documentos administrativos, pero no mejorar elementos técnicos puntuables."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La subsanación permite corregir documentos administrativos, pero no mejorar elementos técnicos puntuables."
+  },
+  {
+    "id": "verbal-cast-021",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Auditoría",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la función de auditoría interna actualizó el procedimiento sobre el seguimiento de recomendaciones de alto riesgo. Las recomendaciones de alto riesgo requieren un plan de acción en treinta días. El informe revisó 78 expedientes y detectó 8 excepciones menores. Además, señala que la recomendación no se cierra hasta que se aporta evidencia verificable de la medida implantada. La aceptación de la recomendación por la dirección no equivale a su cierre.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Aceptar una recomendación no la cierra; hace falta evidencia de que la medida se ha implantado.",
+      "Las recomendaciones de alto riesgo se cierran automáticamente cuando la dirección las acepta.",
+      "El plan de acción puede presentarse sin plazo definido.",
+      "La auditoría no exige evidencias para cerrar recomendaciones."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Aceptar una recomendación no la cierra; hace falta evidencia de que la medida se ha implantado."
+  },
+  {
+    "id": "verbal-cast-022",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Gestión de riesgos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, el comité de riesgos operativos actualizó el procedimiento sobre la actualización del registro de riesgos. Cada propietario revisa sus riesgos al menos trimestralmente. El informe revisó 81 expedientes y detectó 2 excepciones menores. Además, señala que los cambios relevantes en impacto o probabilidad se comunican fuera del ciclo ordinario. La revisión anual del comité no sustituye las actualizaciones de los propietarios.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La revisión anual sustituye cualquier seguimiento trimestral.",
+      "Los propietarios actualizan riesgos trimestralmente y también cuando hay cambios relevantes.",
+      "Los propietarios solo actualizan riesgos una vez al año durante el comité.",
+      "Los cambios de probabilidad nunca se comunican fuera del ciclo ordinario."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los propietarios actualizan riesgos trimestralmente y también cuando hay cambios relevantes."
+  },
+  {
+    "id": "verbal-cast-023",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Gestión documental",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la unidad de correspondencia actualizó el procedimiento sobre el uso de buzones compartidos para expedientes. Los mensajes vinculados a un expediente se archivan cuando el caso queda cerrado. El informe revisó 84 expedientes y detectó 3 excepciones menores. Además, señala que las opiniones personales sin relevancia decisoria no se incorporan al registro oficial. La respuesta final sí debe conservarse junto con los documentos que justifican la decisión.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La respuesta final se elimina al cerrar el caso.",
+      "Los mensajes vinculados a expedientes nunca se archivan.",
+      "El expediente conserva la respuesta final y sus justificantes, no todas las opiniones personales intercambiadas.",
+      "Toda opinión personal del buzón compartido debe incorporarse al registro oficial."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El expediente conserva la respuesta final y sus justificantes, no todas las opiniones personales intercambiadas."
+  },
+  {
+    "id": "verbal-cast-024",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Gestión contractual",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, la unidad de contratos actualizó el procedimiento sobre la renovación de contratos de apoyo externo. La renovación depende de la evaluación del rendimiento y de la disponibilidad presupuestaria. El informe revisó 87 expedientes y detectó 4 excepciones menores. Además, señala que el proveedor debe mantener las certificaciones exigidas durante todo el periodo contractual. La existencia de una cláusula de renovación no obliga a activarla automáticamente.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Toda cláusula de renovación debe activarse automáticamente al finalizar el contrato.",
+      "La disponibilidad presupuestaria no influye en la decisión de renovar.",
+      "Las certificaciones solo importan el día de la firma inicial.",
+      "La cláusula permite renovar, pero la renovación no es automática y depende de rendimiento, presupuesto y requisitos."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La cláusula permite renovar, pero la renovación no es automática y depende de rendimiento, presupuesto y requisitos."
+  },
+  {
+    "id": "verbal-cast-025",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Equipamiento",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el primer trimestre de 2026, el servicio de logística informática actualizó el procedimiento sobre la sustitución de portátiles del personal. Los portátiles se sustituyen tras cuatro años de uso cuando el coste de reparación supera el umbral fijado. El informe revisó 90 expedientes y detectó 5 excepciones menores. Además, señala que un equipo más antiguo puede mantenerse si funciona correctamente y recibe actualizaciones de seguridad. La antigüedad por sí sola no justifica una sustitución urgente si no hay riesgo operativo.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La sustitución considera antigüedad, coste de reparación y seguridad; no depende solo de los años de uso.",
+      "Todo portátil de más de cuatro años se sustituye urgentemente aunque funcione y sea seguro.",
+      "Los costes de reparación no se tienen en cuenta en la política.",
+      "Un portátil sin actualizaciones de seguridad puede mantenerse sin análisis adicional."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La sustitución considera antigüedad, coste de reparación y seguridad; no depende solo de los años de uso."
+  },
+  {
+    "id": "verbal-cast-026",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Protección de datos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la oficina de protección de datos actualizó el procedimiento sobre la evaluación previa de tratamientos con datos personales. Las evaluaciones completas solo se exigen antes de poner en producción tratamientos que puedan implicar un riesgo alto. El informe revisó 93 expedientes y detectó 7 excepciones menores. Además, señala que las pruebas internas con datos ficticios quedan fuera de ese requisito, aunque deben documentarse. El responsable del tratamiento conserva la obligación de consultar a la oficina si el alcance cambia durante el proyecto.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El responsable queda exento de consultar a la oficina si el proyecto ya ha empezado.",
+      "No todas las pruebas internas requieren una evaluación completa, pero los cambios de alcance deben consultarse.",
+      "Todas las pruebas internas requieren siempre una evaluación completa antes de empezar.",
+      "El texto indica que los datos ficticios están prohibidos en proyectos piloto."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: No todas las pruebas internas requieren una evaluación completa, pero los cambios de alcance deben consultarse."
+  },
+  {
+    "id": "verbal-cast-027",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Traducción institucional",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la unidad de traducción actualizó el procedimiento sobre la priorización de solicitudes multilingües. Las solicitudes con plazo jurídico obligatorio se atienden antes que los textos divulgativos. El informe revisó 96 expedientes y detectó 8 excepciones menores. Además, señala que los documentos divulgativos pueden adelantarse si ya existe una memoria de traducción reutilizable. El orden de llegada solo se aplica cuando dos solicitudes tienen la misma prioridad operativa.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La unidad atiende todas las solicitudes estrictamente por orden de llegada.",
+      "Las memorias de traducción no influyen en la planificación del trabajo.",
+      "El orden de llegada no es el criterio principal cuando existen plazos jurídicos u otras prioridades.",
+      "Los textos divulgativos siempre se traducen antes que los documentos jurídicos."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El orden de llegada no es el criterio principal cuando existen plazos jurídicos u otras prioridades."
+  },
+  {
+    "id": "verbal-cast-028",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Contratación pública",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, el comité de evaluación actualizó el procedimiento sobre la revisión de ofertas en una licitación de servicios. Primero se comprueban los criterios de exclusión y selección, y después se puntúa la oferta técnica. El informe revisó 99 expedientes y detectó 2 excepciones menores. Además, señala que la oferta económica solo se abre si la propuesta técnica supera el umbral mínimo. Una oferta barata puede ser rechazada si no acredita la capacidad técnica exigida.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La oferta económica se abre siempre antes de comprobar los requisitos de selección.",
+      "La propuesta más barata debe adjudicarse aunque no cumpla el umbral técnico.",
+      "El comité omite los criterios de exclusión cuando hay suficiente competencia.",
+      "El precio no basta para adjudicar si la oferta no supera los requisitos técnicos y de selección."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El precio no basta para adjudicar si la oferta no supera los requisitos técnicos y de selección."
+  },
+  {
+    "id": "verbal-cast-029",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la dirección de recursos humanos actualizó el procedimiento sobre el teletrabajo en periodos de alta demanda. Se permiten hasta dos días semanales de teletrabajo cuando la cobertura del servicio queda garantizada. El informe revisó 102 expedientes y detectó 3 excepciones menores. Además, señala que los responsables pueden limitarlo durante reuniones presenciales críticas o tareas con documentación sensible. La autorización concedida para una semana no crea un derecho automático para semanas posteriores.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El teletrabajo está condicionado por las necesidades del servicio y puede limitarse en semanas concretas.",
+      "La autorización semanal concede un derecho permanente a teletrabajar dos días.",
+      "Los responsables no pueden limitar el teletrabajo por reuniones críticas.",
+      "El texto prohíbe el teletrabajo siempre que exista documentación sensible en la unidad."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El teletrabajo está condicionado por las necesidades del servicio y puede limitarse en semanas concretas."
+  },
+  {
+    "id": "verbal-cast-030",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Ciberseguridad",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, el equipo de sensibilización en ciberseguridad actualizó el procedimiento sobre las simulaciones de phishing y la formación asociada. Las campañas de simulación se realizan trimestralmente y no se usan para sanciones disciplinarias automáticas. El informe revisó 105 expedientes y detectó 4 excepciones menores. Además, señala que quienes gestionan cuentas privilegiadas deben completar formación adicional si fallan dos simulaciones consecutivas. Los resultados se comunican a los responsables de servicio de forma agregada salvo en casos de riesgo crítico.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Las campañas se ejecutan solo una vez cada dos años.",
+      "La formación adicional se activa para cuentas privilegiadas tras dos fallos consecutivos, no tras cualquier error aislado.",
+      "Cualquier fallo en una simulación implica una sanción disciplinaria automática.",
+      "Los resultados individuales se comunican siempre a toda la organización."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La formación adicional se activa para cuentas privilegiadas tras dos fallos consecutivos, no tras cualquier error aislado."
+  },
+  {
+    "id": "verbal-cast-031",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Seguridad física",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la oficina de acreditaciones actualizó el procedimiento sobre la gestión de tarjetas de acceso a edificios. Las tarjetas sin uso durante más de treinta días se suspenden de forma preventiva. El informe revisó 108 expedientes y detectó 5 excepciones menores. Además, señala que la suspensión no se aplica a personal con misión registrada o permiso parental comunicado. La reactivación exige confirmación del responsable jerárquico y verificación de identidad.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Las misiones registradas no tienen ningún efecto sobre la suspensión preventiva.",
+      "La tarjeta se reactiva automáticamente al primer intento de entrada.",
+      "Una tarjeta inactiva puede suspenderse, salvo excepciones registradas, y su reactivación requiere verificación.",
+      "Toda tarjeta sin uso se elimina definitivamente sin posibilidad de reactivación."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Una tarjeta inactiva puede suspenderse, salvo excepciones registradas, y su reactivación requiere verificación."
+  },
+  {
+    "id": "verbal-cast-032",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Gestión documental",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, el archivo central actualizó el procedimiento sobre la conservación de expedientes contractuales. Los contratos firmados se conservan durante diez años desde el cierre financiero del expediente. El informe revisó 111 expedientes y detectó 6 excepciones menores. Además, señala que los borradores sin valor decisorio se eliminan a los dos años si no existe litigio ni auditoría abierta. Una retención por litigio prevalece sobre el calendario ordinario de eliminación.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Todos los borradores se conservan durante diez años aunque no tengan valor decisorio.",
+      "La retención por litigio no modifica el calendario de eliminación documental.",
+      "Los contratos firmados se eliminan a los dos años del cierre financiero.",
+      "Los borradores pueden eliminarse antes que los contratos firmados, salvo si existe litigio o auditoría."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los borradores pueden eliminarse antes que los contratos firmados, salvo si existe litigio o auditoría."
+  },
+  {
+    "id": "verbal-cast-033",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Accesibilidad digital",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, el equipo web actualizó el procedimiento sobre la publicación de documentos accesibles. El contenido nuevo debe cumplir los requisitos de accesibilidad antes de publicarse. El informe revisó 114 expedientes y detectó 7 excepciones menores. Además, señala que los PDF antiguos se corrigen prioritariamente cuando reciben muchas consultas o cuando una persona solicita una versión accesible. La falta de una petición concreta no justifica publicar nuevo contenido inaccesible.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los documentos nuevos deben ser accesibles, y los antiguos se corrigen con prioridad según uso o solicitud.",
+      "El equipo solo adapta documentos si existe una reclamación formal previa.",
+      "Los PDF antiguos nunca pueden corregirse después de publicados.",
+      "La accesibilidad se exige únicamente a páginas HTML, no a documentos publicados."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los documentos nuevos deben ser accesibles, y los antiguos se corrigen con prioridad según uso o solicitud."
+  },
+  {
+    "id": "verbal-cast-034",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Gestión de incidentes",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, el centro de respuesta a incidentes actualizó el procedimiento sobre la notificación interna de posibles brechas de datos. Las sospechas de brecha se notifican internamente en las primeras veinticuatro horas. El informe revisó 117 expedientes y detectó 8 excepciones menores. Además, señala que la decisión de notificar a la autoridad corresponde al responsable competente tras valorar el riesgo. La notificación interna temprana no implica reconocer de inmediato que la brecha esté confirmada.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La notificación interna equivale a admitir que la brecha está plenamente confirmada.",
+      "Una sospecha debe escalarse pronto internamente, aunque la confirmación y la notificación externa requieran valoración.",
+      "Solo se informa internamente cuando la brecha ya está confirmada judicialmente.",
+      "Toda sospecha obliga automáticamente a notificar a la autoridad sin valorar el riesgo."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Una sospecha debe escalarse pronto internamente, aunque la confirmación y la notificación externa requieran valoración."
+  },
+  {
+    "id": "verbal-cast-035",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Servicios cloud",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, el programa de migración a la nube actualizó el procedimiento sobre la selección de sistemas para una primera oleada. La primera oleada incluye archivos no sensibles y aplicaciones con dependencias técnicas simples. El informe revisó 120 expedientes y detectó 2 excepciones menores. Además, señala que los sistemas con información clasificada permanecen fuera hasta completar la acreditación de seguridad. La decisión de migrar considera tanto el riesgo de la información como la complejidad de integración.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La complejidad de integración no influye en la selección de sistemas.",
+      "La primera oleada incluye cualquier archivo, con independencia de su sensibilidad.",
+      "La primera migración prioriza sistemas de menor riesgo y complejidad; los clasificados esperan acreditación.",
+      "Los sistemas con información clasificada se migran primero para acelerar el calendario."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La primera migración prioriza sistemas de menor riesgo y complejidad; los clasificados esperan acreditación."
+  },
+  {
+    "id": "verbal-cast-036",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Organización de eventos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la secretaría de conferencias actualizó el procedimiento sobre la reserva de interpretación para reuniones híbridas. La interpretación se confirma cuando al menos doce participantes solicitan una lengua antes del plazo interno. El informe revisó 123 expedientes y detectó 3 excepciones menores. Además, señala que las solicitudes tardías se aceptan solo si hay cabinas y personal disponibles. La inscripción en la reunión no equivale por sí sola a solicitar interpretación.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Toda persona inscrita genera automáticamente una cabina de interpretación.",
+      "Las solicitudes tardías se aceptan siempre aunque no haya personal disponible.",
+      "La secretaría confirma interpretación con una sola solicitud recibida.",
+      "La interpretación depende de solicitudes lingüísticas suficientes y dentro de plazo, no solo de la inscripción general."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La interpretación depende de solicitudes lingüísticas suficientes y dentro de plazo, no solo de la inscripción general."
+  },
+  {
+    "id": "verbal-cast-037",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Formación",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, el comité de aprendizaje actualizó el procedimiento sobre la asignación del presupuesto anual de formación. La ciberseguridad y la contratación pública tienen prioridad por obligaciones regulatorias recientes. El informe revisó 126 expedientes y detectó 4 excepciones menores. Además, señala que los cursos de idiomas se financian con el presupuesto restante cuando están vinculados al puesto. Las solicitudes aprobadas pueden posponerse si coinciden con periodos críticos de servicio.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los idiomas pueden financiarse, pero después de prioridades obligatorias y si guardan relación con el puesto.",
+      "Los cursos de idiomas tienen siempre prioridad sobre la formación obligatoria.",
+      "El comité no puede posponer ninguna solicitud ya aprobada.",
+      "La vinculación con el puesto no influye en la financiación de idiomas."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los idiomas pueden financiarse, pero después de prioridades obligatorias y si guardan relación con el puesto."
+  },
+  {
+    "id": "verbal-cast-038",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Sostenibilidad",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la oficina de movilidad sostenible actualizó el procedimiento sobre los desplazamientos profesionales de corta distancia. Para trayectos inferiores a seiscientos kilómetros se recomienda el tren cuando el horario permite llegar el mismo día. El informe revisó 129 expedientes y detectó 5 excepciones menores. Además, señala que el avión puede autorizarse si la combinación ferroviaria impide asistir a una reunión esencial. La recomendación ambiental no elimina la obligación de justificar el coste y el tiempo de viaje.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El tren solo se recomienda si el viaje supera seiscientos kilómetros.",
+      "El tren es preferente en trayectos cortos, pero puede autorizarse el avión si el horario ferroviario no permite asistir.",
+      "El avión está prohibido en todos los trayectos inferiores a seiscientos kilómetros.",
+      "La recomendación ambiental elimina cualquier control de coste del viaje."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El tren es preferente en trayectos cortos, pero puede autorizarse el avión si el horario ferroviario no permite asistir."
+  },
+  {
+    "id": "verbal-cast-039",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Soporte informático",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, el servicio de asistencia informática actualizó el procedimiento sobre los niveles de servicio para incidencias de usuario. Las interrupciones que afectan a más de cincuenta usuarios tienen objetivo de resolución de cuatro horas. El informe revisó 132 expedientes y detectó 6 excepciones menores. Además, señala que las incidencias individuales sin impacto crítico se planifican en un plazo de dos días laborables. La prioridad se revisa si una incidencia inicialmente individual revela un fallo generalizado.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Una incidencia nunca puede cambiar de prioridad después de registrarse.",
+      "El número de usuarios afectados no influye en el nivel de servicio.",
+      "La prioridad depende del impacto, y una incidencia puede reclasificarse si se descubre un alcance mayor.",
+      "Todas las incidencias individuales tienen objetivo de resolución de cuatro horas."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La prioridad depende del impacto, y una incidencia puede reclasificarse si se descubre un alcance mayor."
+  },
+  {
+    "id": "verbal-cast-040",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Datos abiertos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, el equipo de datos abiertos actualizó el procedimiento sobre la publicación de conjuntos de datos administrativos. Los conjuntos pueden publicarse tras anonimización y aprobación del propietario de la información. El informe revisó 135 expedientes y detectó 7 excepciones menores. Además, señala que los ficheros brutos con datos personales quedan excluidos de la publicación abierta. La publicación se acompaña de metadatos que explican alcance, fecha y limitaciones de uso.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los ficheros brutos con datos personales se publican si tienen interés estadístico.",
+      "Los metadatos se omiten para evitar explicar limitaciones del conjunto.",
+      "La aprobación del propietario de la información no es necesaria para publicar datos.",
+      "La publicación abierta requiere anonimización, aprobación y metadatos; los ficheros brutos personales quedan excluidos."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La publicación abierta requiere anonimización, aprobación y metadatos; los ficheros brutos personales quedan excluidos."
+  },
+  {
+    "id": "verbal-cast-041",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Clasificación documental",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la autoridad de seguridad actualizó el procedimiento sobre la revisión de marcas de protección en documentos internos. Las marcas de protección se revisan anualmente para comprobar si siguen justificadas. El informe revisó 138 expedientes y detectó 8 excepciones menores. Además, señala que la retirada de una marca exige confirmar que el perjuicio potencial ha desaparecido o se ha reducido. El paso del tiempo por sí solo no convierte automáticamente un documento protegido en público.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La revisión anual puede retirar marcas, pero solo si el riesgo que las justificaba ha cambiado.",
+      "Todo documento protegido pasa a ser público automáticamente al cabo de un año.",
+      "Las marcas de protección no se revisan una vez aplicadas.",
+      "La retirada de una marca no requiere analizar el perjuicio potencial."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La revisión anual puede retirar marcas, pero solo si el riesgo que las justificaba ha cambiado."
+  },
+  {
+    "id": "verbal-cast-042",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Control de accesos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la unidad de seguridad de sedes actualizó el procedimiento sobre el acceso de visitantes a zonas restringidas. Los visitantes deben estar acompañados en zonas restringidas salvo que cuenten con autorización previa específica. El informe revisó 141 expedientes y detectó 2 excepciones menores. Además, señala que la autorización previa se concede para una finalidad y una franja horaria determinadas. Registrarse en recepción no habilita el acceso autónomo a todas las plantas.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los visitantes nunca pueden acceder a zonas restringidas aunque estén autorizados.",
+      "El registro en recepción no basta para moverse sin acompañamiento por zonas restringidas.",
+      "Cualquier visitante registrado puede circular libremente por todas las plantas.",
+      "La autorización previa se concede sin límite de finalidad ni horario."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El registro en recepción no basta para moverse sin acompañamiento por zonas restringidas."
+  },
+  {
+    "id": "verbal-cast-043",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Gestión de parches",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, el equipo de administración de sistemas actualizó el procedimiento sobre la instalación de actualizaciones de seguridad. Los parches críticos en servicios expuestos a internet se aplican en un plazo máximo de siete días. El informe revisó 144 expedientes y detectó 3 excepciones menores. Además, señala que los sistemas internos no críticos se actualizan en la ventana mensual salvo riesgo excepcional. Las excepciones deben documentarse con una medida temporal de mitigación.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Las excepciones no necesitan justificación ni medidas temporales.",
+      "Los sistemas internos no críticos siempre tienen prioridad sobre los servicios expuestos.",
+      "Los servicios expuestos con parches críticos tienen prioridad, y las excepciones requieren mitigación documentada.",
+      "Todos los sistemas se actualizan solo una vez al año, aunque estén expuestos a internet."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los servicios expuestos con parches críticos tienen prioridad, y las excepciones requieren mitigación documentada."
+  },
+  {
+    "id": "verbal-cast-044",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Encuestas internas",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la oficina de análisis organizativo actualizó el procedimiento sobre la publicación de resultados de una encuesta de personal. Los resultados se publican por unidad solo cuando hay al menos diez respuestas válidas. El informe revisó 147 expedientes y detectó 4 excepciones menores. Además, señala que si el umbral no se alcanza, los datos se agregan a un nivel organizativo superior. Los comentarios libres se revisan para retirar referencias que identifiquen indirectamente a personas.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los resultados se publican por unidad aunque solo responda una persona.",
+      "Los comentarios libres se publican íntegros sin revisar referencias identificables.",
+      "Si no se alcanza el umbral, los datos se eliminan y no pueden agregarse.",
+      "Las unidades con pocas respuestas no se publican de forma separada para reducir el riesgo de identificación."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Las unidades con pocas respuestas no se publican de forma separada para reducir el riesgo de identificación."
+  },
+  {
+    "id": "verbal-cast-045",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Subvenciones",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la unidad de subvenciones actualizó el procedimiento sobre la subsanación de solicitudes incompletas. Las entidades pueden aportar documentos administrativos omitidos dentro de los cinco días hábiles siguientes. El informe revisó 150 expedientes y detectó 5 excepciones menores. Además, señala que no se permite modificar los criterios técnicos que se evalúan con puntuación. La subsanación busca corregir defectos formales, no mejorar la propuesta después del cierre.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La subsanación permite corregir documentos administrativos, pero no mejorar elementos técnicos puntuables.",
+      "Las entidades pueden reescribir la propuesta técnica después del cierre.",
+      "Los documentos administrativos omitidos nunca pueden aportarse posteriormente.",
+      "La subsanación se usa para conceder puntuación adicional a todas las solicitudes."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La subsanación permite corregir documentos administrativos, pero no mejorar elementos técnicos puntuables."
+  },
+  {
+    "id": "verbal-cast-046",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Auditoría",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la función de auditoría interna actualizó el procedimiento sobre el seguimiento de recomendaciones de alto riesgo. Las recomendaciones de alto riesgo requieren un plan de acción en treinta días. El informe revisó 153 expedientes y detectó 6 excepciones menores. Además, señala que la recomendación no se cierra hasta que se aporta evidencia verificable de la medida implantada. La aceptación de la recomendación por la dirección no equivale a su cierre.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La auditoría no exige evidencias para cerrar recomendaciones.",
+      "Aceptar una recomendación no la cierra; hace falta evidencia de que la medida se ha implantado.",
+      "Las recomendaciones de alto riesgo se cierran automáticamente cuando la dirección las acepta.",
+      "El plan de acción puede presentarse sin plazo definido."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Aceptar una recomendación no la cierra; hace falta evidencia de que la medida se ha implantado."
+  },
+  {
+    "id": "verbal-cast-047",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Gestión de riesgos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, el comité de riesgos operativos actualizó el procedimiento sobre la actualización del registro de riesgos. Cada propietario revisa sus riesgos al menos trimestralmente. El informe revisó 156 expedientes y detectó 7 excepciones menores. Además, señala que los cambios relevantes en impacto o probabilidad se comunican fuera del ciclo ordinario. La revisión anual del comité no sustituye las actualizaciones de los propietarios.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los cambios de probabilidad nunca se comunican fuera del ciclo ordinario.",
+      "La revisión anual sustituye cualquier seguimiento trimestral.",
+      "Los propietarios actualizan riesgos trimestralmente y también cuando hay cambios relevantes.",
+      "Los propietarios solo actualizan riesgos una vez al año durante el comité."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los propietarios actualizan riesgos trimestralmente y también cuando hay cambios relevantes."
+  },
+  {
+    "id": "verbal-cast-048",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Gestión documental",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la unidad de correspondencia actualizó el procedimiento sobre el uso de buzones compartidos para expedientes. Los mensajes vinculados a un expediente se archivan cuando el caso queda cerrado. El informe revisó 159 expedientes y detectó 8 excepciones menores. Además, señala que las opiniones personales sin relevancia decisoria no se incorporan al registro oficial. La respuesta final sí debe conservarse junto con los documentos que justifican la decisión.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Toda opinión personal del buzón compartido debe incorporarse al registro oficial.",
+      "La respuesta final se elimina al cerrar el caso.",
+      "Los mensajes vinculados a expedientes nunca se archivan.",
+      "El expediente conserva la respuesta final y sus justificantes, no todas las opiniones personales intercambiadas."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El expediente conserva la respuesta final y sus justificantes, no todas las opiniones personales intercambiadas."
+  },
+  {
+    "id": "verbal-cast-049",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Gestión contractual",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, la unidad de contratos actualizó el procedimiento sobre la renovación de contratos de apoyo externo. La renovación depende de la evaluación del rendimiento y de la disponibilidad presupuestaria. El informe revisó 162 expedientes y detectó 2 excepciones menores. Además, señala que el proveedor debe mantener las certificaciones exigidas durante todo el periodo contractual. La existencia de una cláusula de renovación no obliga a activarla automáticamente.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La cláusula permite renovar, pero la renovación no es automática y depende de rendimiento, presupuesto y requisitos.",
+      "Toda cláusula de renovación debe activarse automáticamente al finalizar el contrato.",
+      "La disponibilidad presupuestaria no influye en la decisión de renovar.",
+      "Las certificaciones solo importan el día de la firma inicial."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La cláusula permite renovar, pero la renovación no es automática y depende de rendimiento, presupuesto y requisitos."
+  },
+  {
+    "id": "verbal-cast-050",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Equipamiento",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el segundo trimestre de 2026, el servicio de logística informática actualizó el procedimiento sobre la sustitución de portátiles del personal. Los portátiles se sustituyen tras cuatro años de uso cuando el coste de reparación supera el umbral fijado. El informe revisó 165 expedientes y detectó 3 excepciones menores. Además, señala que un equipo más antiguo puede mantenerse si funciona correctamente y recibe actualizaciones de seguridad. La antigüedad por sí sola no justifica una sustitución urgente si no hay riesgo operativo.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Un portátil sin actualizaciones de seguridad puede mantenerse sin análisis adicional.",
+      "La sustitución considera antigüedad, coste de reparación y seguridad; no depende solo de los años de uso.",
+      "Todo portátil de más de cuatro años se sustituye urgentemente aunque funcione y sea seguro.",
+      "Los costes de reparación no se tienen en cuenta en la política."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La sustitución considera antigüedad, coste de reparación y seguridad; no depende solo de los años de uso."
+  },
+  {
+    "id": "verbal-cast-051",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Protección de datos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la oficina de protección de datos actualizó el procedimiento sobre la evaluación previa de tratamientos con datos personales. Las evaluaciones completas solo se exigen antes de poner en producción tratamientos que puedan implicar un riesgo alto. El informe revisó 168 expedientes y detectó 5 excepciones menores. Además, señala que las pruebas internas con datos ficticios quedan fuera de ese requisito, aunque deben documentarse. El responsable del tratamiento conserva la obligación de consultar a la oficina si el alcance cambia durante el proyecto.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El texto indica que los datos ficticios están prohibidos en proyectos piloto.",
+      "El responsable queda exento de consultar a la oficina si el proyecto ya ha empezado.",
+      "No todas las pruebas internas requieren una evaluación completa, pero los cambios de alcance deben consultarse.",
+      "Todas las pruebas internas requieren siempre una evaluación completa antes de empezar."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: No todas las pruebas internas requieren una evaluación completa, pero los cambios de alcance deben consultarse."
+  },
+  {
+    "id": "verbal-cast-052",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Traducción institucional",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la unidad de traducción actualizó el procedimiento sobre la priorización de solicitudes multilingües. Las solicitudes con plazo jurídico obligatorio se atienden antes que los textos divulgativos. El informe revisó 171 expedientes y detectó 6 excepciones menores. Además, señala que los documentos divulgativos pueden adelantarse si ya existe una memoria de traducción reutilizable. El orden de llegada solo se aplica cuando dos solicitudes tienen la misma prioridad operativa.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los textos divulgativos siempre se traducen antes que los documentos jurídicos.",
+      "La unidad atiende todas las solicitudes estrictamente por orden de llegada.",
+      "Las memorias de traducción no influyen en la planificación del trabajo.",
+      "El orden de llegada no es el criterio principal cuando existen plazos jurídicos u otras prioridades."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El orden de llegada no es el criterio principal cuando existen plazos jurídicos u otras prioridades."
+  },
+  {
+    "id": "verbal-cast-053",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Contratación pública",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, el comité de evaluación actualizó el procedimiento sobre la revisión de ofertas en una licitación de servicios. Primero se comprueban los criterios de exclusión y selección, y después se puntúa la oferta técnica. El informe revisó 174 expedientes y detectó 7 excepciones menores. Además, señala que la oferta económica solo se abre si la propuesta técnica supera el umbral mínimo. Una oferta barata puede ser rechazada si no acredita la capacidad técnica exigida.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El precio no basta para adjudicar si la oferta no supera los requisitos técnicos y de selección.",
+      "La oferta económica se abre siempre antes de comprobar los requisitos de selección.",
+      "La propuesta más barata debe adjudicarse aunque no cumpla el umbral técnico.",
+      "El comité omite los criterios de exclusión cuando hay suficiente competencia."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El precio no basta para adjudicar si la oferta no supera los requisitos técnicos y de selección."
+  },
+  {
+    "id": "verbal-cast-054",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la dirección de recursos humanos actualizó el procedimiento sobre el teletrabajo en periodos de alta demanda. Se permiten hasta dos días semanales de teletrabajo cuando la cobertura del servicio queda garantizada. El informe revisó 177 expedientes y detectó 8 excepciones menores. Además, señala que los responsables pueden limitarlo durante reuniones presenciales críticas o tareas con documentación sensible. La autorización concedida para una semana no crea un derecho automático para semanas posteriores.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El texto prohíbe el teletrabajo siempre que exista documentación sensible en la unidad.",
+      "El teletrabajo está condicionado por las necesidades del servicio y puede limitarse en semanas concretas.",
+      "La autorización semanal concede un derecho permanente a teletrabajar dos días.",
+      "Los responsables no pueden limitar el teletrabajo por reuniones críticas."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El teletrabajo está condicionado por las necesidades del servicio y puede limitarse en semanas concretas."
+  },
+  {
+    "id": "verbal-cast-055",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Ciberseguridad",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, el equipo de sensibilización en ciberseguridad actualizó el procedimiento sobre las simulaciones de phishing y la formación asociada. Las campañas de simulación se realizan trimestralmente y no se usan para sanciones disciplinarias automáticas. El informe revisó 180 expedientes y detectó 2 excepciones menores. Además, señala que quienes gestionan cuentas privilegiadas deben completar formación adicional si fallan dos simulaciones consecutivas. Los resultados se comunican a los responsables de servicio de forma agregada salvo en casos de riesgo crítico.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los resultados individuales se comunican siempre a toda la organización.",
+      "Las campañas se ejecutan solo una vez cada dos años.",
+      "La formación adicional se activa para cuentas privilegiadas tras dos fallos consecutivos, no tras cualquier error aislado.",
+      "Cualquier fallo en una simulación implica una sanción disciplinaria automática."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La formación adicional se activa para cuentas privilegiadas tras dos fallos consecutivos, no tras cualquier error aislado."
+  },
+  {
+    "id": "verbal-cast-056",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Seguridad física",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la oficina de acreditaciones actualizó el procedimiento sobre la gestión de tarjetas de acceso a edificios. Las tarjetas sin uso durante más de treinta días se suspenden de forma preventiva. El informe revisó 183 expedientes y detectó 3 excepciones menores. Además, señala que la suspensión no se aplica a personal con misión registrada o permiso parental comunicado. La reactivación exige confirmación del responsable jerárquico y verificación de identidad.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Toda tarjeta sin uso se elimina definitivamente sin posibilidad de reactivación.",
+      "Las misiones registradas no tienen ningún efecto sobre la suspensión preventiva.",
+      "La tarjeta se reactiva automáticamente al primer intento de entrada.",
+      "Una tarjeta inactiva puede suspenderse, salvo excepciones registradas, y su reactivación requiere verificación."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Una tarjeta inactiva puede suspenderse, salvo excepciones registradas, y su reactivación requiere verificación."
+  },
+  {
+    "id": "verbal-cast-057",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Gestión documental",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, el archivo central actualizó el procedimiento sobre la conservación de expedientes contractuales. Los contratos firmados se conservan durante diez años desde el cierre financiero del expediente. El informe revisó 186 expedientes y detectó 4 excepciones menores. Además, señala que los borradores sin valor decisorio se eliminan a los dos años si no existe litigio ni auditoría abierta. Una retención por litigio prevalece sobre el calendario ordinario de eliminación.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los borradores pueden eliminarse antes que los contratos firmados, salvo si existe litigio o auditoría.",
+      "Todos los borradores se conservan durante diez años aunque no tengan valor decisorio.",
+      "La retención por litigio no modifica el calendario de eliminación documental.",
+      "Los contratos firmados se eliminan a los dos años del cierre financiero."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los borradores pueden eliminarse antes que los contratos firmados, salvo si existe litigio o auditoría."
+  },
+  {
+    "id": "verbal-cast-058",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Accesibilidad digital",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, el equipo web actualizó el procedimiento sobre la publicación de documentos accesibles. El contenido nuevo debe cumplir los requisitos de accesibilidad antes de publicarse. El informe revisó 189 expedientes y detectó 5 excepciones menores. Además, señala que los PDF antiguos se corrigen prioritariamente cuando reciben muchas consultas o cuando una persona solicita una versión accesible. La falta de una petición concreta no justifica publicar nuevo contenido inaccesible.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La accesibilidad se exige únicamente a páginas HTML, no a documentos publicados.",
+      "Los documentos nuevos deben ser accesibles, y los antiguos se corrigen con prioridad según uso o solicitud.",
+      "El equipo solo adapta documentos si existe una reclamación formal previa.",
+      "Los PDF antiguos nunca pueden corregirse después de publicados."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los documentos nuevos deben ser accesibles, y los antiguos se corrigen con prioridad según uso o solicitud."
+  },
+  {
+    "id": "verbal-cast-059",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Gestión de incidentes",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, el centro de respuesta a incidentes actualizó el procedimiento sobre la notificación interna de posibles brechas de datos. Las sospechas de brecha se notifican internamente en las primeras veinticuatro horas. El informe revisó 192 expedientes y detectó 6 excepciones menores. Además, señala que la decisión de notificar a la autoridad corresponde al responsable competente tras valorar el riesgo. La notificación interna temprana no implica reconocer de inmediato que la brecha esté confirmada.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Toda sospecha obliga automáticamente a notificar a la autoridad sin valorar el riesgo.",
+      "La notificación interna equivale a admitir que la brecha está plenamente confirmada.",
+      "Una sospecha debe escalarse pronto internamente, aunque la confirmación y la notificación externa requieran valoración.",
+      "Solo se informa internamente cuando la brecha ya está confirmada judicialmente."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Una sospecha debe escalarse pronto internamente, aunque la confirmación y la notificación externa requieran valoración."
+  },
+  {
+    "id": "verbal-cast-060",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Servicios cloud",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, el programa de migración a la nube actualizó el procedimiento sobre la selección de sistemas para una primera oleada. La primera oleada incluye archivos no sensibles y aplicaciones con dependencias técnicas simples. El informe revisó 195 expedientes y detectó 7 excepciones menores. Además, señala que los sistemas con información clasificada permanecen fuera hasta completar la acreditación de seguridad. La decisión de migrar considera tanto el riesgo de la información como la complejidad de integración.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los sistemas con información clasificada se migran primero para acelerar el calendario.",
+      "La complejidad de integración no influye en la selección de sistemas.",
+      "La primera oleada incluye cualquier archivo, con independencia de su sensibilidad.",
+      "La primera migración prioriza sistemas de menor riesgo y complejidad; los clasificados esperan acreditación."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La primera migración prioriza sistemas de menor riesgo y complejidad; los clasificados esperan acreditación."
+  },
+  {
+    "id": "verbal-cast-061",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Organización de eventos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la secretaría de conferencias actualizó el procedimiento sobre la reserva de interpretación para reuniones híbridas. La interpretación se confirma cuando al menos doce participantes solicitan una lengua antes del plazo interno. El informe revisó 198 expedientes y detectó 8 excepciones menores. Además, señala que las solicitudes tardías se aceptan solo si hay cabinas y personal disponibles. La inscripción en la reunión no equivale por sí sola a solicitar interpretación.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La interpretación depende de solicitudes lingüísticas suficientes y dentro de plazo, no solo de la inscripción general.",
+      "Toda persona inscrita genera automáticamente una cabina de interpretación.",
+      "Las solicitudes tardías se aceptan siempre aunque no haya personal disponible.",
+      "La secretaría confirma interpretación con una sola solicitud recibida."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La interpretación depende de solicitudes lingüísticas suficientes y dentro de plazo, no solo de la inscripción general."
+  },
+  {
+    "id": "verbal-cast-062",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Formación",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, el comité de aprendizaje actualizó el procedimiento sobre la asignación del presupuesto anual de formación. La ciberseguridad y la contratación pública tienen prioridad por obligaciones regulatorias recientes. El informe revisó 201 expedientes y detectó 2 excepciones menores. Además, señala que los cursos de idiomas se financian con el presupuesto restante cuando están vinculados al puesto. Las solicitudes aprobadas pueden posponerse si coinciden con periodos críticos de servicio.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La vinculación con el puesto no influye en la financiación de idiomas.",
+      "Los idiomas pueden financiarse, pero después de prioridades obligatorias y si guardan relación con el puesto.",
+      "Los cursos de idiomas tienen siempre prioridad sobre la formación obligatoria.",
+      "El comité no puede posponer ninguna solicitud ya aprobada."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los idiomas pueden financiarse, pero después de prioridades obligatorias y si guardan relación con el puesto."
+  },
+  {
+    "id": "verbal-cast-063",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Sostenibilidad",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la oficina de movilidad sostenible actualizó el procedimiento sobre los desplazamientos profesionales de corta distancia. Para trayectos inferiores a seiscientos kilómetros se recomienda el tren cuando el horario permite llegar el mismo día. El informe revisó 204 expedientes y detectó 3 excepciones menores. Además, señala que el avión puede autorizarse si la combinación ferroviaria impide asistir a una reunión esencial. La recomendación ambiental no elimina la obligación de justificar el coste y el tiempo de viaje.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La recomendación ambiental elimina cualquier control de coste del viaje.",
+      "El tren solo se recomienda si el viaje supera seiscientos kilómetros.",
+      "El tren es preferente en trayectos cortos, pero puede autorizarse el avión si el horario ferroviario no permite asistir.",
+      "El avión está prohibido en todos los trayectos inferiores a seiscientos kilómetros."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El tren es preferente en trayectos cortos, pero puede autorizarse el avión si el horario ferroviario no permite asistir."
+  },
+  {
+    "id": "verbal-cast-064",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Soporte informático",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, el servicio de asistencia informática actualizó el procedimiento sobre los niveles de servicio para incidencias de usuario. Las interrupciones que afectan a más de cincuenta usuarios tienen objetivo de resolución de cuatro horas. El informe revisó 207 expedientes y detectó 4 excepciones menores. Además, señala que las incidencias individuales sin impacto crítico se planifican en un plazo de dos días laborables. La prioridad se revisa si una incidencia inicialmente individual revela un fallo generalizado.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Todas las incidencias individuales tienen objetivo de resolución de cuatro horas.",
+      "Una incidencia nunca puede cambiar de prioridad después de registrarse.",
+      "El número de usuarios afectados no influye en el nivel de servicio.",
+      "La prioridad depende del impacto, y una incidencia puede reclasificarse si se descubre un alcance mayor."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La prioridad depende del impacto, y una incidencia puede reclasificarse si se descubre un alcance mayor."
+  },
+  {
+    "id": "verbal-cast-065",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Datos abiertos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, el equipo de datos abiertos actualizó el procedimiento sobre la publicación de conjuntos de datos administrativos. Los conjuntos pueden publicarse tras anonimización y aprobación del propietario de la información. El informe revisó 210 expedientes y detectó 5 excepciones menores. Además, señala que los ficheros brutos con datos personales quedan excluidos de la publicación abierta. La publicación se acompaña de metadatos que explican alcance, fecha y limitaciones de uso.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La publicación abierta requiere anonimización, aprobación y metadatos; los ficheros brutos personales quedan excluidos.",
+      "Los ficheros brutos con datos personales se publican si tienen interés estadístico.",
+      "Los metadatos se omiten para evitar explicar limitaciones del conjunto.",
+      "La aprobación del propietario de la información no es necesaria para publicar datos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La publicación abierta requiere anonimización, aprobación y metadatos; los ficheros brutos personales quedan excluidos."
+  },
+  {
+    "id": "verbal-cast-066",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Clasificación documental",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la autoridad de seguridad actualizó el procedimiento sobre la revisión de marcas de protección en documentos internos. Las marcas de protección se revisan anualmente para comprobar si siguen justificadas. El informe revisó 213 expedientes y detectó 6 excepciones menores. Además, señala que la retirada de una marca exige confirmar que el perjuicio potencial ha desaparecido o se ha reducido. El paso del tiempo por sí solo no convierte automáticamente un documento protegido en público.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La retirada de una marca no requiere analizar el perjuicio potencial.",
+      "La revisión anual puede retirar marcas, pero solo si el riesgo que las justificaba ha cambiado.",
+      "Todo documento protegido pasa a ser público automáticamente al cabo de un año.",
+      "Las marcas de protección no se revisan una vez aplicadas."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La revisión anual puede retirar marcas, pero solo si el riesgo que las justificaba ha cambiado."
+  },
+  {
+    "id": "verbal-cast-067",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Control de accesos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la unidad de seguridad de sedes actualizó el procedimiento sobre el acceso de visitantes a zonas restringidas. Los visitantes deben estar acompañados en zonas restringidas salvo que cuenten con autorización previa específica. El informe revisó 216 expedientes y detectó 7 excepciones menores. Además, señala que la autorización previa se concede para una finalidad y una franja horaria determinadas. Registrarse en recepción no habilita el acceso autónomo a todas las plantas.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La autorización previa se concede sin límite de finalidad ni horario.",
+      "Los visitantes nunca pueden acceder a zonas restringidas aunque estén autorizados.",
+      "El registro en recepción no basta para moverse sin acompañamiento por zonas restringidas.",
+      "Cualquier visitante registrado puede circular libremente por todas las plantas."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El registro en recepción no basta para moverse sin acompañamiento por zonas restringidas."
+  },
+  {
+    "id": "verbal-cast-068",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Gestión de parches",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, el equipo de administración de sistemas actualizó el procedimiento sobre la instalación de actualizaciones de seguridad. Los parches críticos en servicios expuestos a internet se aplican en un plazo máximo de siete días. El informe revisó 219 expedientes y detectó 8 excepciones menores. Además, señala que los sistemas internos no críticos se actualizan en la ventana mensual salvo riesgo excepcional. Las excepciones deben documentarse con una medida temporal de mitigación.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Todos los sistemas se actualizan solo una vez al año, aunque estén expuestos a internet.",
+      "Las excepciones no necesitan justificación ni medidas temporales.",
+      "Los sistemas internos no críticos siempre tienen prioridad sobre los servicios expuestos.",
+      "Los servicios expuestos con parches críticos tienen prioridad, y las excepciones requieren mitigación documentada."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los servicios expuestos con parches críticos tienen prioridad, y las excepciones requieren mitigación documentada."
+  },
+  {
+    "id": "verbal-cast-069",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Encuestas internas",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la oficina de análisis organizativo actualizó el procedimiento sobre la publicación de resultados de una encuesta de personal. Los resultados se publican por unidad solo cuando hay al menos diez respuestas válidas. El informe revisó 222 expedientes y detectó 2 excepciones menores. Además, señala que si el umbral no se alcanza, los datos se agregan a un nivel organizativo superior. Los comentarios libres se revisan para retirar referencias que identifiquen indirectamente a personas.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Las unidades con pocas respuestas no se publican de forma separada para reducir el riesgo de identificación.",
+      "Los resultados se publican por unidad aunque solo responda una persona.",
+      "Los comentarios libres se publican íntegros sin revisar referencias identificables.",
+      "Si no se alcanza el umbral, los datos se eliminan y no pueden agregarse."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Las unidades con pocas respuestas no se publican de forma separada para reducir el riesgo de identificación."
+  },
+  {
+    "id": "verbal-cast-070",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Subvenciones",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la unidad de subvenciones actualizó el procedimiento sobre la subsanación de solicitudes incompletas. Las entidades pueden aportar documentos administrativos omitidos dentro de los cinco días hábiles siguientes. El informe revisó 225 expedientes y detectó 3 excepciones menores. Además, señala que no se permite modificar los criterios técnicos que se evalúan con puntuación. La subsanación busca corregir defectos formales, no mejorar la propuesta después del cierre.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La subsanación se usa para conceder puntuación adicional a todas las solicitudes.",
+      "La subsanación permite corregir documentos administrativos, pero no mejorar elementos técnicos puntuables.",
+      "Las entidades pueden reescribir la propuesta técnica después del cierre.",
+      "Los documentos administrativos omitidos nunca pueden aportarse posteriormente."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La subsanación permite corregir documentos administrativos, pero no mejorar elementos técnicos puntuables."
+  },
+  {
+    "id": "verbal-cast-071",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Auditoría",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la función de auditoría interna actualizó el procedimiento sobre el seguimiento de recomendaciones de alto riesgo. Las recomendaciones de alto riesgo requieren un plan de acción en treinta días. El informe revisó 228 expedientes y detectó 4 excepciones menores. Además, señala que la recomendación no se cierra hasta que se aporta evidencia verificable de la medida implantada. La aceptación de la recomendación por la dirección no equivale a su cierre.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El plan de acción puede presentarse sin plazo definido.",
+      "La auditoría no exige evidencias para cerrar recomendaciones.",
+      "Aceptar una recomendación no la cierra; hace falta evidencia de que la medida se ha implantado.",
+      "Las recomendaciones de alto riesgo se cierran automáticamente cuando la dirección las acepta."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Aceptar una recomendación no la cierra; hace falta evidencia de que la medida se ha implantado."
+  },
+  {
+    "id": "verbal-cast-072",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Gestión de riesgos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, el comité de riesgos operativos actualizó el procedimiento sobre la actualización del registro de riesgos. Cada propietario revisa sus riesgos al menos trimestralmente. El informe revisó 231 expedientes y detectó 5 excepciones menores. Además, señala que los cambios relevantes en impacto o probabilidad se comunican fuera del ciclo ordinario. La revisión anual del comité no sustituye las actualizaciones de los propietarios.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los propietarios solo actualizan riesgos una vez al año durante el comité.",
+      "Los cambios de probabilidad nunca se comunican fuera del ciclo ordinario.",
+      "La revisión anual sustituye cualquier seguimiento trimestral.",
+      "Los propietarios actualizan riesgos trimestralmente y también cuando hay cambios relevantes."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los propietarios actualizan riesgos trimestralmente y también cuando hay cambios relevantes."
+  },
+  {
+    "id": "verbal-cast-073",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Gestión documental",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la unidad de correspondencia actualizó el procedimiento sobre el uso de buzones compartidos para expedientes. Los mensajes vinculados a un expediente se archivan cuando el caso queda cerrado. El informe revisó 234 expedientes y detectó 6 excepciones menores. Además, señala que las opiniones personales sin relevancia decisoria no se incorporan al registro oficial. La respuesta final sí debe conservarse junto con los documentos que justifican la decisión.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El expediente conserva la respuesta final y sus justificantes, no todas las opiniones personales intercambiadas.",
+      "Toda opinión personal del buzón compartido debe incorporarse al registro oficial.",
+      "La respuesta final se elimina al cerrar el caso.",
+      "Los mensajes vinculados a expedientes nunca se archivan."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El expediente conserva la respuesta final y sus justificantes, no todas las opiniones personales intercambiadas."
+  },
+  {
+    "id": "verbal-cast-074",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Gestión contractual",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, la unidad de contratos actualizó el procedimiento sobre la renovación de contratos de apoyo externo. La renovación depende de la evaluación del rendimiento y de la disponibilidad presupuestaria. El informe revisó 237 expedientes y detectó 7 excepciones menores. Además, señala que el proveedor debe mantener las certificaciones exigidas durante todo el periodo contractual. La existencia de una cláusula de renovación no obliga a activarla automáticamente.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Las certificaciones solo importan el día de la firma inicial.",
+      "La cláusula permite renovar, pero la renovación no es automática y depende de rendimiento, presupuesto y requisitos.",
+      "Toda cláusula de renovación debe activarse automáticamente al finalizar el contrato.",
+      "La disponibilidad presupuestaria no influye en la decisión de renovar."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La cláusula permite renovar, pero la renovación no es automática y depende de rendimiento, presupuesto y requisitos."
+  },
+  {
+    "id": "verbal-cast-075",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Equipamiento",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el tercer trimestre de 2026, el servicio de logística informática actualizó el procedimiento sobre la sustitución de portátiles del personal. Los portátiles se sustituyen tras cuatro años de uso cuando el coste de reparación supera el umbral fijado. El informe revisó 240 expedientes y detectó 8 excepciones menores. Además, señala que un equipo más antiguo puede mantenerse si funciona correctamente y recibe actualizaciones de seguridad. La antigüedad por sí sola no justifica una sustitución urgente si no hay riesgo operativo.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los costes de reparación no se tienen en cuenta en la política.",
+      "Un portátil sin actualizaciones de seguridad puede mantenerse sin análisis adicional.",
+      "La sustitución considera antigüedad, coste de reparación y seguridad; no depende solo de los años de uso.",
+      "Todo portátil de más de cuatro años se sustituye urgentemente aunque funcione y sea seguro."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La sustitución considera antigüedad, coste de reparación y seguridad; no depende solo de los años de uso."
+  },
+  {
+    "id": "verbal-cast-076",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Protección de datos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la oficina de protección de datos actualizó el procedimiento sobre la evaluación previa de tratamientos con datos personales. Las evaluaciones completas solo se exigen antes de poner en producción tratamientos que puedan implicar un riesgo alto. El informe revisó 243 expedientes y detectó 3 excepciones menores. Además, señala que las pruebas internas con datos ficticios quedan fuera de ese requisito, aunque deben documentarse. El responsable del tratamiento conserva la obligación de consultar a la oficina si el alcance cambia durante el proyecto.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Todas las pruebas internas requieren siempre una evaluación completa antes de empezar.",
+      "El texto indica que los datos ficticios están prohibidos en proyectos piloto.",
+      "El responsable queda exento de consultar a la oficina si el proyecto ya ha empezado.",
+      "No todas las pruebas internas requieren una evaluación completa, pero los cambios de alcance deben consultarse."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: No todas las pruebas internas requieren una evaluación completa, pero los cambios de alcance deben consultarse."
+  },
+  {
+    "id": "verbal-cast-077",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Traducción institucional",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la unidad de traducción actualizó el procedimiento sobre la priorización de solicitudes multilingües. Las solicitudes con plazo jurídico obligatorio se atienden antes que los textos divulgativos. El informe revisó 246 expedientes y detectó 4 excepciones menores. Además, señala que los documentos divulgativos pueden adelantarse si ya existe una memoria de traducción reutilizable. El orden de llegada solo se aplica cuando dos solicitudes tienen la misma prioridad operativa.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El orden de llegada no es el criterio principal cuando existen plazos jurídicos u otras prioridades.",
+      "Los textos divulgativos siempre se traducen antes que los documentos jurídicos.",
+      "La unidad atiende todas las solicitudes estrictamente por orden de llegada.",
+      "Las memorias de traducción no influyen en la planificación del trabajo."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El orden de llegada no es el criterio principal cuando existen plazos jurídicos u otras prioridades."
+  },
+  {
+    "id": "verbal-cast-078",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Contratación pública",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, el comité de evaluación actualizó el procedimiento sobre la revisión de ofertas en una licitación de servicios. Primero se comprueban los criterios de exclusión y selección, y después se puntúa la oferta técnica. El informe revisó 249 expedientes y detectó 5 excepciones menores. Además, señala que la oferta económica solo se abre si la propuesta técnica supera el umbral mínimo. Una oferta barata puede ser rechazada si no acredita la capacidad técnica exigida.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El comité omite los criterios de exclusión cuando hay suficiente competencia.",
+      "El precio no basta para adjudicar si la oferta no supera los requisitos técnicos y de selección.",
+      "La oferta económica se abre siempre antes de comprobar los requisitos de selección.",
+      "La propuesta más barata debe adjudicarse aunque no cumpla el umbral técnico."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El precio no basta para adjudicar si la oferta no supera los requisitos técnicos y de selección."
+  },
+  {
+    "id": "verbal-cast-079",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Recursos humanos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la dirección de recursos humanos actualizó el procedimiento sobre el teletrabajo en periodos de alta demanda. Se permiten hasta dos días semanales de teletrabajo cuando la cobertura del servicio queda garantizada. El informe revisó 252 expedientes y detectó 6 excepciones menores. Además, señala que los responsables pueden limitarlo durante reuniones presenciales críticas o tareas con documentación sensible. La autorización concedida para una semana no crea un derecho automático para semanas posteriores.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los responsables no pueden limitar el teletrabajo por reuniones críticas.",
+      "El texto prohíbe el teletrabajo siempre que exista documentación sensible en la unidad.",
+      "El teletrabajo está condicionado por las necesidades del servicio y puede limitarse en semanas concretas.",
+      "La autorización semanal concede un derecho permanente a teletrabajar dos días."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El teletrabajo está condicionado por las necesidades del servicio y puede limitarse en semanas concretas."
+  },
+  {
+    "id": "verbal-cast-080",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Ciberseguridad",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, el equipo de sensibilización en ciberseguridad actualizó el procedimiento sobre las simulaciones de phishing y la formación asociada. Las campañas de simulación se realizan trimestralmente y no se usan para sanciones disciplinarias automáticas. El informe revisó 255 expedientes y detectó 7 excepciones menores. Además, señala que quienes gestionan cuentas privilegiadas deben completar formación adicional si fallan dos simulaciones consecutivas. Los resultados se comunican a los responsables de servicio de forma agregada salvo en casos de riesgo crítico.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Cualquier fallo en una simulación implica una sanción disciplinaria automática.",
+      "Los resultados individuales se comunican siempre a toda la organización.",
+      "Las campañas se ejecutan solo una vez cada dos años.",
+      "La formación adicional se activa para cuentas privilegiadas tras dos fallos consecutivos, no tras cualquier error aislado."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La formación adicional se activa para cuentas privilegiadas tras dos fallos consecutivos, no tras cualquier error aislado."
+  },
+  {
+    "id": "verbal-cast-081",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Seguridad física",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la oficina de acreditaciones actualizó el procedimiento sobre la gestión de tarjetas de acceso a edificios. Las tarjetas sin uso durante más de treinta días se suspenden de forma preventiva. El informe revisó 258 expedientes y detectó 8 excepciones menores. Además, señala que la suspensión no se aplica a personal con misión registrada o permiso parental comunicado. La reactivación exige confirmación del responsable jerárquico y verificación de identidad.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Una tarjeta inactiva puede suspenderse, salvo excepciones registradas, y su reactivación requiere verificación.",
+      "Toda tarjeta sin uso se elimina definitivamente sin posibilidad de reactivación.",
+      "Las misiones registradas no tienen ningún efecto sobre la suspensión preventiva.",
+      "La tarjeta se reactiva automáticamente al primer intento de entrada."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Una tarjeta inactiva puede suspenderse, salvo excepciones registradas, y su reactivación requiere verificación."
+  },
+  {
+    "id": "verbal-cast-082",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Gestión documental",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, el archivo central actualizó el procedimiento sobre la conservación de expedientes contractuales. Los contratos firmados se conservan durante diez años desde el cierre financiero del expediente. El informe revisó 261 expedientes y detectó 2 excepciones menores. Además, señala que los borradores sin valor decisorio se eliminan a los dos años si no existe litigio ni auditoría abierta. Una retención por litigio prevalece sobre el calendario ordinario de eliminación.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los contratos firmados se eliminan a los dos años del cierre financiero.",
+      "Los borradores pueden eliminarse antes que los contratos firmados, salvo si existe litigio o auditoría.",
+      "Todos los borradores se conservan durante diez años aunque no tengan valor decisorio.",
+      "La retención por litigio no modifica el calendario de eliminación documental."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los borradores pueden eliminarse antes que los contratos firmados, salvo si existe litigio o auditoría."
+  },
+  {
+    "id": "verbal-cast-083",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Accesibilidad digital",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, el equipo web actualizó el procedimiento sobre la publicación de documentos accesibles. El contenido nuevo debe cumplir los requisitos de accesibilidad antes de publicarse. El informe revisó 264 expedientes y detectó 3 excepciones menores. Además, señala que los PDF antiguos se corrigen prioritariamente cuando reciben muchas consultas o cuando una persona solicita una versión accesible. La falta de una petición concreta no justifica publicar nuevo contenido inaccesible.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los PDF antiguos nunca pueden corregirse después de publicados.",
+      "La accesibilidad se exige únicamente a páginas HTML, no a documentos publicados.",
+      "Los documentos nuevos deben ser accesibles, y los antiguos se corrigen con prioridad según uso o solicitud.",
+      "El equipo solo adapta documentos si existe una reclamación formal previa."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los documentos nuevos deben ser accesibles, y los antiguos se corrigen con prioridad según uso o solicitud."
+  },
+  {
+    "id": "verbal-cast-084",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Gestión de incidentes",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, el centro de respuesta a incidentes actualizó el procedimiento sobre la notificación interna de posibles brechas de datos. Las sospechas de brecha se notifican internamente en las primeras veinticuatro horas. El informe revisó 267 expedientes y detectó 4 excepciones menores. Además, señala que la decisión de notificar a la autoridad corresponde al responsable competente tras valorar el riesgo. La notificación interna temprana no implica reconocer de inmediato que la brecha esté confirmada.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Solo se informa internamente cuando la brecha ya está confirmada judicialmente.",
+      "Toda sospecha obliga automáticamente a notificar a la autoridad sin valorar el riesgo.",
+      "La notificación interna equivale a admitir que la brecha está plenamente confirmada.",
+      "Una sospecha debe escalarse pronto internamente, aunque la confirmación y la notificación externa requieran valoración."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Una sospecha debe escalarse pronto internamente, aunque la confirmación y la notificación externa requieran valoración."
+  },
+  {
+    "id": "verbal-cast-085",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Servicios cloud",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, el programa de migración a la nube actualizó el procedimiento sobre la selección de sistemas para una primera oleada. La primera oleada incluye archivos no sensibles y aplicaciones con dependencias técnicas simples. El informe revisó 270 expedientes y detectó 5 excepciones menores. Además, señala que los sistemas con información clasificada permanecen fuera hasta completar la acreditación de seguridad. La decisión de migrar considera tanto el riesgo de la información como la complejidad de integración.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La primera migración prioriza sistemas de menor riesgo y complejidad; los clasificados esperan acreditación.",
+      "Los sistemas con información clasificada se migran primero para acelerar el calendario.",
+      "La complejidad de integración no influye en la selección de sistemas.",
+      "La primera oleada incluye cualquier archivo, con independencia de su sensibilidad."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La primera migración prioriza sistemas de menor riesgo y complejidad; los clasificados esperan acreditación."
+  },
+  {
+    "id": "verbal-cast-086",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Organización de eventos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la secretaría de conferencias actualizó el procedimiento sobre la reserva de interpretación para reuniones híbridas. La interpretación se confirma cuando al menos doce participantes solicitan una lengua antes del plazo interno. El informe revisó 273 expedientes y detectó 6 excepciones menores. Además, señala que las solicitudes tardías se aceptan solo si hay cabinas y personal disponibles. La inscripción en la reunión no equivale por sí sola a solicitar interpretación.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La secretaría confirma interpretación con una sola solicitud recibida.",
+      "La interpretación depende de solicitudes lingüísticas suficientes y dentro de plazo, no solo de la inscripción general.",
+      "Toda persona inscrita genera automáticamente una cabina de interpretación.",
+      "Las solicitudes tardías se aceptan siempre aunque no haya personal disponible."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La interpretación depende de solicitudes lingüísticas suficientes y dentro de plazo, no solo de la inscripción general."
+  },
+  {
+    "id": "verbal-cast-087",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Formación",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, el comité de aprendizaje actualizó el procedimiento sobre la asignación del presupuesto anual de formación. La ciberseguridad y la contratación pública tienen prioridad por obligaciones regulatorias recientes. El informe revisó 276 expedientes y detectó 7 excepciones menores. Además, señala que los cursos de idiomas se financian con el presupuesto restante cuando están vinculados al puesto. Las solicitudes aprobadas pueden posponerse si coinciden con periodos críticos de servicio.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El comité no puede posponer ninguna solicitud ya aprobada.",
+      "La vinculación con el puesto no influye en la financiación de idiomas.",
+      "Los idiomas pueden financiarse, pero después de prioridades obligatorias y si guardan relación con el puesto.",
+      "Los cursos de idiomas tienen siempre prioridad sobre la formación obligatoria."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los idiomas pueden financiarse, pero después de prioridades obligatorias y si guardan relación con el puesto."
+  },
+  {
+    "id": "verbal-cast-088",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Sostenibilidad",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la oficina de movilidad sostenible actualizó el procedimiento sobre los desplazamientos profesionales de corta distancia. Para trayectos inferiores a seiscientos kilómetros se recomienda el tren cuando el horario permite llegar el mismo día. El informe revisó 279 expedientes y detectó 8 excepciones menores. Además, señala que el avión puede autorizarse si la combinación ferroviaria impide asistir a una reunión esencial. La recomendación ambiental no elimina la obligación de justificar el coste y el tiempo de viaje.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "El avión está prohibido en todos los trayectos inferiores a seiscientos kilómetros.",
+      "La recomendación ambiental elimina cualquier control de coste del viaje.",
+      "El tren solo se recomienda si el viaje supera seiscientos kilómetros.",
+      "El tren es preferente en trayectos cortos, pero puede autorizarse el avión si el horario ferroviario no permite asistir."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El tren es preferente en trayectos cortos, pero puede autorizarse el avión si el horario ferroviario no permite asistir."
+  },
+  {
+    "id": "verbal-cast-089",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Soporte informático",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, el servicio de asistencia informática actualizó el procedimiento sobre los niveles de servicio para incidencias de usuario. Las interrupciones que afectan a más de cincuenta usuarios tienen objetivo de resolución de cuatro horas. El informe revisó 282 expedientes y detectó 2 excepciones menores. Además, señala que las incidencias individuales sin impacto crítico se planifican en un plazo de dos días laborables. La prioridad se revisa si una incidencia inicialmente individual revela un fallo generalizado.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La prioridad depende del impacto, y una incidencia puede reclasificarse si se descubre un alcance mayor.",
+      "Todas las incidencias individuales tienen objetivo de resolución de cuatro horas.",
+      "Una incidencia nunca puede cambiar de prioridad después de registrarse.",
+      "El número de usuarios afectados no influye en el nivel de servicio."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La prioridad depende del impacto, y una incidencia puede reclasificarse si se descubre un alcance mayor."
+  },
+  {
+    "id": "verbal-cast-090",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Datos abiertos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, el equipo de datos abiertos actualizó el procedimiento sobre la publicación de conjuntos de datos administrativos. Los conjuntos pueden publicarse tras anonimización y aprobación del propietario de la información. El informe revisó 285 expedientes y detectó 3 excepciones menores. Además, señala que los ficheros brutos con datos personales quedan excluidos de la publicación abierta. La publicación se acompaña de metadatos que explican alcance, fecha y limitaciones de uso.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La aprobación del propietario de la información no es necesaria para publicar datos.",
+      "La publicación abierta requiere anonimización, aprobación y metadatos; los ficheros brutos personales quedan excluidos.",
+      "Los ficheros brutos con datos personales se publican si tienen interés estadístico.",
+      "Los metadatos se omiten para evitar explicar limitaciones del conjunto."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La publicación abierta requiere anonimización, aprobación y metadatos; los ficheros brutos personales quedan excluidos."
+  },
+  {
+    "id": "verbal-cast-091",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Clasificación documental",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la autoridad de seguridad actualizó el procedimiento sobre la revisión de marcas de protección en documentos internos. Las marcas de protección se revisan anualmente para comprobar si siguen justificadas. El informe revisó 288 expedientes y detectó 4 excepciones menores. Además, señala que la retirada de una marca exige confirmar que el perjuicio potencial ha desaparecido o se ha reducido. El paso del tiempo por sí solo no convierte automáticamente un documento protegido en público.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Las marcas de protección no se revisan una vez aplicadas.",
+      "La retirada de una marca no requiere analizar el perjuicio potencial.",
+      "La revisión anual puede retirar marcas, pero solo si el riesgo que las justificaba ha cambiado.",
+      "Todo documento protegido pasa a ser público automáticamente al cabo de un año."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La revisión anual puede retirar marcas, pero solo si el riesgo que las justificaba ha cambiado."
+  },
+  {
+    "id": "verbal-cast-092",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Control de accesos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la unidad de seguridad de sedes actualizó el procedimiento sobre el acceso de visitantes a zonas restringidas. Los visitantes deben estar acompañados en zonas restringidas salvo que cuenten con autorización previa específica. El informe revisó 291 expedientes y detectó 5 excepciones menores. Además, señala que la autorización previa se concede para una finalidad y una franja horaria determinadas. Registrarse en recepción no habilita el acceso autónomo a todas las plantas.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Cualquier visitante registrado puede circular libremente por todas las plantas.",
+      "La autorización previa se concede sin límite de finalidad ni horario.",
+      "Los visitantes nunca pueden acceder a zonas restringidas aunque estén autorizados.",
+      "El registro en recepción no basta para moverse sin acompañamiento por zonas restringidas."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El registro en recepción no basta para moverse sin acompañamiento por zonas restringidas."
+  },
+  {
+    "id": "verbal-cast-093",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Gestión de parches",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, el equipo de administración de sistemas actualizó el procedimiento sobre la instalación de actualizaciones de seguridad. Los parches críticos en servicios expuestos a internet se aplican en un plazo máximo de siete días. El informe revisó 294 expedientes y detectó 6 excepciones menores. Además, señala que los sistemas internos no críticos se actualizan en la ventana mensual salvo riesgo excepcional. Las excepciones deben documentarse con una medida temporal de mitigación.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los servicios expuestos con parches críticos tienen prioridad, y las excepciones requieren mitigación documentada.",
+      "Todos los sistemas se actualizan solo una vez al año, aunque estén expuestos a internet.",
+      "Las excepciones no necesitan justificación ni medidas temporales.",
+      "Los sistemas internos no críticos siempre tienen prioridad sobre los servicios expuestos."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los servicios expuestos con parches críticos tienen prioridad, y las excepciones requieren mitigación documentada."
+  },
+  {
+    "id": "verbal-cast-094",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Encuestas internas",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la oficina de análisis organizativo actualizó el procedimiento sobre la publicación de resultados de una encuesta de personal. Los resultados se publican por unidad solo cuando hay al menos diez respuestas válidas. El informe revisó 297 expedientes y detectó 7 excepciones menores. Además, señala que si el umbral no se alcanza, los datos se agregan a un nivel organizativo superior. Los comentarios libres se revisan para retirar referencias que identifiquen indirectamente a personas.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Si no se alcanza el umbral, los datos se eliminan y no pueden agregarse.",
+      "Las unidades con pocas respuestas no se publican de forma separada para reducir el riesgo de identificación.",
+      "Los resultados se publican por unidad aunque solo responda una persona.",
+      "Los comentarios libres se publican íntegros sin revisar referencias identificables."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Las unidades con pocas respuestas no se publican de forma separada para reducir el riesgo de identificación."
+  },
+  {
+    "id": "verbal-cast-095",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Subvenciones",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la unidad de subvenciones actualizó el procedimiento sobre la subsanación de solicitudes incompletas. Las entidades pueden aportar documentos administrativos omitidos dentro de los cinco días hábiles siguientes. El informe revisó 300 expedientes y detectó 8 excepciones menores. Además, señala que no se permite modificar los criterios técnicos que se evalúan con puntuación. La subsanación busca corregir defectos formales, no mejorar la propuesta después del cierre.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los documentos administrativos omitidos nunca pueden aportarse posteriormente.",
+      "La subsanación se usa para conceder puntuación adicional a todas las solicitudes.",
+      "La subsanación permite corregir documentos administrativos, pero no mejorar elementos técnicos puntuables.",
+      "Las entidades pueden reescribir la propuesta técnica después del cierre."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La subsanación permite corregir documentos administrativos, pero no mejorar elementos técnicos puntuables."
+  },
+  {
+    "id": "verbal-cast-096",
+    "type": "verbal",
+    "difficulty": 2,
+    "category": "Auditoría",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la función de auditoría interna actualizó el procedimiento sobre el seguimiento de recomendaciones de alto riesgo. Las recomendaciones de alto riesgo requieren un plan de acción en treinta días. El informe revisó 303 expedientes y detectó 2 excepciones menores. Además, señala que la recomendación no se cierra hasta que se aporta evidencia verificable de la medida implantada. La aceptación de la recomendación por la dirección no equivale a su cierre.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Las recomendaciones de alto riesgo se cierran automáticamente cuando la dirección las acepta.",
+      "El plan de acción puede presentarse sin plazo definido.",
+      "La auditoría no exige evidencias para cerrar recomendaciones.",
+      "Aceptar una recomendación no la cierra; hace falta evidencia de que la medida se ha implantado."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Aceptar una recomendación no la cierra; hace falta evidencia de que la medida se ha implantado."
+  },
+  {
+    "id": "verbal-cast-097",
+    "type": "verbal",
+    "difficulty": 3,
+    "category": "Gestión de riesgos",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, el comité de riesgos operativos actualizó el procedimiento sobre la actualización del registro de riesgos. Cada propietario revisa sus riesgos al menos trimestralmente. El informe revisó 306 expedientes y detectó 3 excepciones menores. Además, señala que los cambios relevantes en impacto o probabilidad se comunican fuera del ciclo ordinario. La revisión anual del comité no sustituye las actualizaciones de los propietarios.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los propietarios actualizan riesgos trimestralmente y también cuando hay cambios relevantes.",
+      "Los propietarios solo actualizan riesgos una vez al año durante el comité.",
+      "Los cambios de probabilidad nunca se comunican fuera del ciclo ordinario.",
+      "La revisión anual sustituye cualquier seguimiento trimestral."
+    ],
+    "correctAnswer": 0,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: Los propietarios actualizan riesgos trimestralmente y también cuando hay cambios relevantes."
+  },
+  {
+    "id": "verbal-cast-098",
+    "type": "verbal",
+    "difficulty": 4,
+    "category": "Gestión documental",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la unidad de correspondencia actualizó el procedimiento sobre el uso de buzones compartidos para expedientes. Los mensajes vinculados a un expediente se archivan cuando el caso queda cerrado. El informe revisó 309 expedientes y detectó 4 excepciones menores. Además, señala que las opiniones personales sin relevancia decisoria no se incorporan al registro oficial. La respuesta final sí debe conservarse junto con los documentos que justifican la decisión.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Los mensajes vinculados a expedientes nunca se archivan.",
+      "El expediente conserva la respuesta final y sus justificantes, no todas las opiniones personales intercambiadas.",
+      "Toda opinión personal del buzón compartido debe incorporarse al registro oficial.",
+      "La respuesta final se elimina al cerrar el caso."
+    ],
+    "correctAnswer": 1,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: El expediente conserva la respuesta final y sus justificantes, no todas las opiniones personales intercambiadas."
+  },
+  {
+    "id": "verbal-cast-099",
+    "type": "verbal",
+    "difficulty": 5,
+    "category": "Gestión contractual",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, la unidad de contratos actualizó el procedimiento sobre la renovación de contratos de apoyo externo. La renovación depende de la evaluación del rendimiento y de la disponibilidad presupuestaria. El informe revisó 312 expedientes y detectó 5 excepciones menores. Además, señala que el proveedor debe mantener las certificaciones exigidas durante todo el periodo contractual. La existencia de una cláusula de renovación no obliga a activarla automáticamente.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "La disponibilidad presupuestaria no influye en la decisión de renovar.",
+      "Las certificaciones solo importan el día de la firma inicial.",
+      "La cláusula permite renovar, pero la renovación no es automática y depende de rendimiento, presupuesto y requisitos.",
+      "Toda cláusula de renovación debe activarse automáticamente al finalizar el contrato."
+    ],
+    "correctAnswer": 2,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La cláusula permite renovar, pero la renovación no es automática y depende de rendimiento, presupuesto y requisitos."
+  },
+  {
+    "id": "verbal-cast-100",
+    "type": "verbal",
+    "difficulty": 1,
+    "category": "Equipamiento",
+    "tags": [
+      "CAST",
+      "razonamiento verbal",
+      "instituciones europeas"
+    ],
+    "passage": "Durante el cuarto trimestre de 2026, el servicio de logística informática actualizó el procedimiento sobre la sustitución de portátiles del personal. Los portátiles se sustituyen tras cuatro años de uso cuando el coste de reparación supera el umbral fijado. El informe revisó 315 expedientes y detectó 6 excepciones menores. Además, señala que un equipo más antiguo puede mantenerse si funciona correctamente y recibe actualizaciones de seguridad. La antigüedad por sí sola no justifica una sustitución urgente si no hay riesgo operativo.",
+    "question": "¿Cuál de las siguientes afirmaciones se deduce del texto?",
+    "options": [
+      "Todo portátil de más de cuatro años se sustituye urgentemente aunque funcione y sea seguro.",
+      "Los costes de reparación no se tienen en cuenta en la política.",
+      "Un portátil sin actualizaciones de seguridad puede mantenerse sin análisis adicional.",
+      "La sustitución considera antigüedad, coste de reparación y seguridad; no depende solo de los años de uso."
+    ],
+    "correctAnswer": 3,
+    "explanation": "La opción correcta recoge la limitación expresamente indicada: La sustitución considera antigüedad, coste de reparación y seguridad; no depende solo de los años de uso."
+  }
+]

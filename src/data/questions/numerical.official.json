@@ -1,0 +1,2066 @@
+[
+  {
+    "id": "official-numerical-uab-set15-q1",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 15",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Articulo",
+        "Precio (EUR)"
+      ],
+      "rows": [
+        [
+          "Te",
+          "1.80"
+        ],
+        [
+          "Cafe",
+          "2.40"
+        ],
+        [
+          "Pastel",
+          "2.95"
+        ],
+        [
+          "Bolleria",
+          "1.90"
+        ]
+      ]
+    },
+    "question": "Obtienes un 80% de beneficio por cada cafe y solo un 60% por cada pieza de bolleria. Al vender cafe y bolleria juntos aplicas un descuento del 10%. Cuanto beneficio obtienes en cada venta conjunta?",
+    "options": [
+      "EUR2.63",
+      "EUR2.88",
+      "EUR3.01",
+      "EUR3.44",
+      "EUR3.87"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Beneficio inicial: 1.92 + 1.14 = 3.06. El descuento es 10% de 4.30 = 0.43. Beneficio final = 2.63."
+  },
+  {
+    "id": "official-numerical-uab-set15-q2",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 15",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Articulo",
+        "Precio (EUR)"
+      ],
+      "rows": [
+        [
+          "Te",
+          "1.80"
+        ],
+        [
+          "Cafe",
+          "2.40"
+        ],
+        [
+          "Pastel",
+          "2.95"
+        ],
+        [
+          "Bolleria",
+          "1.90"
+        ]
+      ]
+    },
+    "question": "La cafeteria vende 10 porciones de pastel con margen de beneficio del 40% y vende el doble de piezas de bolleria con un margen un 40% superior al del pastel. Cuanto beneficio obtiene?",
+    "options": [
+      "EUR17.88",
+      "EUR21.28",
+      "EUR30.40",
+      "EUR33.08",
+      "EUR42.20"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Pastel: 10 x 2.95 x 40% = 11.80. Bolleria: margen 56%; 20 x 1.90 x 56% = 21.28. Total = 33.08."
+  },
+  {
+    "id": "official-numerical-uab-set15-q3",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 15",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Articulo",
+        "Precio (EUR)"
+      ],
+      "rows": [
+        [
+          "Te",
+          "1.80"
+        ],
+        [
+          "Cafe",
+          "2.40"
+        ],
+        [
+          "Pastel",
+          "2.95"
+        ],
+        [
+          "Bolleria",
+          "1.90"
+        ]
+      ]
+    },
+    "question": "Tus costes suben y el cafe, que tenia un margen de beneficio del 70%, baja ahora al 62%. En que porcentaje han aumentado los costes del cafe?",
+    "options": [
+      "8%",
+      "11.4%",
+      "12.9%",
+      "21.1%",
+      "26.7%"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Con precio 2.40, el coste pasa de 30% a 38% del precio: 0.72 a 0.912. Incremento = 0.192 / 0.72 = 26.7%."
+  },
+  {
+    "id": "official-numerical-uab-set16-q1",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 16",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Corredor",
+        "Tiempo (h:mm:ss)"
+      ],
+      "rows": [
+        [
+          "Anderson",
+          "2:12:14"
+        ],
+        [
+          "Benoit",
+          "2:12:38"
+        ],
+        [
+          "Canard",
+          "2:13:31"
+        ],
+        [
+          "Dennis",
+          "2:14:12"
+        ],
+        [
+          "Ekimov",
+          "2:14:20"
+        ]
+      ]
+    },
+    "question": "Canard paso la mitad de la carrera en 1:07:50. Cual fue su velocidad media en la segunda mitad?",
+    "options": [
+      "15.20 km/h",
+      "17.38 km/h",
+      "18.63 km/h",
+      "19.27 km/h",
+      "20.31 km/h"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La segunda mitad son 21.1 km. Tiempo: 2:13:31 - 1:07:50 = 1:05:41. Velocidad = 21.1 / 1.0947 = 19.27 km/h."
+  },
+  {
+    "id": "official-numerical-uab-set16-q2",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 16",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Corredor",
+        "Tiempo (h:mm:ss)"
+      ],
+      "rows": [
+        [
+          "Anderson",
+          "2:12:14"
+        ],
+        [
+          "Benoit",
+          "2:12:38"
+        ],
+        [
+          "Canard",
+          "2:13:31"
+        ],
+        [
+          "Dennis",
+          "2:14:12"
+        ],
+        [
+          "Ekimov",
+          "2:14:20"
+        ]
+      ]
+    },
+    "question": "Dennis y Ekimov pasaron la marca de ultimo kilometro exactamente a las 2:11:00. Cuanto mas rapido que Ekimov corrio Dennis el ultimo kilometro?",
+    "options": [
+      "1%",
+      "4.2%",
+      "6.6%",
+      "8%",
+      "12.5%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dennis tardo 192 s y Ekimov 200 s. La velocidad de Dennis fue 200/192 - 1 = 4.2% mayor."
+  },
+  {
+    "id": "official-numerical-uab-set16-q3",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 16",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Corredor",
+        "Tiempo (h:mm:ss)"
+      ],
+      "rows": [
+        [
+          "Anderson",
+          "2:12:14"
+        ],
+        [
+          "Benoit",
+          "2:12:38"
+        ],
+        [
+          "Canard",
+          "2:13:31"
+        ],
+        [
+          "Dennis",
+          "2:14:12"
+        ],
+        [
+          "Ekimov",
+          "2:14:20"
+        ]
+      ]
+    },
+    "question": "Benoit corrio los ultimos 150 m a una velocidad un 5% superior a su velocidad media total. A que distancia de la meta estaba Benoit cuando Anderson termino?",
+    "options": [
+      "84 m",
+      "92 m",
+      "100 m",
+      "133 m",
+      "149 m"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La velocidad media de Benoit fue 42.2 km / 2:12:38. Su velocidad final fue 5% mayor. Cuando Anderson termino quedaban 24 s a Benoit, equivalentes a unos 133 m."
+  },
+  {
+    "id": "official-numerical-uab-set17-q1",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 17",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Dia",
+        "Compra",
+        "Venta"
+      ],
+      "rows": [
+        [
+          "Lunes",
+          "2.37",
+          "2.32"
+        ],
+        [
+          "Martes",
+          "2.41",
+          "2.37"
+        ],
+        [
+          "Miercoles",
+          "2.39",
+          "2.34"
+        ],
+        [
+          "Jueves",
+          "2.28",
+          "2.25"
+        ],
+        [
+          "Viernes",
+          "2.34",
+          "2.29"
+        ]
+      ]
+    },
+    "question": "Compras 2000 acciones el martes a un 1.4% por debajo del cierre del dia anterior. Hay una comision de EUR15.95. Cuanto cuesta la operacion?",
+    "options": [
+      "EUR4673.64",
+      "EUR4689.59",
+      "EUR4734.37",
+      "EUR4761.47",
+      "EUR4768.47"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cierre anterior: 2.37. Precio con descuento: 2.37 x 0.986 = 2.33682. Coste: 2000 x 2.33682 + 15.95 = 4689.59."
+  },
+  {
+    "id": "official-numerical-uab-set17-q2",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 17",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Dia",
+        "Compra",
+        "Venta"
+      ],
+      "rows": [
+        [
+          "Lunes",
+          "2.37",
+          "2.32"
+        ],
+        [
+          "Martes",
+          "2.41",
+          "2.37"
+        ],
+        [
+          "Miercoles",
+          "2.39",
+          "2.34"
+        ],
+        [
+          "Jueves",
+          "2.28",
+          "2.25"
+        ],
+        [
+          "Viernes",
+          "2.34",
+          "2.29"
+        ]
+      ]
+    },
+    "question": "Vendes 2000 acciones el viernes con una comision de EUR15.95. El importe neto es EUR4664.05. En que porcentaje habia subido el precio desde el cierre del dia anterior?",
+    "options": [
+      "2%",
+      "3%",
+      "4%",
+      "5%",
+      "6%"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El importe antes de comision es 4680, por tanto el precio fue 2.34. Frente al cierre del jueves 2.25, la subida es 4%."
+  },
+  {
+    "id": "official-numerical-uab-set17-q3",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 17",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Dia",
+        "Compra",
+        "Venta"
+      ],
+      "rows": [
+        [
+          "Lunes",
+          "2.37",
+          "2.32"
+        ],
+        [
+          "Martes",
+          "2.41",
+          "2.37"
+        ],
+        [
+          "Miercoles",
+          "2.39",
+          "2.34"
+        ],
+        [
+          "Jueves",
+          "2.28",
+          "2.25"
+        ],
+        [
+          "Viernes",
+          "2.34",
+          "2.29"
+        ]
+      ]
+    },
+    "question": "La diferencia entre precio de compra y venta se conoce como diferencial. Si se calcula como porcentaje del valor mas alto, que dia tuvo el mayor diferencial porcentual?",
+    "options": [
+      "Lunes",
+      "Martes",
+      "Miercoles",
+      "Jueves",
+      "Viernes"
+    ],
+    "correctAnswer": 4,
+    "explanation": "El viernes: (2.34 - 2.29) / 2.34 = 2.14%, ligeramente superior al lunes y miercoles."
+  },
+  {
+    "id": "official-numerical-uab-set18-q1",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 18",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Planeta",
+        "Distancia al Sol (millones km)",
+        "Periodo orbital (dias terrestres)"
+      ],
+      "rows": [
+        [
+          "Mercurio",
+          "58",
+          "88"
+        ],
+        [
+          "Venus",
+          "101",
+          "224.7"
+        ],
+        [
+          "Tierra",
+          "150",
+          "365.25"
+        ],
+        [
+          "Marte",
+          "228",
+          "687"
+        ]
+      ]
+    },
+    "question": "Al orbitar el Sol, un planeta recorre 6.3 veces su distancia al Sol. A que velocidad viaja la Tierra alrededor del Sol en km/s?",
+    "options": [
+      "0.03",
+      "0.3",
+      "3",
+      "30",
+      "300"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Distancia orbital: 150 x 6.3 = 945 millones km. Tiempo: 365.25 dias. Velocidad aproximada = 30 km/s."
+  },
+  {
+    "id": "official-numerical-uab-set18-q2",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 18",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Planeta",
+        "Distancia al Sol (millones km)",
+        "Periodo orbital (dias terrestres)"
+      ],
+      "rows": [
+        [
+          "Mercurio",
+          "58",
+          "88"
+        ],
+        [
+          "Venus",
+          "101",
+          "224.7"
+        ],
+        [
+          "Tierra",
+          "150",
+          "365.25"
+        ],
+        [
+          "Marte",
+          "228",
+          "687"
+        ]
+      ]
+    },
+    "question": "Cuanto mas rapido que Venus viaja Mercurio? La distancia recorrida alrededor del Sol es la distancia al Sol multiplicada por 6.3.",
+    "options": [
+      "24%",
+      "47%",
+      "67%",
+      "85%",
+      "125%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mercurio: 58 x 6.3 / 88. Venus: 101 x 6.3 / 224.7. La relacion implica que Mercurio va un 47% mas rapido."
+  },
+  {
+    "id": "official-numerical-uab-set18-q3",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 18",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Planeta",
+        "Distancia al Sol (millones km)",
+        "Periodo orbital (dias terrestres)"
+      ],
+      "rows": [
+        [
+          "Mercurio",
+          "58",
+          "88"
+        ],
+        [
+          "Venus",
+          "101",
+          "224.7"
+        ],
+        [
+          "Tierra",
+          "150",
+          "365.25"
+        ],
+        [
+          "Marte",
+          "228",
+          "687"
+        ]
+      ]
+    },
+    "question": "Un astronauta en Marte espera al menos 8 min 40 s para recibir respuesta desde la Tierra. Ese retraso minimo ocurre cuando la distancia Marte-Tierra es la distancia de Marte al Sol menos la de la Tierra al Sol. A que velocidad viajan sus mensajes?",
+    "options": [
+      "120,000 km/s",
+      "150,000 km/s",
+      "210,000 km/s",
+      "270,000 km/s",
+      "300,000 km/s"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Distancia minima: 228 - 150 = 78 millones km. Tiempo: 520 s. Velocidad = 78,000,000 / 520 = 150,000 km/s."
+  },
+  {
+    "id": "official-numerical-uab-set19-q1",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 19",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Porcentaje de poblacion"
+      ],
+      "rows": [
+        [
+          "Menores de 18",
+          "31.2"
+        ],
+        [
+          "Con permiso de conducir",
+          "64.7"
+        ],
+        [
+          "Empleados",
+          "42.7"
+        ],
+        [
+          "Nunca han salido de Belgica",
+          "2.9"
+        ],
+        [
+          "Ven mas de 10 h de TV por semana",
+          "59.8"
+        ]
+      ]
+    },
+    "question": "Si el 98.3% de las personas que nunca han salido de Belgica son menores de 18 anos, cuantas personas mayores de 18 nunca han salido de Belgica?",
+    "options": [
+      "10",
+      "186",
+      "798",
+      "5344",
+      "9827"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Nunca han salido: 10.84 m x 2.9% = 314,360. Mayores de 18: 1.7% de 314,360 = 5,344."
+  },
+  {
+    "id": "official-numerical-uab-set19-q2",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 19",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Porcentaje de poblacion"
+      ],
+      "rows": [
+        [
+          "Menores de 18",
+          "31.2"
+        ],
+        [
+          "Con permiso de conducir",
+          "64.7"
+        ],
+        [
+          "Empleados",
+          "42.7"
+        ],
+        [
+          "Nunca han salido de Belgica",
+          "2.9"
+        ],
+        [
+          "Ven mas de 10 h de TV por semana",
+          "59.8"
+        ]
+      ]
+    },
+    "question": "Las personas empleadas tienen un 25% menos de probabilidad de ver 10 h o mas de TV por semana. Que porcentaje de las personas no empleadas ve mas de 10 h por semana?",
+    "options": [
+      "38.1",
+      "59.8",
+      "68.8",
+      "74.2",
+      "84.8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Usando la ponderacion de empleados y no empleados, el resultado esperado cae alrededor del 67%; la opcion oficial mas cercana es 68.8%."
+  },
+  {
+    "id": "official-numerical-uab-set19-q3",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 19",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Indicador",
+        "Porcentaje de poblacion"
+      ],
+      "rows": [
+        [
+          "Menores de 18",
+          "31.2"
+        ],
+        [
+          "Con permiso de conducir",
+          "64.7"
+        ],
+        [
+          "Empleados",
+          "42.7"
+        ],
+        [
+          "Nunca han salido de Belgica",
+          "2.9"
+        ],
+        [
+          "Ven mas de 10 h de TV por semana",
+          "59.8"
+        ]
+      ]
+    },
+    "question": "Como minimo, que porcentaje de personas no empleadas tiene permiso de conducir segun los datos de la tabla?",
+    "options": [
+      "22%",
+      "29.7%",
+      "35.1%",
+      "38.4%",
+      "44.7%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Si todos los empleados tuvieran permiso, quedaria 64.7% - 42.7% = 22% de la poblacion con permiso entre no empleados. 22 / 57.3 = 38.4%."
+  },
+  {
+    "id": "official-numerical-uab-set20-q1",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 20",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Producto",
+        "2009 (EUR000)",
+        "2010 (EUR000)"
+      ],
+      "rows": [
+        [
+          "Pan",
+          "86.3",
+          "87.2"
+        ],
+        [
+          "Bolleria",
+          "27.9",
+          "30.1"
+        ],
+        [
+          "Pasteles/empanadas",
+          "18.6",
+          "18.8"
+        ],
+        [
+          "Bebidas",
+          "43.7",
+          "44.9"
+        ],
+        [
+          "Bebidas 2010: agua sin gas",
+          "34%"
+        ],
+        [
+          "Bebidas 2010: agua con gas",
+          "29%"
+        ],
+        [
+          "Bebidas 2010: refrescos",
+          "27%"
+        ],
+        [
+          "Bebidas 2010: otros",
+          "10%"
+        ]
+      ]
+    },
+    "question": "En 2008 las ventas de pan fueron un 7% menores que en 2010. Cuanto aumentaron en 2009?",
+    "options": [
+      "3.9%",
+      "4.7%",
+      "5.9%",
+      "6.4%",
+      "6.8%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "2008 = 87.2 x 93% = 81.096. Subida hasta 86.3 en 2009: 6.4%."
+  },
+  {
+    "id": "official-numerical-uab-set20-q2",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 20",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Producto",
+        "2009 (EUR000)",
+        "2010 (EUR000)"
+      ],
+      "rows": [
+        [
+          "Pan",
+          "86.3",
+          "87.2"
+        ],
+        [
+          "Bolleria",
+          "27.9",
+          "30.1"
+        ],
+        [
+          "Pasteles/empanadas",
+          "18.6",
+          "18.8"
+        ],
+        [
+          "Bebidas",
+          "43.7",
+          "44.9"
+        ],
+        [
+          "Bebidas 2010: agua sin gas",
+          "34%"
+        ],
+        [
+          "Bebidas 2010: agua con gas",
+          "29%"
+        ],
+        [
+          "Bebidas 2010: refrescos",
+          "27%"
+        ],
+        [
+          "Bebidas 2010: otros",
+          "10%"
+        ]
+      ]
+    },
+    "question": "En 2010 las ventas de agua con gas subieron un 10% respecto a 2009. Cual fue el valor de las ventas de agua con gas en 2009?",
+    "options": [
+      "EUR11,837",
+      "EUR11,881",
+      "EUR16,228",
+      "EUR18,493",
+      "EUR21,276"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Agua con gas 2010 = 44.9 x 29% = 13.021. En 2009 = 13.021 / 1.10 = 11.837 miles."
+  },
+  {
+    "id": "official-numerical-uab-set20-q3",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 20",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Producto",
+        "2009 (EUR000)",
+        "2010 (EUR000)"
+      ],
+      "rows": [
+        [
+          "Pan",
+          "86.3",
+          "87.2"
+        ],
+        [
+          "Bolleria",
+          "27.9",
+          "30.1"
+        ],
+        [
+          "Pasteles/empanadas",
+          "18.6",
+          "18.8"
+        ],
+        [
+          "Bebidas",
+          "43.7",
+          "44.9"
+        ],
+        [
+          "Bebidas 2010: agua sin gas",
+          "34%"
+        ],
+        [
+          "Bebidas 2010: agua con gas",
+          "29%"
+        ],
+        [
+          "Bebidas 2010: refrescos",
+          "27%"
+        ],
+        [
+          "Bebidas 2010: otros",
+          "10%"
+        ]
+      ]
+    },
+    "question": "Cual fue la diferencia entre las ventas de agua (con gas + sin gas) y las de bolleria en 2010?",
+    "options": [
+      "EUR782",
+      "EUR992",
+      "EUR1230",
+      "EUR1684",
+      "EUR1813"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Agua total: 63% de 44.9 = 28.287. Bolleria: 30.1. Diferencia = 1.813 miles."
+  },
+  {
+    "id": "official-numerical-uab-set21-q1",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 21",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Aspecto",
+        "Respuestas",
+        "Media"
+      ],
+      "rows": [
+        [
+          "Saludo",
+          "99",
+          "8.1"
+        ],
+        [
+          "Ambiente",
+          "93",
+          "8.3"
+        ],
+        [
+          "Limpieza",
+          "90",
+          "7.7"
+        ],
+        [
+          "Calidad",
+          "102",
+          "6.9"
+        ],
+        [
+          "Relacion calidad-precio",
+          "88",
+          "6.8"
+        ],
+        [
+          "Satisfaccion general",
+          "110",
+          "7.2"
+        ]
+      ]
+    },
+    "question": "Se devolvieron 110 encuestas, pero no todas las preguntas fueron respondidas en cada tarjeta. Cual fue el numero medio de respuestas por pregunta?",
+    "options": [
+      "99",
+      "97",
+      "50",
+      "6.1",
+      "5.3"
+    ],
+    "correctAnswer": 1,
+    "explanation": "(99 + 93 + 90 + 102 + 88 + 110) / 6 = 97."
+  },
+  {
+    "id": "official-numerical-uab-set21-q2",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 21",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Aspecto",
+        "Respuestas",
+        "Media"
+      ],
+      "rows": [
+        [
+          "Saludo",
+          "99",
+          "8.1"
+        ],
+        [
+          "Ambiente",
+          "93",
+          "8.3"
+        ],
+        [
+          "Limpieza",
+          "90",
+          "7.7"
+        ],
+        [
+          "Calidad",
+          "102",
+          "6.9"
+        ],
+        [
+          "Relacion calidad-precio",
+          "88",
+          "6.8"
+        ],
+        [
+          "Satisfaccion general",
+          "110",
+          "7.2"
+        ]
+      ]
+    },
+    "question": "Las preguntas 1 y 6 obtuvieron el mismo numero total de puntos al sumar todas sus puntuaciones. Cual fue ese total, redondeado al numero entero mas cercano?",
+    "options": [
+      "792",
+      "795",
+      "797",
+      "800",
+      "802"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Por los rangos de redondeo de las medias, el total comun posible se situa alrededor de 797."
+  },
+  {
+    "id": "official-numerical-uab-set21-q3",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 21",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Aspecto",
+        "Respuestas",
+        "Media"
+      ],
+      "rows": [
+        [
+          "Saludo",
+          "99",
+          "8.1"
+        ],
+        [
+          "Ambiente",
+          "93",
+          "8.3"
+        ],
+        [
+          "Limpieza",
+          "90",
+          "7.7"
+        ],
+        [
+          "Calidad",
+          "102",
+          "6.9"
+        ],
+        [
+          "Relacion calidad-precio",
+          "88",
+          "6.8"
+        ],
+        [
+          "Satisfaccion general",
+          "110",
+          "7.2"
+        ]
+      ]
+    },
+    "question": "La puntuacion media de satisfaccion general cayo un 10% desde su valor de 2009. Cual fue la puntuacion en 2009?",
+    "options": [
+      "6.5",
+      "7.2",
+      "7.7",
+      "7.9",
+      "8.0"
+    ],
+    "correctAnswer": 4,
+    "explanation": "7.2 representa el 90% del valor anterior. 7.2 / 0.9 = 8.0."
+  },
+  {
+    "id": "official-numerical-uab-set22-q1",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 22",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Categoria",
+        "2009 (% ventas por valor)",
+        "2010 (% ventas por valor)"
+      ],
+      "rows": [
+        [
+          "Cerveza",
+          "29.1",
+          "30.4"
+        ],
+        [
+          "Vino",
+          "28.8",
+          "29.2"
+        ],
+        [
+          "Licores",
+          "12.1",
+          "10.6"
+        ],
+        [
+          "Tabaco",
+          "11.8",
+          "10.3"
+        ],
+        [
+          "Miscelanea",
+          "18.2",
+          "19.5"
+        ]
+      ]
+    },
+    "question": "En 2010 las ventas totales subieron un 5% respecto a 2009. Cual fue el incremento de las ventas de cerveza entre 2009 y 2010?",
+    "options": [
+      "1.5%",
+      "5.2%",
+      "6.7%",
+      "8.1%",
+      "9.7%"
+    ],
+    "correctAnswer": 4,
+    "explanation": "La cerveza pasa de 29.1% del total 2009 a 30.4% de un total 5% mayor: 30.4 x 1.05 / 29.1 - 1 = 9.7%."
+  },
+  {
+    "id": "official-numerical-uab-set22-q2",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 22",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Categoria",
+        "2009 (% ventas por valor)",
+        "2010 (% ventas por valor)"
+      ],
+      "rows": [
+        [
+          "Cerveza",
+          "29.1",
+          "30.4"
+        ],
+        [
+          "Vino",
+          "28.8",
+          "29.2"
+        ],
+        [
+          "Licores",
+          "12.1",
+          "10.6"
+        ],
+        [
+          "Tabaco",
+          "11.8",
+          "10.3"
+        ],
+        [
+          "Miscelanea",
+          "18.2",
+          "19.5"
+        ]
+      ]
+    },
+    "question": "Las ventas de tabaco fueron EUR122 mil en 2009 y aumentaron un 0.3% en 2010. Cual fue el valor total de todas las ventas en 2010?",
+    "options": [
+      "EUR1.073 millones",
+      "EUR1.188 millones",
+      "EUR1.201 millones",
+      "EUR1.224 millones",
+      "EUR1.278 millones"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Tabaco 2010 = 122 x 1.003 = 122.366 mil, que es el 10.3% del total. Total = 1.188 millones."
+  },
+  {
+    "id": "official-numerical-uab-set22-q3",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 22",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Categoria",
+        "2009 (% ventas por valor)",
+        "2010 (% ventas por valor)"
+      ],
+      "rows": [
+        [
+          "Cerveza",
+          "29.1",
+          "30.4"
+        ],
+        [
+          "Vino",
+          "28.8",
+          "29.2"
+        ],
+        [
+          "Licores",
+          "12.1",
+          "10.6"
+        ],
+        [
+          "Tabaco",
+          "11.8",
+          "10.3"
+        ],
+        [
+          "Miscelanea",
+          "18.2",
+          "19.5"
+        ]
+      ]
+    },
+    "question": "En 2010, cuanto tendrian que aumentar las ventas de vino para igualar las de cerveza en ese mismo ano?",
+    "options": [
+      "1.2%",
+      "1.9%",
+      "3.9%",
+      "4.1%",
+      "4.4%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Diferencia relativa: (30.4 - 29.2) / 29.2 = 4.1%."
+  },
+  {
+    "id": "official-numerical-uab-set23-q1",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 23",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Pais",
+        "Poblacion 2010 (000)",
+        "MMR %",
+        "DPT %",
+        "Polio %"
+      ],
+      "rows": [
+        [
+          "Estonia",
+          "1339",
+          "87.3",
+          "83.2",
+          "49.6"
+        ],
+        [
+          "Italia",
+          "60098",
+          "94.8",
+          "93.7",
+          "51.9"
+        ],
+        [
+          "Paises Bajos",
+          "16653",
+          "96.2",
+          "97.3",
+          "54.6"
+        ],
+        [
+          "Reino Unido",
+          "61899",
+          "91.6",
+          "92.2",
+          "46.2"
+        ]
+      ]
+    },
+    "question": "Cuantas personas mas fueron vacunadas contra MMR en Italia que en Reino Unido?",
+    "options": [
+      "274",
+      "2740",
+      "27,400",
+      "274,000",
+      "2,740,000"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Italia: 60,098,000 x 94.8%. Reino Unido: 61,899,000 x 91.6%. Diferencia aproximada: 274,000."
+  },
+  {
+    "id": "official-numerical-uab-set23-q2",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 23",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Pais",
+        "Poblacion 2010 (000)",
+        "MMR %",
+        "DPT %",
+        "Polio %"
+      ],
+      "rows": [
+        [
+          "Estonia",
+          "1339",
+          "87.3",
+          "83.2",
+          "49.6"
+        ],
+        [
+          "Italia",
+          "60098",
+          "94.8",
+          "93.7",
+          "51.9"
+        ],
+        [
+          "Paises Bajos",
+          "16653",
+          "96.2",
+          "97.3",
+          "54.6"
+        ],
+        [
+          "Reino Unido",
+          "61899",
+          "91.6",
+          "92.2",
+          "46.2"
+        ]
+      ]
+    },
+    "question": "En 2005 la poblacion de los Paises Bajos era un 5% menor que en 2010, pero el porcentaje vacunado contra la polio era 2 puntos porcentuales mayor. Cuantas personas mas o menos fueron vacunadas contra la polio en 2005 que en 2010?",
+    "options": [
+      "333,000 menos",
+      "139,000 menos",
+      "Sin cambio",
+      "139,000 mas",
+      "333,000 mas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "2005: 16,653 x 95% x 56.6%. 2010: 16,653 x 54.6%. La cifra de 2005 es unos 139,000 menor."
+  },
+  {
+    "id": "official-numerical-uab-set23-q3",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 23",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Pais",
+        "Poblacion 2010 (000)",
+        "MMR %",
+        "DPT %",
+        "Polio %"
+      ],
+      "rows": [
+        [
+          "Estonia",
+          "1339",
+          "87.3",
+          "83.2",
+          "49.6"
+        ],
+        [
+          "Italia",
+          "60098",
+          "94.8",
+          "93.7",
+          "51.9"
+        ],
+        [
+          "Paises Bajos",
+          "16653",
+          "96.2",
+          "97.3",
+          "54.6"
+        ],
+        [
+          "Reino Unido",
+          "61899",
+          "91.6",
+          "92.2",
+          "46.2"
+        ]
+      ]
+    },
+    "question": "Cual es el numero minimo posible de personas vacunadas tanto contra MMR como contra DPT en Estonia en 2010?",
+    "options": [
+      "1.3 m",
+      "1.17 m",
+      "1.11 m",
+      "944K",
+      "55K"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Minimo por inclusion-exclusion: 87.3% + 83.2% - 100% = 70.5% de 1.339 m = 944K."
+  },
+  {
+    "id": "official-numerical-uab-set24-q1",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 24",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Pais",
+        "Poblacion 2010 (000)",
+        "2000",
+        "2005",
+        "2010"
+      ],
+      "rows": [
+        [
+          "Francia",
+          "62139",
+          "8.3",
+          "8.4",
+          "8.6"
+        ],
+        [
+          "Italia",
+          "60098",
+          "9.3",
+          "9.6",
+          "9.5"
+        ],
+        [
+          "Paises Bajos",
+          "16653",
+          "8.2",
+          "8.4",
+          "8.4"
+        ],
+        [
+          "Espana",
+          "45317",
+          "7.3",
+          "7.6",
+          "7.2"
+        ]
+      ]
+    },
+    "question": "Cuanto mayor que la tasa per capita mas baja es la tasa per capita mas alta de tiendas de zapatos de todos los paises y anos mostrados?",
+    "options": [
+      "2.4%",
+      "12.5%",
+      "25%",
+      "33.3%",
+      "50%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Maximo 9.6 e minimo 7.2. Incremento relativo: (9.6 - 7.2) / 7.2 = 33.3%."
+  },
+  {
+    "id": "official-numerical-uab-set24-q2",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 24",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Pais",
+        "Poblacion 2010 (000)",
+        "2000",
+        "2005",
+        "2010"
+      ],
+      "rows": [
+        [
+          "Francia",
+          "62139",
+          "8.3",
+          "8.4",
+          "8.6"
+        ],
+        [
+          "Italia",
+          "60098",
+          "9.3",
+          "9.6",
+          "9.5"
+        ],
+        [
+          "Paises Bajos",
+          "16653",
+          "8.2",
+          "8.4",
+          "8.4"
+        ],
+        [
+          "Espana",
+          "45317",
+          "7.3",
+          "7.6",
+          "7.2"
+        ]
+      ]
+    },
+    "question": "Si la poblacion de Francia aumento un 5% cada cinco anos, cuantas tiendas de zapatos mas habia en Francia en 2010 que en 2000?",
+    "options": [
+      "381",
+      "598",
+      "666",
+      "742",
+      "848"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Se estima la poblacion de 2000 dividiendo dos veces por 1.05. Aplicando las tasas por 100,000 habitantes, la diferencia es aproximadamente 666 tiendas."
+  },
+  {
+    "id": "official-numerical-uab-set24-q3",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 24",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Pais",
+        "Poblacion 2010 (000)",
+        "2000",
+        "2005",
+        "2010"
+      ],
+      "rows": [
+        [
+          "Francia",
+          "62139",
+          "8.3",
+          "8.4",
+          "8.6"
+        ],
+        [
+          "Italia",
+          "60098",
+          "9.3",
+          "9.6",
+          "9.5"
+        ],
+        [
+          "Paises Bajos",
+          "16653",
+          "8.2",
+          "8.4",
+          "8.4"
+        ],
+        [
+          "Espana",
+          "45317",
+          "7.3",
+          "7.6",
+          "7.2"
+        ]
+      ]
+    },
+    "question": "Si la poblacion de Espana aumento un 7% entre 2000 y 2005, cual fue el incremento porcentual del numero de tiendas de zapatos durante ese periodo?",
+    "options": [
+      "4.1%",
+      "7.0%",
+      "11.1%",
+      "11.4%",
+      "12.3%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Numero de tiendas proporcional a poblacion x tasa: 1.07 x 7.6 / 7.3 - 1 = 11.4%."
+  },
+  {
+    "id": "official-numerical-uab-set25-q1",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 25",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Departamento",
+        "2009 (EURm)",
+        "2010 (EURm)"
+      ],
+      "rows": [
+        [
+          "Alimentacion",
+          "6.62",
+          "6.84"
+        ],
+        [
+          "Ropa",
+          "1.98",
+          "2.04"
+        ],
+        [
+          "Electrico",
+          "1.87",
+          "1.99"
+        ],
+        [
+          "Otros",
+          "2.11",
+          "2.23"
+        ],
+        [
+          "Otros 2010: Jardin",
+          "34%"
+        ],
+        [
+          "Otros 2010: Papeleria",
+          "27%"
+        ],
+        [
+          "Otros 2010: Muebles",
+          "25%"
+        ],
+        [
+          "Otros 2010: Misc.",
+          "14%"
+        ]
+      ]
+    },
+    "question": "Cual fue el aumento porcentual de ingresos del departamento electrico entre 2009 y 2010?",
+    "options": [
+      "3.9%",
+      "4.7%",
+      "5.9%",
+      "6.4%",
+      "6.8%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "(1.99 - 1.87) / 1.87 = 6.4%."
+  },
+  {
+    "id": "official-numerical-uab-set25-q2",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 25",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Departamento",
+        "2009 (EURm)",
+        "2010 (EURm)"
+      ],
+      "rows": [
+        [
+          "Alimentacion",
+          "6.62",
+          "6.84"
+        ],
+        [
+          "Ropa",
+          "1.98",
+          "2.04"
+        ],
+        [
+          "Electrico",
+          "1.87",
+          "1.99"
+        ],
+        [
+          "Otros",
+          "2.11",
+          "2.23"
+        ],
+        [
+          "Otros 2010: Jardin",
+          "34%"
+        ],
+        [
+          "Otros 2010: Papeleria",
+          "27%"
+        ],
+        [
+          "Otros 2010: Muebles",
+          "25%"
+        ],
+        [
+          "Otros 2010: Misc.",
+          "14%"
+        ]
+      ]
+    },
+    "question": "En 2010 las ventas del departamento de jardin subieron un 4% respecto a 2009. Cual fue el valor de ventas de jardin en 2009?",
+    "options": [
+      "EUR344,000",
+      "EUR542,000",
+      "EUR633,000",
+      "EUR729,000",
+      "EUR802,000"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Jardin 2010 = 34% de 2.23 m = 758,200. En 2009 = 758,200 / 1.04 = 729,000."
+  },
+  {
+    "id": "official-numerical-uab-set25-q3",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 25",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Departamento",
+        "2009 (EURm)",
+        "2010 (EURm)"
+      ],
+      "rows": [
+        [
+          "Alimentacion",
+          "6.62",
+          "6.84"
+        ],
+        [
+          "Ropa",
+          "1.98",
+          "2.04"
+        ],
+        [
+          "Electrico",
+          "1.87",
+          "1.99"
+        ],
+        [
+          "Otros",
+          "2.11",
+          "2.23"
+        ],
+        [
+          "Otros 2010: Jardin",
+          "34%"
+        ],
+        [
+          "Otros 2010: Papeleria",
+          "27%"
+        ],
+        [
+          "Otros 2010: Muebles",
+          "25%"
+        ],
+        [
+          "Otros 2010: Misc.",
+          "14%"
+        ]
+      ]
+    },
+    "question": "Las ventas de papeleria cayeron un 3.2% entre 2009 y 2010. Que porcentaje de las ventas totales represento la papeleria en 2009?",
+    "options": [
+      "1.98%",
+      "4.94%",
+      "12.91%",
+      "21.66%",
+      "27.62%"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Papeleria 2010 = 27% de 2.23 m. Dividiendo por 0.968 se obtiene 2009. Sobre las ventas totales de 2009, equivale a 4.94%."
+  },
+  {
+    "id": "official-numerical-uab-set26-q1",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 26",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Pais",
+        "Poblacion 2005 (000)",
+        "2005 (000 t)",
+        "2010 (000 t)"
+      ],
+      "rows": [
+        [
+          "Belgica",
+          "10415",
+          "175",
+          "183"
+        ],
+        [
+          "Estonia",
+          "1346",
+          "16.6",
+          "17.5"
+        ],
+        [
+          "Hungria",
+          "9973",
+          "131",
+          "138"
+        ],
+        [
+          "Italia",
+          "58645",
+          "932",
+          "989"
+        ],
+        [
+          "Suiza",
+          "7441",
+          "129",
+          "133"
+        ]
+      ]
+    },
+    "question": "Que pais tuvo el mayor consumo per capita de chocolate en 2005?",
+    "options": [
+      "Belgica",
+      "Estonia",
+      "Hungria",
+      "Italia",
+      "Suiza"
+    ],
+    "correctAnswer": 4,
+    "explanation": "Suiza: 129 / 7441, superior al resto en consumo por habitante."
+  },
+  {
+    "id": "official-numerical-uab-set26-q2",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 26",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Pais",
+        "Poblacion 2005 (000)",
+        "2005 (000 t)",
+        "2010 (000 t)"
+      ],
+      "rows": [
+        [
+          "Belgica",
+          "10415",
+          "175",
+          "183"
+        ],
+        [
+          "Estonia",
+          "1346",
+          "16.6",
+          "17.5"
+        ],
+        [
+          "Hungria",
+          "9973",
+          "131",
+          "138"
+        ],
+        [
+          "Italia",
+          "58645",
+          "932",
+          "989"
+        ],
+        [
+          "Suiza",
+          "7441",
+          "129",
+          "133"
+        ]
+      ]
+    },
+    "question": "La poblacion de Hungria aumento un 8.3% entre 2005 y 2010. Cual fue el cambio porcentual en consumo per capita de chocolate?",
+    "options": [
+      "+5.31%",
+      "+1.97%",
+      "Sin cambio",
+      "-2.73%",
+      "-5.31%"
+    ],
+    "correctAnswer": 3,
+    "explanation": "El consumo total sube de 131 a 138, pero la poblacion sube mas. 138 / (131 x 1.083) - 1 = -2.73%."
+  },
+  {
+    "id": "official-numerical-uab-set26-q3",
+    "type": "numerical",
+    "difficulty": 4,
+    "category": "Test numerico oficial - set 26",
+    "tags": [
+      "official",
+      "ocr",
+      "traducido",
+      "numerical"
+    ],
+    "dataTable": {
+      "headers": [
+        "Pais",
+        "Poblacion 2005 (000)",
+        "2005 (000 t)",
+        "2010 (000 t)"
+      ],
+      "rows": [
+        [
+          "Belgica",
+          "10415",
+          "175",
+          "183"
+        ],
+        [
+          "Estonia",
+          "1346",
+          "16.6",
+          "17.5"
+        ],
+        [
+          "Hungria",
+          "9973",
+          "131",
+          "138"
+        ],
+        [
+          "Italia",
+          "58645",
+          "932",
+          "989"
+        ],
+        [
+          "Suiza",
+          "7441",
+          "129",
+          "133"
+        ]
+      ]
+    },
+    "question": "En Suiza, el 78% del consumo es chocolate nacional, lo que representa el 12% de la produccion nacional total; el resto se exporta. Cuanto chocolate exporto Suiza en 2005?",
+    "options": [
+      "20,000 toneladas",
+      "198,000 toneladas",
+      "738,000 toneladas",
+      "839,000 toneladas",
+      "928,000 toneladas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Chocolate nacional consumido: 78% de 129,000 = 100,620 t. Si eso es 12% de la produccion, produccion total = 838,500 t; exportado = 737,880 t."
+  }
+]
